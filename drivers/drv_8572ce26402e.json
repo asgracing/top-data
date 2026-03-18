@@ -3,11 +3,11 @@
   "driver": "Francesco Bas [FNR]",
   "summary": {
     "points": 15,
-    "average_points_per_race": 7.5,
-    "races": 2,
+    "average_points_per_race": 5.0,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 11.5,
+    "average_finish": 13.67,
     "best_lap": "1:49.095",
     "best_lap_ms": 109095,
     "best_lap_track": "monza",
@@ -15,20 +15,21 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-18T21:23:35",
-    "last_seen": "2026-03-18T23:27:51",
-    "average_pace_ms": 111539,
-    "average_pace": "1:51.539",
+    "last_race_at": "2026-03-18T23:53:55",
+    "last_seen": "2026-03-18T23:53:55",
+    "average_pace_ms": 110507,
+    "average_pace": "1:50.507",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": -1.5,
-    "positions_delta_races": 2
+    "podium_rate": 33.33,
+    "average_positions_delta": -4.33,
+    "positions_delta_races": 3
   },
   "recent_form": [
+    18,
     3,
     48,
     20,
@@ -37,17 +38,46 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
       "points": 15,
-      "finish_sum": 23,
-      "average_finish": 11.5,
-      "best_lap_ms": 109967,
-      "best_lap": "1:49.967"
+      "finish_sum": 41,
+      "average_finish": 13.67,
+      "best_lap_ms": 109372,
+      "best_lap": "1:49.372"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260318_235355_R.json",
+      "finished_at": "2026-03-18T23:53:55",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 18,
+      "participants_count": 34,
+      "winner": "scul scul",
+      "points": 0,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -10,
+      "positions_gained": 0,
+      "positions_lost": 10,
+      "best_lap": "1:49.372",
+      "best_lap_ms": 109372,
+      "total_time": "20:37.875",
+      "total_time_ms": 1237875,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0
+    },
     {
       "race_id": "260318_212335_R.json",
       "finished_at": "2026-03-18T21:23:35",
@@ -166,9 +196,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
