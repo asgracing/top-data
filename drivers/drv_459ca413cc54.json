@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.0,
+    "average_finish": 15.5,
     "best_lap": "1:51.117",
     "best_lap_ms": 111117,
     "best_lap_track": "monza",
@@ -15,36 +15,66 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo (2019)",
     "best_lap_car_name": "Lamborghini Huracan Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 1,
+    "penalty_count": 3,
     "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-18T22:37:21",
-    "last_seen": "2026-03-18T22:49:39",
-    "average_pace_ms": 112548,
-    "average_pace": "1:52.548",
+    "last_race_at": "2026-03-18T23:15:40",
+    "last_seen": "2026-03-18T23:15:40",
+    "average_pace_ms": 115188,
+    "average_pace": "1:55.188",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 19.0,
-    "positions_delta_races": 1
+    "average_positions_delta": 7.0,
+    "positions_delta_races": 2
   },
   "recent_form": [
+    17,
     14
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 14,
-      "average_finish": 14.0,
+      "finish_sum": 31,
+      "average_finish": 15.5,
       "best_lap_ms": 111632,
       "best_lap": "1:51.632"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260318_231540_R.json",
+      "finished_at": "2026-03-18T23:15:40",
+      "track": "monza",
+      "car_model_id": 16,
+      "car_name_raw": "Lamborghini Huracan Evo (2019)",
+      "car_name": "Lamborghini Huracan Evo",
+      "position": 17,
+      "participants_count": 46,
+      "winner": "Dmitriy Sukharev",
+      "points": 0,
+      "qualifying_position": 12,
+      "start_position": 12,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -5,
+      "positions_gained": 0,
+      "positions_lost": 5,
+      "best_lap": "2:00.467",
+      "best_lap_ms": 120467,
+      "total_time": "15:16.286",
+      "total_time_ms": 916286,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 0
+    },
     {
       "race_id": "260318_223721_R.json",
       "finished_at": "2026-03-18T22:37:21",
@@ -76,13 +106,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
+    "penalty_count": 3,
     "penalty_points": 1,
     "reasons": {
-      "PitSpeeding": 1
+      "PitSpeeding": 1,
+      "Cutting": 2
     },
     "types": {
-      "StopAndGo_30": 1
+      "StopAndGo_30": 1,
+      "StopAndGo_20": 1,
+      "Disqualified": 1
     }
   }
 }
