@@ -3,32 +3,33 @@
   "driver": "Leon Kolikidis",
   "summary": {
     "points": 4,
-    "average_points_per_race": 4.0,
-    "races": 1,
+    "average_points_per_race": 2.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 8.0,
-    "best_lap": "1:48.385",
-    "best_lap_ms": 108385,
+    "average_finish": 11.5,
+    "best_lap": "1:48.120",
+    "best_lap_ms": 108120,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 35,
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-15T16:58:35",
-    "last_seen": "2026-03-15T16:58:35",
-    "average_pace_ms": 109028,
-    "average_pace": "1:49.028",
+    "last_race_at": "2026-03-19T23:14:18",
+    "last_seen": "2026-03-19T23:14:18",
+    "average_pace_ms": 109838,
+    "average_pace": "1:49.838",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 22.0,
-    "positions_delta_races": 1
+    "average_positions_delta": 17.5,
+    "positions_delta_races": 2
   },
   "recent_form": [
+    15,
     42,
     8,
     28
@@ -36,17 +37,46 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 8,
-      "average_finish": 8.0,
-      "best_lap_ms": 108385,
-      "best_lap": "1:48.385"
+      "finish_sum": 23,
+      "average_finish": 11.5,
+      "best_lap_ms": 108120,
+      "best_lap": "1:48.120"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260319_231418_R.json",
+      "finished_at": "2026-03-19T23:14:18",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 15,
+      "participants_count": 43,
+      "winner": "Alan Macleod",
+      "points": 0,
+      "qualifying_position": 28,
+      "start_position": 28,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 13,
+      "positions_gained": 13,
+      "positions_lost": 0,
+      "best_lap": "1:48.120",
+      "best_lap_ms": 108120,
+      "total_time": "23:22.439",
+      "total_time_ms": 1402439,
+      "gap": "1:35.187",
+      "gap_ms": 95187,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 33
+    },
     {
       "race_id": "260315_165835_R.json",
       "finished_at": "2026-03-15T16:58:35",
@@ -136,9 +166,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
