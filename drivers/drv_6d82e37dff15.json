@@ -3,11 +3,11 @@
   "driver": "Dima Kulikov",
   "summary": {
     "points": 23,
-    "average_points_per_race": 7.67,
-    "races": 3,
+    "average_points_per_race": 5.75,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 6.33,
+    "average_finish": 8.0,
     "best_lap": "1:49.340",
     "best_lap_ms": 109340,
     "best_lap_track": "monza",
@@ -15,20 +15,21 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
+    "penalty_count": 2,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-18T22:00:34",
-    "last_seen": "2026-03-18T22:00:34",
-    "average_pace_ms": 110888,
-    "average_pace": "1:50.888",
+    "last_race_at": "2026-03-19T20:44:08",
+    "last_seen": "2026-03-19T20:44:08",
+    "average_pace_ms": 110951,
+    "average_pace": "1:50.951",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
-    "average_positions_delta": 3.67,
-    "positions_delta_races": 3
+    "podium_rate": 25.0,
+    "average_positions_delta": 1.75,
+    "positions_delta_races": 4
   },
   "recent_form": [
+    13,
     9,
     7,
     3,
@@ -37,17 +38,46 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
       "points": 23,
-      "finish_sum": 19,
-      "average_finish": 6.33,
+      "finish_sum": 32,
+      "average_finish": 8.0,
       "best_lap_ms": 109687,
       "best_lap": "1:49.687"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260319_204408_R.json",
+      "finished_at": "2026-03-19T20:44:08",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 13,
+      "participants_count": 41,
+      "winner": "A. Spada",
+      "points": 0,
+      "qualifying_position": 9,
+      "start_position": 9,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -4,
+      "positions_gained": 0,
+      "positions_lost": 4,
+      "best_lap": "1:50.565",
+      "best_lap_ms": 110565,
+      "total_time": "18:46.287",
+      "total_time_ms": 1126287,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 0
+    },
     {
       "race_id": "260318_220034_R.json",
       "finished_at": "2026-03-18T22:00:34",
@@ -166,9 +196,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 2,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "PitSpeeding": 2
+    },
+    "types": {
+      "StopAndGo_30": 1,
+      "Disqualified": 1
+    }
   }
 }
