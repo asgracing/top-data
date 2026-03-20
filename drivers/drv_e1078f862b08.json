@@ -2,33 +2,34 @@
   "public_id": "drv_e1078f862b08",
   "driver": "E Baratta",
   "summary": {
-    "points": 1,
-    "average_points_per_race": 0.5,
-    "races": 2,
+    "points": 2,
+    "average_points_per_race": 0.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 18.5,
-    "best_lap": "1:46.865",
-    "best_lap_ms": 106865,
+    "average_finish": 17.0,
+    "best_lap": "1:46.837",
+    "best_lap_ms": 106837,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 32,
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "fastest_lap_awards": 1,
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T18:13:23",
-    "last_seen": "2026-03-20T18:13:23",
-    "average_pace_ms": 107423,
-    "average_pace": "1:47.423",
+    "last_race_at": "2026-03-21T00:59:06",
+    "last_seen": "2026-03-21T00:59:06",
+    "average_pace_ms": 108214,
+    "average_pace": "1:48.214",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 11.5,
-    "positions_delta_races": 2
+    "average_positions_delta": 13.67,
+    "positions_delta_races": 3
   },
   "recent_form": [
+    14,
     26,
     42,
     11
@@ -36,17 +37,46 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
-      "points": 1,
-      "finish_sum": 37,
-      "average_finish": 18.5,
-      "best_lap_ms": 106865,
-      "best_lap": "1:46.865"
+      "points": 2,
+      "finish_sum": 51,
+      "average_finish": 17.0,
+      "best_lap_ms": 106837,
+      "best_lap": "1:46.837"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260321_005906_R.json",
+      "finished_at": "2026-03-21T00:59:06",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 14,
+      "participants_count": 39,
+      "winner": "Le Delivreur",
+      "points": 1,
+      "qualifying_position": 32,
+      "start_position": 32,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 18,
+      "positions_gained": 18,
+      "positions_lost": 0,
+      "best_lap": "1:46.837",
+      "best_lap_ms": 106837,
+      "total_time": "14:37.946",
+      "total_time_ms": 877946,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "had_best_lap": true,
+      "penalty_count": 1,
+      "penalty_points": 3
+    },
     {
       "race_id": "260320_181323_R.json",
       "finished_at": "2026-03-20T18:13:23",
@@ -136,9 +166,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "PitSpeeding": 1
+    },
+    "types": {
+      "StopAndGo_30": 1
+    }
   }
 }
