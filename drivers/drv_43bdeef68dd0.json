@@ -2,49 +2,79 @@
   "public_id": "drv_43bdeef68dd0",
   "driver": "kimi Raikonen",
   "summary": {
-    "points": 12,
-    "average_points_per_race": 12.0,
-    "races": 1,
+    "points": 18,
+    "average_points_per_race": 9.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 4.0,
-    "best_lap": "1:52.007",
-    "best_lap_ms": 112007,
+    "average_finish": 5.5,
+    "best_lap": "1:51.965",
+    "best_lap_ms": 111965,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 32,
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T21:52:12",
-    "last_seen": "2026-03-20T21:52:12",
-    "average_pace_ms": 113971,
-    "average_pace": "1:53.971",
+    "last_race_at": "2026-03-20T22:29:52",
+    "last_seen": "2026-03-20T22:29:52",
+    "average_pace_ms": 113954,
+    "average_pace": "1:53.954",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 11.0,
-    "positions_delta_races": 1
+    "average_positions_delta": 9.0,
+    "positions_delta_races": 2
   },
   "recent_form": [
+    7,
     4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
-      "points": 12,
-      "finish_sum": 4,
-      "average_finish": 4.0,
-      "best_lap_ms": 112007,
-      "best_lap": "1:52.007"
+      "points": 18,
+      "finish_sum": 11,
+      "average_finish": 5.5,
+      "best_lap_ms": 111965,
+      "best_lap": "1:51.965"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260320_222952_R.json",
+      "finished_at": "2026-03-20T22:29:52",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 7,
+      "participants_count": 43,
+      "winner": "Man in Tights",
+      "points": 6,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 7,
+      "positions_gained": 7,
+      "positions_lost": 0,
+      "best_lap": "1:51.965",
+      "best_lap_ms": 111965,
+      "total_time": "23:31.244",
+      "total_time_ms": 1411244,
+      "gap": "1:58.428",
+      "gap_ms": 118428,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 2
+    },
     {
       "race_id": "260320_215212_R.json",
       "finished_at": "2026-03-20T21:52:12",
@@ -76,9 +106,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 2,
+    "reasons": {
+      "None": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1,
+      "None": 1
+    }
   }
 }
