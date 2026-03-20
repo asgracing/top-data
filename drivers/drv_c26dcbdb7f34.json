@@ -2,53 +2,82 @@
   "public_id": "drv_c26dcbdb7f34",
   "driver": "Ivan Ivanchev",
   "summary": {
-    "points": 0,
-    "average_points_per_race": 0.0,
-    "races": 2,
+    "points": 8,
+    "average_points_per_race": 2.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.0,
-    "best_lap": "1:51.600",
-    "best_lap_ms": 111600,
+    "average_finish": 12.67,
+    "best_lap": "1:50.197",
+    "best_lap_ms": 110197,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 30,
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
-    "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "best_lap_session_type": "R",
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T18:49:49",
-    "last_seen": "2026-03-20T19:01:26",
-    "average_pace_ms": 112850,
-    "average_pace": "1:52.850",
+    "last_race_at": "2026-03-20T19:27:09",
+    "last_seen": "2026-03-20T19:27:09",
+    "average_pace_ms": 111680,
+    "average_pace": "1:51.680",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 11.0,
-    "positions_delta_races": 1
+    "average_positions_delta": 9.5,
+    "positions_delta_races": 2
   },
   "recent_form": [
+    6,
     20,
     36,
     12,
-    41,
-    10
+    41
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
-      "points": 0,
-      "finish_sum": 32,
-      "average_finish": 16.0,
-      "best_lap_ms": 112112,
-      "best_lap": "1:52.112"
+      "points": 8,
+      "finish_sum": 38,
+      "average_finish": 12.67,
+      "best_lap_ms": 110197,
+      "best_lap": "1:50.197"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260320_192709_R.json",
+      "finished_at": "2026-03-20T19:27:09",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 6,
+      "participants_count": 37,
+      "winner": "David Marie",
+      "points": 8,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 8,
+      "positions_gained": 8,
+      "positions_lost": 0,
+      "best_lap": "1:50.197",
+      "best_lap_ms": 110197,
+      "total_time": "23:09.766",
+      "total_time_ms": 1389766,
+      "gap": "1:36.156",
+      "gap_ms": 96156,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 33
+    },
     {
       "race_id": "260320_184949_R.json",
       "finished_at": "2026-03-20T18:49:49",
@@ -225,9 +254,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
