@@ -3,11 +3,11 @@
   "driver": "Martin Breuer",
   "summary": {
     "points": 10,
-    "average_points_per_race": 5.0,
-    "races": 2,
+    "average_points_per_race": 3.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.5,
+    "average_finish": 11.0,
     "best_lap": "1:50.167",
     "best_lap_ms": 110167,
     "best_lap_track": "monza",
@@ -15,20 +15,21 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T23:08:02",
-    "last_seen": "2026-03-20T23:08:02",
-    "average_pace_ms": 112432,
-    "average_pace": "1:52.432",
+    "last_race_at": "2026-03-20T23:46:03",
+    "last_seen": "2026-03-20T23:46:03",
+    "average_pace_ms": 112716,
+    "average_pace": "1:52.716",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 7.5,
-    "positions_delta_races": 2
+    "average_positions_delta": 5.0,
+    "positions_delta_races": 3
   },
   "recent_form": [
+    12,
     5,
     16,
     34
@@ -36,17 +37,46 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 21,
-      "average_finish": 10.5,
+      "finish_sum": 33,
+      "average_finish": 11.0,
       "best_lap_ms": 110167,
       "best_lap": "1:50.167"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260320_234603_R.json",
+      "finished_at": "2026-03-20T23:46:03",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 12,
+      "participants_count": 47,
+      "winner": "Nikolay Graz",
+      "points": 0,
+      "qualifying_position": 12,
+      "start_position": 12,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 0,
+      "positions_gained": 0,
+      "positions_lost": 0,
+      "best_lap": "1:50.477",
+      "best_lap_ms": 110477,
+      "total_time": "23:50.565",
+      "total_time_ms": 1430565,
+      "gap": "2:03.001",
+      "gap_ms": 123001,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 31
+    },
     {
       "race_id": "260320_230802_R.json",
       "finished_at": "2026-03-20T23:08:02",
@@ -136,9 +166,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 1,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
