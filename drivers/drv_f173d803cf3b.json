@@ -2,9 +2,9 @@
   "public_id": "drv_f173d803cf3b",
   "driver": "Markus Gammert",
   "summary": {
-    "points": 6,
+    "points": 12,
     "average_points_per_race": 6.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
     "average_finish": 7.0,
@@ -15,36 +15,66 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-16T22:38:22",
-    "last_seen": "2026-03-16T22:38:22",
-    "average_pace_ms": 109872,
-    "average_pace": "1:49.872",
+    "last_race_at": "2026-03-20T21:52:12",
+    "last_seen": "2026-03-20T21:52:12",
+    "average_pace_ms": 110701,
+    "average_pace": "1:50.701",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 1.0,
-    "positions_delta_races": 1
+    "average_positions_delta": 13.0,
+    "positions_delta_races": 2
   },
   "recent_form": [
+    7,
     7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
-      "points": 6,
-      "finish_sum": 7,
+      "points": 12,
+      "finish_sum": 14,
       "average_finish": 7.0,
       "best_lap_ms": 109317,
       "best_lap": "1:49.317"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260320_215212_R.json",
+      "finished_at": "2026-03-20T21:52:12",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 7,
+      "participants_count": 47,
+      "winner": "Kirill Dmitriev",
+      "points": 6,
+      "qualifying_position": 32,
+      "start_position": 32,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 25,
+      "positions_gained": 25,
+      "positions_lost": 0,
+      "best_lap": "1:50.755",
+      "best_lap_ms": 110755,
+      "total_time": "21:43.619",
+      "total_time_ms": 1303619,
+      "gap": "1:25.851",
+      "gap_ms": 85851,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 3,
+      "penalty_points": 32
+    },
     {
       "race_id": "260316_223822_R.json",
       "finished_at": "2026-03-16T22:38:22",
@@ -76,9 +106,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 2,
+    "reasons": {
+      "Cutting": 1,
+      "PitSpeeding": 1
+    },
+    "types": {
+      "DriveThrough": 1,
+      "Disqualified": 1
+    }
   }
 }
