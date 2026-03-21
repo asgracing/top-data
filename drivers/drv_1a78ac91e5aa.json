@@ -2,12 +2,12 @@
   "public_id": "drv_1a78ac91e5aa",
   "driver": "s WARRINER",
   "summary": {
-    "points": 25,
-    "average_points_per_race": 25.0,
-    "races": 1,
+    "points": 27,
+    "average_points_per_race": 13.5,
+    "races": 2,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 1.0,
+    "average_finish": 5.0,
     "best_lap": "1:47.815",
     "best_lap_ms": 107815,
     "best_lap_track": "monza",
@@ -15,37 +15,67 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-15T16:58:35",
-    "last_seen": "2026-03-15T16:58:35",
-    "average_pace_ms": 108468,
-    "average_pace": "1:48.468",
-    "win_rate": 100.0,
-    "podium_rate": 100.0,
-    "average_positions_delta": 2.0,
-    "positions_delta_races": 1
+    "last_race_at": "2026-03-22T01:22:51",
+    "last_seen": "2026-03-22T01:22:51",
+    "average_pace_ms": 108430,
+    "average_pace": "1:48.430",
+    "win_rate": 50.0,
+    "podium_rate": 50.0,
+    "average_positions_delta": -2.5,
+    "positions_delta_races": 2
   },
   "recent_form": [
+    9,
     40,
     1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 1,
       "podiums": 1,
-      "points": 25,
-      "finish_sum": 1,
-      "average_finish": 1.0,
+      "points": 27,
+      "finish_sum": 10,
+      "average_finish": 5.0,
       "best_lap_ms": 107815,
       "best_lap": "1:47.815"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260322_012251_R.json",
+      "finished_at": "2026-03-22T01:22:51",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 9,
+      "participants_count": 40,
+      "winner": "Eduardo Lukacs",
+      "points": 2,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -7,
+      "positions_gained": 0,
+      "positions_lost": 7,
+      "best_lap": "1:48.065",
+      "best_lap_ms": 108065,
+      "total_time": "20:30.977",
+      "total_time_ms": 1230977,
+      "gap": "0:28.182",
+      "gap_ms": 28182,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 1
+    },
     {
       "race_id": "260315_165835_R.json",
       "finished_at": "2026-03-15T16:58:35",
@@ -106,9 +136,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 1,
+    "reasons": {
+      "None": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1,
+      "None": 1
+    }
   }
 }
