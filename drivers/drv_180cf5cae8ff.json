@@ -2,12 +2,12 @@
   "public_id": "drv_180cf5cae8ff",
   "driver": "Arsenii Kapustin [ASG]",
   "summary": {
-    "points": 520,
-    "average_points_per_race": 19.26,
-    "races": 27,
-    "wins": 14,
-    "podiums": 22,
-    "average_finish": 2.85,
+    "points": 546,
+    "average_points_per_race": 19.5,
+    "races": 28,
+    "wins": 15,
+    "podiums": 23,
+    "average_finish": 2.79,
     "best_lap": "1:48.280",
     "best_lap_ms": 108280,
     "best_lap_track": "monza",
@@ -15,40 +15,69 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 3,
-    "fastest_lap_awards": 8,
+    "penalty_count": 4,
+    "penalty_points": 6,
+    "fastest_lap_awards": 9,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T12:40:07",
-    "last_seen": "2026-03-20T12:40:07",
-    "average_pace_ms": 110360,
-    "average_pace": "1:50.360",
-    "win_rate": 51.85,
-    "podium_rate": 81.48,
-    "average_positions_delta": 1.92,
-    "positions_delta_races": 25
+    "last_race_at": "2026-03-21T11:01:15",
+    "last_seen": "2026-03-21T11:01:15",
+    "average_pace_ms": 110370,
+    "average_pace": "1:50.370",
+    "win_rate": 53.57,
+    "podium_rate": 82.14,
+    "average_positions_delta": 1.88,
+    "positions_delta_races": 26
   },
   "recent_form": [
     1,
+    1,
     2,
     7,
-    3,
-    10
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 27,
-      "wins": 14,
-      "podiums": 22,
-      "points": 520,
-      "finish_sum": 77,
-      "average_finish": 2.85,
+      "races": 28,
+      "wins": 15,
+      "podiums": 23,
+      "points": 546,
+      "finish_sum": 78,
+      "average_finish": 2.79,
       "best_lap_ms": 108280,
       "best_lap": "1:48.280"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260321_110115_R.json",
+      "finished_at": "2026-03-21T11:01:15",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 1,
+      "participants_count": 4,
+      "winner": "Arsenii Kapustin [ASG]",
+      "points": 26,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 1,
+      "positions_gained": 1,
+      "positions_lost": 0,
+      "best_lap": "1:48.522",
+      "best_lap_ms": 108522,
+      "total_time": "20:50.020",
+      "total_time_ms": 1250020,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": true,
+      "penalty_count": 2,
+      "penalty_points": 3
+    },
     {
       "race_id": "260320_124007_R.json",
       "finished_at": "2026-03-20T12:40:07",
@@ -1008,15 +1037,17 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 4,
+    "penalty_points": 6,
     "reasons": {
       "None": 1,
-      "Cutting": 1
+      "Cutting": 2,
+      "PitSpeeding": 1
     },
     "types": {
       "DriveThrough": 1,
-      "None": 1
+      "None": 2,
+      "StopAndGo_30": 1
     }
   }
 }
