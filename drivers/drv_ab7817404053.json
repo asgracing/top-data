@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.0,
+    "average_finish": 15.5,
     "best_lap": "1:49.642",
     "best_lap_ms": 109642,
     "best_lap_track": "monza",
@@ -15,37 +15,67 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-21T15:57:12",
-    "last_seen": "2026-03-21T15:57:12",
-    "average_pace_ms": 110486,
-    "average_pace": "1:50.486",
+    "last_race_at": "2026-03-21T16:33:35",
+    "last_seen": "2026-03-21T16:33:35",
+    "average_pace_ms": 110958,
+    "average_pace": "1:50.958",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -5.0,
-    "positions_delta_races": 1
+    "positions_delta_races": 2
   },
   "recent_form": [
+    17,
     14,
     42
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 14,
-      "average_finish": 14.0,
+      "finish_sum": 31,
+      "average_finish": 15.5,
       "best_lap_ms": 109642,
       "best_lap": "1:49.642"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260321_163335_R.json",
+      "finished_at": "2026-03-21T16:33:35",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 17,
+      "participants_count": 42,
+      "winner": "Kirill Bulgakov",
+      "points": 0,
+      "qualifying_position": 12,
+      "start_position": 12,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -5,
+      "positions_gained": 0,
+      "positions_lost": 5,
+      "best_lap": "1:51.057",
+      "best_lap_ms": 111057,
+      "total_time": "20:41.890",
+      "total_time_ms": 1241890,
+      "gap": "0:41.286",
+      "gap_ms": 41286,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3
+    },
     {
       "race_id": "260321_155712_R.json",
       "finished_at": "2026-03-21T15:57:12",
@@ -106,9 +136,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 2
+    },
+    "types": {
+      "DriveThrough": 1,
+      "None": 1
+    }
   }
 }
