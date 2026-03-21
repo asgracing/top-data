@@ -3,11 +3,11 @@
   "driver": "Николай Малышевский",
   "summary": {
     "points": 12,
-    "average_points_per_race": 2.0,
-    "races": 6,
+    "average_points_per_race": 1.71,
+    "races": 7,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.5,
+    "average_finish": 13.29,
     "best_lap": "1:49.777",
     "best_lap_ms": 109777,
     "best_lap_track": "monza",
@@ -15,40 +15,69 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-21T19:40:45",
-    "last_seen": "2026-03-21T19:40:45",
-    "average_pace_ms": 112525,
-    "average_pace": "1:52.525",
+    "last_race_at": "2026-03-21T20:17:17",
+    "last_seen": "2026-03-21T20:17:17",
+    "average_pace_ms": 112546,
+    "average_pace": "1:52.546",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 1.75,
-    "positions_delta_races": 4
+    "average_positions_delta": 2.6,
+    "positions_delta_races": 5
   },
   "recent_form": [
+    18,
     8,
     20,
     7,
-    9,
-    13
+    9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 0,
       "points": 12,
-      "finish_sum": 75,
-      "average_finish": 12.5,
+      "finish_sum": 93,
+      "average_finish": 13.29,
       "best_lap_ms": 109777,
       "best_lap": "1:49.777"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260321_201717_R.json",
+      "finished_at": "2026-03-21T20:17:17",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 18,
+      "participants_count": 33,
+      "winner": "Kirill Bulgakov",
+      "points": 0,
+      "qualifying_position": 24,
+      "start_position": 24,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 6,
+      "positions_gained": 6,
+      "positions_lost": 0,
+      "best_lap": "1:52.392",
+      "best_lap_ms": 112392,
+      "total_time": "9:57.786",
+      "total_time_ms": 597786,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 6
+    },
     {
       "race_id": "260321_194045_R.json",
       "finished_at": "2026-03-21T19:40:45",
@@ -225,9 +254,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 6,
+    "reasons": {
+      "PitSpeeding": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_30": 1,
+      "Disqualified": 1
+    }
   }
 }
