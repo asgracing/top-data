@@ -2,12 +2,12 @@
   "public_id": "drv_9ca2677838ba",
   "driver": "Robert Bogdziewicz",
   "summary": {
-    "points": 28,
-    "average_points_per_race": 14.0,
-    "races": 2,
+    "points": 34,
+    "average_points_per_race": 11.33,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 3.5,
+    "average_finish": 4.67,
     "best_lap": "1:47.337",
     "best_lap_ms": 107337,
     "best_lap_track": "monza",
@@ -15,20 +15,21 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T20:30:17",
-    "last_seen": "2026-03-22T20:41:53",
-    "average_pace_ms": 109401,
-    "average_pace": "1:49.401",
+    "last_race_at": "2026-03-22T21:06:16",
+    "last_seen": "2026-03-22T21:06:16",
+    "average_pace_ms": 109052,
+    "average_pace": "1:49.052",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": -1.5,
-    "positions_delta_races": 2
+    "podium_rate": 33.33,
+    "average_positions_delta": -2.67,
+    "positions_delta_races": 3
   },
   "recent_form": [
+    7,
     48,
     2,
     5
@@ -36,17 +37,46 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
-      "points": 28,
-      "finish_sum": 7,
-      "average_finish": 3.5,
-      "best_lap_ms": 107757,
-      "best_lap": "1:47.757"
+      "points": 34,
+      "finish_sum": 14,
+      "average_finish": 4.67,
+      "best_lap_ms": 107632,
+      "best_lap": "1:47.632"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260322_210616_R.json",
+      "finished_at": "2026-03-22T21:06:16",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 7,
+      "participants_count": 49,
+      "winner": "ALEKSEY EPIFANOV",
+      "points": 6,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -5,
+      "positions_gained": 0,
+      "positions_lost": 5,
+      "best_lap": "1:47.632",
+      "best_lap_ms": 107632,
+      "total_time": "18:32.945",
+      "total_time_ms": 1112945,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 3,
+      "penalty_points": 8
+    },
     {
       "race_id": "260322_203017_R.json",
       "finished_at": "2026-03-22T20:30:17",
@@ -136,9 +166,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 3,
+    "penalty_points": 8,
+    "reasons": {
+      "Cutting": 3
+    },
+    "types": {
+      "DriveThrough": 1,
+      "StopAndGo_30": 1,
+      "Disqualified": 1
+    }
   }
 }
