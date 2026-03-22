@@ -4,25 +4,25 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 5,
+    "races": 6,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 20.0,
-    "best_lap": "1:49.395",
-    "best_lap_ms": 109395,
+    "average_finish": 20.5,
+    "best_lap": "1:49.275",
+    "best_lap_ms": 109275,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 25,
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
     "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T22:29:52",
-    "last_seen": "2026-03-20T22:29:52",
-    "average_pace_ms": 112480,
-    "average_pace": "1:52.480",
+    "last_race_at": "2026-03-22T11:14:33",
+    "last_seen": "2026-03-22T11:14:33",
+    "average_pace_ms": 111844,
+    "average_pace": "1:51.844",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -7.5,
@@ -30,25 +30,54 @@
   },
   "recent_form": [
     23,
+    23,
     19,
     14,
-    20,
-    24
+    20
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 100,
-      "average_finish": 20.0,
-      "best_lap_ms": 109395,
-      "best_lap": "1:49.395"
+      "finish_sum": 123,
+      "average_finish": 20.5,
+      "best_lap_ms": 109275,
+      "best_lap": "1:49.275"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260322_111433_R.json",
+      "finished_at": "2026-03-22T11:14:33",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 23,
+      "participants_count": 44,
+      "winner": "Valentin Hirsch",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.275",
+      "best_lap_ms": 109275,
+      "total_time": "21:44.941",
+      "total_time_ms": 1304941,
+      "gap": "1:33.269",
+      "gap_ms": 93269,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 61
+    },
     {
       "race_id": "260320_222952_R.json",
       "finished_at": "2026-03-20T22:29:52",
@@ -196,9 +225,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 1,
+    "reasons": {
+      "PitSpeeding": 1
+    },
+    "types": {
+      "StopAndGo_30": 1
+    }
   }
 }
