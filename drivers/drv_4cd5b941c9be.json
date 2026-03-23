@@ -26,7 +26,18 @@
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -6.0,
-    "positions_delta_races": 2
+    "positions_delta_races": 2,
+    "championship_rank": 542,
+    "bestlap_rank": 1003,
+    "latest_changes": {
+      "championship_rank": {
+        "before": 538,
+        "after": 542,
+        "delta": 4,
+        "trend": "down"
+      }
+    },
+    "latest_change_at": "2026-03-23T01:30:40"
   },
   "recent_form": [
     23,
@@ -74,7 +85,46 @@
       "counted_for_stats": true,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 4.0,
+          "after": 13.5,
+          "delta": 9.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 113380,
+          "after": 113349,
+          "delta": -31,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 4.0,
+          "after": -6.0,
+          "delta": -10.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 154,
+          "after": 165,
+          "delta": 11,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 154,
+        "after": 165,
+        "delta": 11,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
     },
     {
       "race_id": "260315_150840_R.json",
@@ -103,7 +153,10 @@
       "counted_for_stats": false,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {},
+      "rank_change": null,
+      "bestlap_rank_change": null
     },
     {
       "race_id": "260313_142639_R.json",
@@ -132,7 +185,52 @@
       "counted_for_stats": true,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": null,
+          "after": 4.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": null,
+          "after": 113380,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": 4.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 17,
+          "after": 9,
+          "delta": -8,
+          "trend": "up"
+        },
+        "points": {
+          "before": 0,
+          "after": 12,
+          "delta": 12,
+          "trend": "up"
+        },
+        "races": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 17,
+        "after": 9,
+        "delta": -8,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
     }
   ],
   "penalties": {

@@ -26,7 +26,11 @@
     "win_rate": 50.0,
     "podium_rate": 100.0,
     "average_positions_delta": 2.0,
-    "positions_delta_races": 2
+    "positions_delta_races": 2,
+    "championship_rank": 76,
+    "bestlap_rank": 105,
+    "latest_changes": {},
+    "latest_change_at": "2026-03-23T01:30:40"
   },
   "recent_form": [
     30,
@@ -75,7 +79,10 @@
       "counted_for_stats": false,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {},
+      "rank_change": null,
+      "bestlap_rank_change": null
     },
     {
       "race_id": "260321_232123_R.json",
@@ -104,7 +111,58 @@
       "counted_for_stats": true,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 1.0,
+          "after": 1.5,
+          "delta": 0.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108673,
+          "after": 108232,
+          "delta": -441,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 3.0,
+          "after": 2.0,
+          "delta": -1.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 173,
+          "after": 64,
+          "delta": -109,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 25,
+          "after": 43,
+          "delta": 18,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 173,
+        "after": 64,
+        "delta": -109,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
     },
     {
       "race_id": "260320_002621_R.json",
@@ -133,7 +191,22 @@
       "counted_for_stats": false,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {
+        "championship_rank": {
+          "before": 131,
+          "after": 133,
+          "delta": 2,
+          "trend": "down"
+        }
+      },
+      "rank_change": {
+        "before": 131,
+        "after": 133,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
     },
     {
       "race_id": "260319_235026_R.json",
@@ -162,7 +235,64 @@
       "counted_for_stats": true,
       "had_best_lap": false,
       "penalty_count": 0,
-      "penalty_points": 0
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": null,
+          "after": 1.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": null,
+          "after": 108673,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": 3.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1669,
+          "after": 131,
+          "delta": -1538,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 0,
+          "after": 25,
+          "delta": 25,
+          "trend": "up"
+        },
+        "races": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1669,
+        "after": 131,
+        "delta": -1538,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
     }
   ],
   "penalties": {
