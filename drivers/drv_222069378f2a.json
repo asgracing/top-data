@@ -3,11 +3,11 @@
   "driver": "Richard Cotterill",
   "summary": {
     "points": 4,
-    "average_points_per_race": 2.0,
-    "races": 2,
+    "average_points_per_race": 1.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 19.0,
+    "average_finish": 16.67,
     "best_lap": "1:48.725",
     "best_lap_ms": 108725,
     "best_lap_track": "monza",
@@ -19,44 +19,137 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-25T22:16:31",
-    "last_seen": "2026-03-25T22:16:31",
-    "average_pace_ms": 109336,
-    "average_pace": "1:49.336",
+    "last_race_at": "2026-03-25T22:51:58",
+    "last_seen": "2026-03-25T22:51:58",
+    "average_pace_ms": 109915,
+    "average_pace": "1:49.915",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": null,
-    "positions_delta_races": 0,
-    "championship_rank": 1019,
-    "bestlap_rank": 705,
+    "average_positions_delta": -3.0,
+    "positions_delta_races": 1,
+    "championship_rank": 1021,
+    "bestlap_rank": 706,
     "latest_changes": {
+      "average_finish": {
+        "before": 19.0,
+        "after": 16.67,
+        "delta": -2.33,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109336,
+        "after": 109915,
+        "delta": 579,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": null,
+        "after": -3.0,
+        "delta": null,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 1017,
-        "after": 1019,
+        "before": 1019,
+        "after": 1021,
         "delta": 2,
         "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-25T22:37:11"
+    "latest_change_at": "2026-03-25T22:51:58"
   },
   "recent_form": [
+    12,
     8,
     30
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 38,
-      "average_finish": 19.0,
+      "finish_sum": 50,
+      "average_finish": 16.67,
       "best_lap_ms": 108725,
       "best_lap": "1:48.725"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260325_225158_R.json",
+      "finished_at": "2026-03-25T22:51:58",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 12,
+      "participants_count": 29,
+      "winner": "Nano El",
+      "points": 0,
+      "qualifying_position": 9,
+      "start_position": 9,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -3,
+      "positions_gained": 0,
+      "positions_lost": 3,
+      "best_lap": "1:48.920",
+      "best_lap_ms": 108920,
+      "total_time": "20:16.535",
+      "total_time_ms": 1216535,
+      "gap": "0:08.880",
+      "gap_ms": 8880,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 19.0,
+          "after": 16.67,
+          "delta": -2.33,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109336,
+          "after": 109915,
+          "delta": 579,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": -3.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1019,
+          "after": 1021,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1019,
+        "after": 1021,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260325_221631_R.json",
       "finished_at": "2026-03-25T22:16:31",
