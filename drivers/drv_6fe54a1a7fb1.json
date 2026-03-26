@@ -2,12 +2,12 @@
   "public_id": "drv_6fe54a1a7fb1",
   "driver": "anton chigur",
   "summary": {
-    "points": 18,
-    "average_points_per_race": 9.0,
-    "races": 2,
-    "wins": 0,
-    "podiums": 1,
-    "average_finish": 11.5,
+    "points": 44,
+    "average_points_per_race": 14.67,
+    "races": 3,
+    "wins": 1,
+    "podiums": 2,
+    "average_finish": 8.0,
     "best_lap": "1:47.780",
     "best_lap_ms": 107780,
     "best_lap_track": "monza",
@@ -17,29 +17,72 @@
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
-    "fastest_lap_awards": 0,
+    "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-26T21:09:55",
-    "last_seen": "2026-03-26T21:09:55",
-    "average_pace_ms": 109992,
-    "average_pace": "1:49.992",
-    "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 20.0,
-    "positions_delta_races": 1,
-    "championship_rank": 438,
+    "last_race_at": "2026-03-26T21:48:06",
+    "last_seen": "2026-03-26T21:48:06",
+    "average_pace_ms": 109668,
+    "average_pace": "1:49.668",
+    "win_rate": 33.33,
+    "podium_rate": 66.67,
+    "average_positions_delta": 10.0,
+    "positions_delta_races": 2,
+    "championship_rank": 108,
     "bestlap_rank": 216,
     "latest_changes": {
-      "championship_rank": {
-        "before": 436,
-        "after": 438,
-        "delta": 2,
+      "average_finish": {
+        "before": 11.5,
+        "after": 8.0,
+        "delta": -3.5,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109992,
+        "after": 109668,
+        "delta": -324,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 20.0,
+        "after": 10.0,
+        "delta": -10.0,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 438,
+        "after": 108,
+        "delta": -330,
+        "trend": "up"
+      },
+      "podiums": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      },
+      "points": {
+        "before": 18,
+        "after": 44,
+        "delta": 26,
+        "trend": "up"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      },
+      "wins": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-26T21:09:55"
+    "latest_change_at": "2026-03-26T21:48:06"
   },
   "recent_form": [
+    1,
     44,
     27,
     21,
@@ -48,17 +91,103 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
-      "wins": 0,
-      "podiums": 1,
-      "points": 18,
-      "finish_sum": 23,
-      "average_finish": 11.5,
+      "races": 3,
+      "wins": 1,
+      "podiums": 2,
+      "points": 44,
+      "finish_sum": 24,
+      "average_finish": 8.0,
       "best_lap_ms": 107780,
       "best_lap": "1:47.780"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260326_214806_R.json",
+      "finished_at": "2026-03-26T21:48:06",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 1,
+      "participants_count": 52,
+      "winner": "anton chigur",
+      "points": 26,
+      "qualifying_position": 1,
+      "start_position": 1,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 0,
+      "positions_gained": 0,
+      "positions_lost": 0,
+      "best_lap": "1:47.855",
+      "best_lap_ms": 107855,
+      "total_time": "21:47.826",
+      "total_time_ms": 1307826,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.5,
+          "after": 8.0,
+          "delta": -3.5,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109992,
+          "after": 109668,
+          "delta": -324,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 20.0,
+          "after": 10.0,
+          "delta": -10.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 438,
+          "after": 108,
+          "delta": -330,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 18,
+          "after": 44,
+          "delta": 26,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 438,
+        "after": 108,
+        "delta": -330,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260326_210955_R.json",
       "finished_at": "2026-03-26T21:09:55",
