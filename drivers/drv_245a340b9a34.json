@@ -2,12 +2,12 @@
   "public_id": "drv_245a340b9a34",
   "driver": "William Scophield",
   "summary": {
-    "points": 20,
+    "points": 24,
     "average_points_per_race": 4.0,
-    "races": 5,
+    "races": 6,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.4,
+    "average_finish": 11.67,
     "best_lap": "1:49.300",
     "best_lap_ms": 109300,
     "best_lap_track": "monza",
@@ -15,51 +15,143 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "R",
-    "penalty_count": 1,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T13:05:19",
-    "last_seen": "2026-03-22T13:05:19",
-    "average_pace_ms": 112183,
-    "average_pace": "1:52.183",
+    "last_race_at": "2026-03-26T13:28:07",
+    "last_seen": "2026-03-26T13:28:07",
+    "average_pace_ms": 112011,
+    "average_pace": "1:52.011",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 13.0,
     "positions_delta_races": 3,
-    "championship_rank": 337,
-    "bestlap_rank": 1035,
+    "championship_rank": 294,
+    "bestlap_rank": 1038,
     "latest_changes": {
+      "average_finish": {
+        "before": 12.4,
+        "after": 11.67,
+        "delta": -0.73,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 112183,
+        "after": 112011,
+        "delta": -172,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 336,
-        "after": 337,
+        "before": 337,
+        "after": 294,
+        "delta": -43,
+        "trend": "up"
+      },
+      "points": {
+        "before": 20,
+        "after": 24,
+        "delta": 4,
+        "trend": "up"
+      },
+      "races": {
+        "before": 5,
+        "after": 6,
         "delta": 1,
-        "trend": "down"
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-26T12:49:47"
+    "latest_change_at": "2026-03-26T13:28:07"
   },
   "recent_form": [
+    8,
     25,
     15,
     5,
-    5,
-    12
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 0,
-      "points": 20,
-      "finish_sum": 62,
-      "average_finish": 12.4,
+      "points": 24,
+      "finish_sum": 70,
+      "average_finish": 11.67,
       "best_lap_ms": 109300,
       "best_lap": "1:49.300"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260326_132807_R.json",
+      "finished_at": "2026-03-26T13:28:07",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 8,
+      "participants_count": 28,
+      "winner": "FOUFOU YNAD59",
+      "points": 4,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.190",
+      "best_lap_ms": 110190,
+      "total_time": "19:23.315",
+      "total_time_ms": 1163315,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 12.4,
+          "after": 11.67,
+          "delta": -0.73,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 112183,
+          "after": 112011,
+          "delta": -172,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 337,
+          "after": 294,
+          "delta": -43,
+          "trend": "up"
+        },
+        "points": {
+          "before": 20,
+          "after": 24,
+          "delta": 4,
+          "trend": "up"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 337,
+        "after": 294,
+        "delta": -43,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260322_130519_R.json",
       "finished_at": "2026-03-22T13:05:19",
@@ -396,13 +488,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "reasons": {
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
-      "Disqualified": 1
+      "Disqualified": 1,
+      "DriveThrough": 1
     }
   }
 }
