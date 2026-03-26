@@ -3,8 +3,8 @@
   "driver": "Randy Andy",
   "summary": {
     "points": 8,
-    "average_points_per_race": 2.0,
-    "races": 4,
+    "average_points_per_race": 1.6,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
     "average_finish": 18.0,
@@ -19,45 +19,46 @@
     "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-26T21:48:06",
-    "last_seen": "2026-03-26T21:48:06",
-    "average_pace_ms": 110424,
-    "average_pace": "1:50.424",
+    "last_race_at": "2026-03-26T22:24:20",
+    "last_seen": "2026-03-26T22:24:20",
+    "average_pace_ms": 109971,
+    "average_pace": "1:49.971",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -9.33,
-    "positions_delta_races": 3,
-    "championship_rank": 897,
-    "bestlap_rank": 197,
+    "average_positions_delta": -11.0,
+    "positions_delta_races": 4,
+    "championship_rank": 900,
+    "bestlap_rank": 199,
     "latest_changes": {
-      "average_finish": {
-        "before": 14.0,
-        "after": 18.0,
-        "delta": 4.0,
-        "trend": "down"
-      },
       "average_pace_ms": {
-        "before": 110565,
-        "after": 110424,
-        "delta": -141,
+        "before": 110424,
+        "after": 109971,
+        "delta": -453,
         "trend": "up"
       },
+      "average_positions_delta": {
+        "before": -9.33,
+        "after": -11.0,
+        "delta": -1.67,
+        "trend": "down"
+      },
       "championship_rank": {
-        "before": 876,
-        "after": 897,
-        "delta": 21,
+        "before": 897,
+        "after": 900,
+        "delta": 3,
         "trend": "down"
       },
       "races": {
-        "before": 3,
-        "after": 4,
+        "before": 4,
+        "after": 5,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-26T21:48:06"
+    "latest_change_at": "2026-03-26T22:24:20"
   },
   "recent_form": [
+    18,
     30,
     6,
     15,
@@ -66,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 72,
+      "finish_sum": 90,
       "average_finish": 18.0,
       "best_lap_ms": 107735,
       "best_lap": "1:47.735"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260326_222420_R.json",
+      "finished_at": "2026-03-26T22:24:20",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 18,
+      "participants_count": 43,
+      "winner": "andrea colmegna",
+      "points": 0,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -16,
+      "positions_gained": 0,
+      "positions_lost": 16,
+      "best_lap": "1:48.262",
+      "best_lap_ms": 108262,
+      "total_time": "20:21.497",
+      "total_time_ms": 1221497,
+      "gap": "0:20.105",
+      "gap_ms": 20105,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 110424,
+          "after": 109971,
+          "delta": -453,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -9.33,
+          "after": -11.0,
+          "delta": -1.67,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 897,
+          "after": 900,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 897,
+        "after": 900,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260326_214806_R.json",
       "finished_at": "2026-03-26T21:48:06",

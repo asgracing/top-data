@@ -3,13 +3,13 @@
   "driver": ". ExistenciaX",
   "summary": {
     "points": 3,
-    "average_points_per_race": 1.0,
-    "races": 3,
+    "average_points_per_race": 0.75,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.0,
-    "best_lap": "1:48.580",
-    "best_lap_ms": 108580,
+    "average_finish": 13.75,
+    "best_lap": "1:48.557",
+    "best_lap_ms": 108557,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 31,
     "best_lap_car_name_raw": "Audi R8 LMS GT3 evo II",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-25T21:22:28",
-    "last_seen": "2026-03-25T21:22:28",
-    "average_pace_ms": 109597,
-    "average_pace": "1:49.597",
+    "last_race_at": "2026-03-26T22:24:20",
+    "last_seen": "2026-03-26T22:24:20",
+    "average_pace_ms": 109569,
+    "average_pace": "1:49.569",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 11.67,
     "positions_delta_races": 3,
-    "championship_rank": 1092,
+    "championship_rank": 1097,
     "bestlap_rank": 654,
     "latest_changes": {
+      "average_finish": {
+        "before": 10.0,
+        "after": 13.75,
+        "delta": 3.75,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109597,
+        "after": 109569,
+        "delta": -28,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 1087,
-        "after": 1092,
+        "before": 1092,
+        "after": 1097,
         "delta": 5,
         "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-26T21:48:06"
+    "latest_change_at": "2026-03-26T22:24:20"
   },
   "recent_form": [
+    25,
     10,
     11,
     9,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 3,
-      "finish_sum": 30,
-      "average_finish": 10.0,
-      "best_lap_ms": 108580,
-      "best_lap": "1:48.580"
+      "finish_sum": 55,
+      "average_finish": 13.75,
+      "best_lap_ms": 108557,
+      "best_lap": "1:48.557"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260326_222420_R.json",
+      "finished_at": "2026-03-26T22:24:20",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 25,
+      "participants_count": 43,
+      "winner": "andrea colmegna",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.557",
+      "best_lap_ms": 108557,
+      "total_time": "20:34.491",
+      "total_time_ms": 1234491,
+      "gap": "0:33.099",
+      "gap_ms": 33099,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 13.75,
+          "delta": 3.75,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109597,
+          "after": 109569,
+          "delta": -28,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1092,
+          "after": 1097,
+          "delta": 5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1092,
+        "after": 1097,
+        "delta": 5,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260325_212228_R.json",
       "finished_at": "2026-03-25T21:22:28",
