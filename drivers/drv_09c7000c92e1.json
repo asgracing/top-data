@@ -3,11 +3,11 @@
   "driver": "Mitch Schu",
   "summary": {
     "points": 6,
-    "average_points_per_race": 2.0,
-    "races": 3,
+    "average_points_per_race": 1.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 13.67,
+    "average_finish": 16.0,
     "best_lap": "1:47.907",
     "best_lap_ms": 107907,
     "best_lap_track": "monza",
@@ -19,45 +19,53 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-27T18:28:24",
-    "last_seen": "2026-03-27T18:28:24",
-    "average_pace_ms": 109764,
-    "average_pace": "1:49.764",
+    "last_race_at": "2026-03-27T19:04:40",
+    "last_seen": "2026-03-27T19:04:40",
+    "average_pace_ms": 109870,
+    "average_pace": "1:49.870",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -11.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1085,
-    "bestlap_rank": 302,
+    "average_positions_delta": -6.0,
+    "positions_delta_races": 2,
+    "championship_rank": 1097,
+    "bestlap_rank": 303,
     "latest_changes": {
       "average_finish": {
-        "before": 11.5,
-        "after": 13.67,
-        "delta": 2.17,
+        "before": 13.67,
+        "after": 16.0,
+        "delta": 2.33,
         "trend": "down"
       },
       "average_pace_ms": {
-        "before": 110570,
-        "after": 109764,
-        "delta": -806,
+        "before": 109764,
+        "after": 109870,
+        "delta": 106,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -11.0,
+        "after": -6.0,
+        "delta": 5.0,
         "trend": "up"
       },
       "championship_rank": {
-        "before": 1062,
-        "after": 1085,
-        "delta": 23,
+        "before": 1085,
+        "after": 1097,
+        "delta": 12,
         "trend": "down"
       },
       "races": {
-        "before": 2,
-        "after": 3,
+        "before": 3,
+        "after": 4,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-27T18:28:24"
+    "latest_change_at": "2026-03-27T19:04:40"
   },
   "recent_form": [
+    23,
+    31,
     18,
     16,
     7
@@ -65,17 +73,153 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 6,
-      "finish_sum": 41,
-      "average_finish": 13.67,
+      "finish_sum": 64,
+      "average_finish": 16.0,
       "best_lap_ms": 107975,
       "best_lap": "1:47.975"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260327_190440_R.json",
+      "finished_at": "2026-03-27T19:04:40",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 23,
+      "participants_count": 48,
+      "winner": "Lewis Hamilton",
+      "points": 0,
+      "qualifying_position": 22,
+      "start_position": 22,
+      "start_position_source": "qualifying_player_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": "1:50.545",
+      "best_lap_ms": 110545,
+      "total_time": "18:10.474",
+      "total_time_ms": 1090474,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.67,
+          "after": 16.0,
+          "delta": 2.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109764,
+          "after": 109870,
+          "delta": 106,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -11.0,
+          "after": -6.0,
+          "delta": 5.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1085,
+          "after": 1097,
+          "delta": 12,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1085,
+        "after": 1097,
+        "delta": 12,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
+    {
+      "race_id": "260327_190440_R.json",
+      "finished_at": "2026-03-27T19:04:40",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 31,
+      "participants_count": 48,
+      "winner": "Lewis Hamilton",
+      "points": 0,
+      "qualifying_position": 22,
+      "start_position": 22,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -9,
+      "positions_gained": 0,
+      "positions_lost": 9,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "0:56.525",
+      "total_time_ms": 56525,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 0,
+      "counted_for_stats": false,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.67,
+          "after": 16.0,
+          "delta": 2.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109764,
+          "after": 109870,
+          "delta": 106,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -11.0,
+          "after": -6.0,
+          "delta": 5.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1085,
+          "after": 1097,
+          "delta": 12,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1085,
+        "after": 1097,
+        "delta": 12,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260327_182824_R.json",
       "finished_at": "2026-03-27T18:28:24",
