@@ -3,13 +3,13 @@
   "driver": "Hector L",
   "summary": {
     "points": 2,
-    "average_points_per_race": 2.0,
-    "races": 1,
+    "average_points_per_race": 1.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 9.0,
-    "best_lap": "1:49.327",
-    "best_lap_ms": 109327,
+    "average_finish": 10.5,
+    "best_lap": "1:48.825",
+    "best_lap_ms": 108825,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 23,
     "best_lap_car_name_raw": "Porsche 911II GT3 R (2019)",
@@ -19,67 +19,136 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-27T09:39:08",
-    "last_seen": "2026-03-27T09:39:08",
-    "average_pace_ms": 110067,
-    "average_pace": "1:50.067",
+    "last_race_at": "2026-03-27T10:17:12",
+    "last_seen": "2026-03-27T10:17:12",
+    "average_pace_ms": 109678,
+    "average_pace": "1:49.678",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": null,
-    "positions_delta_races": 0,
-    "championship_rank": 1183,
-    "bestlap_rank": 1158,
+    "average_positions_delta": 0.0,
+    "positions_delta_races": 1,
+    "championship_rank": 1222,
+    "bestlap_rank": 869,
     "latest_changes": {
       "average_finish": {
-        "before": null,
-        "after": 9.0,
-        "delta": null,
-        "trend": "up"
+        "before": 9.0,
+        "after": 10.5,
+        "delta": 1.5,
+        "trend": "down"
       },
       "average_pace_ms": {
+        "before": 110067,
+        "after": 109678,
+        "delta": -389,
+        "trend": "up"
+      },
+      "average_positions_delta": {
         "before": null,
-        "after": 110067,
+        "after": 0.0,
         "delta": null,
         "trend": "up"
       },
       "championship_rank": {
-        "before": 2631,
-        "after": 1183,
-        "delta": -1448,
-        "trend": "up"
-      },
-      "points": {
-        "before": 0,
-        "after": 2,
-        "delta": 2,
-        "trend": "up"
+        "before": 1183,
+        "after": 1222,
+        "delta": 39,
+        "trend": "down"
       },
       "races": {
-        "before": 0,
-        "after": 1,
+        "before": 1,
+        "after": 2,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-27T09:39:08"
+    "latest_change_at": "2026-03-27T10:17:12"
   },
   "recent_form": [
+    12,
     9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 9,
-      "average_finish": 9.0,
-      "best_lap_ms": 109327,
-      "best_lap": "1:49.327"
+      "finish_sum": 21,
+      "average_finish": 10.5,
+      "best_lap_ms": 108825,
+      "best_lap": "1:48.825"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260327_101712_R.json",
+      "finished_at": "2026-03-27T10:17:12",
+      "track": "monza",
+      "car_model_id": 23,
+      "car_name_raw": "Porsche 911II GT3 R (2019)",
+      "car_name": "Porsche 911II GT3 R",
+      "position": 12,
+      "participants_count": 33,
+      "winner": "Watashiwa Kamidesu",
+      "points": 0,
+      "qualifying_position": 12,
+      "start_position": 12,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 0,
+      "positions_gained": 0,
+      "positions_lost": 0,
+      "best_lap": "1:48.825",
+      "best_lap_ms": 108825,
+      "total_time": "21:59.049",
+      "total_time_ms": 1319049,
+      "gap": "0:15.287",
+      "gap_ms": 15287,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.0,
+          "after": 10.5,
+          "delta": 1.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110067,
+          "after": 109678,
+          "delta": -389,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": 0.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1183,
+          "after": 1222,
+          "delta": 39,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1183,
+        "after": 1222,
+        "delta": 39,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260327_093908_R.json",
       "finished_at": "2026-03-27T09:39:08",
