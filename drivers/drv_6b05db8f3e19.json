@@ -3,11 +3,11 @@
   "driver": "Robison Cristian",
   "summary": {
     "points": 1,
-    "average_points_per_race": 1.0,
-    "races": 1,
+    "average_points_per_race": 0.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.0,
+    "average_finish": 11.0,
     "best_lap": "1:50.387",
     "best_lap_ms": 110387,
     "best_lap_track": "monza",
@@ -19,37 +19,137 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-27T22:46:47",
-    "last_seen": "2026-03-27T22:46:47",
-    "average_pace_ms": 112462,
-    "average_pace": "1:52.462",
+    "last_race_at": "2026-03-27T23:23:28",
+    "last_seen": "2026-03-27T23:23:28",
+    "average_pace_ms": 113265,
+    "average_pace": "1:53.265",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 8.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1361,
-    "bestlap_rank": 1804,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-27T23:19:58"
+    "average_positions_delta": 3.5,
+    "positions_delta_races": 2,
+    "championship_rank": 1382,
+    "bestlap_rank": 1807,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.0,
+        "after": 11.0,
+        "delta": 1.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112462,
+        "after": 113265,
+        "delta": 803,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 8.0,
+        "after": 3.5,
+        "delta": -4.5,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1361,
+        "after": 1382,
+        "delta": 21,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-27T23:23:28"
   },
   "recent_form": [
+    12,
     46,
     10
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 10,
-      "average_finish": 10.0,
+      "finish_sum": 22,
+      "average_finish": 11.0,
       "best_lap_ms": 110387,
       "best_lap": "1:50.387"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260327_232328_R.json",
+      "finished_at": "2026-03-27T23:23:28",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 12,
+      "participants_count": 45,
+      "winner": "William Joseph Blazkowicz",
+      "points": 0,
+      "qualifying_position": 11,
+      "start_position": 11,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": "1:50.410",
+      "best_lap_ms": 110410,
+      "total_time": "21:31.158",
+      "total_time_ms": 1291158,
+      "gap": "1:29.250",
+      "gap_ms": 89250,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 11.0,
+          "delta": 1.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112462,
+          "after": 113265,
+          "delta": 803,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 8.0,
+          "after": 3.5,
+          "delta": -4.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1361,
+          "after": 1382,
+          "delta": 21,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1361,
+        "after": 1382,
+        "delta": 21,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260327_224647_R.json",
       "finished_at": "2026-03-27T22:46:47",
