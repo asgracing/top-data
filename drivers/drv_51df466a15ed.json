@@ -4,7 +4,7 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
     "average_finish": 17.0,
@@ -15,48 +15,129 @@
     "best_lap_car_name_raw": "Lexus RC F GT3",
     "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 3,
+    "penalty_count": 4,
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-21T15:57:12",
-    "last_seen": "2026-03-27T12:58:32",
-    "average_pace_ms": 111806,
-    "average_pace": "1:51.806",
+    "last_race_at": "2026-03-27T13:24:40",
+    "last_seen": "2026-03-27T13:24:40",
+    "average_pace_ms": 111314,
+    "average_pace": "1:51.314",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 12.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1755,
-    "bestlap_rank": 1082,
+    "average_positions_delta": -1.0,
+    "positions_delta_races": 2,
+    "championship_rank": 1760,
+    "bestlap_rank": 1035,
     "latest_changes": {
+      "average_pace_ms": {
+        "before": 111806,
+        "after": 111314,
+        "delta": -492,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 12.0,
+        "after": -1.0,
+        "delta": -13.0,
+        "trend": "down"
+      },
       "championship_rank": {
-        "before": 1750,
-        "after": 1755,
+        "before": 1755,
+        "after": 1760,
         "delta": 5,
         "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-27T12:46:14"
+    "latest_change_at": "2026-03-27T13:24:40"
   },
   "recent_form": [
+    17,
     33,
     17
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 17,
+      "finish_sum": 34,
       "average_finish": 17.0,
       "best_lap_ms": 109170,
       "best_lap": "1:49.170"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260327_132440_R.json",
+      "finished_at": "2026-03-27T13:24:40",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 17,
+      "participants_count": 39,
+      "winner": "Igor Popovsky",
+      "points": 0,
+      "qualifying_position": 3,
+      "start_position": 3,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -14,
+      "positions_gained": 0,
+      "positions_lost": 14,
+      "best_lap": "1:49.825",
+      "best_lap_ms": 109825,
+      "total_time": "17:21.818",
+      "total_time_ms": 1041818,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 111806,
+          "after": 111314,
+          "delta": -492,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 12.0,
+          "after": -1.0,
+          "delta": -13.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1755,
+          "after": 1760,
+          "delta": 5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1755,
+        "after": 1760,
+        "delta": 5,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260321_155712_R.json",
       "finished_at": "2026-03-21T15:57:12",
@@ -171,15 +252,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 3,
+    "penalty_count": 4,
     "penalty_points": 3,
     "reasons": {
-      "Cutting": 2,
+      "Cutting": 3,
       "Trolling": 1
     },
     "types": {
       "DriveThrough": 1,
-      "Disqualified": 2
+      "Disqualified": 3
     }
   }
 }
