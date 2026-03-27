@@ -3,8 +3,8 @@
   "driver": "M Haze",
   "summary": {
     "points": 8,
-    "average_points_per_race": 4.0,
-    "races": 2,
+    "average_points_per_race": 2.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
     "average_finish": 16.0,
@@ -19,37 +19,125 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-26T21:09:55",
-    "last_seen": "2026-03-26T21:09:55",
-    "average_pace_ms": 110471,
-    "average_pace": "1:50.471",
+    "last_race_at": "2026-03-27T20:55:25",
+    "last_seen": "2026-03-27T20:55:25",
+    "average_pace_ms": 110063,
+    "average_pace": "1:50.063",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 13.0,
-    "positions_delta_races": 2,
-    "championship_rank": 991,
-    "bestlap_rank": 780,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-27T20:19:00"
+    "average_positions_delta": 10.67,
+    "positions_delta_races": 3,
+    "championship_rank": 994,
+    "bestlap_rank": 781,
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 110471,
+        "after": 110063,
+        "delta": -408,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 13.0,
+        "after": 10.67,
+        "delta": -2.33,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 991,
+        "after": 994,
+        "delta": 3,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-27T20:55:25"
   },
   "recent_form": [
+    16,
     6,
     26
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 32,
+      "finish_sum": 48,
       "average_finish": 16.0,
       "best_lap_ms": 108657,
       "best_lap": "1:48.657"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260327_205525_R.json",
+      "finished_at": "2026-03-27T20:55:25",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 16,
+      "participants_count": 46,
+      "winner": "Antoni Przybyło",
+      "points": 0,
+      "qualifying_position": 22,
+      "start_position": 22,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 6,
+      "positions_gained": 6,
+      "positions_lost": 0,
+      "best_lap": "1:48.825",
+      "best_lap_ms": 108825,
+      "total_time": "13:02.002",
+      "total_time_ms": 782002,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 110471,
+          "after": 110063,
+          "delta": -408,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 13.0,
+          "after": 10.67,
+          "delta": -2.33,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 991,
+          "after": 994,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 991,
+        "after": 994,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260326_210955_R.json",
       "finished_at": "2026-03-26T21:09:55",

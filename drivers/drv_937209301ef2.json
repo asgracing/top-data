@@ -3,11 +3,11 @@
   "driver": "Max Kroos",
   "summary": {
     "points": 4,
-    "average_points_per_race": 2.0,
-    "races": 2,
+    "average_points_per_race": 1.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 13.5,
+    "average_finish": 17.67,
     "best_lap": "1:48.692",
     "best_lap_ms": 108692,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T18:40:37",
-    "last_seen": "2026-03-22T18:40:37",
+    "last_race_at": "2026-03-27T20:55:25",
+    "last_seen": "2026-03-27T20:55:25",
     "average_pace_ms": 111047,
     "average_pace": "1:51.047",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -14.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1184,
-    "bestlap_rank": 812,
+    "average_positions_delta": -17.0,
+    "positions_delta_races": 2,
+    "championship_rank": 1209,
+    "bestlap_rank": 813,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1182,
-        "after": 1184,
-        "delta": 2,
+      "average_finish": {
+        "before": 13.5,
+        "after": 17.67,
+        "delta": 4.17,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -14.0,
+        "after": -17.0,
+        "delta": -3.0,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1184,
+        "after": 1209,
+        "delta": 25,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-27T20:19:00"
+    "latest_change_at": "2026-03-27T20:55:25"
   },
   "recent_form": [
+    26,
     19,
     45,
     8,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 27,
-      "average_finish": 13.5,
+      "finish_sum": 53,
+      "average_finish": 17.67,
       "best_lap_ms": 108977,
       "best_lap": "1:48.977"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260327_205525_R.json",
+      "finished_at": "2026-03-27T20:55:25",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 26,
+      "participants_count": 46,
+      "winner": "Antoni Przybyło",
+      "points": 0,
+      "qualifying_position": 6,
+      "start_position": 6,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -20,
+      "positions_gained": 0,
+      "positions_lost": 20,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "2:13.337",
+      "total_time_ms": 133337,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.5,
+          "after": 17.67,
+          "delta": 4.17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -14.0,
+          "after": -17.0,
+          "delta": -3.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1184,
+          "after": 1209,
+          "delta": 25,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1184,
+        "after": 1209,
+        "delta": 25,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260322_184037_R.json",
       "finished_at": "2026-03-22T18:40:37",
