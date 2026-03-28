@@ -3,11 +3,11 @@
   "driver": "Ali Farid",
   "summary": {
     "points": 37,
-    "average_points_per_race": 18.5,
-    "races": 2,
+    "average_points_per_race": 12.33,
+    "races": 3,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 2.5,
+    "average_finish": 8.67,
     "best_lap": "1:48.112",
     "best_lap_ms": 108112,
     "best_lap_track": "monza",
@@ -19,20 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T04:16:04",
-    "last_seen": "2026-03-28T04:16:04",
+    "last_race_at": "2026-03-28T04:52:15",
+    "last_seen": "2026-03-28T04:52:15",
     "average_pace_ms": 109510,
     "average_pace": "1:49.510",
-    "win_rate": 50.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 1.5,
-    "positions_delta_races": 2,
-    "championship_rank": 176,
+    "win_rate": 33.33,
+    "podium_rate": 33.33,
+    "average_positions_delta": 4.33,
+    "positions_delta_races": 3,
+    "championship_rank": 180,
     "bestlap_rank": 439,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-28T04:16:04"
+    "latest_changes": {
+      "average_finish": {
+        "before": 2.5,
+        "after": 8.67,
+        "delta": 6.17,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.5,
+        "after": 4.33,
+        "delta": 2.83,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 176,
+        "after": 180,
+        "delta": 4,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-28T04:52:15"
   },
   "recent_form": [
+    21,
     40,
     4,
     1
@@ -40,17 +66,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 1,
       "podiums": 1,
       "points": 37,
-      "finish_sum": 5,
-      "average_finish": 2.5,
+      "finish_sum": 26,
+      "average_finish": 8.67,
       "best_lap_ms": 108112,
       "best_lap": "1:48.112"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260328_045215_R.json",
+      "finished_at": "2026-03-28T04:52:15",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 21,
+      "participants_count": 43,
+      "winner": "Artem Tsurosaki",
+      "points": 0,
+      "qualifying_position": 31,
+      "start_position": 31,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 10,
+      "positions_gained": 10,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "8:21.905",
+      "total_time_ms": 501905,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.5,
+          "after": 8.67,
+          "delta": 6.17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.5,
+          "after": 4.33,
+          "delta": 2.83,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 176,
+          "after": 180,
+          "delta": 4,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 176,
+        "after": 180,
+        "delta": 4,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_041604_R.json",
       "finished_at": "2026-03-28T04:16:04",
