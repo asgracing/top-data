@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 2,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 22.0,
+    "average_finish": 21.67,
     "best_lap": "1:48.177",
     "best_lap_ms": 108177,
     "best_lap_track": "monza",
@@ -15,44 +15,131 @@
     "best_lap_car_name_raw": "Audi R8 LMS GT3 evo II",
     "best_lap_car_name": "Audi R8 LMS GT3 evo II",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 0,
+    "penalty_count": 4,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T19:52:48",
-    "last_seen": "2026-03-28T19:52:48",
+    "last_race_at": "2026-03-28T20:30:42",
+    "last_seen": "2026-03-28T20:30:42",
     "average_pace_ms": 109740,
     "average_pace": "1:49.740",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 4.5,
-    "positions_delta_races": 2,
-    "championship_rank": 2344,
+    "average_positions_delta": 0.67,
+    "positions_delta_races": 3,
+    "championship_rank": 2346,
     "bestlap_rank": 522,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-28T20:22:33"
+    "latest_changes": {
+      "average_finish": {
+        "before": 22.0,
+        "after": 21.67,
+        "delta": -0.33,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 4.5,
+        "after": 0.67,
+        "delta": -3.83,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2344,
+        "after": 2346,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-28T20:30:42"
   },
   "recent_form": [
+    21,
     23,
     46,
     24,
-    21,
-    40
+    21
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 44,
-      "average_finish": 22.0,
+      "finish_sum": 65,
+      "average_finish": 21.67,
       "best_lap_ms": 108177,
       "best_lap": "1:48.177"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260328_203042_R.json",
+      "finished_at": "2026-03-28T20:30:42",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 21,
+      "participants_count": 47,
+      "winner": "Sergey Smolin",
+      "points": 0,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -7,
+      "positions_gained": 0,
+      "positions_lost": 7,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "5:49.681",
+      "total_time_ms": 349681,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 22.0,
+          "after": 21.67,
+          "delta": -0.33,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 4.5,
+          "after": 0.67,
+          "delta": -3.83,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2344,
+          "after": 2346,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2344,
+        "after": 2346,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_195248_R.json",
       "finished_at": "2026-03-28T19:52:48",
@@ -411,14 +498,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 0,
+    "penalty_count": 4,
+    "penalty_points": 1,
     "reasons": {
-      "None": 2
+      "None": 3,
+      "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 1,
-      "Disqualified": 1
+      "DriveThrough": 2,
+      "Disqualified": 1,
+      "StopAndGo_30": 1
     }
   }
 }
