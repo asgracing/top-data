@@ -3,11 +3,11 @@
   "driver": "Alexander Korrekt-63",
   "summary": {
     "points": 17,
-    "average_points_per_race": 2.83,
-    "races": 6,
+    "average_points_per_race": 2.43,
+    "races": 7,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.83,
+    "average_finish": 13.0,
     "best_lap": "1:51.085",
     "best_lap_ms": 111085,
     "best_lap_track": "monza",
@@ -15,51 +15,114 @@
     "best_lap_car_name_raw": "Audi R8 LMS Evo (2019)",
     "best_lap_car_name": "Audi R8 LMS Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
+    "penalty_count": 2,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T21:47:55",
-    "last_seen": "2026-03-22T21:47:55",
-    "average_pace_ms": 113831,
-    "average_pace": "1:53.831",
+    "last_race_at": "2026-03-29T00:48:39",
+    "last_seen": "2026-03-29T00:48:39",
+    "average_pace_ms": 113859,
+    "average_pace": "1:53.859",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 8.8,
     "positions_delta_races": 5,
     "championship_rank": 616,
-    "bestlap_rank": 2274,
+    "bestlap_rank": 2280,
     "latest_changes": {
-      "championship_rank": {
-        "before": 614,
-        "after": 616,
-        "delta": 2,
+      "average_finish": {
+        "before": 11.83,
+        "after": 13.0,
+        "delta": 1.17,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 113831,
+        "after": 113859,
+        "delta": 28,
+        "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-29T00:12:08"
+    "latest_change_at": "2026-03-29T00:48:39"
   },
   "recent_form": [
+    20,
     29,
     6,
     40,
-    11,
-    32
+    11
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 0,
       "points": 17,
-      "finish_sum": 71,
-      "average_finish": 11.83,
+      "finish_sum": 91,
+      "average_finish": 13.0,
       "best_lap_ms": 111085,
       "best_lap": "1:51.085"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260329_004839_R.json",
+      "finished_at": "2026-03-29T00:48:39",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 20,
+      "participants_count": 46,
+      "winner": "GNV MTogi",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:53.905",
+      "best_lap_ms": 113905,
+      "total_time": "16:40.022",
+      "total_time_ms": 1000022,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.83,
+          "after": 13.0,
+          "delta": 1.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 113831,
+          "after": 113859,
+          "delta": 28,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260322_214755_R.json",
       "finished_at": "2026-03-22T21:47:55",
@@ -688,9 +751,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 2,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "Cutting": 2
+    },
+    "types": {
+      "StopAndGo_10": 1,
+      "Disqualified": 1
+    }
   }
 }

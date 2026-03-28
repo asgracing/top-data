@@ -3,11 +3,11 @@
   "driver": "Kirill Bulgakov",
   "summary": {
     "points": 742,
-    "average_points_per_race": 9.76,
-    "races": 76,
+    "average_points_per_race": 9.64,
+    "races": 77,
     "wins": 10,
     "podiums": 31,
-    "average_finish": 10.36,
+    "average_finish": 10.58,
     "best_lap": "1:46.750",
     "best_lap_ms": 106750,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "Audi R8 LMS GT3 evo II",
     "best_lap_car_name": "Audi R8 LMS GT3 evo II",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 6,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "fastest_lap_awards": 32,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-29T00:12:08",
-    "last_seen": "2026-03-29T00:12:08",
-    "average_pace_ms": 109184,
-    "average_pace": "1:49.184",
-    "win_rate": 13.16,
-    "podium_rate": 40.79,
-    "average_positions_delta": 5.77,
-    "positions_delta_races": 74,
+    "last_race_at": "2026-03-29T00:48:39",
+    "last_seen": "2026-03-29T00:48:39",
+    "average_pace_ms": 109230,
+    "average_pace": "1:49.230",
+    "win_rate": 12.99,
+    "podium_rate": 40.26,
+    "average_positions_delta": 5.57,
+    "positions_delta_races": 75,
     "championship_rank": 3,
     "bestlap_rank": 16,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-29T00:12:08"
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.36,
+        "after": 10.58,
+        "delta": 0.22,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109184,
+        "after": 109230,
+        "delta": 46,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 5.77,
+        "after": 5.57,
+        "delta": -0.2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 76,
+        "after": 77,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-29T00:48:39"
   },
   "recent_form": [
     28,
+    28,
     20,
     15,
-    28,
-    38
+    28
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 76,
+      "races": 77,
       "wins": 10,
       "podiums": 31,
       "points": 742,
-      "finish_sum": 787,
-      "average_finish": 10.36,
+      "finish_sum": 815,
+      "average_finish": 10.58,
       "best_lap_ms": 106750,
       "best_lap": "1:46.750"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260329_004839_R.json",
+      "finished_at": "2026-03-29T00:48:39",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 28,
+      "participants_count": 46,
+      "winner": "GNV MTogi",
+      "points": 0,
+      "qualifying_position": 19,
+      "start_position": 19,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -9,
+      "positions_gained": 0,
+      "positions_lost": 9,
+      "best_lap": "2:10.667",
+      "best_lap_ms": 130667,
+      "total_time": "3:33.385",
+      "total_time_ms": 213385,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 10.36,
+          "after": 10.58,
+          "delta": 0.22,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109184,
+          "after": 109230,
+          "delta": 46,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 5.77,
+          "after": 5.57,
+          "delta": -0.2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 76,
+          "after": 77,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260329_001208_R.json",
       "finished_at": "2026-03-29T00:12:08",
@@ -7638,14 +7720,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 6,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "reasons": {
-      "None": 1,
+      "None": 2,
       "Cutting": 1
     },
     "types": {
-      "DriveThrough": 2
+      "DriveThrough": 3
     }
   }
 }
