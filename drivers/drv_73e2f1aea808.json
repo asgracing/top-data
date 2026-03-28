@@ -3,11 +3,11 @@
   "driver": "Diego Callejas",
   "summary": {
     "points": 1,
-    "average_points_per_race": 0.33,
-    "races": 3,
+    "average_points_per_race": 0.25,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.0,
+    "average_finish": 16.5,
     "best_lap": "1:51.650",
     "best_lap_ms": 111650,
     "best_lap_track": "monza",
@@ -15,49 +15,50 @@
     "best_lap_car_name_raw": "Honda NSX Evo (2019)",
     "best_lap_car_name": "Honda NSX Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T06:44:34",
-    "last_seen": "2026-03-28T06:44:34",
+    "last_race_at": "2026-03-28T07:22:37",
+    "last_seen": "2026-03-28T07:22:37",
     "average_pace_ms": 113428,
     "average_pace": "1:53.428",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -4.0,
-    "positions_delta_races": 2,
-    "championship_rank": 1461,
-    "bestlap_rank": 2258,
+    "average_positions_delta": -6.0,
+    "positions_delta_races": 3,
+    "championship_rank": 1472,
+    "bestlap_rank": 2265,
     "latest_changes": {
       "average_finish": {
-        "before": 14.5,
-        "after": 16.0,
-        "delta": 1.5,
+        "before": 16.0,
+        "after": 16.5,
+        "delta": 0.5,
         "trend": "down"
       },
-      "average_pace_ms": {
-        "before": 113527,
-        "after": 113428,
-        "delta": -99,
-        "trend": "up"
+      "average_positions_delta": {
+        "before": -4.0,
+        "after": -6.0,
+        "delta": -2.0,
+        "trend": "down"
       },
       "championship_rank": {
-        "before": 1444,
-        "after": 1461,
-        "delta": 17,
+        "before": 1461,
+        "after": 1472,
+        "delta": 11,
         "trend": "down"
       },
       "races": {
-        "before": 2,
-        "after": 3,
+        "before": 3,
+        "after": 4,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-28T06:44:34"
+    "latest_change_at": "2026-03-28T07:22:37"
   },
   "recent_form": [
+    18,
     19,
     26,
     10,
@@ -66,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 48,
-      "average_finish": 16.0,
+      "finish_sum": 66,
+      "average_finish": 16.5,
       "best_lap_ms": 111650,
       "best_lap": "1:51.650"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260328_072237_R.json",
+      "finished_at": "2026-03-28T07:22:37",
+      "track": "monza",
+      "car_model_id": 21,
+      "car_name_raw": "Honda NSX Evo (2019)",
+      "car_name": "Honda NSX Evo",
+      "position": 18,
+      "participants_count": 38,
+      "winner": "RAPHAEL OLIVEIRA",
+      "points": 0,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -10,
+      "positions_gained": 0,
+      "positions_lost": 10,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "23:28.653",
+      "total_time_ms": 1408653,
+      "gap": "1:39.694",
+      "gap_ms": 99694,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 16.0,
+          "after": 16.5,
+          "delta": 0.5,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -4.0,
+          "after": -6.0,
+          "delta": -2.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1461,
+          "after": 1472,
+          "delta": 11,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1461,
+        "after": 1472,
+        "delta": 11,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_064434_R.json",
       "finished_at": "2026-03-28T06:44:34",
@@ -327,9 +390,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "PitSpeeding": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_30": 1,
+      "None": 1
+    }
   }
 }
