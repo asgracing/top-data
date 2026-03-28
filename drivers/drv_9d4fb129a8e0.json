@@ -3,43 +3,56 @@
   "driver": "BEAM APISIT",
   "summary": {
     "points": 8,
-    "average_points_per_race": 2.67,
-    "races": 3,
+    "average_points_per_race": 2.0,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
     "average_finish": 13.0,
-    "best_lap": "1:48.675",
-    "best_lap_ms": 108675,
+    "best_lap": "1:47.790",
+    "best_lap_ms": 107790,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 35,
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
-    "best_lap_session_type": "Q",
+    "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T11:14:33",
-    "last_seen": "2026-03-22T11:14:33",
-    "average_pace_ms": 110627,
-    "average_pace": "1:50.627",
+    "last_race_at": "2026-03-28T11:37:35",
+    "last_seen": "2026-03-28T11:37:35",
+    "average_pace_ms": 109859,
+    "average_pace": "1:49.859",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -5.0,
     "positions_delta_races": 2,
-    "championship_rank": 1046,
-    "bestlap_rank": 852,
+    "championship_rank": 1049,
+    "bestlap_rank": 274,
     "latest_changes": {
+      "average_pace_ms": {
+        "before": 110627,
+        "after": 109859,
+        "delta": -768,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 1045,
-        "after": 1046,
-        "delta": 1,
+        "before": 1046,
+        "after": 1049,
+        "delta": 3,
         "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-28T11:00:18"
+    "latest_change_at": "2026-03-28T11:37:35"
   },
   "recent_form": [
+    13,
     6,
     16,
     17
@@ -47,17 +60,73 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 39,
+      "finish_sum": 52,
       "average_finish": 13.0,
-      "best_lap_ms": 109267,
-      "best_lap": "1:49.267"
+      "best_lap_ms": 107790,
+      "best_lap": "1:47.790"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260328_113735_R.json",
+      "finished_at": "2026-03-28T11:37:35",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 13,
+      "participants_count": 45,
+      "winner": "Man in Tights",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.790",
+      "best_lap_ms": 107790,
+      "total_time": "20:54.679",
+      "total_time_ms": 1254679,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 110627,
+          "after": 109859,
+          "delta": -768,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1046,
+          "after": 1049,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1046,
+        "after": 1049,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260322_111433_R.json",
       "finished_at": "2026-03-22T11:14:33",
