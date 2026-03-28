@@ -3,11 +3,11 @@
   "driver": "Jony Skrepka",
   "summary": {
     "points": 18,
-    "average_points_per_race": 18.0,
-    "races": 1,
+    "average_points_per_race": 9.0,
+    "races": 2,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 2.0,
+    "average_finish": 13.0,
     "best_lap": "1:47.405",
     "best_lap_ms": 107405,
     "best_lap_track": "monza",
@@ -19,37 +19,206 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T19:14:46",
-    "last_seen": "2026-03-28T19:14:46",
-    "average_pace_ms": 109172,
-    "average_pace": "1:49.172",
+    "last_race_at": "2026-03-28T19:52:48",
+    "last_seen": "2026-03-28T19:52:48",
+    "average_pace_ms": 109161,
+    "average_pace": "1:49.161",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
-    "average_positions_delta": 4.0,
-    "positions_delta_races": 1,
-    "championship_rank": 502,
+    "podium_rate": 50.0,
+    "average_positions_delta": -8.5,
+    "positions_delta_races": 2,
+    "championship_rank": 560,
     "bestlap_rank": 133,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-28T19:49:47"
+    "latest_changes": {
+      "average_finish": {
+        "before": 2.0,
+        "after": 13.0,
+        "delta": 11.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109172,
+        "after": 109161,
+        "delta": -11,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 4.0,
+        "after": -8.5,
+        "delta": -12.5,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 502,
+        "after": 560,
+        "delta": 58,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-28T19:52:48"
   },
   "recent_form": [
+    24,
+    36,
     2,
     30
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 1,
       "points": 18,
-      "finish_sum": 2,
-      "average_finish": 2.0,
+      "finish_sum": 26,
+      "average_finish": 13.0,
       "best_lap_ms": 107405,
       "best_lap": "1:47.405"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260328_195248_R.json",
+      "finished_at": "2026-03-28T19:52:48",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 24,
+      "participants_count": 42,
+      "winner": "Lando Noris",
+      "points": 0,
+      "qualifying_position": 3,
+      "start_position": 3,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -21,
+      "positions_gained": 0,
+      "positions_lost": 21,
+      "best_lap": "1:48.207",
+      "best_lap_ms": 108207,
+      "total_time": "6:12.856",
+      "total_time_ms": 372856,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.0,
+          "after": 13.0,
+          "delta": 11.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109172,
+          "after": 109161,
+          "delta": -11,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 4.0,
+          "after": -8.5,
+          "delta": -12.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 502,
+          "after": 560,
+          "delta": 58,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 502,
+        "after": 560,
+        "delta": 58,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
+    {
+      "race_id": "260328_195248_R.json",
+      "finished_at": "2026-03-28T19:52:48",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 36,
+      "participants_count": 42,
+      "winner": "Lando Noris",
+      "points": 0,
+      "qualifying_position": 23,
+      "start_position": 23,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -13,
+      "positions_gained": 0,
+      "positions_lost": 13,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": null,
+      "total_time_ms": null,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 0,
+      "counted_for_stats": false,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.0,
+          "after": 13.0,
+          "delta": 11.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109172,
+          "after": 109161,
+          "delta": -11,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 4.0,
+          "after": -8.5,
+          "delta": -12.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 502,
+          "after": 560,
+          "delta": 58,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 502,
+        "after": 560,
+        "delta": 58,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_191446_R.json",
       "finished_at": "2026-03-28T19:14:46",

@@ -3,11 +3,11 @@
   "driver": "Kevin Barriere",
   "summary": {
     "points": 10,
-    "average_points_per_race": 3.33,
-    "races": 3,
+    "average_points_per_race": 2.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.33,
+    "average_finish": 11.25,
     "best_lap": "1:48.975",
     "best_lap_ms": 108975,
     "best_lap_track": "monza",
@@ -19,20 +19,52 @@
     "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T19:14:46",
-    "last_seen": "2026-03-28T19:14:46",
-    "average_pace_ms": 111244,
-    "average_pace": "1:51.244",
+    "last_race_at": "2026-03-28T19:52:48",
+    "last_seen": "2026-03-28T19:52:48",
+    "average_pace_ms": 111243,
+    "average_pace": "1:51.243",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 22.5,
-    "positions_delta_races": 2,
-    "championship_rank": 947,
+    "average_positions_delta": 20.67,
+    "positions_delta_races": 3,
+    "championship_rank": 948,
     "bestlap_rank": 1117,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-28T19:49:47"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.33,
+        "after": 11.25,
+        "delta": -0.08,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 111244,
+        "after": 111243,
+        "delta": -1,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 22.5,
+        "after": 20.67,
+        "delta": -1.83,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 947,
+        "after": 948,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-28T19:52:48"
   },
   "recent_form": [
+    11,
     12,
     5,
     17,
@@ -41,17 +73,85 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 34,
-      "average_finish": 11.33,
+      "finish_sum": 45,
+      "average_finish": 11.25,
       "best_lap_ms": 108975,
       "best_lap": "1:48.975"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260328_195248_R.json",
+      "finished_at": "2026-03-28T19:52:48",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 11,
+      "participants_count": 42,
+      "winner": "Lando Noris",
+      "points": 0,
+      "qualifying_position": 28,
+      "start_position": 28,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 17,
+      "positions_gained": 17,
+      "positions_lost": 0,
+      "best_lap": "1:49.125",
+      "best_lap_ms": 109125,
+      "total_time": "22:40.097",
+      "total_time_ms": 1360097,
+      "gap": "1:07.667",
+      "gap_ms": 67667,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.33,
+          "after": 11.25,
+          "delta": -0.08,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111244,
+          "after": 111243,
+          "delta": -1,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 22.5,
+          "after": 20.67,
+          "delta": -1.83,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 947,
+          "after": 948,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 947,
+        "after": 948,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_191446_R.json",
       "finished_at": "2026-03-28T19:14:46",
