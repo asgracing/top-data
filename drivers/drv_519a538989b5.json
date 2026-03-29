@@ -3,11 +3,11 @@
   "driver": "Holli D.",
   "summary": {
     "points": 50,
-    "average_points_per_race": 10.0,
-    "races": 5,
+    "average_points_per_race": 8.33,
+    "races": 6,
     "wins": 2,
     "podiums": 2,
-    "average_finish": 12.2,
+    "average_finish": 12.83,
     "best_lap": "1:47.195",
     "best_lap_ms": 107195,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
     "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 2,
-    "penalty_points": 2,
+    "penalty_count": 3,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-15T15:45:07",
-    "last_seen": "2026-03-15T15:45:07",
-    "average_pace_ms": 108063,
-    "average_pace": "1:48.063",
-    "win_rate": 40.0,
-    "podium_rate": 40.0,
-    "average_positions_delta": -7.25,
-    "positions_delta_races": 4,
+    "last_race_at": "2026-03-29T12:39:33",
+    "last_seen": "2026-03-29T12:39:33",
+    "average_pace_ms": 108000,
+    "average_pace": "1:48.000",
+    "win_rate": 33.33,
+    "podium_rate": 33.33,
+    "average_positions_delta": -8.6,
+    "positions_delta_races": 5,
     "championship_rank": 134,
     "bestlap_rank": 73,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-29T12:01:31"
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.2,
+        "after": 12.83,
+        "delta": 0.63,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108063,
+        "after": 108000,
+        "delta": -63,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -7.25,
+        "after": -8.6,
+        "delta": -1.35,
+        "trend": "down"
+      },
+      "races": {
+        "before": 5,
+        "after": 6,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-29T12:39:33"
   },
   "recent_form": [
+    16,
     11,
     1,
     22,
-    1,
-    26
+    1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 2,
       "podiums": 2,
       "points": 50,
-      "finish_sum": 61,
-      "average_finish": 12.2,
+      "finish_sum": 77,
+      "average_finish": 12.83,
       "best_lap_ms": 107272,
       "best_lap": "1:47.272"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260329_123933_R.json",
+      "finished_at": "2026-03-29T12:39:33",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 16,
+      "participants_count": 48,
+      "winner": "Pro Le Hung",
+      "points": 0,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -14,
+      "positions_gained": 0,
+      "positions_lost": 14,
+      "best_lap": "1:47.345",
+      "best_lap_ms": 107345,
+      "total_time": "21:36.111",
+      "total_time_ms": 1296111,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 12.2,
+          "after": 12.83,
+          "delta": 0.63,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108063,
+          "after": 108000,
+          "delta": -63,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -7.25,
+          "after": -8.6,
+          "delta": -1.35,
+          "trend": "down"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260315_154507_R.json",
       "finished_at": "2026-03-15T15:45:07",
@@ -402,13 +484,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 2,
+    "penalty_count": 3,
+    "penalty_points": 3,
     "reasons": {
-      "Cutting": 2
+      "Cutting": 3
     },
     "types": {
-      "DriveThrough": 1,
+      "DriveThrough": 2,
       "Disqualified": 1
     }
   }
