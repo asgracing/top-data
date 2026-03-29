@@ -3,11 +3,11 @@
   "driver": "Alexey Shustov",
   "summary": {
     "points": 711,
-    "average_points_per_race": 7.65,
-    "races": 93,
+    "average_points_per_race": 7.56,
+    "races": 94,
     "wins": 7,
     "podiums": 21,
-    "average_finish": 7.83,
+    "average_finish": 7.93,
     "best_lap": "1:48.115",
     "best_lap_ms": 108115,
     "best_lap_track": "monza",
@@ -15,75 +15,126 @@
     "best_lap_car_name_raw": "Aston Martin V12 Vantage GT3",
     "best_lap_car_name": "Aston Martin V12 Vantage GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 6,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-29T23:50:30",
-    "last_seen": "2026-03-29T23:50:30",
-    "average_pace_ms": 110632,
-    "average_pace": "1:50.632",
-    "win_rate": 7.53,
-    "podium_rate": 22.58,
-    "average_positions_delta": 8.56,
-    "positions_delta_races": 91,
+    "last_race_at": "2026-03-30T00:27:46",
+    "last_seen": "2026-03-30T00:27:46",
+    "average_pace_ms": 110649,
+    "average_pace": "1:50.649",
+    "win_rate": 7.45,
+    "podium_rate": 22.34,
+    "average_positions_delta": 8.46,
+    "positions_delta_races": 92,
     "championship_rank": 4,
-    "bestlap_rank": 533,
+    "bestlap_rank": 536,
     "latest_changes": {
       "average_finish": {
-        "before": 7.84,
-        "after": 7.83,
-        "delta": -0.01,
-        "trend": "up"
+        "before": 7.83,
+        "after": 7.93,
+        "delta": 0.1,
+        "trend": "down"
       },
       "average_pace_ms": {
-        "before": 110621,
-        "after": 110632,
-        "delta": 11,
+        "before": 110632,
+        "after": 110649,
+        "delta": 17,
         "trend": "down"
       },
       "average_positions_delta": {
-        "before": 8.46,
-        "after": 8.56,
-        "delta": 0.1,
-        "trend": "up"
-      },
-      "points": {
-        "before": 705,
-        "after": 711,
-        "delta": 6,
-        "trend": "up"
+        "before": 8.56,
+        "after": 8.46,
+        "delta": -0.1,
+        "trend": "down"
       },
       "races": {
-        "before": 92,
-        "after": 93,
+        "before": 93,
+        "after": 94,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-29T23:50:30"
+    "latest_change_at": "2026-03-30T00:27:46"
   },
   "recent_form": [
+    17,
     7,
     8,
     10,
-    5,
-    24
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 93,
+      "races": 94,
       "wins": 7,
       "podiums": 21,
       "points": 711,
-      "finish_sum": 728,
-      "average_finish": 7.83,
+      "finish_sum": 745,
+      "average_finish": 7.93,
       "best_lap_ms": 108115,
       "best_lap": "1:48.115"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_002746_R.json",
+      "finished_at": "2026-03-30T00:27:46",
+      "track": "monza",
+      "car_model_id": 12,
+      "car_name_raw": "Aston Martin V12 Vantage GT3",
+      "car_name": "Aston Martin V12 Vantage GT3",
+      "position": 17,
+      "participants_count": 39,
+      "winner": "Urko Alonso",
+      "points": 0,
+      "qualifying_position": 16,
+      "start_position": 16,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": "1:50.200",
+      "best_lap_ms": 110200,
+      "total_time": "21:08.128",
+      "total_time_ms": 1268128,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 7.83,
+          "after": 7.93,
+          "delta": 0.1,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110632,
+          "after": 110649,
+          "delta": 17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 8.56,
+          "after": 8.46,
+          "delta": -0.1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 93,
+          "after": 94,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260329_235030_R.json",
       "finished_at": "2026-03-29T23:50:30",
@@ -7299,9 +7350,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_20": 1
+    }
   }
 }
