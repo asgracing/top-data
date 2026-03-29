@@ -3,48 +3,141 @@
   "driver": "Aleksey Garbar",
   "summary": {
     "points": 0,
-    "average_points_per_race": 0,
-    "races": 0,
+    "average_points_per_race": 0.0,
+    "races": 1,
     "wins": 0,
     "podiums": 0,
-    "average_finish": null,
-    "best_lap": null,
-    "best_lap_ms": null,
-    "best_lap_track": null,
-    "best_lap_car_model_id": null,
-    "best_lap_car_name_raw": null,
-    "best_lap_car_name": null,
-    "best_lap_session_type": null,
+    "average_finish": 23.0,
+    "best_lap": "1:51.350",
+    "best_lap_ms": 111350,
+    "best_lap_track": "monza",
+    "best_lap_car_model_id": 15,
+    "best_lap_car_name_raw": "Lexus RC F GT3",
+    "best_lap_car_name": "Lexus RC F GT3",
+    "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
-    "most_raced_track": null,
-    "last_race_at": "2026-03-29T18:02:53",
-    "last_seen": "2026-03-29T18:02:53",
-    "average_pace_ms": null,
-    "average_pace": null,
-    "win_rate": 0,
-    "podium_rate": 0,
+    "most_raced_track": "monza",
+    "last_race_at": "2026-03-29T18:13:22",
+    "last_seen": "2026-03-29T18:13:22",
+    "average_pace_ms": 111394,
+    "average_pace": "1:51.394",
+    "win_rate": 0.0,
+    "podium_rate": 0.0,
     "average_positions_delta": null,
     "positions_delta_races": 0,
-    "championship_rank": 2901,
-    "bestlap_rank": null,
+    "championship_rank": 2597,
+    "bestlap_rank": 2480,
     "latest_changes": {
+      "average_finish": {
+        "before": null,
+        "after": 23.0,
+        "delta": null,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": null,
+        "after": 111394,
+        "delta": null,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 2895,
-        "after": 2901,
-        "delta": 6,
-        "trend": "down"
+        "before": 2901,
+        "after": 2597,
+        "delta": -304,
+        "trend": "up"
+      },
+      "races": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-29T18:02:53"
+    "latest_change_at": "2026-03-29T18:13:22"
   },
   "recent_form": [
+    23,
     11,
     25
   ],
-  "track_stats": [],
+  "track_stats": [
+    {
+      "track": "monza",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "points": 0,
+      "finish_sum": 23,
+      "average_finish": 23.0,
+      "best_lap_ms": 111350,
+      "best_lap": "1:51.350"
+    }
+  ],
   "race_history": [
+    {
+      "race_id": "260329_181322_R.json",
+      "finished_at": "2026-03-29T18:13:22",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 23,
+      "participants_count": 52,
+      "winner": "Alexander Fröschke",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.350",
+      "best_lap_ms": 111350,
+      "total_time": "22:39.406",
+      "total_time_ms": 1359406,
+      "gap": "0:55.122",
+      "gap_ms": 55122,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": null,
+          "after": 23.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": null,
+          "after": 111394,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2901,
+          "after": 2597,
+          "delta": -304,
+          "trend": "up"
+        },
+        "races": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2901,
+        "after": 2597,
+        "delta": -304,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260329_180253_R.json",
       "finished_at": "2026-03-29T18:02:53",
