@@ -3,43 +3,62 @@
   "driver": "Dmitriy Shazz",
   "summary": {
     "points": 1,
-    "average_points_per_race": 1.0,
-    "races": 1,
+    "average_points_per_race": 0.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.0,
-    "best_lap": "1:51.100",
-    "best_lap_ms": 111100,
+    "average_finish": 12.5,
+    "best_lap": "1:50.405",
+    "best_lap_ms": 110405,
     "best_lap_track": "monza",
-    "best_lap_car_model_id": 24,
-    "best_lap_car_name_raw": "Ferrari 488 GT3 Evo 2020",
-    "best_lap_car_name": "Ferrari 488 GT3 Evo",
+    "best_lap_car_model_id": 33,
+    "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
+    "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-20T20:03:24",
-    "last_seen": "2026-03-20T20:03:24",
-    "average_pace_ms": 113837,
-    "average_pace": "1:53.837",
+    "last_race_at": "2026-03-29T15:43:02",
+    "last_seen": "2026-03-29T15:43:02",
+    "average_pace_ms": 114581,
+    "average_pace": "1:54.581",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 16.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1611,
-    "bestlap_rank": 2382,
+    "positions_delta_races": 2,
+    "championship_rank": 1627,
+    "bestlap_rank": 2116,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1610,
-        "after": 1611,
-        "delta": 1,
+      "average_finish": {
+        "before": 10.0,
+        "after": 12.5,
+        "delta": 2.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 113837,
+        "after": 114581,
+        "delta": 744,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1578,
+        "after": 1627,
+        "delta": 49,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-29T15:06:35"
+    "latest_change_at": "2026-03-29T15:43:02"
   },
   "recent_form": [
+    15,
     33,
     10,
     35
@@ -47,17 +66,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 10,
-      "average_finish": 10.0,
-      "best_lap_ms": 111100,
-      "best_lap": "1:51.100"
+      "finish_sum": 25,
+      "average_finish": 12.5,
+      "best_lap_ms": 110405,
+      "best_lap": "1:50.405"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260329_154302_R.json",
+      "finished_at": "2026-03-29T15:43:02",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 15,
+      "participants_count": 38,
+      "winner": "Ilja Klassen",
+      "points": 0,
+      "qualifying_position": 31,
+      "start_position": 31,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 16,
+      "positions_gained": 16,
+      "positions_lost": 0,
+      "best_lap": "1:50.405",
+      "best_lap_ms": 110405,
+      "total_time": "21:01.117",
+      "total_time_ms": 1261117,
+      "gap": "0:55.264",
+      "gap_ms": 55264,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 12.5,
+          "delta": 2.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 113837,
+          "after": 114581,
+          "delta": 744,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1578,
+          "after": 1627,
+          "delta": 49,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1578,
+        "after": 1627,
+        "delta": 49,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260320_200324_R.json",
       "finished_at": "2026-03-20T20:03:24",
