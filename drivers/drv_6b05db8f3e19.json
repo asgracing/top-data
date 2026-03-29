@@ -3,8 +3,8 @@
   "driver": "Robison Cristian",
   "summary": {
     "points": 1,
-    "average_points_per_race": 0.33,
-    "races": 3,
+    "average_points_per_race": 0.25,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
     "average_finish": 11.0,
@@ -19,20 +19,46 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-27T23:59:42",
-    "last_seen": "2026-03-27T23:59:42",
-    "average_pace_ms": 113478,
-    "average_pace": "1:53.478",
+    "last_race_at": "2026-03-29T20:45:05",
+    "last_seen": "2026-03-29T20:45:05",
+    "average_pace_ms": 113435,
+    "average_pace": "1:53.435",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 9.33,
-    "positions_delta_races": 3,
-    "championship_rank": 1648,
-    "bestlap_rank": 2145,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-29T20:06:52"
+    "average_positions_delta": 12.25,
+    "positions_delta_races": 4,
+    "championship_rank": 1652,
+    "bestlap_rank": 2151,
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 113478,
+        "after": 113435,
+        "delta": -43,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 9.33,
+        "after": 12.25,
+        "delta": 2.92,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1648,
+        "after": 1652,
+        "delta": 4,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-29T20:45:05"
   },
   "recent_form": [
+    11,
     11,
     12,
     46,
@@ -41,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 33,
+      "finish_sum": 44,
       "average_finish": 11.0,
       "best_lap_ms": 110387,
       "best_lap": "1:50.387"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260329_204505_R.json",
+      "finished_at": "2026-03-29T20:45:05",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 11,
+      "participants_count": 42,
+      "winner": "Szabolcs Ali",
+      "points": 0,
+      "qualifying_position": 32,
+      "start_position": 32,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 21,
+      "positions_gained": 21,
+      "positions_lost": 0,
+      "best_lap": "1:51.860",
+      "best_lap_ms": 111860,
+      "total_time": "21:40.264",
+      "total_time_ms": 1300264,
+      "gap": "0:05.032",
+      "gap_ms": 5032,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 113478,
+          "after": 113435,
+          "delta": -43,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 9.33,
+          "after": 12.25,
+          "delta": 2.92,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1648,
+          "after": 1652,
+          "delta": 4,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1648,
+        "after": 1652,
+        "delta": 4,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260327_235942_R.json",
       "finished_at": "2026-03-27T23:59:42",
