@@ -3,11 +3,11 @@
   "driver": "Remo Mori",
   "summary": {
     "points": 30,
-    "average_points_per_race": 10.0,
-    "races": 3,
+    "average_points_per_race": 7.5,
+    "races": 4,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 6.0,
+    "average_finish": 9.25,
     "best_lap": "1:48.087",
     "best_lap_ms": 108087,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T02:59:10",
-    "last_seen": "2026-03-30T02:59:10",
-    "average_pace_ms": 109501,
-    "average_pace": "1:49.501",
+    "last_race_at": "2026-03-31T00:53:24",
+    "last_seen": "2026-03-31T00:53:24",
+    "average_pace_ms": 109358,
+    "average_pace": "1:49.358",
     "win_rate": 0.0,
-    "podium_rate": 66.67,
+    "podium_rate": 50.0,
     "average_positions_delta": 0.5,
     "positions_delta_races": 2,
-    "championship_rank": 316,
-    "bestlap_rank": 549,
+    "championship_rank": 318,
+    "bestlap_rank": 550,
     "latest_changes": {
+      "average_finish": {
+        "before": 6.0,
+        "after": 9.25,
+        "delta": 3.25,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109501,
+        "after": 109358,
+        "delta": -143,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 314,
-        "after": 316,
+        "before": 316,
+        "after": 318,
         "delta": 2,
         "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-31T00:17:30"
+    "latest_change_at": "2026-03-31T00:53:24"
   },
   "recent_form": [
+    19,
     3,
     3,
     12
@@ -47,17 +66,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 2,
       "points": 30,
-      "finish_sum": 18,
-      "average_finish": 6.0,
+      "finish_sum": 37,
+      "average_finish": 9.25,
       "best_lap_ms": 108087,
       "best_lap": "1:48.087"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_005324_R.json",
+      "finished_at": "2026-03-31T00:53:24",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 19,
+      "participants_count": 40,
+      "winner": "Laszlo Panak",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.135",
+      "best_lap_ms": 108135,
+      "total_time": "21:42.212",
+      "total_time_ms": 1302212,
+      "gap": "1:37.549",
+      "gap_ms": 97549,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 6.0,
+          "after": 9.25,
+          "delta": 3.25,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109501,
+          "after": 109358,
+          "delta": -143,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 316,
+          "after": 318,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 316,
+        "after": 318,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_025910_R.json",
       "finished_at": "2026-03-30T02:59:10",
