@@ -2,14 +2,14 @@
   "public_id": "drv_9e1a74463eaa",
   "driver": "R CM",
   "summary": {
-    "points": 20,
-    "average_points_per_race": 4.0,
-    "races": 5,
+    "points": 26,
+    "average_points_per_race": 4.33,
+    "races": 6,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.2,
-    "best_lap": "1:48.282",
-    "best_lap_ms": 108282,
+    "average_finish": 9.67,
+    "best_lap": "1:48.050",
+    "best_lap_ms": 108050,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 36,
     "best_lap_car_name_raw": "Ford Mustang GT3",
@@ -19,47 +19,151 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-14T01:57:10",
-    "last_seen": "2026-03-14T01:57:10",
-    "average_pace_ms": 110665,
-    "average_pace": "1:50.665",
+    "last_race_at": "2026-03-30T16:46:36",
+    "last_seen": "2026-03-30T16:46:36",
+    "average_pace_ms": 110405,
+    "average_pace": "1:50.405",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 14.0,
-    "positions_delta_races": 4,
-    "championship_rank": 539,
-    "bestlap_rank": 710,
+    "average_positions_delta": 10.8,
+    "positions_delta_races": 5,
+    "championship_rank": 402,
+    "bestlap_rank": 503,
     "latest_changes": {
-      "championship_rank": {
-        "before": 535,
-        "after": 539,
-        "delta": 4,
+      "average_finish": {
+        "before": 10.2,
+        "after": 9.67,
+        "delta": -0.53,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 110665,
+        "after": 110405,
+        "delta": -260,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 14.0,
+        "after": 10.8,
+        "delta": -3.2,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 539,
+        "after": 402,
+        "delta": -137,
+        "trend": "up"
+      },
+      "points": {
+        "before": 20,
+        "after": 26,
+        "delta": 6,
+        "trend": "up"
+      },
+      "races": {
+        "before": 5,
+        "after": 6,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-30T16:08:46"
+    "latest_change_at": "2026-03-30T16:46:36"
   },
   "recent_form": [
+    7,
     15,
     6,
     7,
-    32,
-    7
+    32
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 0,
-      "points": 20,
-      "finish_sum": 51,
-      "average_finish": 10.2,
-      "best_lap_ms": 108282,
-      "best_lap": "1:48.282"
+      "points": 26,
+      "finish_sum": 58,
+      "average_finish": 9.67,
+      "best_lap_ms": 108050,
+      "best_lap": "1:48.050"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_164636_R.json",
+      "finished_at": "2026-03-30T16:46:36",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 7,
+      "participants_count": 39,
+      "winner": "Anton Alipov",
+      "points": 6,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -2,
+      "positions_gained": 0,
+      "positions_lost": 2,
+      "best_lap": "1:48.050",
+      "best_lap_ms": 108050,
+      "total_time": "22:09.256",
+      "total_time_ms": 1329256,
+      "gap": "0:21.239",
+      "gap_ms": 21239,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.2,
+          "after": 9.67,
+          "delta": -0.53,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110665,
+          "after": 110405,
+          "delta": -260,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 14.0,
+          "after": 10.8,
+          "delta": -3.2,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 539,
+          "after": 402,
+          "delta": -137,
+          "trend": "up"
+        },
+        "points": {
+          "before": 20,
+          "after": 26,
+          "delta": 6,
+          "trend": "up"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 539,
+        "after": 402,
+        "delta": -137,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260314_015710_R.json",
       "finished_at": "2026-03-14T01:57:10",
