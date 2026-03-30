@@ -3,11 +3,11 @@
   "driver": "YAMI no N!Nj@",
   "summary": {
     "points": 112,
-    "average_points_per_race": 3.11,
-    "races": 36,
+    "average_points_per_race": 3.03,
+    "races": 37,
     "wins": 1,
     "podiums": 3,
-    "average_finish": 13.19,
+    "average_finish": 13.22,
     "best_lap": "1:48.257",
     "best_lap_ms": 108257,
     "best_lap_track": "monza",
@@ -15,69 +15,126 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T15:32:02",
-    "last_seen": "2026-03-30T15:32:02",
-    "average_pace_ms": 110996,
-    "average_pace": "1:50.996",
-    "win_rate": 2.78,
-    "podium_rate": 8.33,
-    "average_positions_delta": 2.15,
-    "positions_delta_races": 33,
+    "last_race_at": "2026-03-30T16:08:46",
+    "last_seen": "2026-03-30T16:08:46",
+    "average_pace_ms": 111006,
+    "average_pace": "1:51.006",
+    "win_rate": 2.7,
+    "podium_rate": 8.11,
+    "average_positions_delta": 2.09,
+    "positions_delta_races": 34,
     "championship_rank": 44,
-    "bestlap_rank": 688,
+    "bestlap_rank": 690,
     "latest_changes": {
       "average_finish": {
-        "before": 13.09,
-        "after": 13.19,
-        "delta": 0.1,
+        "before": 13.19,
+        "after": 13.22,
+        "delta": 0.03,
         "trend": "down"
       },
       "average_pace_ms": {
-        "before": 110970,
-        "after": 110996,
-        "delta": 26,
+        "before": 110996,
+        "after": 111006,
+        "delta": 10,
         "trend": "down"
       },
       "average_positions_delta": {
-        "before": 2.34,
-        "after": 2.15,
-        "delta": -0.19,
+        "before": 2.15,
+        "after": 2.09,
+        "delta": -0.06,
         "trend": "down"
       },
       "races": {
-        "before": 35,
-        "after": 36,
+        "before": 36,
+        "after": 37,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-30T15:32:02"
+    "latest_change_at": "2026-03-30T16:08:46"
   },
   "recent_form": [
+    14,
     17,
     9,
     22,
-    24,
-    22
+    24
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 36,
+      "races": 37,
       "wins": 1,
       "podiums": 3,
       "points": 112,
-      "finish_sum": 475,
-      "average_finish": 13.19,
+      "finish_sum": 489,
+      "average_finish": 13.22,
       "best_lap_ms": 108257,
       "best_lap": "1:48.257"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_160846_R.json",
+      "finished_at": "2026-03-30T16:08:46",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 14,
+      "participants_count": 40,
+      "winner": "young highnrich",
+      "points": 0,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 0,
+      "positions_gained": 0,
+      "positions_lost": 0,
+      "best_lap": "1:48.492",
+      "best_lap_ms": 108492,
+      "total_time": "21:00.939",
+      "total_time_ms": 1260939,
+      "gap": "0:56.834",
+      "gap_ms": 56834,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 33,
+      "changes": {
+        "average_finish": {
+          "before": 13.19,
+          "after": 13.22,
+          "delta": 0.03,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110996,
+          "after": 111006,
+          "delta": 10,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 2.15,
+          "after": 2.09,
+          "delta": -0.06,
+          "trend": "down"
+        },
+        "races": {
+          "before": 36,
+          "after": 37,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_153202_R.json",
       "finished_at": "2026-03-30T15:32:02",
@@ -4522,9 +4579,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
