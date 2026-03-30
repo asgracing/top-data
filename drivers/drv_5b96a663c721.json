@@ -3,11 +3,11 @@
   "driver": "Arthur Lima",
   "summary": {
     "points": 26,
-    "average_points_per_race": 13.0,
-    "races": 2,
+    "average_points_per_race": 8.67,
+    "races": 3,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 11.0,
+    "average_finish": 16.0,
     "best_lap": "1:47.762",
     "best_lap_ms": 107762,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-27T19:04:40",
-    "last_seen": "2026-03-27T19:04:40",
+    "last_race_at": "2026-03-30T19:57:09",
+    "last_seen": "2026-03-30T19:57:09",
     "average_pace_ms": 108811,
     "average_pace": "1:48.811",
-    "win_rate": 50.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 14.5,
-    "positions_delta_races": 2,
-    "championship_rank": 393,
-    "bestlap_rank": 322,
+    "win_rate": 33.33,
+    "podium_rate": 33.33,
+    "average_positions_delta": 12.33,
+    "positions_delta_races": 3,
+    "championship_rank": 400,
+    "bestlap_rank": 323,
     "latest_changes": {
-      "championship_rank": {
-        "before": 392,
-        "after": 393,
-        "delta": 1,
+      "average_finish": {
+        "before": 11.0,
+        "after": 16.0,
+        "delta": 5.0,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 14.5,
+        "after": 12.33,
+        "delta": -2.17,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 393,
+        "after": 400,
+        "delta": 7,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-30T19:19:18"
+    "latest_change_at": "2026-03-30T19:57:09"
   },
   "recent_form": [
+    26,
     21,
     30,
     1
@@ -47,17 +66,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 1,
       "podiums": 1,
       "points": 26,
-      "finish_sum": 22,
-      "average_finish": 11.0,
+      "finish_sum": 48,
+      "average_finish": 16.0,
       "best_lap_ms": 107762,
       "best_lap": "1:47.762"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_195709_R.json",
+      "finished_at": "2026-03-30T19:57:09",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 26,
+      "participants_count": 44,
+      "winner": "Man in Tights",
+      "points": 0,
+      "qualifying_position": 34,
+      "start_position": 34,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 8,
+      "positions_gained": 8,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "3:24.438",
+      "total_time_ms": 204438,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.0,
+          "after": 16.0,
+          "delta": 5.0,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 14.5,
+          "after": 12.33,
+          "delta": -2.17,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 393,
+          "after": 400,
+          "delta": 7,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 393,
+        "after": 400,
+        "delta": 7,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260327_190440_R.json",
       "finished_at": "2026-03-27T19:04:40",
