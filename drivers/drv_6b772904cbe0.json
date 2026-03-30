@@ -3,11 +3,11 @@
   "driver": "Alexander Zimmer",
   "summary": {
     "points": 14,
-    "average_points_per_race": 1.0,
-    "races": 14,
+    "average_points_per_race": 0.93,
+    "races": 15,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.21,
+    "average_finish": 12.27,
     "best_lap": "1:49.365",
     "best_lap_ms": 109365,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "Porsche 992 GT3 R",
     "best_lap_car_name": "Porsche 992 GT3 R",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 4,
+    "penalty_points": 4,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T16:46:36",
-    "last_seen": "2026-03-30T16:46:36",
-    "average_pace_ms": 112045,
-    "average_pace": "1:52.045",
+    "last_race_at": "2026-03-30T17:24:49",
+    "last_seen": "2026-03-30T17:24:49",
+    "average_pace_ms": 112049,
+    "average_pace": "1:52.049",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 3.57,
-    "positions_delta_races": 14,
+    "average_positions_delta": 3.13,
+    "positions_delta_races": 15,
     "championship_rank": 834,
-    "bestlap_rank": 1598,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-30T16:46:36"
+    "bestlap_rank": 1602,
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.21,
+        "after": 12.27,
+        "delta": 0.06,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112045,
+        "after": 112049,
+        "delta": 4,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 3.57,
+        "after": 3.13,
+        "delta": -0.44,
+        "trend": "down"
+      },
+      "races": {
+        "before": 14,
+        "after": 15,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-30T17:24:49"
   },
   "recent_form": [
+    13,
     32,
     15,
     11,
-    10,
-    30
+    10
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 14,
+      "races": 15,
       "wins": 0,
       "podiums": 0,
       "points": 14,
-      "finish_sum": 171,
-      "average_finish": 12.21,
+      "finish_sum": 184,
+      "average_finish": 12.27,
       "best_lap_ms": 109365,
       "best_lap": "1:49.365"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_172449_R.json",
+      "finished_at": "2026-03-30T17:24:49",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 13,
+      "participants_count": 39,
+      "winner": "William Joseph Blazkowicz",
+      "points": 0,
+      "qualifying_position": 10,
+      "start_position": 10,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -3,
+      "positions_gained": 0,
+      "positions_lost": 3,
+      "best_lap": "1:49.472",
+      "best_lap_ms": 109472,
+      "total_time": "23:09.303",
+      "total_time_ms": 1389303,
+      "gap": "1:26.220",
+      "gap_ms": 86220,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 12.21,
+          "after": 12.27,
+          "delta": 0.06,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112045,
+          "after": 112049,
+          "delta": 4,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 3.57,
+          "after": 3.13,
+          "delta": -0.44,
+          "trend": "down"
+        },
+        "races": {
+          "before": 14,
+          "after": 15,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_164636_R.json",
       "finished_at": "2026-03-30T16:46:36",
@@ -1403,15 +1485,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 4,
+    "penalty_points": 4,
     "reasons": {
       "None": 1,
-      "Cutting": 1
+      "Cutting": 3
     },
     "types": {
-      "DriveThrough": 1,
-      "None": 1
+      "DriveThrough": 2,
+      "None": 2
     }
   }
 }
