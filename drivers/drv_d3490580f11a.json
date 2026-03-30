@@ -3,11 +3,11 @@
   "driver": "I Am Noob",
   "summary": {
     "points": 27,
-    "average_points_per_race": 1.69,
-    "races": 16,
+    "average_points_per_race": 1.59,
+    "races": 17,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.94,
+    "average_finish": 15.12,
     "best_lap": "1:49.315",
     "best_lap_ms": 109315,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T12:25:44",
-    "last_seen": "2026-03-30T12:25:44",
-    "average_pace_ms": 112235,
-    "average_pace": "1:52.235",
+    "last_race_at": "2026-03-30T13:03:51",
+    "last_seen": "2026-03-30T13:03:51",
+    "average_pace_ms": 112314,
+    "average_pace": "1:52.314",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 0.8,
-    "positions_delta_races": 15,
+    "average_positions_delta": 0.06,
+    "positions_delta_races": 16,
     "championship_rank": 355,
-    "bestlap_rank": 1537,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-30T12:25:44"
+    "bestlap_rank": 1538,
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.94,
+        "after": 15.12,
+        "delta": 0.18,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112235,
+        "after": 112314,
+        "delta": 79,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 0.8,
+        "after": 0.06,
+        "delta": -0.74,
+        "trend": "down"
+      },
+      "races": {
+        "before": 16,
+        "after": 17,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-30T13:03:51"
   },
   "recent_form": [
+    18,
     25,
     24,
     29,
-    41,
-    39
+    41
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 16,
+      "races": 17,
       "wins": 0,
       "podiums": 0,
       "points": 27,
-      "finish_sum": 239,
-      "average_finish": 14.94,
+      "finish_sum": 257,
+      "average_finish": 15.12,
       "best_lap_ms": 109315,
       "best_lap": "1:49.315"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_130351_R.json",
+      "finished_at": "2026-03-30T13:03:51",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 18,
+      "participants_count": 31,
+      "winner": "Dominik Lang",
+      "points": 0,
+      "qualifying_position": 7,
+      "start_position": 7,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -11,
+      "positions_gained": 0,
+      "positions_lost": 11,
+      "best_lap": "1:50.517",
+      "best_lap_ms": 110517,
+      "total_time": "8:05.353",
+      "total_time_ms": 485353,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 14.94,
+          "after": 15.12,
+          "delta": 0.18,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112235,
+          "after": 112314,
+          "delta": 79,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 0.8,
+          "after": 0.06,
+          "delta": -0.74,
+          "trend": "down"
+        },
+        "races": {
+          "before": 16,
+          "after": 17,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_122544_R.json",
       "finished_at": "2026-03-30T12:25:44",
@@ -1566,9 +1648,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }

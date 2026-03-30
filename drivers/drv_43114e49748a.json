@@ -3,11 +3,11 @@
   "driver": "Sergei Buravov",
   "summary": {
     "points": 12,
-    "average_points_per_race": 0.63,
-    "races": 19,
+    "average_points_per_race": 0.6,
+    "races": 20,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.58,
+    "average_finish": 16.55,
     "best_lap": "1:49.255",
     "best_lap_ms": 109255,
     "best_lap_track": "monza",
@@ -15,51 +15,131 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 2,
-    "penalty_points": 0,
+    "penalty_count": 4,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-29T23:12:13",
-    "last_seen": "2026-03-29T23:12:13",
-    "average_pace_ms": 111772,
-    "average_pace": "1:51.772",
+    "last_race_at": "2026-03-30T13:03:51",
+    "last_seen": "2026-03-30T13:03:51",
+    "average_pace_ms": 111756,
+    "average_pace": "1:51.756",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -5.2,
     "positions_delta_races": 15,
-    "championship_rank": 973,
-    "bestlap_rank": 1487,
+    "championship_rank": 976,
+    "bestlap_rank": 1488,
     "latest_changes": {
+      "average_finish": {
+        "before": 16.58,
+        "after": 16.55,
+        "delta": -0.03,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 111772,
+        "after": 111756,
+        "delta": -16,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 971,
-        "after": 973,
-        "delta": 2,
+        "before": 973,
+        "after": 976,
+        "delta": 3,
         "trend": "down"
+      },
+      "races": {
+        "before": 19,
+        "after": 20,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-30T12:25:44"
+    "latest_change_at": "2026-03-30T13:03:51"
   },
   "recent_form": [
+    16,
     42,
     20,
     36,
-    16,
-    21
+    16
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 19,
+      "races": 20,
       "wins": 0,
       "podiums": 0,
       "points": 12,
-      "finish_sum": 315,
-      "average_finish": 16.58,
+      "finish_sum": 331,
+      "average_finish": 16.55,
       "best_lap_ms": 109550,
       "best_lap": "1:49.550"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_130351_R.json",
+      "finished_at": "2026-03-30T13:03:51",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 16,
+      "participants_count": 31,
+      "winner": "Dominik Lang",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.397",
+      "best_lap_ms": 110397,
+      "total_time": "23:05.534",
+      "total_time_ms": 1385534,
+      "gap": "1:23.823",
+      "gap_ms": 83823,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 16.58,
+          "after": 16.55,
+          "delta": -0.03,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111772,
+          "after": 111756,
+          "delta": -16,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 973,
+          "after": 976,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 19,
+          "after": 20,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 973,
+        "after": 976,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260329_231213_R.json",
       "finished_at": "2026-03-29T23:12:13",
@@ -1973,14 +2053,17 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 0,
+    "penalty_count": 4,
+    "penalty_points": 3,
     "reasons": {
       "WrongWay": 1,
-      "PitSpeeding": 1
+      "PitSpeeding": 2,
+      "Cutting": 1
     },
     "types": {
-      "Disqualified": 2
+      "Disqualified": 2,
+      "DriveThrough": 1,
+      "None": 1
     }
   }
 }
