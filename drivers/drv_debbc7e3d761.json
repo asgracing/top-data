@@ -3,11 +3,11 @@
   "driver": "Даниил Фоменко",
   "summary": {
     "points": 2,
-    "average_points_per_race": 0.67,
-    "races": 3,
+    "average_points_per_race": 0.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
+    "average_finish": 14.25,
     "best_lap": "1:50.440",
     "best_lap_ms": 110440,
     "best_lap_track": "monza",
@@ -15,43 +15,56 @@
     "best_lap_car_name_raw": "Ferrari 488 GT3 Evo 2020",
     "best_lap_car_name": "Ferrari 488 GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T13:40:57",
-    "last_seen": "2026-03-30T13:52:40",
-    "average_pace_ms": 113161,
-    "average_pace": "1:53.161",
+    "last_race_at": "2026-03-30T14:17:14",
+    "last_seen": "2026-03-30T14:17:14",
+    "average_pace_ms": 111796,
+    "average_pace": "1:51.796",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -8.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1644,
-    "bestlap_rank": 2710,
+    "average_positions_delta": -5.0,
+    "positions_delta_races": 2,
+    "championship_rank": 1638,
+    "bestlap_rank": 2260,
     "latest_changes": {
+      "average_finish": {
+        "before": 15.0,
+        "after": 14.25,
+        "delta": -0.75,
+        "trend": "up"
+      },
       "average_pace_ms": {
-        "before": 112175,
-        "after": 113161,
-        "delta": 986,
-        "trend": "down"
+        "before": 113161,
+        "after": 111796,
+        "delta": -1365,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -8.0,
+        "after": -5.0,
+        "delta": 3.0,
+        "trend": "up"
       },
       "championship_rank": {
-        "before": 1642,
-        "after": 1644,
-        "delta": 2,
-        "trend": "down"
+        "before": 1644,
+        "after": 1638,
+        "delta": -6,
+        "trend": "up"
       },
       "races": {
-        "before": 2,
-        "after": 3,
+        "before": 3,
+        "after": 4,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-30T13:40:57"
+    "latest_change_at": "2026-03-30T14:17:14"
   },
   "recent_form": [
+    12,
     15,
     21,
     9
@@ -59,17 +72,85 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 45,
-      "average_finish": 15.0,
-      "best_lap_ms": 111845,
-      "best_lap": "1:51.845"
+      "finish_sum": 57,
+      "average_finish": 14.25,
+      "best_lap_ms": 110452,
+      "best_lap": "1:50.452"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260330_141714_R.json",
+      "finished_at": "2026-03-30T14:17:14",
+      "track": "monza",
+      "car_model_id": 24,
+      "car_name_raw": "Ferrari 488 GT3 Evo 2020",
+      "car_name": "Ferrari 488 GT3 Evo",
+      "position": 12,
+      "participants_count": 41,
+      "winner": "Patrick Frank",
+      "points": 0,
+      "qualifying_position": 10,
+      "start_position": 10,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -2,
+      "positions_gained": 0,
+      "positions_lost": 2,
+      "best_lap": "1:50.452",
+      "best_lap_ms": 110452,
+      "total_time": "21:33.932",
+      "total_time_ms": 1293932,
+      "gap": "1:22.894",
+      "gap_ms": 82894,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 14.25,
+          "delta": -0.75,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 113161,
+          "after": 111796,
+          "delta": -1365,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -8.0,
+          "after": -5.0,
+          "delta": 3.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1644,
+          "after": 1638,
+          "delta": -6,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1644,
+        "after": 1638,
+        "delta": -6,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_134057_R.json",
       "finished_at": "2026-03-30T13:40:57",
@@ -258,9 +339,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 2
+    },
+    "types": {
+      "DriveThrough": 1,
+      "None": 1
+    }
   }
 }
