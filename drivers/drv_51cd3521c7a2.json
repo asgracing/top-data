@@ -3,11 +3,11 @@
   "driver": "Nikita О",
   "summary": {
     "points": 7,
-    "average_points_per_race": 0.7,
-    "races": 10,
+    "average_points_per_race": 0.64,
+    "races": 11,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.0,
+    "average_finish": 17.27,
     "best_lap": "1:48.440",
     "best_lap_ms": 108440,
     "best_lap_track": "monza",
@@ -15,51 +15,119 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T21:48:12",
-    "last_seen": "2026-03-30T21:48:12",
+    "last_race_at": "2026-03-31T21:26:29",
+    "last_seen": "2026-03-31T21:26:29",
     "average_pace_ms": 110341,
     "average_pace": "1:50.341",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -3.17,
     "positions_delta_races": 6,
-    "championship_rank": 1394,
-    "bestlap_rank": 913,
+    "championship_rank": 1399,
+    "bestlap_rank": 914,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1392,
-        "after": 1394,
-        "delta": 2,
+      "average_finish": {
+        "before": 16.0,
+        "after": 17.27,
+        "delta": 1.27,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1394,
+        "after": 1399,
+        "delta": 5,
+        "trend": "down"
+      },
+      "races": {
+        "before": 10,
+        "after": 11,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-31T20:50:11"
+    "latest_change_at": "2026-03-31T21:26:29"
   },
   "recent_form": [
+    30,
     37,
     16,
     33,
-    12,
-    33
+    12
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 10,
+      "races": 11,
       "wins": 0,
       "podiums": 0,
       "points": 7,
-      "finish_sum": 160,
-      "average_finish": 16.0,
+      "finish_sum": 190,
+      "average_finish": 17.27,
       "best_lap_ms": 108440,
       "best_lap": "1:48.440"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_212629_R.json",
+      "finished_at": "2026-03-31T21:26:29",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 30,
+      "participants_count": 47,
+      "winner": "Mciky BaBat",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "18:59.615",
+      "total_time_ms": 1139615,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 6,
+      "changes": {
+        "average_finish": {
+          "before": 16.0,
+          "after": 17.27,
+          "delta": 1.27,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1394,
+          "after": 1399,
+          "delta": 5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 10,
+          "after": 11,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1394,
+        "after": 1399,
+        "delta": 5,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_214812_R.json",
       "finished_at": "2026-03-30T21:48:12",
@@ -928,9 +996,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 6,
+    "reasons": {
+      "PitSpeeding": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_30": 1,
+      "Disqualified": 1
+    }
   }
 }
