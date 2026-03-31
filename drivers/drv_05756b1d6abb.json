@@ -3,11 +3,11 @@
   "driver": "Sergei Aryshev",
   "summary": {
     "points": 40,
-    "average_points_per_race": 13.33,
-    "races": 3,
+    "average_points_per_race": 10.0,
+    "races": 4,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 3.67,
+    "average_finish": 6.25,
     "best_lap": "1:48.157",
     "best_lap_ms": 108157,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T13:22:31",
-    "last_seen": "2026-03-31T13:34:08",
-    "average_pace_ms": 109592,
-    "average_pace": "1:49.592",
+    "last_race_at": "2026-03-31T13:58:30",
+    "last_seen": "2026-03-31T13:58:30",
+    "average_pace_ms": 109562,
+    "average_pace": "1:49.562",
     "win_rate": 0.0,
-    "podium_rate": 66.67,
-    "average_positions_delta": 2.0,
-    "positions_delta_races": 3,
+    "podium_rate": 50.0,
+    "average_positions_delta": -1.75,
+    "positions_delta_races": 4,
     "championship_rank": 240,
-    "bestlap_rank": 634,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-31T13:48:07"
+    "bestlap_rank": 635,
+    "latest_changes": {
+      "average_finish": {
+        "before": 3.67,
+        "after": 6.25,
+        "delta": 2.58,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109592,
+        "after": 109562,
+        "delta": -30,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 2.0,
+        "after": -1.75,
+        "delta": -3.75,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-31T13:58:30"
   },
   "recent_form": [
+    14,
     32,
     3,
     20,
-    29,
-    3
+    29
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 2,
       "points": 40,
-      "finish_sum": 11,
-      "average_finish": 3.67,
+      "finish_sum": 25,
+      "average_finish": 6.25,
       "best_lap_ms": 108292,
       "best_lap": "1:48.292"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_135830_R.json",
+      "finished_at": "2026-03-31T13:58:30",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 14,
+      "participants_count": 40,
+      "winner": "Igor Popovsky",
+      "points": 0,
+      "qualifying_position": 1,
+      "start_position": 1,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -13,
+      "positions_gained": 0,
+      "positions_lost": 13,
+      "best_lap": "1:48.377",
+      "best_lap_ms": 108377,
+      "total_time": "22:11.419",
+      "total_time_ms": 1331419,
+      "gap": "2:11.060",
+      "gap_ms": 131060,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 42,
+      "changes": {
+        "average_finish": {
+          "before": 3.67,
+          "after": 6.25,
+          "delta": 2.58,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109592,
+          "after": 109562,
+          "delta": -30,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 2.0,
+          "after": -1.75,
+          "delta": -3.75,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_132231_R.json",
       "finished_at": "2026-03-31T13:22:31",
@@ -453,9 +535,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 2,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_10": 1
+    }
   }
 }
