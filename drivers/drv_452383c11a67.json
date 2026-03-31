@@ -3,11 +3,11 @@
   "driver": "Nikita Lukin",
   "summary": {
     "points": 1,
-    "average_points_per_race": 0.33,
-    "races": 3,
+    "average_points_per_race": 0.25,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.0,
+    "average_finish": 15.25,
     "best_lap": "1:49.465",
     "best_lap_ms": 109465,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T15:13:20",
-    "last_seen": "2026-03-31T15:13:20",
+    "last_race_at": "2026-03-31T15:49:23",
+    "last_seen": "2026-03-31T15:49:23",
     "average_pace_ms": 111201,
     "average_pace": "1:51.201",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 1.0,
-    "positions_delta_races": 2,
-    "championship_rank": 1844,
-    "bestlap_rank": 1800,
+    "average_positions_delta": -2.0,
+    "positions_delta_races": 3,
+    "championship_rank": 1876,
+    "bestlap_rank": 1801,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1843,
-        "after": 1844,
-        "delta": 1,
+      "average_finish": {
+        "before": 11.0,
+        "after": 15.25,
+        "delta": 4.25,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.0,
+        "after": -2.0,
+        "delta": -3.0,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1844,
+        "after": 1876,
+        "delta": 32,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-31T15:30:21"
+    "latest_change_at": "2026-03-31T15:49:23"
   },
   "recent_form": [
+    28,
     12,
     10,
     27,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 33,
-      "average_finish": 11.0,
+      "finish_sum": 61,
+      "average_finish": 15.25,
       "best_lap_ms": 109675,
       "best_lap": "1:49.675"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_154923_R.json",
+      "finished_at": "2026-03-31T15:49:23",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 28,
+      "participants_count": 43,
+      "winner": "Igor Popovsky",
+      "points": 0,
+      "qualifying_position": 20,
+      "start_position": 20,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -8,
+      "positions_gained": 0,
+      "positions_lost": 8,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "4:46.260",
+      "total_time_ms": 286260,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.0,
+          "after": 15.25,
+          "delta": 4.25,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.0,
+          "after": -2.0,
+          "delta": -3.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1844,
+          "after": 1876,
+          "delta": 32,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1844,
+        "after": 1876,
+        "delta": 32,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_151320_R.json",
       "finished_at": "2026-03-31T15:13:20",
