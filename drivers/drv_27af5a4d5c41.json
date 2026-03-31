@@ -3,11 +3,11 @@
   "driver": "Alexander Korrekt-63",
   "summary": {
     "points": 56,
-    "average_points_per_race": 2.8,
-    "races": 20,
+    "average_points_per_race": 2.67,
+    "races": 21,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.75,
+    "average_finish": 12.71,
     "best_lap": "1:50.792",
     "best_lap_ms": 110792,
     "best_lap_track": "monza",
@@ -15,81 +15,126 @@
     "best_lap_car_name_raw": "Nissan GT-R Nismo GT3 2018",
     "best_lap_car_name": "Nissan GT-R Nismo GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 4,
-    "penalty_points": 3,
+    "penalty_count": 6,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T03:21:10",
-    "last_seen": "2026-03-31T03:21:10",
-    "average_pace_ms": 113905,
-    "average_pace": "1:53.905",
+    "last_race_at": "2026-03-31T03:57:02",
+    "last_seen": "2026-03-31T03:57:02",
+    "average_pace_ms": 113978,
+    "average_pace": "1:53.978",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 3.24,
-    "positions_delta_races": 17,
+    "average_positions_delta": 3.28,
+    "positions_delta_races": 18,
     "championship_rank": 125,
-    "bestlap_rank": 2500,
+    "bestlap_rank": 2508,
     "latest_changes": {
       "average_finish": {
-        "before": 13.11,
-        "after": 12.75,
-        "delta": -0.36,
+        "before": 12.75,
+        "after": 12.71,
+        "delta": -0.04,
         "trend": "up"
       },
       "average_pace_ms": {
-        "before": 113987,
-        "after": 113905,
-        "delta": -82,
-        "trend": "up"
+        "before": 113905,
+        "after": 113978,
+        "delta": 73,
+        "trend": "down"
       },
       "average_positions_delta": {
-        "before": 3.12,
-        "after": 3.24,
-        "delta": 0.12,
-        "trend": "up"
-      },
-      "championship_rank": {
-        "before": 171,
-        "after": 125,
-        "delta": -46,
-        "trend": "up"
-      },
-      "points": {
-        "before": 48,
-        "after": 56,
-        "delta": 8,
+        "before": 3.24,
+        "after": 3.28,
+        "delta": 0.04,
         "trend": "up"
       },
       "races": {
-        "before": 19,
-        "after": 20,
+        "before": 20,
+        "after": 21,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-31T03:21:10"
+    "latest_change_at": "2026-03-31T03:57:02"
   },
   "recent_form": [
+    12,
     6,
     8,
     5,
-    11,
-    20
+    11
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 20,
+      "races": 21,
       "wins": 0,
       "podiums": 0,
       "points": 56,
-      "finish_sum": 255,
-      "average_finish": 12.75,
+      "finish_sum": 267,
+      "average_finish": 12.71,
       "best_lap_ms": 111085,
       "best_lap": "1:51.085"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_035702_R.json",
+      "finished_at": "2026-03-31T03:57:02",
+      "track": "monza",
+      "car_model_id": 6,
+      "car_name_raw": "Nissan GT-R Nismo GT3 2018",
+      "car_name": "Nissan GT-R Nismo GT3",
+      "position": 12,
+      "participants_count": 30,
+      "winner": "RAPHAEL OLIVEIRA",
+      "points": 0,
+      "qualifying_position": 16,
+      "start_position": 16,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 4,
+      "positions_gained": 4,
+      "positions_lost": 0,
+      "best_lap": "1:54.445",
+      "best_lap_ms": 114445,
+      "total_time": "20:30.829",
+      "total_time_ms": 1230829,
+      "gap": "0:26.050",
+      "gap_ms": 26050,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 12.75,
+          "after": 12.71,
+          "delta": -0.04,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 113905,
+          "after": 113978,
+          "delta": 73,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 3.24,
+          "after": 3.28,
+          "delta": 0.04,
+          "trend": "up"
+        },
+        "races": {
+          "before": 20,
+          "after": 21,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_032110_R.json",
       "finished_at": "2026-03-31T03:21:10",
@@ -1875,17 +1920,18 @@
     }
   ],
   "penalties": {
-    "penalty_count": 4,
-    "penalty_points": 3,
+    "penalty_count": 6,
+    "penalty_points": 6,
     "reasons": {
-      "Cutting": 3,
-      "PitSpeeding": 1
+      "Cutting": 4,
+      "PitSpeeding": 1,
+      "None": 1
     },
     "types": {
       "StopAndGo_10": 1,
       "Disqualified": 1,
-      "DriveThrough": 1,
-      "None": 1
+      "DriveThrough": 2,
+      "None": 2
     }
   }
 }
