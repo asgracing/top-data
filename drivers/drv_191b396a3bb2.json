@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 25.0,
+    "average_finish": 25.5,
     "best_lap": "1:48.635",
     "best_lap_ms": 108635,
     "best_lap_track": "monza",
@@ -19,36 +19,136 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T13:58:30",
-    "last_seen": "2026-03-31T14:10:31",
-    "average_pace_ms": 110565,
-    "average_pace": "1:50.565",
+    "last_race_at": "2026-03-31T14:35:04",
+    "last_seen": "2026-03-31T14:35:04",
+    "average_pace_ms": 110204,
+    "average_pace": "1:50.204",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": null,
-    "positions_delta_races": 0,
-    "championship_rank": 3028,
-    "bestlap_rank": 1043,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-31T14:20:59"
+    "average_positions_delta": -20.0,
+    "positions_delta_races": 1,
+    "championship_rank": 3082,
+    "bestlap_rank": 1045,
+    "latest_changes": {
+      "average_finish": {
+        "before": 25.0,
+        "after": 25.5,
+        "delta": 0.5,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110565,
+        "after": 110204,
+        "delta": -361,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": null,
+        "after": -20.0,
+        "delta": null,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3028,
+        "after": 3082,
+        "delta": 54,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-31T14:35:04"
   },
   "recent_form": [
+    26,
     25
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 25,
-      "average_finish": 25.0,
-      "best_lap_ms": 110565,
-      "best_lap": "1:50.565"
+      "finish_sum": 51,
+      "average_finish": 25.5,
+      "best_lap_ms": 109842,
+      "best_lap": "1:49.842"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_143504_R.json",
+      "finished_at": "2026-03-31T14:35:04",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 26,
+      "participants_count": 41,
+      "winner": "Martin Creixell",
+      "points": 0,
+      "qualifying_position": 6,
+      "start_position": 6,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -20,
+      "positions_gained": 0,
+      "positions_lost": 20,
+      "best_lap": "1:49.842",
+      "best_lap_ms": 109842,
+      "total_time": "21:10.996",
+      "total_time_ms": 1270996,
+      "gap": "0:59.642",
+      "gap_ms": 59642,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 25.0,
+          "after": 25.5,
+          "delta": 0.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110565,
+          "after": 110204,
+          "delta": -361,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": -20.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3028,
+          "after": 3082,
+          "delta": 54,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3028,
+        "after": 3082,
+        "delta": 54,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_135830_R.json",
       "finished_at": "2026-03-31T13:58:30",
