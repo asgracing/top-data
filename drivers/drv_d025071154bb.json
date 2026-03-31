@@ -3,11 +3,11 @@
   "driver": "Mark Gotthardt Jr.",
   "summary": {
     "points": 101,
-    "average_points_per_race": 5.61,
-    "races": 18,
+    "average_points_per_race": 5.32,
+    "races": 19,
     "wins": 0,
     "podiums": 3,
-    "average_finish": 10.06,
+    "average_finish": 10.47,
     "best_lap": "1:52.625",
     "best_lap_ms": 112625,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "Porsche 992 GT3 R",
     "best_lap_car_name": "Porsche 992 GT3 R",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T23:16:31",
-    "last_seen": "2026-03-31T23:16:31",
-    "average_pace_ms": 115190,
-    "average_pace": "1:55.190",
+    "last_race_at": "2026-03-31T23:54:13",
+    "last_seen": "2026-03-31T23:54:13",
+    "average_pace_ms": 115255,
+    "average_pace": "1:55.255",
     "win_rate": 0.0,
-    "podium_rate": 16.67,
-    "average_positions_delta": 4.06,
-    "positions_delta_races": 17,
+    "podium_rate": 15.79,
+    "average_positions_delta": 3.89,
+    "positions_delta_races": 18,
     "championship_rank": 58,
-    "bestlap_rank": 3116,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-31T23:16:31"
+    "bestlap_rank": 3120,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.06,
+        "after": 10.47,
+        "delta": 0.41,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 115190,
+        "after": 115255,
+        "delta": 65,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 4.06,
+        "after": 3.89,
+        "delta": -0.17,
+        "trend": "down"
+      },
+      "races": {
+        "before": 18,
+        "after": 19,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-31T23:54:13"
   },
   "recent_form": [
+    18,
     32,
     40,
     42,
-    22,
-    15
+    22
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 3,
       "points": 101,
-      "finish_sum": 181,
-      "average_finish": 10.06,
+      "finish_sum": 199,
+      "average_finish": 10.47,
       "best_lap_ms": 112625,
       "best_lap": "1:52.625"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_235413_R.json",
+      "finished_at": "2026-03-31T23:54:13",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 18,
+      "participants_count": 50,
+      "winner": "__ Peacemaker__",
+      "points": 0,
+      "qualifying_position": 19,
+      "start_position": 19,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 1,
+      "positions_gained": 1,
+      "positions_lost": 0,
+      "best_lap": "1:55.532",
+      "best_lap_ms": 115532,
+      "total_time": "22:42.508",
+      "total_time_ms": 1362508,
+      "gap": "0:53.963",
+      "gap_ms": 53963,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 10.06,
+          "after": 10.47,
+          "delta": 0.41,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 115190,
+          "after": 115255,
+          "delta": 65,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 4.06,
+          "after": 3.89,
+          "delta": -0.17,
+          "trend": "down"
+        },
+        "races": {
+          "before": 18,
+          "after": 19,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_231631_R.json",
       "finished_at": "2026-03-31T23:16:31",
@@ -1943,9 +2025,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "PitSpeeding": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_30": 1,
+      "None": 1
+    }
   }
 }
