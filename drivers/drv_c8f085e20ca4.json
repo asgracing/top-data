@@ -3,11 +3,11 @@
   "driver": "Andy Krachler",
   "summary": {
     "points": 2,
-    "average_points_per_race": 0.67,
-    "races": 3,
+    "average_points_per_race": 0.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
+    "average_finish": 14.25,
     "best_lap": "1:47.590",
     "best_lap_ms": 107590,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T02:07:48",
-    "last_seen": "2026-03-31T02:07:48",
-    "average_pace_ms": 109439,
-    "average_pace": "1:49.439",
+    "last_race_at": "2026-04-01T00:30:57",
+    "last_seen": "2026-04-01T00:30:57",
+    "average_pace_ms": 109079,
+    "average_pace": "1:49.079",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -3.33,
     "positions_delta_races": 3,
-    "championship_rank": 1800,
+    "championship_rank": 1795,
     "bestlap_rank": 240,
     "latest_changes": {
+      "average_finish": {
+        "before": 15.0,
+        "after": 14.25,
+        "delta": -0.75,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109439,
+        "after": 109079,
+        "delta": -360,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 1797,
-        "after": 1800,
-        "delta": 3,
-        "trend": "down"
+        "before": 1800,
+        "after": 1795,
+        "delta": -5,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-31T23:54:13"
+    "latest_change_at": "2026-04-01T00:30:57"
   },
   "recent_form": [
+    12,
     25,
     9,
     15,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 45,
-      "average_finish": 15.0,
-      "best_lap_ms": 108047,
-      "best_lap": "1:48.047"
+      "finish_sum": 57,
+      "average_finish": 14.25,
+      "best_lap_ms": 107932,
+      "best_lap": "1:47.932"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260401_003057_R.json",
+      "finished_at": "2026-04-01T00:30:57",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 12,
+      "participants_count": 49,
+      "winner": "X. Darkon",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.932",
+      "best_lap_ms": 107932,
+      "total_time": "21:26.888",
+      "total_time_ms": 1286888,
+      "gap": "1:17.314",
+      "gap_ms": 77314,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 14.25,
+          "delta": -0.75,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109439,
+          "after": 109079,
+          "delta": -360,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1800,
+          "after": 1795,
+          "delta": -5,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1800,
+        "after": 1795,
+        "delta": -5,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_020748_R.json",
       "finished_at": "2026-03-31T02:07:48",
