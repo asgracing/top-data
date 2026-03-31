@@ -3,11 +3,11 @@
   "driver": "Fedor Shishlin",
   "summary": {
     "points": 55,
-    "average_points_per_race": 5.0,
-    "races": 11,
+    "average_points_per_race": 4.58,
+    "races": 12,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 13.18,
+    "average_finish": 14.33,
     "best_lap": "1:52.512",
     "best_lap_ms": 112512,
     "best_lap_track": "monza",
@@ -15,44 +15,114 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 1,
+    "penalty_count": 2,
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T12:06:43",
-    "last_seen": "2026-03-31T12:06:43",
+    "last_race_at": "2026-03-31T19:37:13",
+    "last_seen": "2026-03-31T19:37:13",
     "average_pace_ms": 115301,
     "average_pace": "1:55.301",
     "win_rate": 0.0,
-    "podium_rate": 18.18,
-    "average_positions_delta": -2.5,
-    "positions_delta_races": 8,
+    "podium_rate": 16.67,
+    "average_positions_delta": -3.33,
+    "positions_delta_races": 9,
     "championship_rank": 142,
-    "bestlap_rank": 3053,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-31T18:59:43"
+    "bestlap_rank": 3060,
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.18,
+        "after": 14.33,
+        "delta": 1.15,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -2.5,
+        "after": -3.33,
+        "delta": -0.83,
+        "trend": "down"
+      },
+      "races": {
+        "before": 11,
+        "after": 12,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-31T19:37:13"
   },
   "recent_form": [
+    27,
     5,
     3,
     4,
-    5,
-    10
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 2,
       "points": 55,
-      "finish_sum": 145,
-      "average_finish": 13.18,
+      "finish_sum": 172,
+      "average_finish": 14.33,
       "best_lap_ms": 113012,
       "best_lap": "1:53.012"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_193713_R.json",
+      "finished_at": "2026-03-31T19:37:13",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 27,
+      "participants_count": 51,
+      "winner": "Man in Tights",
+      "points": 0,
+      "qualifying_position": 17,
+      "start_position": 17,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -10,
+      "positions_gained": 0,
+      "positions_lost": 10,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "2:47.237",
+      "total_time_ms": 167237,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.18,
+          "after": 14.33,
+          "delta": 1.15,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -2.5,
+          "after": -3.33,
+          "delta": -0.83,
+          "trend": "down"
+        },
+        "races": {
+          "before": 11,
+          "after": 12,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260331_120643_R.json",
       "finished_at": "2026-03-31T12:06:43",
@@ -1409,13 +1479,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
+    "penalty_count": 2,
     "penalty_points": 3,
     "reasons": {
-      "None": 1
+      "None": 1,
+      "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 1,
+      "Disqualified": 1
     }
   }
 }
