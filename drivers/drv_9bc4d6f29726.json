@@ -3,11 +3,11 @@
   "driver": "david VirtaNeN",
   "summary": {
     "points": 8,
-    "average_points_per_race": 4.0,
-    "races": 2,
+    "average_points_per_race": 2.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.5,
+    "average_finish": 15.67,
     "best_lap": "1:48.665",
     "best_lap_ms": 108665,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-26T22:24:20",
-    "last_seen": "2026-03-26T22:24:20",
+    "last_race_at": "2026-04-01T01:07:06",
+    "last_seen": "2026-04-01T01:07:06",
     "average_pace_ms": 111379,
     "average_pace": "1:51.379",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -1.0,
-    "positions_delta_races": 2,
-    "championship_rank": 1344,
-    "bestlap_rank": 1108,
+    "average_positions_delta": 2.0,
+    "positions_delta_races": 3,
+    "championship_rank": 1383,
+    "bestlap_rank": 1110,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1343,
-        "after": 1344,
-        "delta": 1,
+      "average_finish": {
+        "before": 11.5,
+        "after": 15.67,
+        "delta": 4.17,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -1.0,
+        "after": 2.0,
+        "delta": 3.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1344,
+        "after": 1383,
+        "delta": 39,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-01T00:30:57"
+    "latest_change_at": "2026-04-01T01:07:06"
   },
   "recent_form": [
+    24,
     36,
     17,
     25,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 23,
-      "average_finish": 11.5,
+      "finish_sum": 47,
+      "average_finish": 15.67,
       "best_lap_ms": 108665,
       "best_lap": "1:48.665"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260401_010706_R.json",
+      "finished_at": "2026-04-01T01:07:06",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 24,
+      "participants_count": 44,
+      "winner": "Patrick Frank",
+      "points": 0,
+      "qualifying_position": 32,
+      "start_position": 32,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 8,
+      "positions_gained": 8,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "2:40.903",
+      "total_time_ms": 160903,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.5,
+          "after": 15.67,
+          "delta": 4.17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -1.0,
+          "after": 2.0,
+          "delta": 3.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1344,
+          "after": 1383,
+          "delta": 39,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1344,
+        "after": 1383,
+        "delta": 39,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260326_222420_R.json",
       "finished_at": "2026-03-26T22:24:20",
