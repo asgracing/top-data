@@ -2,14 +2,14 @@
   "public_id": "drv_a793ea1fc224",
   "driver": "Go Round",
   "summary": {
-    "points": 15,
-    "average_points_per_race": 7.5,
-    "races": 2,
+    "points": 16,
+    "average_points_per_race": 5.33,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
     "average_finish": 11.0,
-    "best_lap": "1:47.412",
-    "best_lap_ms": 107412,
+    "best_lap": "1:47.287",
+    "best_lap_ms": 107287,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 6,
     "best_lap_car_name_raw": "Nissan GT-R Nismo GT3 2018",
@@ -17,39 +17,109 @@
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
-    "fastest_lap_awards": 0,
+    "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T14:55:21",
-    "last_seen": "2026-03-30T14:55:21",
-    "average_pace_ms": 108318,
-    "average_pace": "1:48.318",
+    "last_race_at": "2026-03-31T12:07:47",
+    "last_seen": "2026-03-31T12:07:47",
+    "average_pace_ms": 108282,
+    "average_pace": "1:48.282",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
+    "podium_rate": 33.33,
     "average_positions_delta": 14.5,
     "positions_delta_races": 2,
-    "championship_rank": 861,
-    "bestlap_rank": 166,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-31T11:32:22"
+    "championship_rank": 768,
+    "bestlap_rank": 121,
+    "latest_changes": {
+      "championship_rank": {
+        "before": 767,
+        "after": 768,
+        "delta": 1,
+        "trend": "down"
+      }
+    },
+    "latest_change_at": "2026-03-31T12:06:43"
   },
   "recent_form": [
+    11,
     19,
     3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
-      "points": 15,
-      "finish_sum": 22,
+      "points": 16,
+      "finish_sum": 33,
       "average_finish": 11.0,
-      "best_lap_ms": 107412,
-      "best_lap": "1:47.412"
+      "best_lap_ms": 107287,
+      "best_lap": "1:47.287"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_120747_R.json",
+      "finished_at": "2026-03-31T12:07:47",
+      "track": "monza",
+      "car_model_id": 6,
+      "car_name_raw": "Nissan GT-R Nismo GT3 2018",
+      "car_name": "Nissan GT-R Nismo GT3",
+      "position": 11,
+      "participants_count": 33,
+      "winner": "B MNM",
+      "points": 1,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.287",
+      "best_lap_ms": 107287,
+      "total_time": "22:37.311",
+      "total_time_ms": 1357311,
+      "gap": "0:58.779",
+      "gap_ms": 58779,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 108318,
+          "after": 108282,
+          "delta": -36,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 861,
+          "after": 767,
+          "delta": -94,
+          "trend": "up"
+        },
+        "points": {
+          "before": 15,
+          "after": 16,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 861,
+        "after": 767,
+        "delta": -94,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_145521_R.json",
       "finished_at": "2026-03-30T14:55:21",

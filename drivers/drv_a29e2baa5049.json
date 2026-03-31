@@ -3,11 +3,11 @@
   "driver": "Artemiy Oley",
   "summary": {
     "points": 82,
-    "average_points_per_race": 4.82,
-    "races": 17,
+    "average_points_per_race": 4.56,
+    "races": 18,
     "wins": 0,
     "podiums": 3,
-    "average_finish": 13.59,
+    "average_finish": 13.89,
     "best_lap": "1:47.140",
     "best_lap_ms": 107140,
     "best_lap_track": "monza",
@@ -15,44 +15,100 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-27T16:32:17",
-    "last_seen": "2026-03-27T16:32:17",
+    "last_race_at": "2026-03-31T12:07:47",
+    "last_seen": "2026-03-31T12:07:47",
     "average_pace_ms": 109579,
     "average_pace": "1:49.579",
     "win_rate": 0.0,
-    "podium_rate": 17.65,
+    "podium_rate": 16.67,
     "average_positions_delta": -0.2,
     "positions_delta_races": 15,
-    "championship_rank": 71,
+    "championship_rank": 72,
     "bestlap_rank": 74,
     "latest_changes": {},
-    "latest_change_at": "2026-03-31T11:32:22"
+    "latest_change_at": "2026-03-31T12:06:43"
   },
   "recent_form": [
+    19,
     27,
     8,
     31,
-    5,
-    23
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 17,
+      "races": 18,
       "wins": 0,
       "podiums": 3,
       "points": 82,
-      "finish_sum": 231,
-      "average_finish": 13.59,
+      "finish_sum": 250,
+      "average_finish": 13.89,
       "best_lap_ms": 107680,
       "best_lap": "1:47.680"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_120747_R.json",
+      "finished_at": "2026-03-31T12:07:47",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 19,
+      "participants_count": 33,
+      "winner": "B MNM",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "12:51.684",
+      "total_time_ms": 771684,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.59,
+          "after": 13.89,
+          "delta": 0.3,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 71,
+          "after": 72,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 17,
+          "after": 18,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 71,
+        "after": 72,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260327_163217_R.json",
       "finished_at": "2026-03-27T16:32:17",
@@ -1295,9 +1351,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
