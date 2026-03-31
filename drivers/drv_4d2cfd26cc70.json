@@ -4,76 +4,151 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 24.0,
-    "best_lap": null,
-    "best_lap_ms": null,
-    "best_lap_track": null,
-    "best_lap_car_model_id": null,
-    "best_lap_car_name_raw": null,
-    "best_lap_car_name": null,
-    "best_lap_session_type": null,
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "average_finish": 22.0,
+    "best_lap": "1:50.975",
+    "best_lap_ms": 110975,
+    "best_lap_track": "monza",
+    "best_lap_car_model_id": 19,
+    "best_lap_car_name_raw": "Audi R8 LMS Evo (2019)",
+    "best_lap_car_name": "Audi R8 LMS Evo",
+    "best_lap_session_type": "R",
+    "penalty_count": 2,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T15:49:23",
-    "last_seen": "2026-03-31T15:49:23",
-    "average_pace_ms": null,
-    "average_pace": null,
+    "last_race_at": "2026-03-31T16:27:52",
+    "last_seen": "2026-03-31T16:27:52",
+    "average_pace_ms": 112722,
+    "average_pace": "1:52.722",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 1.0,
-    "positions_delta_races": 1,
-    "championship_rank": 2984,
-    "bestlap_rank": null,
+    "average_positions_delta": 4.0,
+    "positions_delta_races": 2,
+    "championship_rank": 2846,
+    "bestlap_rank": 2661,
     "latest_changes": {
       "average_finish": {
+        "before": 24.0,
+        "after": 22.0,
+        "delta": -2.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
         "before": null,
-        "after": 24.0,
+        "after": 112722,
         "delta": null,
         "trend": "up"
       },
       "average_positions_delta": {
-        "before": null,
-        "after": 1.0,
-        "delta": null,
+        "before": 1.0,
+        "after": 4.0,
+        "delta": 3.0,
         "trend": "up"
       },
       "championship_rank": {
-        "before": 3483,
-        "after": 2984,
-        "delta": -499,
+        "before": 2984,
+        "after": 2846,
+        "delta": -138,
         "trend": "up"
       },
       "races": {
-        "before": 0,
-        "after": 1,
+        "before": 1,
+        "after": 2,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-03-31T15:49:23"
+    "latest_change_at": "2026-03-31T16:27:52"
   },
   "recent_form": [
+    20,
     24
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 24,
-      "average_finish": 24.0,
-      "best_lap_ms": null,
-      "best_lap": null
+      "finish_sum": 44,
+      "average_finish": 22.0,
+      "best_lap_ms": 110975,
+      "best_lap": "1:50.975"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_162752_R.json",
+      "finished_at": "2026-03-31T16:27:52",
+      "track": "monza",
+      "car_model_id": 19,
+      "car_name_raw": "Audi R8 LMS Evo (2019)",
+      "car_name": "Audi R8 LMS Evo",
+      "position": 20,
+      "participants_count": 56,
+      "winner": "Arthur Karaulov [UZ]",
+      "points": 0,
+      "qualifying_position": 27,
+      "start_position": 27,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 7,
+      "positions_gained": 7,
+      "positions_lost": 0,
+      "best_lap": "1:50.975",
+      "best_lap_ms": 110975,
+      "total_time": "7:51.692",
+      "total_time_ms": 471692,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 24.0,
+          "after": 22.0,
+          "delta": -2.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": null,
+          "after": 112722,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 1.0,
+          "after": 4.0,
+          "delta": 3.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2984,
+          "after": 2846,
+          "delta": -138,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2984,
+        "after": 2846,
+        "delta": -138,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_154923_R.json",
       "finished_at": "2026-03-31T15:49:23",
@@ -138,9 +213,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 2,
+    "reasons": {
+      "Cutting": 2
+    },
+    "types": {
+      "DriveThrough": 1,
+      "Disqualified": 1
+    }
   }
 }
