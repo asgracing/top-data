@@ -3,11 +3,11 @@
   "driver": "Frederick Soh",
   "summary": {
     "points": 14,
-    "average_points_per_race": 4.67,
-    "races": 3,
+    "average_points_per_race": 3.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.0,
+    "average_finish": 11.25,
     "best_lap": "1:47.930",
     "best_lap_ms": 107930,
     "best_lap_track": "monza",
@@ -15,44 +15,143 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "Q",
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 5,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T13:58:30",
-    "last_seen": "2026-03-31T13:58:30",
-    "average_pace_ms": 109677,
-    "average_pace": "1:49.677",
+    "last_race_at": "2026-03-31T18:59:43",
+    "last_seen": "2026-03-31T18:59:43",
+    "average_pace_ms": 109630,
+    "average_pace": "1:49.630",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -1.67,
-    "positions_delta_races": 3,
-    "championship_rank": 905,
-    "bestlap_rank": 444,
-    "latest_changes": {},
-    "latest_change_at": "2026-03-31T18:21:31"
+    "average_positions_delta": 3.25,
+    "positions_delta_races": 4,
+    "championship_rank": 909,
+    "bestlap_rank": 445,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.0,
+        "after": 11.25,
+        "delta": 1.25,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109677,
+        "after": 109630,
+        "delta": -47,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -1.67,
+        "after": 3.25,
+        "delta": 4.92,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 905,
+        "after": 909,
+        "delta": 4,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-03-31T18:59:43"
   },
   "recent_form": [
+    15,
     32,
     8,
     24,
-    38,
-    5
+    38
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 14,
-      "finish_sum": 30,
-      "average_finish": 10.0,
+      "finish_sum": 45,
+      "average_finish": 11.25,
       "best_lap_ms": 108112,
       "best_lap": "1:48.112"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260331_185943_R.json",
+      "finished_at": "2026-03-31T18:59:43",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 15,
+      "participants_count": 42,
+      "winner": "K Magomed | TS",
+      "points": 0,
+      "qualifying_position": 33,
+      "start_position": 33,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 18,
+      "positions_gained": 18,
+      "positions_lost": 0,
+      "best_lap": "1:48.875",
+      "best_lap_ms": 108875,
+      "total_time": "22:27.995",
+      "total_time_ms": 1347995,
+      "gap": "0:41.992",
+      "gap_ms": 41992,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 32,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 11.25,
+          "delta": 1.25,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109677,
+          "after": 109630,
+          "delta": -47,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -1.67,
+          "after": 3.25,
+          "delta": 4.92,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 905,
+          "after": 909,
+          "delta": 4,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 905,
+        "after": 909,
+        "delta": 4,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_135830_R.json",
       "finished_at": "2026-03-31T13:58:30",
@@ -447,13 +546,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 5,
     "reasons": {
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 2
     }
   }
 }
