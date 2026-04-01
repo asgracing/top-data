@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 3,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
+    "average_finish": 17.25,
     "best_lap": "1:51.457",
     "best_lap_ms": 111457,
     "best_lap_track": "monza",
@@ -15,43 +15,50 @@
     "best_lap_car_name_raw": "Jaguar G3",
     "best_lap_car_name": "Jaguar G3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-01T16:56:07",
-    "last_seen": "2026-04-01T16:56:07",
+    "last_race_at": "2026-04-01T17:33:51",
+    "last_seen": "2026-04-01T17:33:51",
     "average_pace_ms": 114818,
     "average_pace": "1:54.818",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -7.0,
-    "positions_delta_races": 1,
-    "championship_rank": 2312,
-    "bestlap_rank": 2921,
+    "average_positions_delta": -4.5,
+    "positions_delta_races": 2,
+    "championship_rank": 2525,
+    "bestlap_rank": 2925,
     "latest_changes": {
-      "average_pace_ms": {
-        "before": 113508,
-        "after": 114818,
-        "delta": 1310,
+      "average_finish": {
+        "before": 15.0,
+        "after": 17.25,
+        "delta": 2.25,
         "trend": "down"
       },
+      "average_positions_delta": {
+        "before": -7.0,
+        "after": -4.5,
+        "delta": 2.5,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 2308,
-        "after": 2312,
-        "delta": 4,
+        "before": 2312,
+        "after": 2525,
+        "delta": 213,
         "trend": "down"
       },
       "races": {
-        "before": 2,
-        "after": 3,
+        "before": 3,
+        "after": 4,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-01T16:56:07"
+    "latest_change_at": "2026-04-01T17:33:51"
   },
   "recent_form": [
+    24,
     15,
     16,
     14
@@ -59,17 +66,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 45,
-      "average_finish": 15.0,
+      "finish_sum": 69,
+      "average_finish": 17.25,
       "best_lap_ms": 111580,
       "best_lap": "1:51.580"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260401_173351_R.json",
+      "finished_at": "2026-04-01T17:33:51",
+      "track": "monza",
+      "car_model_id": 14,
+      "car_name_raw": "Jaguar G3",
+      "car_name": "Jaguar G3",
+      "position": 24,
+      "participants_count": 44,
+      "winner": "David Marie",
+      "points": 0,
+      "qualifying_position": 22,
+      "start_position": 22,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -2,
+      "positions_gained": 0,
+      "positions_lost": 2,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "2:19.935",
+      "total_time_ms": 139935,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 17.25,
+          "delta": 2.25,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -7.0,
+          "after": -4.5,
+          "delta": 2.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2312,
+          "after": 2525,
+          "delta": 213,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2312,
+        "after": 2525,
+        "delta": 213,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260401_165607_R.json",
       "finished_at": "2026-04-01T16:56:07",
@@ -258,9 +327,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
