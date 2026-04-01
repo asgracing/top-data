@@ -3,11 +3,11 @@
   "driver": "Alexey Shustov",
   "summary": {
     "points": 858,
-    "average_points_per_race": 6.92,
-    "races": 124,
+    "average_points_per_race": 6.86,
+    "races": 125,
     "wins": 9,
     "podiums": 25,
-    "average_finish": 8.44,
+    "average_finish": 8.54,
     "best_lap": "1:48.115",
     "best_lap_ms": 108115,
     "best_lap_track": "monza",
@@ -15,69 +15,126 @@
     "best_lap_car_name_raw": "Aston Martin V12 Vantage GT3",
     "best_lap_car_name": "Aston Martin V12 Vantage GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 1,
+    "penalty_count": 2,
     "penalty_points": 3,
     "fastest_lap_awards": 8,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-02T00:23:17",
-    "last_seen": "2026-04-02T00:23:17",
-    "average_pace_ms": 110988,
-    "average_pace": "1:50.988",
-    "win_rate": 7.26,
-    "podium_rate": 20.16,
-    "average_positions_delta": 8.26,
-    "positions_delta_races": 121,
+    "last_race_at": "2026-04-02T01:01:30",
+    "last_seen": "2026-04-02T01:01:30",
+    "average_pace_ms": 110999,
+    "average_pace": "1:50.999",
+    "win_rate": 7.2,
+    "podium_rate": 20.0,
+    "average_positions_delta": 8.11,
+    "positions_delta_races": 122,
     "championship_rank": 3,
-    "bestlap_rank": 648,
+    "bestlap_rank": 650,
     "latest_changes": {
       "average_finish": {
-        "before": 8.39,
-        "after": 8.44,
-        "delta": 0.05,
+        "before": 8.44,
+        "after": 8.54,
+        "delta": 0.1,
         "trend": "down"
       },
       "average_pace_ms": {
-        "before": 110965,
-        "after": 110988,
-        "delta": 23,
+        "before": 110988,
+        "after": 110999,
+        "delta": 11,
         "trend": "down"
       },
       "average_positions_delta": {
-        "before": 8.19,
-        "after": 8.26,
-        "delta": 0.07,
-        "trend": "up"
+        "before": 8.26,
+        "after": 8.11,
+        "delta": -0.15,
+        "trend": "down"
       },
       "races": {
-        "before": 123,
-        "after": 124,
+        "before": 124,
+        "after": 125,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-02T00:23:17"
+    "latest_change_at": "2026-04-02T01:01:30"
   },
   "recent_form": [
+    20,
     15,
     30,
     22,
-    10,
-    9
+    10
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 124,
+      "races": 125,
       "wins": 9,
       "podiums": 25,
       "points": 858,
-      "finish_sum": 1047,
-      "average_finish": 8.44,
+      "finish_sum": 1067,
+      "average_finish": 8.54,
       "best_lap_ms": 108115,
       "best_lap": "1:48.115"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_010130_R.json",
+      "finished_at": "2026-04-02T01:01:30",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 20,
+      "participants_count": 38,
+      "winner": "Marat Bibizyanov",
+      "points": 0,
+      "qualifying_position": 10,
+      "start_position": 10,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -10,
+      "positions_gained": 0,
+      "positions_lost": 10,
+      "best_lap": "2:02.312",
+      "best_lap_ms": 122312,
+      "total_time": "4:27.899",
+      "total_time_ms": 267899,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.44,
+          "after": 8.54,
+          "delta": 0.1,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110988,
+          "after": 110999,
+          "delta": 11,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 8.26,
+          "after": 8.11,
+          "delta": -0.15,
+          "trend": "down"
+        },
+        "races": {
+          "before": 124,
+          "after": 125,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260402_002317_R.json",
       "finished_at": "2026-04-02T00:23:17",
@@ -9507,13 +9564,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
+    "penalty_count": 2,
     "penalty_points": 3,
     "reasons": {
-      "Cutting": 1
+      "Cutting": 1,
+      "PitSpeeding": 1
     },
     "types": {
-      "StopAndGo_20": 1
+      "StopAndGo_20": 1,
+      "Disqualified": 1
     }
   }
 }
