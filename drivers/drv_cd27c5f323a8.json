@@ -3,13 +3,13 @@
   "driver": "sefa laz",
   "summary": {
     "points": 10,
-    "average_points_per_race": 5.0,
-    "races": 2,
+    "average_points_per_race": 3.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 8.5,
-    "best_lap": "1:48.785",
-    "best_lap_ms": 108785,
+    "average_finish": 13.0,
+    "best_lap": "1:48.597",
+    "best_lap_ms": 108597,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 32,
     "best_lap_car_name_raw": "Ferrari 296 GT3",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-24T18:04:34",
-    "last_seen": "2026-03-24T18:04:34",
-    "average_pace_ms": 110984,
-    "average_pace": "1:50.984",
+    "last_race_at": "2026-04-02T00:23:17",
+    "last_seen": "2026-04-02T00:23:17",
+    "average_pace_ms": 110701,
+    "average_pace": "1:50.701",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 8.0,
     "positions_delta_races": 2,
-    "championship_rank": 1220,
-    "bestlap_rank": 1280,
+    "championship_rank": 1255,
+    "bestlap_rank": 1096,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1219,
-        "after": 1220,
-        "delta": 1,
+      "average_finish": {
+        "before": 8.5,
+        "after": 13.0,
+        "delta": 4.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110984,
+        "after": 110701,
+        "delta": -283,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1220,
+        "after": 1255,
+        "delta": 35,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-01T23:45:13"
+    "latest_change_at": "2026-04-02T00:23:17"
   },
   "recent_form": [
+    22,
     32,
     12,
     5
@@ -47,17 +66,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 17,
-      "average_finish": 8.5,
-      "best_lap_ms": 108785,
-      "best_lap": "1:48.785"
+      "finish_sum": 39,
+      "average_finish": 13.0,
+      "best_lap_ms": 108597,
+      "best_lap": "1:48.597"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_002317_R.json",
+      "finished_at": "2026-04-02T00:23:17",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 22,
+      "participants_count": 53,
+      "winner": "Axel Phowley",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.597",
+      "best_lap_ms": 108597,
+      "total_time": "22:54.885",
+      "total_time_ms": 1374885,
+      "gap": "1:32.429",
+      "gap_ms": 92429,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.5,
+          "after": 13.0,
+          "delta": 4.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110984,
+          "after": 110701,
+          "delta": -283,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1220,
+          "after": 1255,
+          "delta": 35,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1220,
+        "after": 1255,
+        "delta": 35,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260324_180434_R.json",
       "finished_at": "2026-03-24T18:04:34",
