@@ -3,11 +3,11 @@
   "driver": "FOUFOU YNAD59",
   "summary": {
     "points": 94,
-    "average_points_per_race": 18.8,
-    "races": 5,
+    "average_points_per_race": 15.67,
+    "races": 6,
     "wins": 3,
     "podiums": 4,
-    "average_finish": 4.4,
+    "average_finish": 7.5,
     "best_lap": "1:47.165",
     "best_lap_ms": 107165,
     "best_lap_track": "monza",
@@ -19,40 +19,122 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T16:45:41",
-    "last_seen": "2026-03-28T16:45:41",
-    "average_pace_ms": 108437,
-    "average_pace": "1:48.437",
-    "win_rate": 60.0,
-    "podium_rate": 80.0,
-    "average_positions_delta": 3.2,
-    "positions_delta_races": 5,
+    "last_race_at": "2026-04-01T21:14:25",
+    "last_seen": "2026-04-01T21:14:25",
+    "average_pace_ms": 108433,
+    "average_pace": "1:48.433",
+    "win_rate": 50.0,
+    "podium_rate": 66.67,
+    "average_positions_delta": -1.0,
+    "positions_delta_races": 6,
     "championship_rank": 71,
     "bestlap_rank": 88,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-01T20:38:32"
+    "latest_changes": {
+      "average_finish": {
+        "before": 4.4,
+        "after": 7.5,
+        "delta": 3.1,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108437,
+        "after": 108433,
+        "delta": -4,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 3.2,
+        "after": -1.0,
+        "delta": -4.2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 5,
+        "after": 6,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-01T21:14:25"
   },
   "recent_form": [
+    23,
     40,
     1,
     45,
-    40,
-    1
+    40
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 3,
       "podiums": 4,
       "points": 94,
-      "finish_sum": 22,
-      "average_finish": 4.4,
+      "finish_sum": 45,
+      "average_finish": 7.5,
       "best_lap_ms": 107300,
       "best_lap": "1:47.300"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260401_211425_R.json",
+      "finished_at": "2026-04-01T21:14:25",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 23,
+      "participants_count": 46,
+      "winner": "Dennis Bosch",
+      "points": 0,
+      "qualifying_position": 1,
+      "start_position": 1,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -22,
+      "positions_gained": 0,
+      "positions_lost": 22,
+      "best_lap": "1:48.240",
+      "best_lap_ms": 108240,
+      "total_time": "7:30.235",
+      "total_time_ms": 450235,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 4.4,
+          "after": 7.5,
+          "delta": 3.1,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108437,
+          "after": 108433,
+          "delta": -4,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 3.2,
+          "after": -1.0,
+          "delta": -4.2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_164541_R.json",
       "finished_at": "2026-03-28T16:45:41",
