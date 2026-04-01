@@ -3,11 +3,11 @@
   "driver": "HC L",
   "summary": {
     "points": 8,
-    "average_points_per_race": 8.0,
-    "races": 1,
+    "average_points_per_race": 4.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 6.0,
+    "average_finish": 9.0,
     "best_lap": "1:47.565",
     "best_lap_ms": 107565,
     "best_lap_track": "monza",
@@ -19,20 +19,52 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-01T17:33:51",
-    "last_seen": "2026-04-01T17:33:51",
-    "average_pace_ms": 109394,
-    "average_pace": "1:49.394",
+    "last_race_at": "2026-04-01T18:11:21",
+    "last_seen": "2026-04-01T18:11:21",
+    "average_pace_ms": 108783,
+    "average_pace": "1:48.783",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 29.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1303,
+    "average_positions_delta": 11.0,
+    "positions_delta_races": 2,
+    "championship_rank": 1355,
     "bestlap_rank": 233,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-01T17:33:51"
+    "latest_changes": {
+      "average_finish": {
+        "before": 6.0,
+        "after": 9.0,
+        "delta": 3.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109394,
+        "after": 108783,
+        "delta": -611,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 29.0,
+        "after": 11.0,
+        "delta": -18.0,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1303,
+        "after": 1355,
+        "delta": 52,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-01T18:11:21"
   },
   "recent_form": [
+    12,
     31,
     6,
     26
@@ -40,17 +72,85 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 6,
-      "average_finish": 6.0,
+      "finish_sum": 18,
+      "average_finish": 9.0,
       "best_lap_ms": 107565,
       "best_lap": "1:47.565"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260401_181121_R.json",
+      "finished_at": "2026-04-01T18:11:21",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 12,
+      "participants_count": 40,
+      "winner": "David Marie",
+      "points": 0,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -7,
+      "positions_gained": 0,
+      "positions_lost": 7,
+      "best_lap": "1:47.800",
+      "best_lap_ms": 107800,
+      "total_time": "20:42.498",
+      "total_time_ms": 1242498,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 6.0,
+          "after": 9.0,
+          "delta": 3.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109394,
+          "after": 108783,
+          "delta": -611,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 29.0,
+          "after": 11.0,
+          "delta": -18.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1303,
+          "after": 1355,
+          "delta": 52,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1303,
+        "after": 1355,
+        "delta": 52,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260401_173351_R.json",
       "finished_at": "2026-04-01T17:33:51",
