@@ -3,13 +3,13 @@
   "driver": "Sergay Martov",
   "summary": {
     "points": 10,
-    "average_points_per_race": 2.5,
-    "races": 4,
+    "average_points_per_race": 2.0,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.25,
-    "best_lap": "1:50.582",
-    "best_lap_ms": 110582,
+    "average_finish": 16.0,
+    "best_lap": "1:50.300",
+    "best_lap_ms": 110300,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 34,
     "best_lap_car_name_raw": "Porsche 992 GT3 R",
@@ -19,47 +19,110 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T12:44:18",
-    "last_seen": "2026-03-31T12:44:18",
-    "average_pace_ms": 114598,
-    "average_pace": "1:54.598",
+    "last_race_at": "2026-04-01T20:02:35",
+    "last_seen": "2026-04-01T20:02:35",
+    "average_pace_ms": 113862,
+    "average_pace": "1:53.862",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 0.33,
     "positions_delta_races": 3,
     "championship_rank": 1263,
-    "bestlap_rank": 2598,
+    "bestlap_rank": 2446,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1262,
-        "after": 1263,
+      "average_finish": {
+        "before": 16.25,
+        "after": 16.0,
+        "delta": -0.25,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 114598,
+        "after": 113862,
+        "delta": -736,
+        "trend": "up"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
         "delta": 1,
-        "trend": "down"
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-01T19:26:05"
+    "latest_change_at": "2026-04-01T20:02:35"
   },
   "recent_form": [
+    15,
     17,
     5,
     16,
-    19,
-    26
+    19
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 65,
-      "average_finish": 16.25,
-      "best_lap_ms": 110582,
-      "best_lap": "1:50.582"
+      "finish_sum": 80,
+      "average_finish": 16.0,
+      "best_lap_ms": 110300,
+      "best_lap": "1:50.300"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260401_200235_R.json",
+      "finished_at": "2026-04-01T20:02:35",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 15,
+      "participants_count": 42,
+      "winner": "Theo Schmid",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.300",
+      "best_lap_ms": 110300,
+      "total_time": "20:23.022",
+      "total_time_ms": 1223022,
+      "gap": "0:21.163",
+      "gap_ms": 21163,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.25,
+          "after": 16.0,
+          "delta": -0.25,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 114598,
+          "after": 113862,
+          "delta": -736,
+          "trend": "up"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_124418_R.json",
       "finished_at": "2026-03-31T12:44:18",
