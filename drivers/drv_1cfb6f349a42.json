@@ -3,11 +3,11 @@
   "driver": "Alexandr Afenin",
   "summary": {
     "points": 265,
-    "average_points_per_race": 9.14,
-    "races": 29,
+    "average_points_per_race": 8.83,
+    "races": 30,
     "wins": 4,
     "podiums": 11,
-    "average_finish": 8.97,
+    "average_finish": 9.33,
     "best_lap": "1:47.492",
     "best_lap_ms": 107492,
     "best_lap_track": "monza",
@@ -15,44 +15,183 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-02T18:18:31",
-    "last_seen": "2026-04-02T18:18:31",
-    "average_pace_ms": 109246,
-    "average_pace": "1:49.246",
-    "win_rate": 13.79,
-    "podium_rate": 37.93,
-    "average_positions_delta": 1.85,
-    "positions_delta_races": 26,
+    "last_race_at": "2026-04-02T18:54:50",
+    "last_seen": "2026-04-02T18:54:50",
+    "average_pace_ms": 109268,
+    "average_pace": "1:49.268",
+    "win_rate": 13.33,
+    "podium_rate": 36.67,
+    "average_positions_delta": 1.33,
+    "positions_delta_races": 27,
     "championship_rank": 19,
     "bestlap_rank": 222,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-02T18:18:31"
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.97,
+        "after": 9.33,
+        "delta": 0.36,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109246,
+        "after": 109268,
+        "delta": 22,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.85,
+        "after": 1.33,
+        "delta": -0.52,
+        "trend": "down"
+      },
+      "races": {
+        "before": 29,
+        "after": 30,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-02T18:54:50"
   },
   "recent_form": [
+    20,
+    44,
     43,
     25,
-    17,
-    3,
-    4
+    17
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 29,
+      "races": 30,
       "wins": 4,
       "podiums": 11,
       "points": 265,
-      "finish_sum": 260,
-      "average_finish": 8.97,
+      "finish_sum": 280,
+      "average_finish": 9.33,
       "best_lap_ms": 107492,
       "best_lap": "1:47.492"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_185450_R.json",
+      "finished_at": "2026-04-02T18:54:50",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 20,
+      "participants_count": 45,
+      "winner": "Marco Piccillo",
+      "points": 0,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -12,
+      "positions_gained": 0,
+      "positions_lost": 12,
+      "best_lap": "1:48.215",
+      "best_lap_ms": 108215,
+      "total_time": "16:32.451",
+      "total_time_ms": 992451,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 8.97,
+          "after": 9.33,
+          "delta": 0.36,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109246,
+          "after": 109268,
+          "delta": 22,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.85,
+          "after": 1.33,
+          "delta": -0.52,
+          "trend": "down"
+        },
+        "races": {
+          "before": 29,
+          "after": 30,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
+    {
+      "race_id": "260402_185450_R.json",
+      "finished_at": "2026-04-02T18:54:50",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 44,
+      "participants_count": 45,
+      "winner": "Marco Piccillo",
+      "points": 0,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_player_id",
+      "positions_delta": -36,
+      "positions_gained": 0,
+      "positions_lost": 36,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": null,
+      "total_time_ms": null,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 0,
+      "counted_for_stats": false,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.97,
+          "after": 9.33,
+          "delta": 0.36,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109246,
+          "after": 109268,
+          "delta": 22,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.85,
+          "after": 1.33,
+          "delta": -0.52,
+          "trend": "down"
+        },
+        "races": {
+          "before": 29,
+          "after": 30,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260402_181831_R.json",
       "finished_at": "2026-04-02T18:18:31",
@@ -2977,9 +3116,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
