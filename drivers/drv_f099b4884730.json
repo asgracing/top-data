@@ -3,11 +3,11 @@
   "driver": "Leon Kolikidis",
   "summary": {
     "points": 47,
-    "average_points_per_race": 6.71,
-    "races": 7,
+    "average_points_per_race": 5.88,
+    "races": 8,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 9.71,
+    "average_finish": 12.5,
     "best_lap": "1:48.025",
     "best_lap_ms": 108025,
     "best_lap_track": "monza",
@@ -15,51 +15,102 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 3,
-    "penalty_points": 4,
+    "penalty_count": 4,
+    "penalty_points": 7,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-30T16:08:46",
-    "last_seen": "2026-03-30T16:08:46",
+    "last_race_at": "2026-04-02T22:41:18",
+    "last_seen": "2026-04-02T22:41:18",
     "average_pace_ms": 109581,
     "average_pace": "1:49.581",
     "win_rate": 0.0,
-    "podium_rate": 14.29,
+    "podium_rate": 12.5,
     "average_positions_delta": 11.43,
     "positions_delta_races": 7,
     "championship_rank": 215,
     "bestlap_rank": 586,
     "latest_changes": {
-      "championship_rank": {
-        "before": 214,
-        "after": 215,
-        "delta": 1,
+      "average_finish": {
+        "before": 9.71,
+        "after": 12.5,
+        "delta": 2.79,
         "trend": "down"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-02T22:03:22"
+    "latest_change_at": "2026-04-02T22:41:18"
   },
   "recent_form": [
+    32,
     26,
     35,
     8,
-    3,
-    30
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 1,
       "points": 47,
-      "finish_sum": 68,
-      "average_finish": 9.71,
+      "finish_sum": 100,
+      "average_finish": 12.5,
       "best_lap_ms": 108025,
       "best_lap": "1:48.025"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_224118_R.json",
+      "finished_at": "2026-04-02T22:41:18",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 32,
+      "participants_count": 48,
+      "winner": "William Joseph Blazkowicz",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "23:48.603",
+      "total_time_ms": 1428603,
+      "gap": "2:08.518",
+      "gap_ms": 128518,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 63,
+      "changes": {
+        "average_finish": {
+          "before": 9.71,
+          "after": 12.5,
+          "delta": 2.79,
+          "trend": "down"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260330_160846_R.json",
       "finished_at": "2026-03-30T16:08:46",
@@ -739,14 +790,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 3,
-    "penalty_points": 4,
+    "penalty_count": 4,
+    "penalty_points": 7,
     "reasons": {
-      "Cutting": 3
+      "Cutting": 4
     },
     "types": {
       "DriveThrough": 2,
-      "None": 1
+      "None": 1,
+      "StopAndGo_30": 1
     }
   }
 }
