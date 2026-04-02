@@ -3,11 +3,11 @@
   "driver": "Jan Berning",
   "summary": {
     "points": 120,
-    "average_points_per_race": 8.57,
-    "races": 14,
+    "average_points_per_race": 8.0,
+    "races": 15,
     "wins": 1,
     "podiums": 4,
-    "average_finish": 10.07,
+    "average_finish": 10.27,
     "best_lap": "1:47.930",
     "best_lap_ms": 107930,
     "best_lap_track": "monza",
@@ -15,44 +15,114 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "Q",
-    "penalty_count": 2,
-    "penalty_points": 5,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-02T15:50:31",
-    "last_seen": "2026-04-02T15:50:31",
-    "average_pace_ms": 109277,
-    "average_pace": "1:49.277",
-    "win_rate": 7.14,
-    "podium_rate": 28.57,
+    "last_race_at": "2026-04-02T17:05:50",
+    "last_seen": "2026-04-02T17:05:50",
+    "average_pace_ms": 109280,
+    "average_pace": "1:49.280",
+    "win_rate": 6.67,
+    "podium_rate": 26.67,
     "average_positions_delta": -3.79,
     "positions_delta_races": 14,
     "championship_rank": 49,
-    "bestlap_rank": 492,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-02T16:27:24"
+    "bestlap_rank": 493,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.07,
+        "after": 10.27,
+        "delta": 0.2,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109277,
+        "after": 109280,
+        "delta": 3,
+        "trend": "down"
+      },
+      "races": {
+        "before": 14,
+        "after": 15,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-02T17:05:50"
   },
   "recent_form": [
+    13,
     33,
     2,
     5,
-    6,
-    21
+    6
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 14,
+      "races": 15,
       "wins": 1,
       "podiums": 4,
       "points": 120,
-      "finish_sum": 141,
-      "average_finish": 10.07,
+      "finish_sum": 154,
+      "average_finish": 10.27,
       "best_lap_ms": 108165,
       "best_lap": "1:48.165"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_170550_R.json",
+      "finished_at": "2026-04-02T17:05:50",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 13,
+      "participants_count": 40,
+      "winner": "Henk Uuldriks",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.895",
+      "best_lap_ms": 108895,
+      "total_time": "21:12.410",
+      "total_time_ms": 1272410,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 10.07,
+          "after": 10.27,
+          "delta": 0.2,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109277,
+          "after": 109280,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 14,
+          "after": 15,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260402_155031_R.json",
       "finished_at": "2026-04-02T15:50:31",
@@ -1224,13 +1294,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 5,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "reasons": {
-      "Cutting": 2
+      "Cutting": 3
     },
     "types": {
-      "DriveThrough": 2
+      "DriveThrough": 3
     }
   }
 }
