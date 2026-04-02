@@ -3,11 +3,11 @@
   "driver": "ARI MEN",
   "summary": {
     "points": 43,
-    "average_points_per_race": 3.91,
-    "races": 11,
+    "average_points_per_race": 3.58,
+    "races": 12,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 13.45,
+    "average_finish": 14.25,
     "best_lap": "1:47.945",
     "best_lap_ms": 107945,
     "best_lap_track": "monza",
@@ -15,75 +15,114 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-02T15:50:31",
-    "last_seen": "2026-04-02T15:50:31",
+    "last_race_at": "2026-04-02T16:27:24",
+    "last_seen": "2026-04-02T16:27:24",
     "average_pace_ms": 110228,
     "average_pace": "1:50.228",
     "win_rate": 0.0,
-    "podium_rate": 18.18,
-    "average_positions_delta": -4.89,
-    "positions_delta_races": 9,
+    "podium_rate": 16.67,
+    "average_positions_delta": -6.2,
+    "positions_delta_races": 10,
     "championship_rank": 251,
     "bestlap_rank": 507,
     "latest_changes": {
       "average_finish": {
-        "before": 13.4,
-        "after": 13.45,
-        "delta": 0.05,
-        "trend": "down"
-      },
-      "average_pace_ms": {
-        "before": 110061,
-        "after": 110228,
-        "delta": 167,
+        "before": 13.45,
+        "after": 14.25,
+        "delta": 0.8,
         "trend": "down"
       },
       "average_positions_delta": {
-        "before": -4.75,
-        "after": -4.89,
-        "delta": -0.14,
-        "trend": "down"
-      },
-      "championship_rank": {
-        "before": 250,
-        "after": 251,
-        "delta": 1,
+        "before": -4.89,
+        "after": -6.2,
+        "delta": -1.31,
         "trend": "down"
       },
       "races": {
-        "before": 10,
-        "after": 11,
+        "before": 11,
+        "after": 12,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-02T15:50:31"
+    "latest_change_at": "2026-04-02T16:27:24"
   },
   "recent_form": [
+    23,
     14,
     22,
     39,
-    39,
-    8
+    39
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 2,
       "points": 43,
-      "finish_sum": 148,
-      "average_finish": 13.45,
+      "finish_sum": 171,
+      "average_finish": 14.25,
       "best_lap_ms": 107945,
       "best_lap": "1:47.945"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_162724_R.json",
+      "finished_at": "2026-04-02T16:27:24",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 23,
+      "participants_count": 42,
+      "winner": "Carlo Seegerer",
+      "points": 0,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -18,
+      "positions_gained": 0,
+      "positions_lost": 18,
+      "best_lap": "1:50.195",
+      "best_lap_ms": 110195,
+      "total_time": "16:44.151",
+      "total_time_ms": 1004151,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.45,
+          "after": 14.25,
+          "delta": 0.8,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -4.89,
+          "after": -6.2,
+          "delta": -1.31,
+          "trend": "down"
+        },
+        "races": {
+          "before": 11,
+          "after": 12,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260402_155031_R.json",
       "finished_at": "2026-04-02T15:50:31",
@@ -1041,9 +1080,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "PitSpeeding": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
