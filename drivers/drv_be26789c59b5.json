@@ -3,11 +3,11 @@
   "driver": "Syra Nevakshenov",
   "summary": {
     "points": 5,
-    "average_points_per_race": 0.83,
-    "races": 6,
+    "average_points_per_race": 0.71,
+    "races": 7,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
+    "average_finish": 15.29,
     "best_lap": "1:49.855",
     "best_lap_ms": 109855,
     "best_lap_track": "monza",
@@ -15,51 +15,131 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-02T11:24:18",
-    "last_seen": "2026-04-02T11:24:18",
-    "average_pace_ms": 112667,
-    "average_pace": "1:52.667",
+    "last_race_at": "2026-04-02T12:02:53",
+    "last_seen": "2026-04-02T12:02:53",
+    "average_pace_ms": 112452,
+    "average_pace": "1:52.452",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 3.25,
     "positions_delta_races": 4,
-    "championship_rank": 1621,
-    "bestlap_rank": 2216,
+    "championship_rank": 1625,
+    "bestlap_rank": 2224,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1618,
-        "after": 1621,
-        "delta": 3,
+      "average_finish": {
+        "before": 15.0,
+        "after": 15.29,
+        "delta": 0.29,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112667,
+        "after": 112452,
+        "delta": -215,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1621,
+        "after": 1625,
+        "delta": 4,
+        "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-02T11:24:18"
+    "latest_change_at": "2026-04-02T12:02:53"
   },
   "recent_form": [
+    17,
     26,
     22,
     17,
-    20,
-    23
+    20
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 0,
       "points": 5,
-      "finish_sum": 90,
-      "average_finish": 15.0,
+      "finish_sum": 107,
+      "average_finish": 15.29,
       "best_lap_ms": 110055,
       "best_lap": "1:50.055"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_120253_R.json",
+      "finished_at": "2026-04-02T12:02:53",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 17,
+      "participants_count": 38,
+      "winner": "Marcos Vinícius",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.462",
+      "best_lap_ms": 110462,
+      "total_time": "20:45.033",
+      "total_time_ms": 1245033,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 15.29,
+          "delta": 0.29,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112667,
+          "after": 112452,
+          "delta": -215,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1621,
+          "after": 1625,
+          "delta": 4,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1621,
+        "after": 1625,
+        "delta": 4,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260402_112418_R.json",
       "finished_at": "2026-04-02T11:24:18",
@@ -602,9 +682,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Trolling": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
