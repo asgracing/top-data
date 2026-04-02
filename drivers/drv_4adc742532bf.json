@@ -3,11 +3,11 @@
   "driver": "Doctor Sausage",
   "summary": {
     "points": 26,
-    "average_points_per_race": 26.0,
-    "races": 1,
+    "average_points_per_race": 13.0,
+    "races": 2,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 1.0,
+    "average_finish": 11.0,
     "best_lap": "1:47.205",
     "best_lap_ms": 107205,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T02:27:00",
-    "last_seen": "2026-03-28T02:27:00",
-    "average_pace_ms": 107675,
-    "average_pace": "1:47.675",
-    "win_rate": 100.0,
-    "podium_rate": 100.0,
+    "last_race_at": "2026-04-02T23:57:28",
+    "last_seen": "2026-04-02T23:57:28",
+    "average_pace_ms": 107766,
+    "average_pace": "1:47.766",
+    "win_rate": 50.0,
+    "podium_rate": 50.0,
     "average_positions_delta": 0.0,
     "positions_delta_races": 1,
-    "championship_rank": 478,
+    "championship_rank": 501,
     "bestlap_rank": 109,
     "latest_changes": {
-      "championship_rank": {
-        "before": 477,
-        "after": 478,
-        "delta": 1,
+      "average_finish": {
+        "before": 1.0,
+        "after": 11.0,
+        "delta": 10.0,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 107675,
+        "after": 107766,
+        "delta": 91,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 478,
+        "after": 501,
+        "delta": 23,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-02T23:19:37"
+    "latest_change_at": "2026-04-02T23:57:28"
   },
   "recent_form": [
+    21,
     25,
     24,
     1,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 1,
       "podiums": 1,
       "points": 26,
-      "finish_sum": 1,
-      "average_finish": 1.0,
+      "finish_sum": 22,
+      "average_finish": 11.0,
       "best_lap_ms": 107205,
       "best_lap": "1:47.205"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260402_235728_R.json",
+      "finished_at": "2026-04-02T23:57:28",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 21,
+      "participants_count": 39,
+      "winner": "Kirill Bulgakov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.017",
+      "best_lap_ms": 108017,
+      "total_time": "22:34.207",
+      "total_time_ms": 1354207,
+      "gap": "0:38.679",
+      "gap_ms": 38679,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 1.0,
+          "after": 11.0,
+          "delta": 10.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 107675,
+          "after": 107766,
+          "delta": 91,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 478,
+          "after": 501,
+          "delta": 23,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 478,
+        "after": 501,
+        "delta": 23,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_022700_R.json",
       "finished_at": "2026-03-28T02:27:00",
