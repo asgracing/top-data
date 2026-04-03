@@ -3,11 +3,11 @@
   "driver": "Jacobus van der Walt",
   "summary": {
     "points": 2,
-    "average_points_per_race": 1.0,
-    "races": 2,
+    "average_points_per_race": 0.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 19.5,
+    "average_finish": 18.67,
     "best_lap": "1:48.227",
     "best_lap_ms": 108227,
     "best_lap_track": "monza",
@@ -15,31 +15,32 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-03T20:17:30",
-    "last_seen": "2026-04-03T20:17:30",
-    "average_pace_ms": 110144,
-    "average_pace": "1:50.144",
+    "last_race_at": "2026-04-03T20:54:36",
+    "last_seen": "2026-04-03T20:54:36",
+    "average_pace_ms": 109703,
+    "average_pace": "1:49.703",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -1.0,
-    "positions_delta_races": 2,
-    "championship_rank": 1988,
-    "bestlap_rank": 808,
+    "average_positions_delta": -4.33,
+    "positions_delta_races": 3,
+    "championship_rank": 1990,
+    "bestlap_rank": 811,
     "latest_changes": {
       "championship_rank": {
-        "before": 1982,
-        "after": 1988,
-        "delta": 6,
+        "before": 1989,
+        "after": 1990,
+        "delta": 1,
         "trend": "down"
       }
     },
-    "latest_change_at": "2026-04-03T20:14:31"
+    "latest_change_at": "2026-04-03T20:51:59"
   },
   "recent_form": [
+    17,
     9,
     30,
     45
@@ -47,17 +48,85 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 39,
-      "average_finish": 19.5,
-      "best_lap_ms": 108740,
-      "best_lap": "1:48.740"
+      "finish_sum": 56,
+      "average_finish": 18.67,
+      "best_lap_ms": 108350,
+      "best_lap": "1:48.350"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260403_205436_R.json",
+      "finished_at": "2026-04-03T20:54:36",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 17,
+      "participants_count": 44,
+      "winner": "Dmitry Pryakhin[ASG]",
+      "points": 0,
+      "qualifying_position": 6,
+      "start_position": 6,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -11,
+      "positions_gained": 0,
+      "positions_lost": 11,
+      "best_lap": "1:48.350",
+      "best_lap_ms": 108350,
+      "total_time": "9:09.473",
+      "total_time_ms": 549473,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 19.5,
+          "after": 18.67,
+          "delta": -0.83,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110144,
+          "after": 109703,
+          "delta": -441,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -1.0,
+          "after": -4.33,
+          "delta": -3.33,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1988,
+          "after": 1989,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1988,
+        "after": 1989,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260403_201730_R.json",
       "finished_at": "2026-04-03T20:17:30",
@@ -240,9 +309,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
