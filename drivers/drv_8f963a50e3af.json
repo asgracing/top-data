@@ -2,9 +2,9 @@
   "public_id": "drv_8f963a50e3af",
   "driver": "Stepen King",
   "summary": {
-    "points": 24,
+    "points": 32,
     "average_points_per_race": 8.0,
-    "races": 3,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
     "average_finish": 6.0,
@@ -19,40 +19,139 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-03T21:27:36",
-    "last_seen": "2026-04-03T21:27:36",
-    "average_pace_ms": 110678,
-    "average_pace": "1:50.678",
+    "last_race_at": "2026-04-03T22:04:00",
+    "last_seen": "2026-04-03T22:04:00",
+    "average_pace_ms": 110600,
+    "average_pace": "1:50.600",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
-    "average_positions_delta": 4.5,
-    "positions_delta_races": 2,
-    "championship_rank": 529,
+    "podium_rate": 25.0,
+    "average_positions_delta": 6.0,
+    "positions_delta_races": 3,
+    "championship_rank": 346,
     "bestlap_rank": 1172,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-03T21:37:17"
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 110678,
+        "after": 110600,
+        "delta": -78,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 4.5,
+        "after": 6.0,
+        "delta": 1.5,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 529,
+        "after": 346,
+        "delta": -183,
+        "trend": "up"
+      },
+      "points": {
+        "before": 24,
+        "after": 32,
+        "delta": 8,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-03T22:04:00"
   },
   "recent_form": [
+    6,
     34,
     39,
     6,
-    3,
-    9
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
-      "points": 24,
-      "finish_sum": 18,
+      "points": 32,
+      "finish_sum": 24,
       "average_finish": 6.0,
       "best_lap_ms": 108585,
       "best_lap": "1:48.585"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260403_220400_R.json",
+      "finished_at": "2026-04-03T22:04:00",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 6,
+      "participants_count": 53,
+      "winner": "Theo Ebenhoeh",
+      "points": 8,
+      "qualifying_position": 15,
+      "start_position": 15,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 9,
+      "positions_gained": 9,
+      "positions_lost": 0,
+      "best_lap": "1:48.972",
+      "best_lap_ms": 108972,
+      "total_time": "20:39.988",
+      "total_time_ms": 1239988,
+      "gap": "0:29.705",
+      "gap_ms": 29705,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 110678,
+          "after": 110600,
+          "delta": -78,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 4.5,
+          "after": 6.0,
+          "delta": 1.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 529,
+          "after": 346,
+          "delta": -183,
+          "trend": "up"
+        },
+        "points": {
+          "before": 24,
+          "after": 32,
+          "delta": 8,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 529,
+        "after": 346,
+        "delta": -183,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260403_212736_R.json",
       "finished_at": "2026-04-03T21:27:36",

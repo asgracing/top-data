@@ -3,11 +3,11 @@
   "driver": "Lincoln Machado",
   "summary": {
     "points": 16,
-    "average_points_per_race": 1.6,
-    "races": 10,
+    "average_points_per_race": 1.45,
+    "races": 11,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 13.2,
+    "average_finish": 13.18,
     "best_lap": "1:49.680",
     "best_lap_ms": 109680,
     "best_lap_track": "monza",
@@ -15,51 +15,143 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-03T21:27:36",
-    "last_seen": "2026-04-03T21:27:36",
-    "average_pace_ms": 111266,
-    "average_pace": "1:51.266",
+    "last_race_at": "2026-04-03T22:04:00",
+    "last_seen": "2026-04-03T22:04:00",
+    "average_pace_ms": 111669,
+    "average_pace": "1:51.669",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 4.5,
-    "positions_delta_races": 8,
-    "championship_rank": 788,
-    "bestlap_rank": 2234,
+    "average_positions_delta": 5.11,
+    "positions_delta_races": 9,
+    "championship_rank": 789,
+    "bestlap_rank": 2237,
     "latest_changes": {
+      "average_finish": {
+        "before": 13.2,
+        "after": 13.18,
+        "delta": -0.02,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 111266,
+        "after": 111669,
+        "delta": 403,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 4.5,
+        "after": 5.11,
+        "delta": 0.61,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 787,
-        "after": 788,
+        "before": 788,
+        "after": 789,
         "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 10,
+        "after": 11,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-03T21:37:17"
+    "latest_change_at": "2026-04-03T22:04:00"
   },
   "recent_form": [
+    13,
     11,
     7,
     18,
-    21,
-    6
+    21
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 10,
+      "races": 11,
       "wins": 0,
       "podiums": 0,
       "points": 16,
-      "finish_sum": 132,
-      "average_finish": 13.2,
+      "finish_sum": 145,
+      "average_finish": 13.18,
       "best_lap_ms": 109680,
       "best_lap": "1:49.680"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260403_220400_R.json",
+      "finished_at": "2026-04-03T22:04:00",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 13,
+      "participants_count": 53,
+      "winner": "Theo Ebenhoeh",
+      "points": 0,
+      "qualifying_position": 23,
+      "start_position": 23,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 10,
+      "positions_gained": 10,
+      "positions_lost": 0,
+      "best_lap": "1:50.655",
+      "best_lap_ms": 110655,
+      "total_time": "15:19.905",
+      "total_time_ms": 919905,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 13.2,
+          "after": 13.18,
+          "delta": -0.02,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111266,
+          "after": 111669,
+          "delta": 403,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 4.5,
+          "after": 5.11,
+          "delta": 0.61,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 788,
+          "after": 789,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 10,
+          "after": 11,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 788,
+        "after": 789,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260403_212736_R.json",
       "finished_at": "2026-04-03T21:27:36",
@@ -912,9 +1004,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 1,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
