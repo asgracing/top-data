@@ -3,11 +3,11 @@
   "driver": "Jan Rogacki",
   "summary": {
     "points": 21,
-    "average_points_per_race": 1.17,
-    "races": 18,
+    "average_points_per_race": 1.11,
+    "races": 19,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.39,
+    "average_finish": 15.37,
     "best_lap": "1:49.007",
     "best_lap_ms": 109007,
     "best_lap_track": "monza",
@@ -15,51 +15,126 @@
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
     "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 3,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-03T23:17:15",
-    "last_seen": "2026-04-03T23:17:15",
-    "average_pace_ms": 111803,
-    "average_pace": "1:51.803",
+    "last_race_at": "2026-04-03T23:53:09",
+    "last_seen": "2026-04-03T23:53:09",
+    "average_pace_ms": 111745,
+    "average_pace": "1:51.745",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 8.12,
-    "positions_delta_races": 16,
+    "average_positions_delta": 8.24,
+    "positions_delta_races": 17,
     "championship_rank": 587,
-    "bestlap_rank": 1593,
+    "bestlap_rank": 1597,
     "latest_changes": {
-      "championship_rank": {
-        "before": 584,
-        "after": 587,
-        "delta": 3,
-        "trend": "down"
+      "average_finish": {
+        "before": 15.39,
+        "after": 15.37,
+        "delta": -0.02,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 111803,
+        "after": 111745,
+        "delta": -58,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 8.12,
+        "after": 8.24,
+        "delta": 0.12,
+        "trend": "up"
+      },
+      "races": {
+        "before": 18,
+        "after": 19,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-03T23:29:58"
+    "latest_change_at": "2026-04-03T23:53:09"
   },
   "recent_form": [
+    15,
     10,
     26,
     25,
-    27,
-    9
+    27
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 0,
       "points": 21,
-      "finish_sum": 277,
-      "average_finish": 15.39,
+      "finish_sum": 292,
+      "average_finish": 15.37,
       "best_lap_ms": 109007,
       "best_lap": "1:49.007"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260403_235309_R.json",
+      "finished_at": "2026-04-03T23:53:09",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 15,
+      "participants_count": 46,
+      "winner": "Dmitry Pryakhin[ASG]",
+      "points": 0,
+      "qualifying_position": 25,
+      "start_position": 25,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 10,
+      "positions_gained": 10,
+      "positions_lost": 0,
+      "best_lap": "1:49.637",
+      "best_lap_ms": 109637,
+      "total_time": "16:39.542",
+      "total_time_ms": 999542,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 15.39,
+          "after": 15.37,
+          "delta": -0.02,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111803,
+          "after": 111745,
+          "delta": -58,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 8.12,
+          "after": 8.24,
+          "delta": 0.12,
+          "trend": "up"
+        },
+        "races": {
+          "before": 18,
+          "after": 19,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260403_231715_R.json",
       "finished_at": "2026-04-03T23:17:15",
@@ -1510,14 +1585,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 3,
+    "penalty_points": 6,
     "reasons": {
-      "PitSpeeding": 1,
+      "PitSpeeding": 2,
       "Cutting": 1
     },
     "types": {
-      "StopAndGo_30": 1,
+      "StopAndGo_30": 2,
       "None": 1
     }
   }
