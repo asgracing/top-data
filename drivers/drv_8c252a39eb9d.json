@@ -3,11 +3,11 @@
   "driver": "Denny Arnold",
   "summary": {
     "points": 8,
-    "average_points_per_race": 2.67,
-    "races": 3,
+    "average_points_per_race": 2.0,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.67,
+    "average_finish": 18.0,
     "best_lap": "1:47.587",
     "best_lap_ms": 107587,
     "best_lap_track": "monza",
@@ -19,40 +19,139 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-03T23:53:09",
-    "last_seen": "2026-04-03T23:53:09",
-    "average_pace_ms": 110566,
-    "average_pace": "1:50.566",
+    "last_race_at": "2026-04-04T00:07:58",
+    "last_seen": "2026-04-04T00:07:58",
+    "average_pace_ms": 110855,
+    "average_pace": "1:50.855",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -15.67,
-    "positions_delta_races": 3,
-    "championship_rank": 1417,
+    "average_positions_delta": -16.5,
+    "positions_delta_races": 4,
+    "championship_rank": 1422,
     "bestlap_rank": 278,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-03T23:53:09"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.67,
+        "after": 18.0,
+        "delta": 1.33,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110566,
+        "after": 110855,
+        "delta": 289,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -15.67,
+        "after": -16.5,
+        "delta": -0.83,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1417,
+        "after": 1422,
+        "delta": 5,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-04T00:07:58"
   },
   "recent_form": [
+    22,
     29,
     32,
     24,
-    20,
-    6
+    20
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 50,
-      "average_finish": 16.67,
+      "finish_sum": 72,
+      "average_finish": 18.0,
       "best_lap_ms": 108062,
       "best_lap": "1:48.062"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260404_000758_R.json",
+      "finished_at": "2026-04-04T00:07:58",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 22,
+      "participants_count": 49,
+      "winner": "K Magomed | TS",
+      "points": 0,
+      "qualifying_position": 3,
+      "start_position": 3,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -19,
+      "positions_gained": 0,
+      "positions_lost": 19,
+      "best_lap": "1:56.340",
+      "best_lap_ms": 116340,
+      "total_time": "1:56.337",
+      "total_time_ms": 116337,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.67,
+          "after": 18.0,
+          "delta": 1.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110566,
+          "after": 110855,
+          "delta": 289,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -15.67,
+          "after": -16.5,
+          "delta": -0.83,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1417,
+          "after": 1422,
+          "delta": 5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1417,
+        "after": 1422,
+        "delta": 5,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260403_235309_R.json",
       "finished_at": "2026-04-03T23:53:09",
