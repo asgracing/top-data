@@ -3,11 +3,11 @@
   "driver": "Konstantin Sweedchenko",
   "summary": {
     "points": 15,
-    "average_points_per_race": 7.5,
-    "races": 2,
+    "average_points_per_race": 5.0,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 11.0,
+    "average_finish": 15.0,
     "best_lap": "1:49.802",
     "best_lap_ms": 109802,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T00:07:58",
-    "last_seen": "2026-04-04T00:07:58",
+    "last_race_at": "2026-04-04T00:31:08",
+    "last_seen": "2026-04-04T00:31:08",
     "average_pace_ms": 110661,
     "average_pace": "1:50.661",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 4.0,
-    "positions_delta_races": 2,
-    "championship_rank": 859,
-    "bestlap_rank": 2342,
+    "podium_rate": 33.33,
+    "average_positions_delta": 4.33,
+    "positions_delta_races": 3,
+    "championship_rank": 873,
+    "bestlap_rank": 2349,
     "latest_changes": {
+      "average_finish": {
+        "before": 11.0,
+        "after": 15.0,
+        "delta": 4.0,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 4.0,
+        "after": 4.33,
+        "delta": 0.33,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 860,
-        "after": 859,
-        "delta": -1,
+        "before": 859,
+        "after": 873,
+        "delta": 14,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-04T00:07:58"
+    "latest_change_at": "2026-04-04T00:31:08"
   },
   "recent_form": [
+    23,
     45,
     33,
     3,
@@ -48,17 +67,79 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
       "points": 15,
-      "finish_sum": 22,
-      "average_finish": 11.0,
+      "finish_sum": 45,
+      "average_finish": 15.0,
       "best_lap_ms": 109802,
       "best_lap": "1:49.802"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260404_003108_R.json",
+      "finished_at": "2026-04-04T00:31:08",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 23,
+      "participants_count": 47,
+      "winner": "Chittayasodhara KASIDIT | MDN",
+      "points": 0,
+      "qualifying_position": 28,
+      "start_position": 28,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 5,
+      "positions_gained": 5,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "4:34.455",
+      "total_time_ms": 274455,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.0,
+          "after": 15.0,
+          "delta": 4.0,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 4.0,
+          "after": 4.33,
+          "delta": 0.33,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 859,
+          "after": 873,
+          "delta": 14,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 859,
+        "after": 873,
+        "delta": 14,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260404_000758_R.json",
       "finished_at": "2026-04-04T00:07:58",
