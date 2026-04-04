@@ -2,12 +2,12 @@
   "public_id": "drv_0a0b1a0fd671",
   "driver": "THOMAS LI",
   "summary": {
-    "points": 10,
-    "average_points_per_race": 10.0,
-    "races": 1,
+    "points": 11,
+    "average_points_per_race": 5.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 5.0,
+    "average_finish": 7.5,
     "best_lap": "1:49.035",
     "best_lap_ms": 109035,
     "best_lap_track": "monza",
@@ -19,57 +19,58 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T19:10:20",
-    "last_seen": "2026-04-04T19:10:20",
-    "average_pace_ms": 111866,
-    "average_pace": "1:51.866",
+    "last_race_at": "2026-04-04T19:46:39",
+    "last_seen": "2026-04-04T19:46:39",
+    "average_pace_ms": 111548,
+    "average_pace": "1:51.548",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 9.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1230,
+    "average_positions_delta": 12.5,
+    "positions_delta_races": 2,
+    "championship_rank": 1153,
     "bestlap_rank": 1672,
     "latest_changes": {
       "average_finish": {
-        "before": null,
-        "after": 5.0,
-        "delta": null,
-        "trend": "up"
+        "before": 5.0,
+        "after": 7.5,
+        "delta": 2.5,
+        "trend": "down"
       },
       "average_pace_ms": {
-        "before": null,
-        "after": 111866,
-        "delta": null,
+        "before": 111866,
+        "after": 111548,
+        "delta": -318,
         "trend": "up"
       },
       "average_positions_delta": {
-        "before": null,
-        "after": 9.0,
-        "delta": null,
+        "before": 9.0,
+        "after": 12.5,
+        "delta": 3.5,
         "trend": "up"
       },
       "championship_rank": {
-        "before": 4897,
-        "after": 1230,
-        "delta": -3667,
+        "before": 1230,
+        "after": 1153,
+        "delta": -77,
         "trend": "up"
       },
       "points": {
-        "before": 0,
-        "after": 10,
-        "delta": 10,
+        "before": 10,
+        "after": 11,
+        "delta": 1,
         "trend": "up"
       },
       "races": {
-        "before": 0,
-        "after": 1,
+        "before": 1,
+        "after": 2,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-04T19:10:20"
+    "latest_change_at": "2026-04-04T19:46:39"
   },
   "recent_form": [
+    10,
     5,
     40,
     39
@@ -77,17 +78,91 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
-      "points": 10,
-      "finish_sum": 5,
-      "average_finish": 5.0,
+      "points": 11,
+      "finish_sum": 15,
+      "average_finish": 7.5,
       "best_lap_ms": 109035,
       "best_lap": "1:49.035"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260404_194639_R.json",
+      "finished_at": "2026-04-04T19:46:39",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 10,
+      "participants_count": 42,
+      "winner": "Arnaud Queroir",
+      "points": 1,
+      "qualifying_position": 26,
+      "start_position": 26,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 16,
+      "positions_gained": 16,
+      "positions_lost": 0,
+      "best_lap": "1:49.377",
+      "best_lap_ms": 109377,
+      "total_time": "20:29.933",
+      "total_time_ms": 1229933,
+      "gap": "0:29.654",
+      "gap_ms": 29654,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 5.0,
+          "after": 7.5,
+          "delta": 2.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111866,
+          "after": 111548,
+          "delta": -318,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 9.0,
+          "after": 12.5,
+          "delta": 3.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1230,
+          "after": 1153,
+          "delta": -77,
+          "trend": "up"
+        },
+        "points": {
+          "before": 10,
+          "after": 11,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1230,
+        "after": 1153,
+        "delta": -77,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260404_191020_R.json",
       "finished_at": "2026-04-04T19:10:20",
