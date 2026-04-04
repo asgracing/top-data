@@ -3,11 +3,11 @@
   "driver": "Lando Noris",
   "summary": {
     "points": 36,
-    "average_points_per_race": 12.0,
-    "races": 3,
+    "average_points_per_race": 9.0,
+    "races": 4,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 6.67,
+    "average_finish": 9.5,
     "best_lap": "1:46.877",
     "best_lap_ms": 106877,
     "best_lap_track": "monza",
@@ -19,40 +19,110 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T20:30:42",
-    "last_seen": "2026-03-28T20:30:42",
-    "average_pace_ms": 107760,
-    "average_pace": "1:47.760",
-    "win_rate": 33.33,
-    "podium_rate": 33.33,
+    "last_race_at": "2026-04-05T00:44:23",
+    "last_seen": "2026-04-05T00:44:23",
+    "average_pace_ms": 107988,
+    "average_pace": "1:47.988",
+    "win_rate": 25.0,
+    "podium_rate": 25.0,
     "average_positions_delta": -2.0,
     "positions_delta_races": 2,
     "championship_rank": 316,
     "bestlap_rank": 42,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-05T00:07:30"
+    "latest_changes": {
+      "average_finish": {
+        "before": 6.67,
+        "after": 9.5,
+        "delta": 2.83,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 107760,
+        "after": 107988,
+        "delta": 228,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-05T00:44:23"
   },
   "recent_form": [
+    18,
     39,
     1,
     50,
-    5,
-    14
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 1,
       "podiums": 1,
       "points": 36,
-      "finish_sum": 20,
-      "average_finish": 6.67,
+      "finish_sum": 38,
+      "average_finish": 9.5,
       "best_lap_ms": 106877,
       "best_lap": "1:46.877"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260405_004423_R.json",
+      "finished_at": "2026-04-05T00:44:23",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 18,
+      "participants_count": 46,
+      "winner": "David Marie",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.365",
+      "best_lap_ms": 107365,
+      "total_time": "21:34.305",
+      "total_time_ms": 1294305,
+      "gap": "1:21.090",
+      "gap_ms": 81090,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 6.67,
+          "after": 9.5,
+          "delta": 2.83,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 107760,
+          "after": 107988,
+          "delta": 228,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_203042_R.json",
       "finished_at": "2026-03-28T20:30:42",
