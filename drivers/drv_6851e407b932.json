@@ -3,11 +3,11 @@
   "driver": "Jan Berning",
   "summary": {
     "points": 204,
-    "average_points_per_race": 6.38,
-    "races": 32,
+    "average_points_per_race": 6.18,
+    "races": 33,
     "wins": 1,
     "podiums": 8,
-    "average_finish": 11.81,
+    "average_finish": 12.24,
     "best_lap": "1:47.892",
     "best_lap_ms": 107892,
     "best_lap_track": "monza",
@@ -15,75 +15,114 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "Q",
-    "penalty_count": 9,
-    "penalty_points": 15,
+    "penalty_count": 10,
+    "penalty_points": 17,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T18:34:00",
-    "last_seen": "2026-04-04T18:34:00",
+    "last_race_at": "2026-04-04T19:10:20",
+    "last_seen": "2026-04-04T19:10:20",
     "average_pace_ms": 109531,
     "average_pace": "1:49.531",
-    "win_rate": 3.12,
-    "podium_rate": 25.0,
-    "average_positions_delta": -3.48,
-    "positions_delta_races": 31,
+    "win_rate": 3.03,
+    "podium_rate": 24.24,
+    "average_positions_delta": -4.09,
+    "positions_delta_races": 32,
     "championship_rank": 31,
     "bestlap_rank": 499,
     "latest_changes": {
       "average_finish": {
-        "before": 11.77,
-        "after": 11.81,
-        "delta": 0.04,
-        "trend": "down"
-      },
-      "average_pace_ms": {
-        "before": 109490,
-        "after": 109531,
-        "delta": 41,
+        "before": 11.81,
+        "after": 12.24,
+        "delta": 0.43,
         "trend": "down"
       },
       "average_positions_delta": {
-        "before": -3.2,
-        "after": -3.48,
-        "delta": -0.28,
-        "trend": "down"
-      },
-      "championship_rank": {
-        "before": 30,
-        "after": 31,
-        "delta": 1,
+        "before": -3.48,
+        "after": -4.09,
+        "delta": -0.61,
         "trend": "down"
       },
       "races": {
-        "before": 31,
-        "after": 32,
+        "before": 32,
+        "after": 33,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-04T18:34:00"
+    "latest_change_at": "2026-04-04T19:10:20"
   },
   "recent_form": [
+    26,
     13,
     27,
     3,
-    16,
-    28
+    16
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 32,
+      "races": 33,
       "wins": 1,
       "podiums": 8,
       "points": 204,
-      "finish_sum": 378,
-      "average_finish": 11.81,
+      "finish_sum": 404,
+      "average_finish": 12.24,
       "best_lap_ms": 108165,
       "best_lap": "1:48.165"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260404_191020_R.json",
+      "finished_at": "2026-04-04T19:10:20",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 26,
+      "participants_count": 41,
+      "winner": "Ivan Lai",
+      "points": 0,
+      "qualifying_position": 3,
+      "start_position": 3,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -23,
+      "positions_gained": 0,
+      "positions_lost": 23,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "3:47.946",
+      "total_time_ms": 227946,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 11.81,
+          "after": 12.24,
+          "delta": 0.43,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -3.48,
+          "after": -4.09,
+          "delta": -0.61,
+          "trend": "down"
+        },
+        "races": {
+          "before": 32,
+          "after": 33,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260404_183359_R.json",
       "finished_at": "2026-04-04T18:34:00",
@@ -2654,13 +2693,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 9,
-    "penalty_points": 15,
+    "penalty_count": 10,
+    "penalty_points": 17,
     "reasons": {
-      "Cutting": 9
+      "Cutting": 9,
+      "None": 1
     },
     "types": {
-      "DriveThrough": 7,
+      "DriveThrough": 8,
       "None": 1,
       "Disqualified": 1
     }
