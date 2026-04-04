@@ -3,11 +3,11 @@
   "driver": "Евгений Майоров | NRR",
   "summary": {
     "points": 469,
-    "average_points_per_race": 13.79,
-    "races": 34,
+    "average_points_per_race": 13.4,
+    "races": 35,
     "wins": 8,
     "podiums": 22,
-    "average_finish": 5.97,
+    "average_finish": 6.34,
     "best_lap": "1:46.490",
     "best_lap_ms": 106490,
     "best_lap_track": "monza",
@@ -15,44 +15,114 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 4,
-    "penalty_points": 6,
+    "penalty_count": 5,
+    "penalty_points": 9,
     "fastest_lap_awards": 21,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T02:01:02",
-    "last_seen": "2026-04-04T02:01:02",
+    "last_race_at": "2026-04-04T18:34:00",
+    "last_seen": "2026-04-04T18:34:00",
     "average_pace_ms": 108422,
     "average_pace": "1:48.422",
-    "win_rate": 23.53,
-    "podium_rate": 64.71,
-    "average_positions_delta": 3.22,
-    "positions_delta_races": 32,
+    "win_rate": 22.86,
+    "podium_rate": 62.86,
+    "average_positions_delta": 3.3,
+    "positions_delta_races": 33,
     "championship_rank": 6,
     "bestlap_rank": 7,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-04T17:57:40"
+    "latest_changes": {
+      "average_finish": {
+        "before": 5.97,
+        "after": 6.34,
+        "delta": 0.37,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 3.22,
+        "after": 3.3,
+        "delta": 0.08,
+        "trend": "up"
+      },
+      "races": {
+        "before": 34,
+        "after": 35,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-04T18:34:00"
   },
   "recent_form": [
+    19,
     27,
     28,
     32,
-    32,
-    2
+    32
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 34,
+      "races": 35,
       "wins": 8,
       "podiums": 22,
       "points": 469,
-      "finish_sum": 203,
-      "average_finish": 5.97,
+      "finish_sum": 222,
+      "average_finish": 6.34,
       "best_lap_ms": 106490,
       "best_lap": "1:46.490"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260404_183359_R.json",
+      "finished_at": "2026-04-04T18:34:00",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 19,
+      "participants_count": 54,
+      "winner": "J. Abadías",
+      "points": 0,
+      "qualifying_position": 25,
+      "start_position": 25,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 6,
+      "positions_gained": 6,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "12:55.285",
+      "total_time_ms": 775285,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 5.97,
+          "after": 6.34,
+          "delta": 0.37,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 3.22,
+          "after": 3.3,
+          "delta": 0.08,
+          "trend": "up"
+        },
+        "races": {
+          "before": 34,
+          "after": 35,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260404_020102_R.json",
       "finished_at": "2026-04-04T02:01:02",
@@ -3178,15 +3248,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 4,
-    "penalty_points": 6,
+    "penalty_count": 5,
+    "penalty_points": 9,
     "reasons": {
       "None": 2,
-      "Cutting": 1,
+      "Cutting": 2,
       "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 3,
+      "DriveThrough": 4,
       "None": 1
     }
   }
