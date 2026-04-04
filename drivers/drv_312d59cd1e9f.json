@@ -2,14 +2,14 @@
   "public_id": "drv_312d59cd1e9f",
   "driver": "Dan silva",
   "summary": {
-    "points": 0,
-    "average_points_per_race": 0.0,
-    "races": 1,
+    "points": 1,
+    "average_points_per_race": 0.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
-    "best_lap": "1:51.142",
-    "best_lap_ms": 111142,
+    "average_finish": 12.5,
+    "best_lap": "1:50.370",
+    "best_lap_ms": 110370,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 22,
     "best_lap_car_name_raw": "McLaren 720S GT3 (2019)",
@@ -19,43 +19,148 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T14:51:26",
-    "last_seen": "2026-04-04T14:51:26",
-    "average_pace_ms": 113814,
-    "average_pace": "1:53.814",
+    "last_race_at": "2026-04-04T15:27:55",
+    "last_seen": "2026-04-04T15:27:55",
+    "average_pace_ms": 112755,
+    "average_pace": "1:52.755",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 3.0,
-    "positions_delta_races": 1,
-    "championship_rank": 2564,
-    "bestlap_rank": 3164,
+    "average_positions_delta": 4.0,
+    "positions_delta_races": 2,
+    "championship_rank": 2164,
+    "bestlap_rank": 2780,
     "latest_changes": {
+      "average_finish": {
+        "before": 15.0,
+        "after": 12.5,
+        "delta": -2.5,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 113814,
+        "after": 112755,
+        "delta": -1059,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 3.0,
+        "after": 4.0,
+        "delta": 1.0,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 2563,
-        "after": 2564,
+        "before": 2564,
+        "after": 2164,
+        "delta": -400,
+        "trend": "up"
+      },
+      "points": {
+        "before": 0,
+        "after": 1,
         "delta": 1,
-        "trend": "down"
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-04T15:06:30"
+    "latest_change_at": "2026-04-04T15:27:55"
   },
   "recent_form": [
+    10,
     15
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
-      "points": 0,
-      "finish_sum": 15,
-      "average_finish": 15.0,
-      "best_lap_ms": 111142,
-      "best_lap": "1:51.142"
+      "points": 1,
+      "finish_sum": 25,
+      "average_finish": 12.5,
+      "best_lap_ms": 110370,
+      "best_lap": "1:50.370"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260404_152755_R.json",
+      "finished_at": "2026-04-04T15:27:55",
+      "track": "monza",
+      "car_model_id": 22,
+      "car_name_raw": "McLaren 720S GT3 (2019)",
+      "car_name": "McLaren 720S GT3",
+      "position": 10,
+      "participants_count": 51,
+      "winner": "Alexadr Abramov",
+      "points": 1,
+      "qualifying_position": 15,
+      "start_position": 15,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 5,
+      "positions_gained": 5,
+      "positions_lost": 0,
+      "best_lap": "1:50.370",
+      "best_lap_ms": 110370,
+      "total_time": "21:21.730",
+      "total_time_ms": 1281730,
+      "gap": "1:08.039",
+      "gap_ms": 68039,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 12.5,
+          "delta": -2.5,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 113814,
+          "after": 112755,
+          "delta": -1059,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 3.0,
+          "after": 4.0,
+          "delta": 1.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2564,
+          "after": 2164,
+          "delta": -400,
+          "trend": "up"
+        },
+        "points": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2564,
+        "after": 2164,
+        "delta": -400,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260404_145126_R.json",
       "finished_at": "2026-04-04T14:51:26",
