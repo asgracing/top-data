@@ -3,36 +3,68 @@
   "driver": "Иван Рубцов",
   "summary": {
     "points": 4,
-    "average_points_per_race": 2.0,
-    "races": 2,
+    "average_points_per_race": 1.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 8.0,
-    "best_lap": "1:50.642",
-    "best_lap_ms": 110642,
+    "average_finish": 9.33,
+    "best_lap": "1:49.990",
+    "best_lap_ms": 109990,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 21,
     "best_lap_car_name_raw": "Honda NSX Evo (2019)",
     "best_lap_car_name": "Honda NSX Evo",
-    "best_lap_session_type": "Q",
+    "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T16:49:05",
-    "last_seen": "2026-04-04T16:43:09",
-    "average_pace_ms": 111925,
-    "average_pace": "1:51.925",
+    "last_race_at": "2026-04-04T17:21:09",
+    "last_seen": "2026-04-04T17:21:09",
+    "average_pace_ms": 110883,
+    "average_pace": "1:50.883",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -4.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1814,
-    "bestlap_rank": 2956,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-04T16:43:09"
+    "average_positions_delta": -1.0,
+    "positions_delta_races": 2,
+    "championship_rank": 1822,
+    "bestlap_rank": 2544,
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.0,
+        "after": 9.33,
+        "delta": 1.33,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111925,
+        "after": 110883,
+        "delta": -1042,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -4.0,
+        "after": -1.0,
+        "delta": 3.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1814,
+        "after": 1822,
+        "delta": 8,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-04T17:21:09"
   },
   "recent_form": [
+    12,
     8,
     39,
     8
@@ -40,17 +72,85 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 16,
-      "average_finish": 8.0,
-      "best_lap_ms": 111925,
-      "best_lap": "1:51.925"
+      "finish_sum": 28,
+      "average_finish": 9.33,
+      "best_lap_ms": 109990,
+      "best_lap": "1:49.990"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260404_172109_R.json",
+      "finished_at": "2026-04-04T17:21:09",
+      "track": "monza",
+      "car_model_id": 21,
+      "car_name_raw": "Honda NSX Evo (2019)",
+      "car_name": "Honda NSX Evo",
+      "position": 12,
+      "participants_count": 44,
+      "winner": "Rafael Galhardo",
+      "points": 0,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 2,
+      "positions_gained": 2,
+      "positions_lost": 0,
+      "best_lap": "1:49.990",
+      "best_lap_ms": 109990,
+      "total_time": "22:46.979",
+      "total_time_ms": 1366979,
+      "gap": "1:00.100",
+      "gap_ms": 60100,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.0,
+          "after": 9.33,
+          "delta": 1.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111925,
+          "after": 110883,
+          "delta": -1042,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -4.0,
+          "after": -1.0,
+          "delta": 3.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1814,
+          "after": 1822,
+          "delta": 8,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1814,
+        "after": 1822,
+        "delta": 8,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260404_164905_R.json",
       "finished_at": "2026-04-04T16:49:05",
