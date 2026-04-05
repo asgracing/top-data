@@ -3,11 +3,11 @@
   "driver": "Manuel Granata",
   "summary": {
     "points": 93,
-    "average_points_per_race": 6.2,
-    "races": 15,
+    "average_points_per_race": 5.81,
+    "races": 16,
     "wins": 1,
     "podiums": 3,
-    "average_finish": 11.13,
+    "average_finish": 11.25,
     "best_lap": "1:47.537",
     "best_lap_ms": 107537,
     "best_lap_track": "monza",
@@ -15,44 +15,114 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T16:43:09",
-    "last_seen": "2026-04-04T16:43:09",
-    "average_pace_ms": 109679,
-    "average_pace": "1:49.679",
-    "win_rate": 6.67,
-    "podium_rate": 20.0,
+    "last_race_at": "2026-04-05T23:28:31",
+    "last_seen": "2026-04-05T23:28:31",
+    "average_pace_ms": 109619,
+    "average_pace": "1:49.619",
+    "win_rate": 6.25,
+    "podium_rate": 18.75,
     "average_positions_delta": 3.17,
     "positions_delta_races": 12,
     "championship_rank": 84,
     "bestlap_rank": 261,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-05T22:52:25"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.13,
+        "after": 11.25,
+        "delta": 0.12,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109679,
+        "after": 109619,
+        "delta": -60,
+        "trend": "up"
+      },
+      "races": {
+        "before": 15,
+        "after": 16,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-05T23:28:31"
   },
   "recent_form": [
+    13,
     23,
     46,
     1,
-    4,
-    49
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 15,
+      "races": 16,
       "wins": 1,
       "podiums": 3,
       "points": 93,
-      "finish_sum": 167,
-      "average_finish": 11.13,
+      "finish_sum": 180,
+      "average_finish": 11.25,
       "best_lap_ms": 107625,
       "best_lap": "1:47.625"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260405_232831_R.json",
+      "finished_at": "2026-04-05T23:28:31",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 13,
+      "participants_count": 32,
+      "winner": "Gabriel Pestana",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.305",
+      "best_lap_ms": 108305,
+      "total_time": "21:30.687",
+      "total_time_ms": 1290687,
+      "gap": "1:29.306",
+      "gap_ms": 89306,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 33,
+      "changes": {
+        "average_finish": {
+          "before": 11.13,
+          "after": 11.25,
+          "delta": 0.12,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109679,
+          "after": 109619,
+          "delta": -60,
+          "trend": "up"
+        },
+        "races": {
+          "before": 15,
+          "after": 16,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260404_164309_R.json",
       "finished_at": "2026-04-04T16:43:09",
@@ -1363,9 +1433,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
