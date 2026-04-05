@@ -3,63 +3,155 @@
   "driver": "Text Drucker",
   "summary": {
     "points": 1,
-    "average_points_per_race": 1.0,
-    "races": 1,
+    "average_points_per_race": 0.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.0,
-    "best_lap": "1:50.975",
-    "best_lap_ms": 110975,
+    "average_finish": 12.5,
+    "best_lap": "1:49.750",
+    "best_lap_ms": 109750,
     "best_lap_track": "monza",
-    "best_lap_car_model_id": 23,
-    "best_lap_car_name_raw": "Porsche 911II GT3 R (2019)",
-    "best_lap_car_name": "Porsche 911II GT3 R",
+    "best_lap_car_model_id": 15,
+    "best_lap_car_name_raw": "Lexus RC F GT3",
+    "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-05T21:38:17",
-    "last_seen": "2026-04-05T21:38:17",
-    "average_pace_ms": 112736,
-    "average_pace": "1:52.736",
+    "last_race_at": "2026-04-06T00:05:14",
+    "last_seen": "2026-04-06T00:05:14",
+    "average_pace_ms": 115107,
+    "average_pace": "1:55.107",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 19.0,
-    "positions_delta_races": 1,
-    "championship_rank": 2228,
-    "bestlap_rank": 3223,
+    "average_positions_delta": 18.0,
+    "positions_delta_races": 2,
+    "championship_rank": 2251,
+    "bestlap_rank": 2447,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2226,
-        "after": 2228,
-        "delta": 2,
+      "average_finish": {
+        "before": 10.0,
+        "after": 12.5,
+        "delta": 2.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112736,
+        "after": 115107,
+        "delta": 2371,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 19.0,
+        "after": 18.0,
+        "delta": -1.0,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2228,
+        "after": 2251,
+        "delta": 23,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-05T23:28:31"
+    "latest_change_at": "2026-04-06T00:05:14"
   },
   "recent_form": [
+    15,
     28,
     30,
     12,
-    34,
-    32
+    34
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 10,
-      "average_finish": 10.0,
-      "best_lap_ms": 110975,
-      "best_lap": "1:50.975"
+      "finish_sum": 25,
+      "average_finish": 12.5,
+      "best_lap_ms": 109750,
+      "best_lap": "1:49.750"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260406_000514_R.json",
+      "finished_at": "2026-04-06T00:05:14",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 15,
+      "participants_count": 40,
+      "winner": "Manuel Granata",
+      "points": 0,
+      "qualifying_position": 32,
+      "start_position": 32,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 17,
+      "positions_gained": 17,
+      "positions_lost": 0,
+      "best_lap": "1:49.750",
+      "best_lap_ms": 109750,
+      "total_time": "21:51.555",
+      "total_time_ms": 1311555,
+      "gap": "1:48.356",
+      "gap_ms": 108356,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 12.5,
+          "delta": 2.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112736,
+          "after": 115107,
+          "delta": 2371,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 19.0,
+          "after": 18.0,
+          "delta": -1.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2228,
+          "after": 2251,
+          "delta": 23,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2228,
+        "after": 2251,
+        "delta": 23,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260405_213817_R.json",
       "finished_at": "2026-04-05T21:38:17",
