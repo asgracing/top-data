@@ -3,11 +3,11 @@
   "driver": "Ruben Staab",
   "summary": {
     "points": 15,
-    "average_points_per_race": 3.75,
-    "races": 4,
+    "average_points_per_race": 3.0,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 7.25,
+    "average_finish": 8.0,
     "best_lap": "1:49.147",
     "best_lap_ms": 109147,
     "best_lap_track": "monza",
@@ -19,40 +19,139 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-05T20:24:14",
-    "last_seen": "2026-04-05T20:24:14",
-    "average_pace_ms": 110699,
-    "average_pace": "1:50.699",
+    "last_race_at": "2026-04-05T21:00:41",
+    "last_seen": "2026-04-05T21:00:41",
+    "average_pace_ms": 110876,
+    "average_pace": "1:50.876",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -1.5,
-    "positions_delta_races": 4,
-    "championship_rank": 935,
-    "bestlap_rank": 1830,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-05T20:56:00"
+    "average_positions_delta": -1.8,
+    "positions_delta_races": 5,
+    "championship_rank": 936,
+    "bestlap_rank": 1832,
+    "latest_changes": {
+      "average_finish": {
+        "before": 7.25,
+        "after": 8.0,
+        "delta": 0.75,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110699,
+        "after": 110876,
+        "delta": 177,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -1.5,
+        "after": -1.8,
+        "delta": -0.3,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 935,
+        "after": 936,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-05T21:00:41"
   },
   "recent_form": [
     11,
+    11,
     5,
     4,
-    9,
-    44
+    9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 15,
-      "finish_sum": 29,
-      "average_finish": 7.25,
+      "finish_sum": 40,
+      "average_finish": 8.0,
       "best_lap_ms": 109147,
       "best_lap": "1:49.147"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/sunset/sunset_260405_210041_R.json",
+      "finished_at": "2026-04-05T21:00:41",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 11,
+      "participants_count": 44,
+      "winner": "A.M. Verborken",
+      "points": 0,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -3,
+      "positions_gained": 0,
+      "positions_lost": 3,
+      "best_lap": "1:50.517",
+      "best_lap_ms": 110517,
+      "total_time": "20:46.429",
+      "total_time_ms": 1246429,
+      "gap": "0:46.444",
+      "gap_ms": 46444,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.25,
+          "after": 8.0,
+          "delta": 0.75,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110699,
+          "after": 110876,
+          "delta": 177,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -1.5,
+          "after": -1.8,
+          "delta": -0.3,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 935,
+          "after": 936,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 935,
+        "after": 936,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260405_202414_R.json",
       "finished_at": "2026-04-05T20:24:14",
