@@ -3,11 +3,11 @@
   "driver": "Fabrizio Miano",
   "summary": {
     "points": 36,
-    "average_points_per_race": 4.5,
-    "races": 8,
+    "average_points_per_race": 4.0,
+    "races": 9,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 9.25,
+    "average_finish": 10.78,
     "best_lap": "1:48.660",
     "best_lap_ms": 108660,
     "best_lap_track": "monza",
@@ -15,44 +15,131 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 6,
+    "penalty_count": 5,
+    "penalty_points": 15,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-08T00:02:56",
-    "last_seen": "2026-04-08T00:02:56",
-    "average_pace_ms": 110948,
-    "average_pace": "1:50.948",
+    "last_race_at": "2026-04-08T00:41:01",
+    "last_seen": "2026-04-08T00:41:01",
+    "average_pace_ms": 110935,
+    "average_pace": "1:50.935",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 5.25,
     "positions_delta_races": 8,
-    "championship_rank": 364,
-    "bestlap_rank": 1390,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-08T00:02:56"
+    "championship_rank": 365,
+    "bestlap_rank": 1392,
+    "latest_changes": {
+      "average_finish": {
+        "before": 9.25,
+        "after": 10.78,
+        "delta": 1.53,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110948,
+        "after": 110935,
+        "delta": -13,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 364,
+        "after": 365,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 8,
+        "after": 9,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-08T00:41:01"
   },
   "recent_form": [
+    23,
     35,
     15,
     6,
-    19,
-    4
+    19
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 8,
+      "races": 9,
       "wins": 0,
       "podiums": 0,
       "points": 36,
-      "finish_sum": 74,
-      "average_finish": 9.25,
+      "finish_sum": 97,
+      "average_finish": 10.78,
       "best_lap_ms": 108660,
       "best_lap": "1:48.660"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260408_004101_R.json",
+      "finished_at": "2026-04-08T00:41:01",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 23,
+      "participants_count": 43,
+      "winner": "Vlad Galiev",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.412",
+      "best_lap_ms": 110412,
+      "total_time": "11:06.551",
+      "total_time_ms": 666551,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 3,
+      "penalty_points": 9,
+      "changes": {
+        "average_finish": {
+          "before": 9.25,
+          "after": 10.78,
+          "delta": 1.53,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110948,
+          "after": 110935,
+          "delta": -13,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 364,
+          "after": 365,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 8,
+          "after": 9,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 364,
+        "after": 365,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260408_000256_R.json",
       "finished_at": "2026-04-08T00:02:56",
@@ -1379,13 +1466,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 6,
+    "penalty_count": 5,
+    "penalty_points": 15,
     "reasons": {
-      "Cutting": 2
+      "Cutting": 5
     },
     "types": {
-      "DriveThrough": 2
+      "DriveThrough": 3,
+      "StopAndGo_30": 1,
+      "Disqualified": 1
     }
   }
 }
