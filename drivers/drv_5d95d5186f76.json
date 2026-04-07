@@ -2,14 +2,14 @@
   "public_id": "drv_5d95d5186f76",
   "driver": "Big Pancake",
   "summary": {
-    "points": 0,
-    "average_points_per_race": 0.0,
-    "races": 2,
+    "points": 5,
+    "average_points_per_race": 1.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 17.5,
-    "best_lap": "1:51.130",
-    "best_lap_ms": 111130,
+    "average_finish": 13.0,
+    "best_lap": "1:50.475",
+    "best_lap_ms": 110475,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 1,
     "best_lap_car_name_raw": "Mercedes-AMG GT3",
@@ -19,27 +19,52 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-06T00:05:14",
-    "last_seen": "2026-04-06T00:05:14",
-    "average_pace_ms": 112652,
-    "average_pace": "1:52.652",
+    "last_race_at": "2026-04-07T05:48:32",
+    "last_seen": "2026-04-07T05:48:32",
+    "average_pace_ms": 116382,
+    "average_pace": "1:56.382",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 3.0,
-    "positions_delta_races": 2,
-    "championship_rank": 3014,
-    "bestlap_rank": 3354,
+    "positions_delta_races": 3,
+    "championship_rank": 1829,
+    "bestlap_rank": 3017,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3012,
-        "after": 3014,
-        "delta": 2,
+      "average_finish": {
+        "before": 17.5,
+        "after": 13.0,
+        "delta": -4.5,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 112652,
+        "after": 116382,
+        "delta": 3730,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 3014,
+        "after": 1829,
+        "delta": -1185,
+        "trend": "up"
+      },
+      "points": {
+        "before": 0,
+        "after": 5,
+        "delta": 5,
+        "trend": "up"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-07T04:25:23"
+    "latest_change_at": "2026-04-07T05:48:32"
   },
   "recent_form": [
+    4,
     21,
     34,
     14
@@ -47,17 +72,85 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
-      "points": 0,
-      "finish_sum": 35,
-      "average_finish": 17.5,
-      "best_lap_ms": 111130,
-      "best_lap": "1:51.130"
+      "points": 5,
+      "finish_sum": 39,
+      "average_finish": 13.0,
+      "best_lap_ms": 110475,
+      "best_lap": "1:50.475"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260407_054832_R.json",
+      "finished_at": "2026-04-07T05:48:32",
+      "track": "monza",
+      "car_model_id": 1,
+      "car_name_raw": "Mercedes-AMG GT3",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 4,
+      "participants_count": 14,
+      "winner": "Cody Toews",
+      "points": 5,
+      "qualifying_position": 7,
+      "start_position": 7,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 3,
+      "positions_gained": 3,
+      "positions_lost": 0,
+      "best_lap": "1:50.475",
+      "best_lap_ms": 110475,
+      "total_time": "21:44.409",
+      "total_time_ms": 1304409,
+      "gap": "1:26.972",
+      "gap_ms": 86972,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 17.5,
+          "after": 13.0,
+          "delta": -4.5,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 112652,
+          "after": 116382,
+          "delta": 3730,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 3014,
+          "after": 1829,
+          "delta": -1185,
+          "trend": "up"
+        },
+        "points": {
+          "before": 0,
+          "after": 5,
+          "delta": 5,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3014,
+        "after": 1829,
+        "delta": -1185,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260406_000514_R.json",
       "finished_at": "2026-04-06T00:05:14",
