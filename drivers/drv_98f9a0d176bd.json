@@ -3,11 +3,11 @@
   "driver": "Khachatur Karapetyan",
   "summary": {
     "points": 65,
-    "average_points_per_race": 3.61,
-    "races": 18,
+    "average_points_per_race": 3.42,
+    "races": 19,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 14.56,
+    "average_finish": 14.42,
     "best_lap": "1:48.000",
     "best_lap_ms": 108000,
     "best_lap_track": "monza",
@@ -15,44 +15,126 @@
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
     "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-07T20:18:18",
-    "last_seen": "2026-04-07T20:18:18",
-    "average_pace_ms": 110298,
-    "average_pace": "1:50.298",
-    "win_rate": 5.56,
-    "podium_rate": 5.56,
-    "average_positions_delta": -0.08,
-    "positions_delta_races": 13,
+    "last_race_at": "2026-04-07T20:56:10",
+    "last_seen": "2026-04-07T20:56:10",
+    "average_pace_ms": 110207,
+    "average_pace": "1:50.207",
+    "win_rate": 5.26,
+    "podium_rate": 5.26,
+    "average_positions_delta": -0.5,
+    "positions_delta_races": 14,
     "championship_rank": 153,
     "bestlap_rank": 650,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-07T20:18:40"
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.56,
+        "after": 14.42,
+        "delta": -0.14,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 110298,
+        "after": 110207,
+        "delta": -91,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -0.08,
+        "after": -0.5,
+        "delta": -0.42,
+        "trend": "down"
+      },
+      "races": {
+        "before": 18,
+        "after": 19,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-07T20:56:10"
   },
   "recent_form": [
+    12,
     46,
     5,
     35,
-    1,
-    25
+    1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 18,
+      "races": 19,
       "wins": 1,
       "podiums": 1,
       "points": 65,
-      "finish_sum": 262,
-      "average_finish": 14.56,
-      "best_lap_ms": 108315,
-      "best_lap": "1:48.315"
+      "finish_sum": 274,
+      "average_finish": 14.42,
+      "best_lap_ms": 108297,
+      "best_lap": "1:48.297"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260407_205610_R.json",
+      "finished_at": "2026-04-07T20:56:10",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 12,
+      "participants_count": 49,
+      "winner": "It's-a me, Mario!",
+      "points": 0,
+      "qualifying_position": 6,
+      "start_position": 6,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -6,
+      "positions_gained": 0,
+      "positions_lost": 6,
+      "best_lap": "1:48.297",
+      "best_lap_ms": 108297,
+      "total_time": "20:59.117",
+      "total_time_ms": 1259117,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 14.56,
+          "after": 14.42,
+          "delta": -0.14,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110298,
+          "after": 110207,
+          "delta": -91,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -0.08,
+          "after": -0.5,
+          "delta": -0.42,
+          "trend": "down"
+        },
+        "races": {
+          "before": 18,
+          "after": 19,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260407_201818_R.json",
       "finished_at": "2026-04-07T20:18:18",
@@ -1800,9 +1882,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 1,
+    "reasons": {
+      "None": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
