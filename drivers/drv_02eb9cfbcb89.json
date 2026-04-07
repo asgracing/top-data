@@ -3,11 +3,11 @@
   "driver": "Frank Paci",
   "summary": {
     "points": 13,
-    "average_points_per_race": 6.5,
-    "races": 2,
+    "average_points_per_race": 4.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.5,
+    "average_finish": 14.67,
     "best_lap": "1:47.102",
     "best_lap_ms": 107102,
     "best_lap_track": "monza",
@@ -15,14 +15,14 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-29T21:21:13",
-    "last_seen": "2026-03-29T21:21:13",
-    "average_pace_ms": 109321,
-    "average_pace": "1:49.321",
+    "last_race_at": "2026-04-07T20:18:18",
+    "last_seen": "2026-04-07T20:18:18",
+    "average_pace_ms": 109279,
+    "average_pace": "1:49.279",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 3.5,
@@ -30,26 +30,78 @@
     "championship_rank": 1055,
     "bestlap_rank": 94,
     "latest_changes": {},
-    "latest_change_at": "2026-04-07T19:44:59"
+    "latest_change_at": "2026-04-07T20:18:40"
   },
   "recent_form": [
+    15,
     25,
     4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 13,
-      "finish_sum": 29,
-      "average_finish": 14.5,
+      "finish_sum": 44,
+      "average_finish": 14.67,
       "best_lap_ms": 107102,
       "best_lap": "1:47.102"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260407_201818_R.json",
+      "finished_at": "2026-04-07T20:18:18",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 15,
+      "participants_count": 49,
+      "winner": "Dmitry Pryakhin[ASG]",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.862",
+      "best_lap_ms": 108862,
+      "total_time": "21:31.927",
+      "total_time_ms": 1291927,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 14.5,
+          "after": 14.67,
+          "delta": 0.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109321,
+          "after": 109279,
+          "delta": -42,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260329_212113_R.json",
       "finished_at": "2026-03-29T21:21:13",
@@ -188,9 +240,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1,
+      "PitSpeeding": 1
+    },
+    "types": {
+      "DriveThrough": 1,
+      "StopAndGo_30": 1
+    }
   }
 }
