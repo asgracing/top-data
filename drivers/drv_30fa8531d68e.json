@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 22.0,
+    "average_finish": 21.0,
     "best_lap": "1:47.485",
     "best_lap_ms": 107485,
     "best_lap_track": "monza",
@@ -15,47 +15,128 @@
     "best_lap_car_name_raw": "Lexus RC F GT3",
     "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-01T02:19:55",
-    "last_seen": "2026-04-01T02:19:55",
-    "average_pace_ms": 108390,
-    "average_pace": "1:48.390",
+    "last_race_at": "2026-04-08T01:18:38",
+    "last_seen": "2026-04-08T01:18:38",
+    "average_pace_ms": 115360,
+    "average_pace": "1:55.360",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -20.0,
     "positions_delta_races": 1,
-    "championship_rank": 3609,
+    "championship_rank": 3515,
     "bestlap_rank": 251,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3603,
-        "after": 3609,
-        "delta": 6,
+      "average_finish": {
+        "before": 22.0,
+        "after": 21.0,
+        "delta": -1.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 108390,
+        "after": 115360,
+        "delta": 6970,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 3609,
+        "after": 3515,
+        "delta": -94,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-08T00:41:01"
+    "latest_change_at": "2026-04-08T01:18:38"
   },
   "recent_form": [
+    20,
     22
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 22,
-      "average_finish": 22.0,
+      "finish_sum": 42,
+      "average_finish": 21.0,
       "best_lap_ms": 108390,
       "best_lap": "1:48.390"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260408_011838_R.json",
+      "finished_at": "2026-04-08T01:18:38",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 20,
+      "participants_count": 34,
+      "winner": "Alexandre Miglioranza",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "2:02.330",
+      "best_lap_ms": 122330,
+      "total_time": "16:39.601",
+      "total_time_ms": 999601,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 22.0,
+          "after": 21.0,
+          "delta": -1.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 108390,
+          "after": 115360,
+          "delta": 6970,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 3609,
+          "after": 3515,
+          "delta": -94,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3609,
+        "after": 3515,
+        "delta": -94,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260401_021955_R.json",
       "finished_at": "2026-04-01T02:19:55",
@@ -126,9 +207,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 2,
+    "reasons": {
+      "PitSpeeding": 1
+    },
+    "types": {
+      "StopAndGo_30": 1
+    }
   }
 }
