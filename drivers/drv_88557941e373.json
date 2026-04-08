@@ -3,11 +3,11 @@
   "driver": "STETH STETH",
   "summary": {
     "points": 48,
-    "average_points_per_race": 4.36,
-    "races": 11,
+    "average_points_per_race": 4.0,
+    "races": 12,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 8.64,
+    "average_finish": 9.0,
     "best_lap": "1:48.975",
     "best_lap_ms": 108975,
     "best_lap_track": "monza",
@@ -19,47 +19,139 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T01:23:04",
-    "last_seen": "2026-04-04T01:23:04",
-    "average_pace_ms": 110723,
-    "average_pace": "1:50.723",
+    "last_race_at": "2026-04-08T22:56:09",
+    "last_seen": "2026-04-08T22:56:09",
+    "average_pace_ms": 110903,
+    "average_pace": "1:50.903",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 6.73,
-    "positions_delta_races": 11,
-    "championship_rank": 252,
-    "bestlap_rank": 1808,
+    "average_positions_delta": 7.17,
+    "positions_delta_races": 12,
+    "championship_rank": 253,
+    "bestlap_rank": 1811,
     "latest_changes": {
+      "average_finish": {
+        "before": 8.64,
+        "after": 9.0,
+        "delta": 0.36,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110723,
+        "after": 110903,
+        "delta": 180,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 6.73,
+        "after": 7.17,
+        "delta": 0.44,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 251,
-        "after": 252,
+        "before": 252,
+        "after": 253,
         "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 11,
+        "after": 12,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-08T22:18:23"
+    "latest_change_at": "2026-04-08T22:56:09"
   },
   "recent_form": [
+    13,
     30,
     8,
     5,
-    29,
-    8
+    29
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 11,
+      "races": 12,
       "wins": 0,
       "podiums": 0,
       "points": 48,
-      "finish_sum": 95,
-      "average_finish": 8.64,
+      "finish_sum": 108,
+      "average_finish": 9.0,
       "best_lap_ms": 108975,
       "best_lap": "1:48.975"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260408_225609_R.json",
+      "finished_at": "2026-04-08T22:56:09",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 13,
+      "participants_count": 46,
+      "winner": "Alexander Deryabin",
+      "points": 0,
+      "qualifying_position": 25,
+      "start_position": 25,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 12,
+      "positions_gained": 12,
+      "positions_lost": 0,
+      "best_lap": "1:50.332",
+      "best_lap_ms": 110332,
+      "total_time": "22:35.139",
+      "total_time_ms": 1355139,
+      "gap": "0:55.131",
+      "gap_ms": 55131,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.64,
+          "after": 9.0,
+          "delta": 0.36,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110723,
+          "after": 110903,
+          "delta": 180,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 6.73,
+          "after": 7.17,
+          "delta": 0.44,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 252,
+          "after": 253,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 11,
+          "after": 12,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 252,
+        "after": 253,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260404_012304_R.json",
       "finished_at": "2026-04-04T01:23:04",
