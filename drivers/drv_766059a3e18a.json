@@ -3,11 +3,11 @@
   "driver": "Иван Жмышенко",
   "summary": {
     "points": 68,
-    "average_points_per_race": 4.53,
-    "races": 15,
+    "average_points_per_race": 4.25,
+    "races": 16,
     "wins": 0,
     "podiums": 3,
-    "average_finish": 11.4,
+    "average_finish": 11.94,
     "best_lap": "1:48.270",
     "best_lap_ms": 108270,
     "best_lap_track": "monza",
@@ -15,63 +15,114 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 3,
+    "penalty_count": 4,
     "penalty_points": 5,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-08T14:43:31",
-    "last_seen": "2026-04-08T14:43:31",
+    "last_race_at": "2026-04-08T15:20:11",
+    "last_seen": "2026-04-08T15:20:11",
     "average_pace_ms": 110562,
     "average_pace": "1:50.562",
     "win_rate": 0.0,
-    "podium_rate": 20.0,
-    "average_positions_delta": -1.89,
-    "positions_delta_races": 9,
+    "podium_rate": 18.75,
+    "average_positions_delta": -3.1,
+    "positions_delta_races": 10,
     "championship_rank": 151,
     "bestlap_rank": 977,
     "latest_changes": {
       "average_finish": {
-        "before": 10.71,
-        "after": 11.4,
-        "delta": 0.69,
+        "before": 11.4,
+        "after": 11.94,
+        "delta": 0.54,
         "trend": "down"
       },
-      "championship_rank": {
-        "before": 150,
-        "after": 151,
-        "delta": 1,
+      "average_positions_delta": {
+        "before": -1.89,
+        "after": -3.1,
+        "delta": -1.21,
         "trend": "down"
       },
       "races": {
-        "before": 14,
-        "after": 15,
+        "before": 15,
+        "after": 16,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-08T14:43:31"
+    "latest_change_at": "2026-04-08T15:20:11"
   },
   "recent_form": [
+    20,
     21,
     5,
     15,
-    11,
-    26
+    11
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 15,
+      "races": 16,
       "wins": 0,
       "podiums": 3,
       "points": 68,
-      "finish_sum": 171,
-      "average_finish": 11.4,
+      "finish_sum": 191,
+      "average_finish": 11.94,
       "best_lap_ms": 108270,
       "best_lap": "1:48.270"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260408_152011_R.json",
+      "finished_at": "2026-04-08T15:20:11",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 20,
+      "participants_count": 40,
+      "winner": "__ Peacemaker__",
+      "points": 0,
+      "qualifying_position": 6,
+      "start_position": 6,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -14,
+      "positions_gained": 0,
+      "positions_lost": 14,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "11:38.671",
+      "total_time_ms": 698671,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.4,
+          "after": 11.94,
+          "delta": 0.54,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -1.89,
+          "after": -3.1,
+          "delta": -1.21,
+          "trend": "down"
+        },
+        "races": {
+          "before": 15,
+          "after": 16,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260408_144331_R.json",
       "finished_at": "2026-04-08T14:43:31",
@@ -1181,14 +1232,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 3,
+    "penalty_count": 4,
     "penalty_points": 5,
     "reasons": {
-      "PitSpeeding": 3
+      "PitSpeeding": 3,
+      "Cutting": 1
     },
     "types": {
       "StopAndGo_30": 2,
-      "Disqualified": 1
+      "Disqualified": 2
     }
   }
 }
