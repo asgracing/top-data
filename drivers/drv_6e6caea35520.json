@@ -3,11 +3,11 @@
   "driver": "Giancarlo Pappalardo",
   "summary": {
     "points": 29,
-    "average_points_per_race": 2.23,
-    "races": 13,
+    "average_points_per_race": 2.07,
+    "races": 14,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 17.85,
+    "average_finish": 17.93,
     "best_lap": "1:47.592",
     "best_lap_ms": 107592,
     "best_lap_track": "monza",
@@ -15,44 +15,114 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 4,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-07T12:46:06",
-    "last_seen": "2026-04-07T12:46:06",
-    "average_pace_ms": 110152,
-    "average_pace": "1:50.152",
+    "last_race_at": "2026-04-08T17:55:12",
+    "last_seen": "2026-04-08T17:55:12",
+    "average_pace_ms": 110342,
+    "average_pace": "1:50.342",
     "win_rate": 0.0,
-    "podium_rate": 7.69,
+    "podium_rate": 7.14,
     "average_positions_delta": -11.38,
     "positions_delta_races": 8,
     "championship_rank": 464,
     "bestlap_rank": 316,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-08T17:17:07"
+    "latest_changes": {
+      "average_finish": {
+        "before": 17.85,
+        "after": 17.93,
+        "delta": 0.08,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110152,
+        "after": 110342,
+        "delta": 190,
+        "trend": "down"
+      },
+      "races": {
+        "before": 13,
+        "after": 14,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-08T17:55:12"
   },
   "recent_form": [
+    19,
     15,
     33,
     24,
-    27,
     27
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 13,
+      "races": 14,
       "wins": 0,
       "podiums": 1,
       "points": 29,
-      "finish_sum": 232,
-      "average_finish": 17.85,
+      "finish_sum": 251,
+      "average_finish": 17.93,
       "best_lap_ms": 108080,
       "best_lap": "1:48.080"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260408_175512_R.json",
+      "finished_at": "2026-04-08T17:55:12",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 19,
+      "participants_count": 51,
+      "winner": "Fernando Jasinski",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:58.712",
+      "best_lap_ms": 118712,
+      "total_time": "11:35.342",
+      "total_time_ms": 695342,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 17.85,
+          "after": 17.93,
+          "delta": 0.08,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110152,
+          "after": 110342,
+          "delta": 190,
+          "trend": "down"
+        },
+        "races": {
+          "before": 13,
+          "after": 14,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260407_124606_R.json",
       "finished_at": "2026-04-07T12:46:06",
@@ -1145,13 +1215,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 4,
     "reasons": {
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 1,
+      "StopAndGo_10": 1
     }
   }
 }
