@@ -2,8 +2,8 @@
   "public_id": "drv_a7e74beba386",
   "driver": "Yamamoto Suroki",
   "summary": {
-    "points": 74,
-    "average_points_per_race": 14.8,
+    "points": 58,
+    "average_points_per_race": 11.6,
     "races": 5,
     "wins": 1,
     "podiums": 3,
@@ -27,10 +27,10 @@
     "podium_rate": 60.0,
     "average_positions_delta": 3.8,
     "positions_delta_races": 5,
-    "championship_rank": 141,
+    "championship_rank": 169,
     "bestlap_rank": 1179,
     "latest_changes": {},
-    "latest_change_at": "2026-04-09T12:30:51"
+    "latest_change_at": "2026-04-08T12:43:24"
   },
   "recent_form": [
     26,
@@ -45,7 +45,7 @@
       "races": 5,
       "wins": 1,
       "podiums": 3,
-      "points": 74,
+      "points": 58,
       "finish_sum": 35,
       "average_finish": 7.0,
       "best_lap_ms": 108412,
@@ -62,8 +62,8 @@
       "car_name": "Ferrari 296 GT3",
       "position": 26,
       "participants_count": 47,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Man in Tights",
       "points": 0,
@@ -123,8 +123,8 @@
       "car_name": "Ferrari 296 GT3",
       "position": 43,
       "participants_count": 45,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Carlo Senzamici [BTR]",
       "points": 0,
@@ -146,20 +146,8 @@
       "had_best_lap": false,
       "penalty_count": 0,
       "penalty_points": 0,
-      "changes": {
-        "championship_rank": {
-          "before": 39,
-          "after": 40,
-          "delta": 1,
-          "trend": "down"
-        }
-      },
-      "rank_change": {
-        "before": 39,
-        "after": 40,
-        "delta": 1,
-        "trend": "down"
-      },
+      "changes": {},
+      "rank_change": null,
       "bestlap_rank_change": null
     },
     {
@@ -171,11 +159,11 @@
       "car_name": "Ferrari 296 GT3",
       "position": 2,
       "participants_count": 42,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Dennis Bosch",
-      "points": 18,
+      "points": 14,
       "qualifying_position": 6,
       "start_position": 6,
       "start_position_source": "qualifying_car_id",
@@ -214,9 +202,9 @@
           "trend": "down"
         },
         "championship_rank": {
-          "before": 49,
-          "after": 30,
-          "delta": -19,
+          "before": 62,
+          "after": 41,
+          "delta": -21,
           "trend": "up"
         },
         "podiums": {
@@ -226,9 +214,9 @@
           "trend": "up"
         },
         "points": {
-          "before": 56,
-          "after": 74,
-          "delta": 18,
+          "before": 44,
+          "after": 58,
+          "delta": 14,
           "trend": "up"
         },
         "races": {
@@ -239,9 +227,9 @@
         }
       },
       "rank_change": {
-        "before": 49,
-        "after": 30,
-        "delta": -19,
+        "before": 62,
+        "after": 41,
+        "delta": -21,
         "trend": "up"
       },
       "bestlap_rank_change": null
@@ -255,8 +243,8 @@
       "car_name": "Ferrari 296 GT3",
       "position": 44,
       "participants_count": 46,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Евгений Майоров",
       "points": 0,
@@ -278,8 +266,20 @@
       "had_best_lap": false,
       "penalty_count": 0,
       "penalty_points": 0,
-      "changes": {},
-      "rank_change": null,
+      "changes": {
+        "championship_rank": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "down"
+        }
+      },
+      "rank_change": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "down"
+      },
       "bestlap_rank_change": null
     },
     {
@@ -291,8 +291,8 @@
       "car_name": "Ferrari 296 GT3",
       "position": 2,
       "participants_count": 47,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Manny Ykaly",
       "points": 18,
@@ -333,6 +333,12 @@
           "delta": 5.67,
           "trend": "up"
         },
+        "championship_rank": {
+          "before": 6,
+          "after": 3,
+          "delta": -3,
+          "trend": "up"
+        },
         "podiums": {
           "before": 1,
           "after": 2,
@@ -340,8 +346,8 @@
           "trend": "up"
         },
         "points": {
-          "before": 38,
-          "after": 56,
+          "before": 26,
+          "after": 44,
           "delta": 18,
           "trend": "up"
         },
@@ -352,7 +358,12 @@
           "trend": "up"
         }
       },
-      "rank_change": null,
+      "rank_change": {
+        "before": 6,
+        "after": 3,
+        "delta": -3,
+        "trend": "up"
+      },
       "bestlap_rank_change": null
     },
     {
@@ -364,11 +375,11 @@
       "car_name": "Ferrari 296 GT3",
       "position": 4,
       "participants_count": 43,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Евгений Майоров",
-      "points": 12,
+      "points": 10,
       "qualifying_position": 8,
       "start_position": 8,
       "start_position_source": "qualifying_car_id",
@@ -407,15 +418,15 @@
           "trend": "up"
         },
         "championship_rank": {
-          "before": 10,
-          "after": 4,
-          "delta": -6,
+          "before": 15,
+          "after": 6,
+          "delta": -9,
           "trend": "up"
         },
         "points": {
-          "before": 26,
-          "after": 38,
-          "delta": 12,
+          "before": 16,
+          "after": 26,
+          "delta": 10,
           "trend": "up"
         },
         "races": {
@@ -426,9 +437,9 @@
         }
       },
       "rank_change": {
-        "before": 10,
-        "after": 4,
-        "delta": -6,
+        "before": 15,
+        "after": 6,
+        "delta": -9,
         "trend": "up"
       },
       "bestlap_rank_change": null
@@ -442,11 +453,11 @@
       "car_name": "Ferrari 296 GT3",
       "position": 1,
       "participants_count": 29,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 15,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Yamamoto Suroki",
-      "points": 26,
+      "points": 16,
       "qualifying_position": 3,
       "start_position": 3,
       "start_position_source": "qualifying_car_id",
@@ -486,8 +497,8 @@
         },
         "championship_rank": {
           "before": 252,
-          "after": 10,
-          "delta": -242,
+          "after": 15,
+          "delta": -237,
           "trend": "up"
         },
         "podiums": {
@@ -498,8 +509,8 @@
         },
         "points": {
           "before": 0,
-          "after": 26,
-          "delta": 26,
+          "after": 16,
+          "delta": 16,
           "trend": "up"
         },
         "races": {
@@ -517,8 +528,8 @@
       },
       "rank_change": {
         "before": 252,
-        "after": 10,
-        "delta": -242,
+        "after": 15,
+        "delta": -237,
         "trend": "up"
       },
       "bestlap_rank_change": null

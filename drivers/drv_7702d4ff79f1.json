@@ -2,8 +2,8 @@
   "public_id": "drv_7702d4ff79f1",
   "driver": "Alexander Kustov",
   "summary": {
-    "points": 31,
-    "average_points_per_race": 4.43,
+    "points": 71,
+    "average_points_per_race": 10.14,
     "races": 7,
     "wins": 0,
     "podiums": 0,
@@ -20,17 +20,17 @@
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
     "last_race_at": "2026-04-08T22:56:09",
-    "last_seen": "2026-04-08T22:56:09",
+    "last_seen": "2026-04-08T21:28:03",
     "average_pace_ms": 111500,
     "average_pace": "1:51.500",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 3.43,
     "positions_delta_races": 7,
-    "championship_rank": 454,
+    "championship_rank": 124,
     "bestlap_rank": 912,
     "latest_changes": {},
-    "latest_change_at": "2026-04-09T12:30:51"
+    "latest_change_at": "2026-04-08T12:43:24"
   },
   "recent_form": [
     31,
@@ -45,7 +45,7 @@
       "races": 7,
       "wins": 0,
       "podiums": 0,
-      "points": 31,
+      "points": 71,
       "finish_sum": 63,
       "average_finish": 9.0,
       "best_lap_ms": 108187,
@@ -62,8 +62,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 31,
       "participants_count": 46,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Alexander Deryabin",
       "points": 0,
@@ -85,8 +85,20 @@
       "had_best_lap": false,
       "penalty_count": 0,
       "penalty_points": 0,
-      "changes": {},
-      "rank_change": null,
+      "changes": {
+        "championship_rank": {
+          "before": 530,
+          "after": 531,
+          "delta": 1,
+          "trend": "down"
+        }
+      },
+      "rank_change": {
+        "before": 530,
+        "after": 531,
+        "delta": 1,
+        "trend": "down"
+      },
       "bestlap_rank_change": null
     },
     {
@@ -98,8 +110,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 13,
       "participants_count": 42,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Szabolcs Ali",
       "points": 0,
@@ -123,40 +135,40 @@
       "penalty_points": 0,
       "changes": {
         "average_finish": {
-          "before": 8.33,
-          "after": 9.0,
-          "delta": 0.67,
+          "before": 8.5,
+          "after": 9.4,
+          "delta": 0.9,
           "trend": "down"
         },
         "average_pace_ms": {
-          "before": 111647,
-          "after": 111500,
-          "delta": -147,
+          "before": 111499,
+          "after": 111232,
+          "delta": -267,
           "trend": "up"
         },
         "average_positions_delta": {
-          "before": 4.83,
-          "after": 3.43,
-          "delta": -1.4,
+          "before": 8.5,
+          "after": 5.8,
+          "delta": -2.7,
           "trend": "down"
         },
         "championship_rank": {
-          "before": 440,
-          "after": 444,
-          "delta": 4,
+          "before": 529,
+          "after": 530,
+          "delta": 1,
           "trend": "down"
         },
         "races": {
-          "before": 6,
-          "after": 7,
+          "before": 4,
+          "after": 5,
           "delta": 1,
           "trend": "up"
         }
       },
       "rank_change": {
-        "before": 440,
-        "after": 444,
-        "delta": 4,
+        "before": 529,
+        "after": 530,
+        "delta": 1,
         "trend": "down"
       },
       "bestlap_rank_change": null
@@ -170,8 +182,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 46,
       "participants_count": 50,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Sultan Isaev",
       "points": 0,
@@ -206,11 +218,11 @@
       "car_name": "AMR V8 Vantage",
       "position": 11,
       "participants_count": 14,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 13,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
       "points_multiplier": 5,
       "winner": "Adam Sibbs | SLR",
-      "points": 0,
+      "points": 30,
       "qualifying_position": 8,
       "start_position": 8,
       "start_position_source": "qualifying_car_id",
@@ -231,41 +243,47 @@
       "penalty_points": 0,
       "changes": {
         "average_finish": {
-          "before": 7.8,
-          "after": 8.33,
-          "delta": 0.53,
+          "before": 8.67,
+          "after": 9.0,
+          "delta": 0.33,
           "trend": "down"
         },
         "average_pace_ms": {
-          "before": 111327,
-          "after": 111647,
-          "delta": 320,
+          "before": 111161,
+          "after": 111500,
+          "delta": 339,
           "trend": "down"
         },
         "average_positions_delta": {
-          "before": 6.4,
-          "after": 4.83,
-          "delta": -1.57,
+          "before": 4.5,
+          "after": 3.43,
+          "delta": -1.07,
           "trend": "down"
         },
         "championship_rank": {
-          "before": 438,
-          "after": 440,
-          "delta": 2,
-          "trend": "down"
+          "before": 249,
+          "after": 108,
+          "delta": -141,
+          "trend": "up"
+        },
+        "points": {
+          "before": 41,
+          "after": 71,
+          "delta": 30,
+          "trend": "up"
         },
         "races": {
-          "before": 5,
-          "after": 6,
+          "before": 6,
+          "after": 7,
           "delta": 1,
           "trend": "up"
         }
       },
       "rank_change": {
-        "before": 438,
-        "after": 440,
-        "delta": 2,
-        "trend": "down"
+        "before": 249,
+        "after": 108,
+        "delta": -141,
+        "trend": "up"
       },
       "bestlap_rank_change": null
     },
@@ -278,11 +296,11 @@
       "car_name": "AMR V8 Vantage",
       "position": 5,
       "participants_count": 7,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 5,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
       "points_multiplier": 5,
       "winner": "Kosso Filippo",
-      "points": 10,
+      "points": 20,
       "qualifying_position": 3,
       "start_position": 3,
       "start_position_source": "qualifying_car_id",
@@ -303,46 +321,46 @@
       "penalty_points": 0,
       "changes": {
         "average_finish": {
-          "before": 8.5,
-          "after": 7.8,
-          "delta": -0.7,
+          "before": 9.4,
+          "after": 8.67,
+          "delta": -0.73,
           "trend": "up"
         },
         "average_pace_ms": {
-          "before": 111499,
-          "after": 111327,
-          "delta": -172,
+          "before": 111232,
+          "after": 111161,
+          "delta": -71,
           "trend": "up"
         },
         "average_positions_delta": {
-          "before": 8.5,
-          "after": 6.4,
-          "delta": -2.1,
+          "before": 5.8,
+          "after": 4.5,
+          "delta": -1.3,
           "trend": "down"
         },
         "championship_rank": {
-          "before": 666,
-          "after": 418,
-          "delta": -248,
+          "before": 544,
+          "after": 249,
+          "delta": -295,
           "trend": "up"
         },
         "points": {
           "before": 21,
-          "after": 31,
-          "delta": 10,
+          "after": 41,
+          "delta": 20,
           "trend": "up"
         },
         "races": {
-          "before": 4,
-          "after": 5,
+          "before": 5,
+          "after": 6,
           "delta": 1,
           "trend": "up"
         }
       },
       "rank_change": {
-        "before": 666,
-        "after": 418,
-        "delta": -248,
+        "before": 544,
+        "after": 249,
+        "delta": -295,
         "trend": "up"
       },
       "bestlap_rank_change": null
@@ -356,8 +374,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 17,
       "participants_count": 28,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 14,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Aleksandr Pakhomov [NRR]",
       "points": 0,
@@ -381,16 +399,16 @@
       "penalty_points": 0,
       "changes": {
         "championship_rank": {
-          "before": 533,
-          "after": 537,
-          "delta": 4,
+          "before": 444,
+          "after": 445,
+          "delta": 1,
           "trend": "down"
         }
       },
       "rank_change": {
-        "before": 533,
-        "after": 537,
-        "delta": 4,
+        "before": 444,
+        "after": 445,
+        "delta": 1,
         "trend": "down"
       },
       "bestlap_rank_change": null
@@ -404,8 +422,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 5,
       "participants_count": 38,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Marat Bibizyanov",
       "points": 10,
@@ -447,9 +465,9 @@
           "trend": "down"
         },
         "championship_rank": {
-          "before": 1005,
-          "after": 533,
-          "delta": -472,
+          "before": 854,
+          "after": 444,
+          "delta": -410,
           "trend": "up"
         },
         "points": {
@@ -466,9 +484,9 @@
         }
       },
       "rank_change": {
-        "before": 1005,
-        "after": 533,
-        "delta": -472,
+        "before": 854,
+        "after": 444,
+        "delta": -410,
         "trend": "up"
       },
       "bestlap_rank_change": null
@@ -482,8 +500,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 10,
       "participants_count": 53,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Axel Phowley",
       "points": 1,
@@ -525,9 +543,9 @@
           "trend": "up"
         },
         "championship_rank": {
-          "before": 1090,
-          "after": 1005,
-          "delta": -85,
+          "before": 923,
+          "after": 854,
+          "delta": -69,
           "trend": "up"
         },
         "points": {
@@ -544,9 +562,9 @@
         }
       },
       "rank_change": {
-        "before": 1090,
-        "after": 1005,
-        "delta": -85,
+        "before": 923,
+        "after": 854,
+        "delta": -69,
         "trend": "up"
       },
       "bestlap_rank_change": null
@@ -560,8 +578,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 22,
       "participants_count": 29,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 17,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Rodrigo Oliveira",
       "points": 0,
@@ -585,16 +603,16 @@
       "penalty_points": 0,
       "changes": {
         "championship_rank": {
-          "before": 984,
-          "after": 987,
-          "delta": 3,
+          "before": 838,
+          "after": 840,
+          "delta": 2,
           "trend": "down"
         }
       },
       "rank_change": {
-        "before": 984,
-        "after": 987,
-        "delta": 3,
+        "before": 838,
+        "after": 840,
+        "delta": 2,
         "trend": "down"
       },
       "bestlap_rank_change": null
@@ -608,8 +626,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 5,
       "participants_count": 40,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Laszlo Panak",
       "points": 10,
@@ -651,9 +669,9 @@
           "trend": "up"
         },
         "championship_rank": {
-          "before": 1980,
-          "after": 984,
-          "delta": -996,
+          "before": 1979,
+          "after": 838,
+          "delta": -1141,
           "trend": "up"
         },
         "points": {
@@ -670,9 +688,9 @@
         }
       },
       "rank_change": {
-        "before": 1980,
-        "after": 984,
-        "delta": -996,
+        "before": 1979,
+        "after": 838,
+        "delta": -1141,
         "trend": "up"
       },
       "bestlap_rank_change": null
@@ -686,8 +704,8 @@
       "car_name": "AMR V8 Vantage",
       "position": 14,
       "participants_count": 43,
-      "scoring_participants_count": null,
-      "points_rule": null,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
       "points_multiplier": 1,
       "winner": "Baran Selçuk",
       "points": 0,
@@ -730,8 +748,8 @@
         },
         "championship_rank": {
           "before": 3105,
-          "after": 1980,
-          "delta": -1125,
+          "after": 1979,
+          "delta": -1126,
           "trend": "up"
         },
         "races": {
@@ -743,8 +761,8 @@
       },
       "rank_change": {
         "before": 3105,
-        "after": 1980,
-        "delta": -1125,
+        "after": 1979,
+        "delta": -1126,
         "trend": "up"
       },
       "bestlap_rank_change": null

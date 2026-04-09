@@ -12,6 +12,8 @@
   "server_name": "ASG Racing Monza - Live Leaderboard - asgracing.github.io/top - zahodi - discord.gg/cEPFHXXtTC",
   "meta_data": "monza",
   "participants_count": 2,
+  "scoring_participants_count": 2,
+  "points_rule": "scaled_top10_by_classified",
   "winner": "Arsenii Kapustin",
   "winner_public_id": "drv_180cf5cae8ff",
   "best_lap": "1:48.647",
@@ -47,6 +49,7 @@
       "gap_ms": null,
       "gap": null,
       "counted_for_stats": true,
+      "counted_for_points": true,
       "points": 3,
       "had_best_lap": true,
       "penalty_count": 0,
@@ -71,6 +74,12 @@
           "delta": -0.06,
           "trend": "down"
         },
+        "championship_rank": {
+          "before": 9,
+          "after": 8,
+          "delta": -1,
+          "trend": "up"
+        },
         "podiums": {
           "before": 10,
           "after": 11,
@@ -78,8 +87,8 @@
           "trend": "up"
         },
         "points": {
-          "before": 72,
-          "after": 75,
+          "before": 40,
+          "after": 43,
           "delta": 3,
           "trend": "up"
         },
@@ -96,7 +105,12 @@
           "trend": "up"
         }
       },
-      "rank_change": null,
+      "rank_change": {
+        "before": 9,
+        "after": 8,
+        "delta": -1,
+        "trend": "up"
+      },
       "bestlap_rank_change": null
     },
     {
@@ -125,6 +139,7 @@
       "gap_ms": 14284,
       "gap": "0:14.284",
       "counted_for_stats": true,
+      "counted_for_points": true,
       "points": 1,
       "had_best_lap": false,
       "penalty_count": 0,
@@ -145,8 +160,8 @@
         },
         "championship_rank": {
           "before": 354,
-          "after": 229,
-          "delta": -125,
+          "after": 221,
+          "delta": -133,
           "trend": "up"
         },
         "podiums": {
@@ -170,8 +185,8 @@
       },
       "rank_change": {
         "before": 354,
-        "after": 229,
-        "delta": -125,
+        "after": 221,
+        "delta": -133,
         "trend": "up"
       },
       "bestlap_rank_change": null
