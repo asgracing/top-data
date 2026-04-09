@@ -941,8 +941,8 @@
       "counted_for_points": true,
       "points": 0,
       "had_best_lap": false,
-      "penalty_count": 2,
-      "penalty_points": 3,
+      "penalty_count": 3,
+      "penalty_points": 53,
       "penalties": [
         {
           "type": "StopAndGo_20",
@@ -955,6 +955,12 @@
           "reason": "WrongWay",
           "value": 0,
           "bucket": "penalties"
+        },
+        {
+          "type": "PostRaceTime",
+          "reason": "Cutting",
+          "value": 50,
+          "bucket": "post_race_penalties"
         }
       ],
       "changes": {
@@ -2746,5 +2752,5 @@
       "bestlap_rank_change": null
     }
   ],
-  "total_penalties": 6
+  "total_penalties": 7
 }
