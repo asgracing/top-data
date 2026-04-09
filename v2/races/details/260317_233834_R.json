@@ -310,9 +310,16 @@
       "counted_for_points": true,
       "points": 12,
       "had_best_lap": false,
-      "penalty_count": 0,
-      "penalty_points": 0,
-      "penalties": [],
+      "penalty_count": 1,
+      "penalty_points": 5,
+      "penalties": [
+        {
+          "type": "PostRaceTime",
+          "reason": "Cutting",
+          "value": 5,
+          "bucket": "post_race_penalties"
+        }
+      ],
       "changes": {
         "average_finish": {
           "before": 12.5,
@@ -2279,5 +2286,5 @@
       "bestlap_rank_change": null
     }
   ],
-  "total_penalties": 0
+  "total_penalties": 1
 }

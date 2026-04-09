@@ -1856,14 +1856,20 @@
       "counted_for_points": false,
       "points": 0,
       "had_best_lap": false,
-      "penalty_count": 1,
-      "penalty_points": 3,
+      "penalty_count": 2,
+      "penalty_points": 8,
       "penalties": [
         {
           "type": "DriveThrough",
           "reason": "Trolling",
           "value": 3,
           "bucket": "penalties"
+        },
+        {
+          "type": "PostRaceTime",
+          "reason": "Cutting",
+          "value": 5,
+          "bucket": "post_race_penalties"
         }
       ],
       "changes": {},
@@ -2831,5 +2837,5 @@
       "bestlap_rank_change": null
     }
   ],
-  "total_penalties": 5
+  "total_penalties": 6
 }
