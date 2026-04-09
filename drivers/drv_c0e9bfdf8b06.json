@@ -2,12 +2,12 @@
   "public_id": "drv_c0e9bfdf8b06",
   "driver": "Ilya Shikunov",
   "summary": {
-    "points": 39,
-    "average_points_per_race": 9.75,
-    "races": 4,
+    "points": 40,
+    "average_points_per_race": 8.0,
+    "races": 5,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 5.0,
+    "average_finish": 5.8,
     "best_lap": "1:48.090",
     "best_lap_ms": 108090,
     "best_lap_track": "monza",
@@ -19,20 +19,58 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-05T22:14:15",
-    "last_seen": "2026-04-09T23:01:52",
-    "average_pace_ms": 110019,
-    "average_pace": "1:50.019",
+    "last_race_at": "2026-04-09T23:26:09",
+    "last_seen": "2026-04-09T23:26:09",
+    "average_pace_ms": 110036,
+    "average_pace": "1:50.036",
     "win_rate": 0.0,
-    "podium_rate": 25.0,
-    "average_positions_delta": 8.0,
-    "positions_delta_races": 4,
-    "championship_rank": 299,
-    "bestlap_rank": 1246,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-09T22:50:18"
+    "podium_rate": 20.0,
+    "average_positions_delta": 5.2,
+    "positions_delta_races": 5,
+    "championship_rank": 291,
+    "bestlap_rank": 798,
+    "latest_changes": {
+      "average_finish": {
+        "before": 5.0,
+        "after": 5.8,
+        "delta": 0.8,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110019,
+        "after": 110036,
+        "delta": 17,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 8.0,
+        "after": 5.2,
+        "delta": -2.8,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 299,
+        "after": 291,
+        "delta": -8,
+        "trend": "up"
+      },
+      "points": {
+        "before": 39,
+        "after": 40,
+        "delta": 1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-09T23:26:09"
   },
   "recent_form": [
+    9,
     5,
     5,
     3,
@@ -41,17 +79,95 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 1,
-      "points": 39,
-      "finish_sum": 20,
-      "average_finish": 5.0,
+      "points": 40,
+      "finish_sum": 29,
+      "average_finish": 5.8,
       "best_lap_ms": 108452,
       "best_lap": "1:48.452"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260409_232609_R.json",
+      "finished_at": "2026-04-09T23:26:09",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 9,
+      "participants_count": 27,
+      "scoring_participants_count": 15,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Aleksander Kovalev",
+      "points": 1,
+      "qualifying_position": 3,
+      "start_position": 3,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -6,
+      "positions_gained": 0,
+      "positions_lost": 6,
+      "best_lap": "1:48.585",
+      "best_lap_ms": 108585,
+      "total_time": "20:44.078",
+      "total_time_ms": 1244078,
+      "gap": "0:42.871",
+      "gap_ms": 42871,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 5.0,
+          "after": 5.8,
+          "delta": 0.8,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110019,
+          "after": 110036,
+          "delta": 17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 8.0,
+          "after": 5.2,
+          "delta": -2.8,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 299,
+          "after": 291,
+          "delta": -8,
+          "trend": "up"
+        },
+        "points": {
+          "before": 39,
+          "after": 40,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 299,
+        "after": 291,
+        "delta": -8,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260405_221415_R.json",
       "finished_at": "2026-04-05T22:14:15",
