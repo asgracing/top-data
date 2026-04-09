@@ -2,12 +2,12 @@
   "public_id": "drv_180cf5cae8ff",
   "driver": "Arsenii Kapustin [ASG]",
   "summary": {
-    "points": 508,
-    "average_points_per_race": 5.4,
-    "races": 94,
+    "points": 523,
+    "average_points_per_race": 5.51,
+    "races": 95,
     "wins": 27,
-    "podiums": 60,
-    "average_finish": 4.49,
+    "podiums": 61,
+    "average_finish": 4.47,
     "best_lap": "1:47.830",
     "best_lap_ms": 107830,
     "best_lap_track": "monza",
@@ -15,22 +15,22 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 12,
-    "penalty_points": 16,
+    "penalty_count": 13,
+    "penalty_points": 18,
     "fastest_lap_awards": 17,
     "most_raced_track": "monza",
     "last_race_at": "2026-04-07T15:52:16",
-    "last_seen": "2026-04-06T13:35:22",
-    "average_pace_ms": 110321,
-    "average_pace": "1:50.321",
-    "win_rate": 28.72,
-    "podium_rate": 63.83,
-    "average_positions_delta": 3.03,
-    "positions_delta_races": 87,
+    "last_seen": "2026-03-19T15:26:56",
+    "average_pace_ms": 110590,
+    "average_pace": "1:50.590",
+    "win_rate": 28.42,
+    "podium_rate": 64.21,
+    "average_positions_delta": 2.99,
+    "positions_delta_races": 88,
     "championship_rank": 7,
     "bestlap_rank": 521,
     "latest_changes": {},
-    "latest_change_at": "2026-04-09T08:07:25"
+    "latest_change_at": "2026-04-04T21:29:07"
   },
   "recent_form": [
     40,
@@ -50,6 +50,17 @@
       "average_finish": 4.49,
       "best_lap_ms": 107830,
       "best_lap": "1:47.830"
+    },
+    {
+      "track": "silverstone",
+      "races": 1,
+      "wins": 0,
+      "podiums": 1,
+      "points": 15,
+      "finish_sum": 3,
+      "average_finish": 3.0,
+      "best_lap_ms": 121195,
+      "best_lap": "2:01.195"
     }
   ],
   "race_history": [
@@ -6024,6 +6035,75 @@
       "bestlap_rank_change": null
     },
     {
+      "race_id": "_merged/hourly/hourly_260319_152656_R.json",
+      "finished_at": "2026-03-19T15:26:56",
+      "track": "silverstone",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 3,
+      "participants_count": 5,
+      "winner": "Maksim Baklanov",
+      "points": 15,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": "2:01.195",
+      "best_lap_ms": 121195,
+      "total_time": "1:03:20.187",
+      "total_time_ms": 3800187,
+      "gap": "2:34.073",
+      "gap_ms": 154073,
+      "lap_count": 28,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 132,
+      "changes": {
+        "average_finish": {
+          "before": 4.49,
+          "after": 4.47,
+          "delta": -0.02,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110321,
+          "after": 110590,
+          "delta": 269,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 3.03,
+          "after": 2.99,
+          "delta": -0.04,
+          "trend": "down"
+        },
+        "podiums": {
+          "before": 60,
+          "after": 61,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 508,
+          "after": 523,
+          "delta": 15,
+          "trend": "up"
+        },
+        "races": {
+          "before": 94,
+          "after": 95,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
+    {
       "race_id": "260318_165236_R.json",
       "finished_at": "2026-03-18T16:52:36",
       "track": "monza",
@@ -8095,15 +8175,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 12,
-    "penalty_points": 16,
+    "penalty_count": 13,
+    "penalty_points": 18,
     "reasons": {
-      "None": 4,
+      "None": 5,
       "Cutting": 7,
       "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 5,
+      "DriveThrough": 6,
       "None": 6,
       "StopAndGo_30": 1
     }

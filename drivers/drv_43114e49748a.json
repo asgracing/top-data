@@ -2,12 +2,12 @@
   "public_id": "drv_43114e49748a",
   "driver": "Sergei Buravov",
   "summary": {
-    "points": 12,
-    "average_points_per_race": 0.41,
-    "races": 29,
+    "points": 42,
+    "average_points_per_race": 1.35,
+    "races": 31,
     "wins": 0,
-    "podiums": 0,
-    "average_finish": 17.38,
+    "podiums": 2,
+    "average_finish": 16.45,
     "best_lap": "1:49.255",
     "best_lap_ms": 109255,
     "best_lap_track": "monza",
@@ -20,17 +20,17 @@
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
     "last_race_at": "2026-03-31T19:37:13",
-    "last_seen": "2026-03-31T19:37:13",
-    "average_pace_ms": 111704,
-    "average_pace": "1:51.704",
+    "last_seen": "2026-03-20T21:27:16",
+    "average_pace_ms": 113068,
+    "average_pace": "1:53.068",
     "win_rate": 0.0,
-    "podium_rate": 0.0,
-    "average_positions_delta": -4.57,
-    "positions_delta_races": 23,
-    "championship_rank": 1279,
+    "podium_rate": 6.45,
+    "average_positions_delta": -4.08,
+    "positions_delta_races": 25,
+    "championship_rank": 316,
     "bestlap_rank": 2141,
     "latest_changes": {},
-    "latest_change_at": "2026-04-09T08:07:25"
+    "latest_change_at": "2026-04-04T21:29:07"
   },
   "recent_form": [
     11,
@@ -42,14 +42,25 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 29,
+      "races": 30,
       "wins": 0,
-      "podiums": 0,
-      "points": 12,
-      "finish_sum": 504,
-      "average_finish": 17.38,
+      "podiums": 1,
+      "points": 27,
+      "finish_sum": 507,
+      "average_finish": 16.9,
       "best_lap_ms": 109550,
       "best_lap": "1:49.550"
+    },
+    {
+      "track": "silverstone",
+      "races": 1,
+      "wins": 0,
+      "podiums": 1,
+      "points": 15,
+      "finish_sum": 3,
+      "average_finish": 3.0,
+      "best_lap_ms": 122660,
+      "best_lap": "2:02.660"
     }
   ],
   "race_history": [
@@ -1698,6 +1709,86 @@
       "bestlap_rank_change": null
     },
     {
+      "race_id": "_merged/hourly/hourly_260320_212716_R.json",
+      "finished_at": "2026-03-20T21:27:16",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 3,
+      "participants_count": 8,
+      "winner": "Kosso Filippo",
+      "points": 15,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 2,
+      "positions_gained": 2,
+      "positions_lost": 0,
+      "best_lap": "1:49.797",
+      "best_lap_ms": 109797,
+      "total_time": "1:01:16.695",
+      "total_time_ms": 3676695,
+      "gap": "0:15.641",
+      "gap_ms": 15641,
+      "lap_count": 32,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.9,
+          "after": 16.45,
+          "delta": -0.45,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 113295,
+          "after": 113068,
+          "delta": -227,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -4.33,
+          "after": -4.08,
+          "delta": 0.25,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 523,
+          "after": 316,
+          "delta": -207,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 27,
+          "after": 42,
+          "delta": 15,
+          "trend": "up"
+        },
+        "races": {
+          "before": 30,
+          "after": 31,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 523,
+        "after": 316,
+        "delta": -207,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
+    {
       "race_id": "260320_203939_R.json",
       "finished_at": "2026-03-20T20:39:39",
       "track": "monza",
@@ -1844,6 +1935,86 @@
         "after": 323,
         "delta": 4,
         "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
+    {
+      "race_id": "_merged/hourly/hourly_260318_212923_R.json",
+      "finished_at": "2026-03-18T21:29:23",
+      "track": "silverstone",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 3,
+      "participants_count": 6,
+      "winner": "K  Magomed | TS",
+      "points": 15,
+      "qualifying_position": 4,
+      "start_position": 4,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 1,
+      "positions_gained": 1,
+      "positions_lost": 0,
+      "best_lap": "2:02.660",
+      "best_lap_ms": 122660,
+      "total_time": "1:01:42.373",
+      "total_time_ms": 3702373,
+      "gap": "1:35.818",
+      "gap_ms": 95818,
+      "lap_count": 29,
+      "counted_for_stats": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 17.38,
+          "after": 16.9,
+          "delta": -0.48,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111704,
+          "after": 113295,
+          "delta": 1591,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -4.57,
+          "after": -4.33,
+          "delta": 0.24,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1279,
+          "after": 523,
+          "delta": -756,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 12,
+          "after": 27,
+          "delta": 15,
+          "trend": "up"
+        },
+        "races": {
+          "before": 29,
+          "after": 30,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1279,
+        "after": 523,
+        "delta": -756,
+        "trend": "up"
       },
       "bestlap_rank_change": null
     },
