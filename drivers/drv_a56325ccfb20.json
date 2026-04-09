@@ -3,13 +3,13 @@
   "driver": "Виктор Титов",
   "summary": {
     "points": 38,
-    "average_points_per_race": 5.43,
-    "races": 7,
+    "average_points_per_race": 4.75,
+    "races": 8,
     "wins": 3,
     "podiums": 5,
-    "average_finish": 3.14,
-    "best_lap": "1:48.030",
-    "best_lap_ms": 108030,
+    "average_finish": 4.75,
+    "best_lap": "1:48.012",
+    "best_lap_ms": 108012,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 30,
     "best_lap_car_name_raw": "BMW M4 GT3",
@@ -19,40 +19,131 @@
     "penalty_points": 1,
     "fastest_lap_awards": 3,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-09T10:52:31",
-    "last_seen": "2026-04-09T10:52:31",
-    "average_pace_ms": 109819,
-    "average_pace": "1:49.819",
-    "win_rate": 42.86,
-    "podium_rate": 71.43,
+    "last_race_at": "2026-04-09T18:31:38",
+    "last_seen": "2026-04-09T18:31:38",
+    "average_pace_ms": 109728,
+    "average_pace": "1:49.728",
+    "win_rate": 37.5,
+    "podium_rate": 62.5,
     "average_positions_delta": 0.43,
     "positions_delta_races": 7,
-    "championship_rank": 294,
-    "bestlap_rank": 730,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-08T12:43:24"
+    "championship_rank": 295,
+    "bestlap_rank": 713,
+    "latest_changes": {
+      "average_finish": {
+        "before": 3.14,
+        "after": 4.75,
+        "delta": 1.61,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109819,
+        "after": 109728,
+        "delta": -91,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 294,
+        "after": 295,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-09T18:31:38"
   },
   "recent_form": [
+    16,
     1,
     2,
     32,
-    3,
-    1
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 3,
       "podiums": 5,
       "points": 38,
-      "finish_sum": 22,
-      "average_finish": 3.14,
-      "best_lap_ms": 108030,
-      "best_lap": "1:48.030"
+      "finish_sum": 38,
+      "average_finish": 4.75,
+      "best_lap_ms": 108012,
+      "best_lap": "1:48.012"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260409_183138_R.json",
+      "finished_at": "2026-04-09T18:31:38",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 16,
+      "participants_count": 44,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "ZIHAO FAN",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.012",
+      "best_lap_ms": 108012,
+      "total_time": "22:24.397",
+      "total_time_ms": 1344397,
+      "gap": "0:36.899",
+      "gap_ms": 36899,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 3.14,
+          "after": 4.75,
+          "delta": 1.61,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109819,
+          "after": 109728,
+          "delta": -91,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 294,
+          "after": 295,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 294,
+        "after": 295,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260409_105231_R.json",
       "finished_at": "2026-04-09T10:52:31",
