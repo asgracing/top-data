@@ -15,8 +15,8 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 1,
-    "penalty_points": 2,
+    "penalty_count": 2,
+    "penalty_points": 32,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
     "last_race_at": "2026-04-03T20:51:59",
@@ -29,8 +29,15 @@
     "positions_delta_races": 1,
     "championship_rank": 3239,
     "bestlap_rank": 3850,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-09T13:08:02"
+    "latest_changes": {
+      "championship_rank": {
+        "before": 3238,
+        "after": 3239,
+        "delta": 1,
+        "trend": "down"
+      }
+    },
+    "latest_change_at": "2026-04-08T12:43:24"
   },
   "recent_form": [
     19,
@@ -184,13 +191,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 2,
+    "penalty_count": 2,
+    "penalty_points": 32,
     "reasons": {
-      "PitSpeeding": 1
+      "PitSpeeding": 1,
+      "Cutting": 1
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 1,
+      "PostRaceTime": 1
     }
   }
 }
