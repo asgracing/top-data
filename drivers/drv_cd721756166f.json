@@ -3,11 +3,11 @@
   "driver": "Talha Arık",
   "summary": {
     "points": 2,
-    "average_points_per_race": 1.0,
-    "races": 2,
+    "average_points_per_race": 0.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.5,
+    "average_finish": 18.33,
     "best_lap": "1:50.605",
     "best_lap_ms": 110605,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T21:26:29",
-    "last_seen": "2026-03-31T21:26:29",
-    "average_pace_ms": 113353,
-    "average_pace": "1:53.353",
+    "last_race_at": "2026-04-10T21:27:50",
+    "last_seen": "2026-04-10T21:27:50",
+    "average_pace_ms": 113238,
+    "average_pace": "1:53.238",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 15.5,
     "positions_delta_races": 2,
-    "championship_rank": 2287,
-    "bestlap_rank": 3379,
+    "championship_rank": 2379,
+    "bestlap_rank": 3385,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2282,
-        "after": 2287,
-        "delta": 5,
+      "average_finish": {
+        "before": 10.5,
+        "after": 18.33,
+        "delta": 7.83,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 113353,
+        "after": 113238,
+        "delta": -115,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2287,
+        "after": 2379,
+        "delta": 92,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-10T20:51:19"
+    "latest_change_at": "2026-04-10T21:27:50"
   },
   "recent_form": [
+    34,
     37,
     12,
     9
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 21,
-      "average_finish": 10.5,
+      "finish_sum": 55,
+      "average_finish": 18.33,
       "best_lap_ms": 110605,
       "best_lap": "1:50.605"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260410_212750_R.json",
+      "finished_at": "2026-04-10T21:27:50",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 34,
+      "participants_count": 55,
+      "scoring_participants_count": 35,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Pavel Karav",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.400",
+      "best_lap_ms": 111400,
+      "total_time": "21:35.675",
+      "total_time_ms": 1295675,
+      "gap": "1:32.887",
+      "gap_ms": 92887,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.5,
+          "after": 18.33,
+          "delta": 7.83,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 113353,
+          "after": 113238,
+          "delta": -115,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2287,
+          "after": 2379,
+          "delta": 92,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2287,
+        "after": 2379,
+        "delta": 92,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_212629_R.json",
       "finished_at": "2026-03-31T21:26:29",
