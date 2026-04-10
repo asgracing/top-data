@@ -3,11 +3,11 @@
   "driver": "vladimir chibisov",
   "summary": {
     "points": 71,
-    "average_points_per_race": 6.45,
-    "races": 11,
+    "average_points_per_race": 5.92,
+    "races": 12,
     "wins": 1,
     "podiums": 2,
-    "average_finish": 12.55,
+    "average_finish": 12.75,
     "best_lap": "1:47.990",
     "best_lap_ms": 107990,
     "best_lap_track": "monza",
@@ -15,51 +15,147 @@
     "best_lap_car_name_raw": "Audi R8 LMS GT3 evo II",
     "best_lap_car_name": "Audi R8 LMS GT3 evo II",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-10T18:57:24",
-    "last_seen": "2026-04-10T18:57:24",
-    "average_pace_ms": 109781,
-    "average_pace": "1:49.781",
-    "win_rate": 9.09,
-    "podium_rate": 18.18,
-    "average_positions_delta": -3.6,
-    "positions_delta_races": 10,
-    "championship_rank": 135,
-    "bestlap_rank": 690,
+    "last_race_at": "2026-04-10T19:35:43",
+    "last_seen": "2026-04-10T19:35:43",
+    "average_pace_ms": 109766,
+    "average_pace": "1:49.766",
+    "win_rate": 8.33,
+    "podium_rate": 16.67,
+    "average_positions_delta": -3.45,
+    "positions_delta_races": 11,
+    "championship_rank": 136,
+    "bestlap_rank": 691,
     "latest_changes": {
+      "average_finish": {
+        "before": 12.55,
+        "after": 12.75,
+        "delta": 0.2,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109781,
+        "after": 109766,
+        "delta": -15,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -3.6,
+        "after": -3.45,
+        "delta": 0.15,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 134,
-        "after": 135,
+        "before": 135,
+        "after": 136,
         "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 11,
+        "after": 12,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-10T18:57:24"
+    "latest_change_at": "2026-04-10T19:35:43"
   },
   "recent_form": [
+    15,
     44,
     18,
     36,
-    1,
-    16
+    1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 11,
+      "races": 12,
       "wins": 1,
       "podiums": 2,
       "points": 71,
-      "finish_sum": 138,
-      "average_finish": 12.55,
+      "finish_sum": 153,
+      "average_finish": 12.75,
       "best_lap_ms": 107990,
       "best_lap": "1:47.990"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260410_193543_R.json",
+      "finished_at": "2026-04-10T19:35:43",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 15,
+      "participants_count": 54,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "PALM TATTAPONG | MDN",
+      "points": 0,
+      "qualifying_position": 13,
+      "start_position": 13,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -2,
+      "positions_gained": 0,
+      "positions_lost": 2,
+      "best_lap": "1:49.052",
+      "best_lap_ms": 109052,
+      "total_time": "15:44.507",
+      "total_time_ms": 944507,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 12.55,
+          "after": 12.75,
+          "delta": 0.2,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109781,
+          "after": 109766,
+          "delta": -15,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -3.6,
+          "after": -3.45,
+          "delta": 0.15,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 135,
+          "after": 136,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 11,
+          "after": 12,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 135,
+        "after": 136,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260410_185724_R.json",
       "finished_at": "2026-04-10T18:57:24",
@@ -1065,9 +1161,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 2,
+    "reasons": {
+      "PitSpeeding": 1
+    },
+    "types": {
+      "StopAndGo_30": 1
+    }
   }
 }
