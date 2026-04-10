@@ -4,12 +4,12 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 22.0,
-    "best_lap": "1:48.185",
-    "best_lap_ms": 108185,
+    "average_finish": 19.0,
+    "best_lap": "1:47.835",
+    "best_lap_ms": 107835,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 31,
     "best_lap_car_name_raw": "Audi R8 LMS GT3 evo II",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-28T18:36:23",
-    "last_seen": "2026-03-28T18:36:23",
-    "average_pace_ms": 108571,
-    "average_pace": "1:48.571",
+    "last_race_at": "2026-04-11T02:22:31",
+    "last_seen": "2026-04-11T02:22:31",
+    "average_pace_ms": 108548,
+    "average_pace": "1:48.548",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": null,
     "positions_delta_races": 0,
-    "championship_rank": 3893,
-    "bestlap_rank": 952,
+    "championship_rank": 3549,
+    "bestlap_rank": 550,
     "latest_changes": {
+      "average_finish": {
+        "before": 22.0,
+        "after": 19.0,
+        "delta": -3.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 108571,
+        "after": 108548,
+        "delta": -23,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 3889,
-        "after": 3893,
-        "delta": 4,
-        "trend": "down"
+        "before": 3893,
+        "after": 3549,
+        "delta": -344,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-11T01:46:30"
+    "latest_change_at": "2026-04-11T02:22:31"
   },
   "recent_form": [
+    16,
     42,
     32,
     22
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 22,
-      "average_finish": 22.0,
-      "best_lap_ms": 108185,
-      "best_lap": "1:48.185"
+      "finish_sum": 38,
+      "average_finish": 19.0,
+      "best_lap_ms": 107835,
+      "best_lap": "1:47.835"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260411_022231_R.json",
+      "finished_at": "2026-04-11T02:22:31",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 16,
+      "participants_count": 30,
+      "scoring_participants_count": 21,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Oliver Marini",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.835",
+      "best_lap_ms": 107835,
+      "total_time": "21:39.585",
+      "total_time_ms": 1299585,
+      "gap": "1:35.252",
+      "gap_ms": 95252,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 22.0,
+          "after": 19.0,
+          "delta": -3.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 108571,
+          "after": 108548,
+          "delta": -23,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3893,
+          "after": 3549,
+          "delta": -344,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3893,
+        "after": 3549,
+        "delta": -344,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260328_183623_R.json",
       "finished_at": "2026-03-28T18:36:23",
