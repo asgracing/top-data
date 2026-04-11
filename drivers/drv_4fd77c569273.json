@@ -3,11 +3,11 @@
   "driver": "Andries Dijkstra",
   "summary": {
     "points": 18,
-    "average_points_per_race": 6.0,
-    "races": 3,
+    "average_points_per_race": 4.5,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 12.67,
+    "average_finish": 14.75,
     "best_lap": "1:48.082",
     "best_lap_ms": 108082,
     "best_lap_track": "monza",
@@ -19,20 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-29T20:07:07",
-    "last_seen": "2026-03-29T20:07:07",
-    "average_pace_ms": 109276,
-    "average_pace": "1:49.276",
+    "last_race_at": "2026-04-11T17:58:09",
+    "last_seen": "2026-04-11T17:58:09",
+    "average_pace_ms": 109252,
+    "average_pace": "1:49.252",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
+    "podium_rate": 25.0,
     "average_positions_delta": -8.33,
     "positions_delta_races": 3,
-    "championship_rank": 745,
-    "bestlap_rank": 833,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-11T17:20:08"
+    "championship_rank": 754,
+    "bestlap_rank": 836,
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.67,
+        "after": 14.75,
+        "delta": 2.08,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109276,
+        "after": 109252,
+        "delta": -24,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 745,
+        "after": 754,
+        "delta": 9,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-11T17:58:09"
   },
   "recent_form": [
+    21,
     25,
     11,
     2,
@@ -41,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
       "points": 18,
-      "finish_sum": 38,
-      "average_finish": 12.67,
+      "finish_sum": 59,
+      "average_finish": 14.75,
       "best_lap_ms": 108402,
       "best_lap": "1:48.402"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260411_175809_R.json",
+      "finished_at": "2026-04-11T17:58:09",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 21,
+      "participants_count": 41,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Wilson Magario Jr <VR>",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.707",
+      "best_lap_ms": 108707,
+      "total_time": "22:32.255",
+      "total_time_ms": 1352255,
+      "gap": "0:48.384",
+      "gap_ms": 48384,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.67,
+          "after": 14.75,
+          "delta": 2.08,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109276,
+          "after": 109252,
+          "delta": -24,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 745,
+          "after": 754,
+          "delta": 9,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 745,
+        "after": 754,
+        "delta": 9,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260329_200707_R.json",
       "finished_at": "2026-03-29T20:07:07",

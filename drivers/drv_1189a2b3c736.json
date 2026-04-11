@@ -3,11 +3,11 @@
   "driver": "Andrew Li",
   "summary": {
     "points": 0,
-    "average_points_per_race": 0,
-    "races": 0,
+    "average_points_per_race": 0.0,
+    "races": 1,
     "wins": 0,
     "podiums": 0,
-    "average_finish": null,
+    "average_finish": 23.0,
     "best_lap": null,
     "best_lap_ms": null,
     "best_lap_track": null,
@@ -18,36 +18,132 @@
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
-    "most_raced_track": null,
-    "last_race_at": "2026-04-07T12:10:20",
-    "last_seen": "2026-04-05T20:24:14",
+    "most_raced_track": "monza",
+    "last_race_at": "2026-04-11T17:58:09",
+    "last_seen": "2026-04-11T17:58:09",
     "average_pace_ms": null,
     "average_pace": null,
-    "win_rate": 0,
-    "podium_rate": 0,
-    "average_positions_delta": null,
-    "positions_delta_races": 0,
-    "championship_rank": 4517,
+    "win_rate": 0.0,
+    "podium_rate": 0.0,
+    "average_positions_delta": 7.0,
+    "positions_delta_races": 1,
+    "championship_rank": 4009,
     "bestlap_rank": null,
     "latest_changes": {
+      "average_finish": {
+        "before": null,
+        "after": 23.0,
+        "delta": null,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": null,
+        "after": 7.0,
+        "delta": null,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 4513,
-        "after": 4517,
-        "delta": 4,
-        "trend": "down"
+        "before": 4518,
+        "after": 4009,
+        "delta": -509,
+        "trend": "up"
+      },
+      "races": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-11T17:20:08"
+    "latest_change_at": "2026-04-11T17:58:09"
   },
   "recent_form": [
+    23,
     10,
     32,
     30,
-    41,
-    32
+    41
   ],
-  "track_stats": [],
+  "track_stats": [
+    {
+      "track": "monza",
+      "races": 1,
+      "wins": 0,
+      "podiums": 0,
+      "points": 0,
+      "finish_sum": 23,
+      "average_finish": 23.0,
+      "best_lap_ms": null,
+      "best_lap": null
+    }
+  ],
   "race_history": [
+    {
+      "race_id": "260411_175809_R.json",
+      "finished_at": "2026-04-11T17:58:09",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 23,
+      "participants_count": 41,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Wilson Magario Jr <VR>",
+      "points": 0,
+      "qualifying_position": 30,
+      "start_position": 30,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 7,
+      "positions_gained": 7,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "5:49.906",
+      "total_time_ms": 349906,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": null,
+          "after": 23.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": 7.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 4518,
+          "after": 4009,
+          "delta": -509,
+          "trend": "up"
+        },
+        "races": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 4518,
+        "after": 4009,
+        "delta": -509,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260407_121020_R.json",
       "finished_at": "2026-04-07T12:10:20",
