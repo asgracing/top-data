@@ -3,11 +3,11 @@
   "driver": "Mert Ucmaz",
   "summary": {
     "points": 24,
-    "average_points_per_race": 6.0,
-    "races": 4,
+    "average_points_per_race": 4.8,
+    "races": 5,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 9.5,
+    "average_finish": 10.0,
     "best_lap": "1:49.377",
     "best_lap_ms": 109377,
     "best_lap_track": "monza",
@@ -19,40 +19,143 @@
     "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T22:18:00",
-    "last_seen": "2026-04-04T22:18:00",
-    "average_pace_ms": 111022,
-    "average_pace": "1:51.022",
+    "last_race_at": "2026-04-11T18:36:38",
+    "last_seen": "2026-04-11T18:36:38",
+    "average_pace_ms": 111292,
+    "average_pace": "1:51.292",
     "win_rate": 0.0,
-    "podium_rate": 25.0,
-    "average_positions_delta": 1.0,
-    "positions_delta_races": 4,
-    "championship_rank": 555,
-    "bestlap_rank": 2423,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-11T17:58:09"
+    "podium_rate": 20.0,
+    "average_positions_delta": 5.0,
+    "positions_delta_races": 5,
+    "championship_rank": 557,
+    "bestlap_rank": 2428,
+    "latest_changes": {
+      "average_finish": {
+        "before": 9.5,
+        "after": 10.0,
+        "delta": 0.5,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111022,
+        "after": 111292,
+        "delta": 270,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.0,
+        "after": 5.0,
+        "delta": 4.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 555,
+        "after": 557,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-11T18:36:38"
   },
   "recent_form": [
+    12,
     18,
     5,
     34,
-    2,
-    13
+    2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 1,
       "points": 24,
-      "finish_sum": 38,
-      "average_finish": 9.5,
+      "finish_sum": 50,
+      "average_finish": 10.0,
       "best_lap_ms": 109377,
       "best_lap": "1:49.377"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260411_183638_R.json",
+      "finished_at": "2026-04-11T18:36:38",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 12,
+      "participants_count": 49,
+      "scoring_participants_count": 23,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "X. Darkon",
+      "points": 0,
+      "qualifying_position": 33,
+      "start_position": 33,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 21,
+      "positions_gained": 21,
+      "positions_lost": 0,
+      "best_lap": "1:50.657",
+      "best_lap_ms": 110657,
+      "total_time": "23:32.967",
+      "total_time_ms": 1412967,
+      "gap": "1:44.226",
+      "gap_ms": 104226,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.5,
+          "after": 10.0,
+          "delta": 0.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111022,
+          "after": 111292,
+          "delta": 270,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.0,
+          "after": 5.0,
+          "delta": 4.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 555,
+          "after": 557,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 555,
+        "after": 557,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260404_221800_R.json",
       "finished_at": "2026-04-04T22:18:00",
