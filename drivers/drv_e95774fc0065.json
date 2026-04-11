@@ -3,11 +3,11 @@
   "driver": "sam boyd",
   "summary": {
     "points": 4,
-    "average_points_per_race": 1.33,
-    "races": 3,
+    "average_points_per_race": 1.0,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 17.33,
+    "average_finish": 17.0,
     "best_lap": "1:48.375",
     "best_lap_ms": 108375,
     "best_lap_track": "monza",
@@ -19,47 +19,131 @@
     "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-10T19:35:43",
-    "last_seen": "2026-04-10T19:35:43",
-    "average_pace_ms": 109874,
-    "average_pace": "1:49.874",
+    "last_race_at": "2026-04-11T20:31:07",
+    "last_seen": "2026-04-11T20:31:07",
+    "average_pace_ms": 109786,
+    "average_pace": "1:49.786",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -1.5,
     "positions_delta_races": 2,
-    "championship_rank": 2018,
-    "bestlap_rank": 1218,
+    "championship_rank": 2019,
+    "bestlap_rank": 1219,
     "latest_changes": {
+      "average_finish": {
+        "before": 17.33,
+        "after": 17.0,
+        "delta": -0.33,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109874,
+        "after": 109786,
+        "delta": -88,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 2017,
-        "after": 2018,
+        "before": 2018,
+        "after": 2019,
         "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-11T19:52:43"
+    "latest_change_at": "2026-04-11T20:31:07"
   },
   "recent_form": [
+    16,
     53,
     8,
     23,
-    37,
-    21
+    37
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 52,
-      "average_finish": 17.33,
+      "finish_sum": 68,
+      "average_finish": 17.0,
       "best_lap_ms": 108375,
       "best_lap": "1:48.375"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260411_203107_R.json",
+      "finished_at": "2026-04-11T20:31:07",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 16,
+      "participants_count": 53,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Kriek Patron",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.737",
+      "best_lap_ms": 108737,
+      "total_time": "23:28.746",
+      "total_time_ms": 1408746,
+      "gap": "1:45.522",
+      "gap_ms": 105522,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 17.33,
+          "after": 17.0,
+          "delta": -0.33,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109874,
+          "after": 109786,
+          "delta": -88,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2018,
+          "after": 2019,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2018,
+        "after": 2019,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260410_193543_R.json",
       "finished_at": "2026-04-10T19:35:43",
