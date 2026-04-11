@@ -3,13 +3,13 @@
   "driver": "Frederick Soh",
   "summary": {
     "points": 23,
-    "average_points_per_race": 3.29,
-    "races": 7,
+    "average_points_per_race": 2.88,
+    "races": 8,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.71,
-    "best_lap": "1:47.882",
-    "best_lap_ms": 107882,
+    "average_finish": 14.88,
+    "best_lap": "1:47.512",
+    "best_lap_ms": 107512,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 20,
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
@@ -19,40 +19,126 @@
     "penalty_points": 7,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-11T12:57:45",
-    "last_seen": "2026-04-11T12:57:45",
-    "average_pace_ms": 109443,
-    "average_pace": "1:49.443",
+    "last_race_at": "2026-04-11T13:35:21",
+    "last_seen": "2026-04-11T13:35:21",
+    "average_pace_ms": 109228,
+    "average_pace": "1:49.228",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 2.17,
-    "positions_delta_races": 6,
+    "average_positions_delta": 0.29,
+    "positions_delta_races": 7,
     "championship_rank": 596,
-    "bestlap_rank": 597,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-11T13:07:34"
+    "bestlap_rank": 300,
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.71,
+        "after": 14.88,
+        "delta": 0.17,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109443,
+        "after": 109228,
+        "delta": -215,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 2.17,
+        "after": 0.29,
+        "delta": -1.88,
+        "trend": "down"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-11T13:35:21"
   },
   "recent_form": [
+    16,
     5,
     26,
     27,
-    15,
-    32
+    15
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 0,
       "points": 23,
-      "finish_sum": 103,
-      "average_finish": 14.71,
-      "best_lap_ms": 107882,
-      "best_lap": "1:47.882"
+      "finish_sum": 119,
+      "average_finish": 14.88,
+      "best_lap_ms": 107512,
+      "best_lap": "1:47.512"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260411_133521_R.json",
+      "finished_at": "2026-04-11T13:35:21",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 16,
+      "participants_count": 36,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Sissy Julia",
+      "points": 0,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -11,
+      "positions_gained": 0,
+      "positions_lost": 11,
+      "best_lap": "1:47.512",
+      "best_lap_ms": 107512,
+      "total_time": "20:38.750",
+      "total_time_ms": 1238750,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 14.71,
+          "after": 14.88,
+          "delta": 0.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109443,
+          "after": 109228,
+          "delta": -215,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 2.17,
+          "after": 0.29,
+          "delta": -1.88,
+          "trend": "down"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260411_125745_R.json",
       "finished_at": "2026-04-11T12:57:45",
