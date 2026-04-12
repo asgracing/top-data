@@ -2,12 +2,12 @@
   "public_id": "drv_fdb7642ffbb9",
   "driver": "Alexey Lyovin",
   "summary": {
-    "points": 8,
-    "average_points_per_race": 4.0,
-    "races": 2,
+    "points": 11,
+    "average_points_per_race": 3.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.5,
+    "average_finish": 13.0,
     "best_lap": "1:48.737",
     "best_lap_ms": 108737,
     "best_lap_track": "monza",
@@ -19,39 +19,58 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-12T14:35:54",
-    "last_seen": "2026-04-12T14:35:54",
-    "average_pace_ms": 110387,
-    "average_pace": "1:50.387",
+    "last_race_at": "2026-04-12T15:12:14",
+    "last_seen": "2026-04-12T15:12:14",
+    "average_pace_ms": 110345,
+    "average_pace": "1:50.345",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 0.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1518,
+    "average_positions_delta": 0.5,
+    "positions_delta_races": 2,
+    "championship_rank": 1206,
     "bestlap_rank": 1698,
     "latest_changes": {
       "average_finish": {
-        "before": 6.0,
-        "after": 15.5,
-        "delta": 9.5,
-        "trend": "down"
+        "before": 15.5,
+        "after": 13.0,
+        "delta": -2.5,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 110387,
+        "after": 110345,
+        "delta": -42,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 0.0,
+        "after": 0.5,
+        "delta": 0.5,
+        "trend": "up"
       },
       "championship_rank": {
-        "before": 1419,
-        "after": 1518,
-        "delta": 99,
-        "trend": "down"
+        "before": 1518,
+        "after": 1206,
+        "delta": -312,
+        "trend": "up"
+      },
+      "points": {
+        "before": 8,
+        "after": 11,
+        "delta": 3,
+        "trend": "up"
       },
       "races": {
-        "before": 1,
-        "after": 2,
+        "before": 2,
+        "after": 3,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-12T14:35:54"
+    "latest_change_at": "2026-04-12T15:12:14"
   },
   "recent_form": [
+    8,
     25,
     42,
     6,
@@ -60,17 +79,95 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
-      "points": 8,
-      "finish_sum": 31,
-      "average_finish": 15.5,
-      "best_lap_ms": 108885,
-      "best_lap": "1:48.885"
+      "points": 11,
+      "finish_sum": 39,
+      "average_finish": 13.0,
+      "best_lap_ms": 108747,
+      "best_lap": "1:48.747"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260412_151214_R.json",
+      "finished_at": "2026-04-12T15:12:14",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 8,
+      "participants_count": 40,
+      "scoring_participants_count": 23,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Martin Bereczki",
+      "points": 3,
+      "qualifying_position": 9,
+      "start_position": 9,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 1,
+      "positions_gained": 1,
+      "positions_lost": 0,
+      "best_lap": "1:48.747",
+      "best_lap_ms": 108747,
+      "total_time": "20:37.505",
+      "total_time_ms": 1237505,
+      "gap": "0:33.006",
+      "gap_ms": 33006,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.5,
+          "after": 13.0,
+          "delta": -2.5,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110387,
+          "after": 110345,
+          "delta": -42,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 0.0,
+          "after": 0.5,
+          "delta": 0.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1518,
+          "after": 1206,
+          "delta": -312,
+          "trend": "up"
+        },
+        "points": {
+          "before": 8,
+          "after": 11,
+          "delta": 3,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1518,
+        "after": 1206,
+        "delta": -312,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260412_143554_R.json",
       "finished_at": "2026-04-12T14:35:54",
