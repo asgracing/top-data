@@ -3,11 +3,11 @@
   "driver": "Kirill Yarmolyuk",
   "summary": {
     "points": 4,
-    "average_points_per_race": 2.0,
-    "races": 2,
+    "average_points_per_race": 1.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 9.0,
+    "average_finish": 10.33,
     "best_lap": "1:49.280",
     "best_lap_ms": 109280,
     "best_lap_track": "monza",
@@ -19,51 +19,52 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-12T22:50:24",
-    "last_seen": "2026-04-12T22:59:33",
-    "average_pace_ms": 112135,
-    "average_pace": "1:52.135",
+    "last_race_at": "2026-04-12T23:24:02",
+    "last_seen": "2026-04-12T23:24:02",
+    "average_pace_ms": 112183,
+    "average_pace": "1:52.183",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 4.0,
-    "positions_delta_races": 2,
-    "championship_rank": 2012,
-    "bestlap_rank": 2472,
+    "average_positions_delta": 1.0,
+    "positions_delta_races": 3,
+    "championship_rank": 2026,
+    "bestlap_rank": 2394,
     "latest_changes": {
+      "average_finish": {
+        "before": 9.0,
+        "after": 10.33,
+        "delta": 1.33,
+        "trend": "down"
+      },
       "average_pace_ms": {
-        "before": 111274,
-        "after": 112135,
-        "delta": 861,
+        "before": 112135,
+        "after": 112183,
+        "delta": 48,
         "trend": "down"
       },
       "average_positions_delta": {
-        "before": 2.0,
-        "after": 4.0,
-        "delta": 2.0,
-        "trend": "up"
+        "before": 4.0,
+        "after": 1.0,
+        "delta": -3.0,
+        "trend": "down"
       },
       "championship_rank": {
-        "before": 2355,
-        "after": 2012,
-        "delta": -343,
-        "trend": "up"
-      },
-      "points": {
-        "before": 2,
-        "after": 4,
-        "delta": 2,
-        "trend": "up"
+        "before": 2012,
+        "after": 2026,
+        "delta": 14,
+        "trend": "down"
       },
       "races": {
-        "before": 1,
-        "after": 2,
+        "before": 2,
+        "after": 3,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-12T22:50:24"
+    "latest_change_at": "2026-04-12T23:24:02"
   },
   "recent_form": [
+    13,
     9,
     35,
     9,
@@ -72,17 +73,89 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 18,
-      "average_finish": 9.0,
+      "finish_sum": 31,
+      "average_finish": 10.33,
       "best_lap_ms": 109642,
       "best_lap": "1:49.642"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260412_232402_R.json",
+      "finished_at": "2026-04-12T23:24:02",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 13,
+      "participants_count": 40,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "ALEKSEY EPIFANOV",
+      "points": 0,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -5,
+      "positions_gained": 0,
+      "positions_lost": 5,
+      "best_lap": "1:50.357",
+      "best_lap_ms": 110357,
+      "total_time": "20:33.298",
+      "total_time_ms": 1233298,
+      "gap": "0:25.515",
+      "gap_ms": 25515,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.0,
+          "after": 10.33,
+          "delta": 1.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112135,
+          "after": 112183,
+          "delta": 48,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 4.0,
+          "after": 1.0,
+          "delta": -3.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2012,
+          "after": 2026,
+          "delta": 14,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2012,
+        "after": 2026,
+        "delta": 14,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260412_225024_R.json",
       "finished_at": "2026-04-12T22:50:24",
