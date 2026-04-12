@@ -3,11 +3,11 @@
   "driver": "Rusty Steak",
   "summary": {
     "points": 2,
-    "average_points_per_race": 0.67,
-    "races": 3,
+    "average_points_per_race": 0.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.67,
+    "average_finish": 17.75,
     "best_lap": "1:49.195",
     "best_lap_ms": 109195,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 5,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-13T00:02:10",
-    "last_seen": "2026-04-13T00:02:10",
+    "last_race_at": "2026-04-13T00:39:59",
+    "last_seen": "2026-04-13T00:39:59",
     "average_pace_ms": 112997,
     "average_pace": "1:52.997",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 12.67,
-    "positions_delta_races": 3,
-    "championship_rank": 2491,
-    "bestlap_rank": 2294,
+    "average_positions_delta": 10.75,
+    "positions_delta_races": 4,
+    "championship_rank": 2500,
+    "bestlap_rank": 2295,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2489,
-        "after": 2491,
-        "delta": 2,
+      "average_finish": {
+        "before": 16.67,
+        "after": 17.75,
+        "delta": 1.08,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 12.67,
+        "after": 10.75,
+        "delta": -1.92,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2491,
+        "after": 2500,
+        "delta": 9,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-13T00:02:10"
+    "latest_change_at": "2026-04-13T00:39:59"
   },
   "recent_form": [
+    21,
     37,
     9,
     21,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 50,
-      "average_finish": 16.67,
+      "finish_sum": 71,
+      "average_finish": 17.75,
       "best_lap_ms": 109195,
       "best_lap": "1:49.195"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260413_003959_R.json",
+      "finished_at": "2026-04-13T00:39:59",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 21,
+      "participants_count": 43,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrei Soldatenkov [ASG]",
+      "points": 0,
+      "qualifying_position": 26,
+      "start_position": 26,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 5,
+      "positions_gained": 5,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "13:45.537",
+      "total_time_ms": 825537,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.67,
+          "after": 17.75,
+          "delta": 1.08,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 12.67,
+          "after": 10.75,
+          "delta": -1.92,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2491,
+          "after": 2500,
+          "delta": 9,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2491,
+        "after": 2500,
+        "delta": 9,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260413_000210_R.json",
       "finished_at": "2026-04-13T00:02:10",
