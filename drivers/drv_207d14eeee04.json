@@ -3,11 +3,11 @@
   "driver": "K Magomed | TS",
   "summary": {
     "points": 433,
-    "average_points_per_race": 5.28,
-    "races": 82,
+    "average_points_per_race": 5.22,
+    "races": 83,
     "wins": 9,
     "podiums": 17,
-    "average_finish": 13.68,
+    "average_finish": 13.77,
     "best_lap": "1:46.832",
     "best_lap_ms": 106832,
     "best_lap_track": "monza",
@@ -15,39 +15,64 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 4,
-    "penalty_points": 12,
+    "penalty_count": 6,
+    "penalty_points": 15,
     "fastest_lap_awards": 10,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-13T17:32:56",
-    "last_seen": "2026-04-13T17:32:56",
-    "average_pace_ms": 110247,
-    "average_pace": "1:50.247",
-    "win_rate": 10.98,
-    "podium_rate": 20.73,
-    "average_positions_delta": 2.27,
-    "positions_delta_races": 71,
+    "last_race_at": "2026-04-13T18:09:39",
+    "last_seen": "2026-04-13T18:09:39",
+    "average_pace_ms": 110249,
+    "average_pace": "1:50.249",
+    "win_rate": 10.84,
+    "podium_rate": 20.48,
+    "average_positions_delta": 2.17,
+    "positions_delta_races": 72,
     "championship_rank": 16,
     "bestlap_rank": 50,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-13T17:32:56"
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.68,
+        "after": 13.77,
+        "delta": 0.09,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110247,
+        "after": 110249,
+        "delta": 2,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 2.27,
+        "after": 2.17,
+        "delta": -0.1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 82,
+        "after": 83,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-13T18:09:39"
   },
   "recent_form": [
+    21,
     36,
     43,
     17,
-    16,
-    19
+    16
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 81,
+      "races": 82,
       "wins": 8,
       "podiums": 16,
       "points": 403,
-      "finish_sum": 1121,
-      "average_finish": 13.84,
+      "finish_sum": 1142,
+      "average_finish": 13.93,
       "best_lap_ms": 106832,
       "best_lap": "1:46.832"
     },
@@ -64,6 +89,67 @@
     }
   ],
   "race_history": [
+    {
+      "race_id": "260413_180939_R.json",
+      "finished_at": "2026-04-13T18:09:39",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 21,
+      "participants_count": 44,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "HAYTHAM SOBHY",
+      "points": 0,
+      "qualifying_position": 16,
+      "start_position": 16,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -5,
+      "positions_gained": 0,
+      "positions_lost": 5,
+      "best_lap": "1:49.682",
+      "best_lap_ms": 109682,
+      "total_time": "21:26.398",
+      "total_time_ms": 1286398,
+      "gap": "1:15.596",
+      "gap_ms": 75596,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.68,
+          "after": 13.77,
+          "delta": 0.09,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110247,
+          "after": 110249,
+          "delta": 2,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 2.27,
+          "after": 2.17,
+          "delta": -0.1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 82,
+          "after": 83,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260413_173256_R.json",
       "finished_at": "2026-04-13T17:32:56",
@@ -7262,17 +7348,19 @@
     }
   ],
   "penalties": {
-    "penalty_count": 4,
-    "penalty_points": 12,
+    "penalty_count": 6,
+    "penalty_points": 15,
     "reasons": {
-      "Cutting": 2,
+      "Cutting": 4,
       "PitSpeeding": 1,
       "Trolling": 1
     },
     "types": {
       "DriveThrough": 2,
       "StopAndGo_10": 1,
-      "Disqualified": 1
+      "Disqualified": 1,
+      "StopAndGo_30": 1,
+      "None": 1
     }
   }
 }
