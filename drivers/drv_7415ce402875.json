@@ -3,11 +3,11 @@
   "driver": "Guido C.",
   "summary": {
     "points": 36,
-    "average_points_per_race": 12.0,
-    "races": 3,
+    "average_points_per_race": 9.0,
+    "races": 4,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 11.0,
+    "average_finish": 12.75,
     "best_lap": "1:47.892",
     "best_lap_ms": 107892,
     "best_lap_track": "monza",
@@ -19,20 +19,40 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-31T00:17:30",
-    "last_seen": "2026-03-31T00:17:30",
-    "average_pace_ms": 109087,
-    "average_pace": "1:49.087",
+    "last_race_at": "2026-04-14T23:26:19",
+    "last_seen": "2026-04-14T23:26:19",
+    "average_pace_ms": 109168,
+    "average_pace": "1:49.168",
     "win_rate": 0.0,
-    "podium_rate": 66.67,
+    "podium_rate": 50.0,
     "average_positions_delta": 1.5,
     "positions_delta_races": 2,
     "championship_rank": 399,
     "bestlap_rank": 683,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-14T22:49:42"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.0,
+        "after": 12.75,
+        "delta": 1.75,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109087,
+        "after": 109168,
+        "delta": 81,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-14T23:26:19"
   },
   "recent_form": [
+    18,
     2,
     29,
     2,
@@ -41,17 +61,72 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 2,
       "points": 36,
-      "finish_sum": 33,
-      "average_finish": 11.0,
+      "finish_sum": 51,
+      "average_finish": 12.75,
       "best_lap_ms": 107975,
       "best_lap": "1:47.975"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260414_232619_R.json",
+      "finished_at": "2026-04-14T23:26:19",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 18,
+      "participants_count": 44,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Kirill Bulgakov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.352",
+      "best_lap_ms": 108352,
+      "total_time": "21:58.189",
+      "total_time_ms": 1318189,
+      "gap": "1:54.400",
+      "gap_ms": 114400,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.0,
+          "after": 12.75,
+          "delta": 1.75,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109087,
+          "after": 109168,
+          "delta": 81,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260331_001730_R.json",
       "finished_at": "2026-03-31T00:17:30",
