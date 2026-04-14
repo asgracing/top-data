@@ -3,11 +3,11 @@
   "driver": "CooT Hogerheide",
   "summary": {
     "points": 110,
-    "average_points_per_race": 6.11,
-    "races": 18,
+    "average_points_per_race": 5.79,
+    "races": 19,
     "wins": 0,
     "podiums": 3,
-    "average_finish": 8.33,
+    "average_finish": 8.63,
     "best_lap": "1:48.165",
     "best_lap_ms": 108165,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-12T11:29:59",
-    "last_seen": "2026-04-12T11:29:59",
-    "average_pace_ms": 110587,
-    "average_pace": "1:50.587",
+    "last_race_at": "2026-04-15T01:51:50",
+    "last_seen": "2026-04-15T01:51:50",
+    "average_pace_ms": 110647,
+    "average_pace": "1:50.647",
     "win_rate": 0.0,
-    "podium_rate": 16.67,
-    "average_positions_delta": -0.15,
-    "positions_delta_races": 13,
+    "podium_rate": 15.79,
+    "average_positions_delta": 0.5,
+    "positions_delta_races": 14,
     "championship_rank": 103,
     "bestlap_rank": 1049,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-15T01:16:10"
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.33,
+        "after": 8.63,
+        "delta": 0.3,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110587,
+        "after": 110647,
+        "delta": 60,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -0.15,
+        "after": 0.5,
+        "delta": 0.65,
+        "trend": "up"
+      },
+      "races": {
+        "before": 18,
+        "after": 19,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-15T01:51:50"
   },
   "recent_form": [
+    14,
     32,
     9,
     32,
-    7,
-    8
+    7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 3,
       "points": 110,
-      "finish_sum": 150,
-      "average_finish": 8.33,
+      "finish_sum": 164,
+      "average_finish": 8.63,
       "best_lap_ms": 108165,
       "best_lap": "1:48.165"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260415_015150_R.json",
+      "finished_at": "2026-04-15T01:51:50",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 14,
+      "participants_count": 25,
+      "scoring_participants_count": 15,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Vahe Gabrielyan",
+      "points": 0,
+      "qualifying_position": 23,
+      "start_position": 23,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 9,
+      "positions_gained": 9,
+      "positions_lost": 0,
+      "best_lap": "1:50.452",
+      "best_lap_ms": 110452,
+      "total_time": "12:00.279",
+      "total_time_ms": 720279,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.33,
+          "after": 8.63,
+          "delta": 0.3,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110587,
+          "after": 110647,
+          "delta": 60,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -0.15,
+          "after": 0.5,
+          "delta": 0.65,
+          "trend": "up"
+        },
+        "races": {
+          "before": 18,
+          "after": 19,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260412_112959_R.json",
       "finished_at": "2026-04-12T11:29:59",
