@@ -3,11 +3,11 @@
   "driver": "Tomasz Jaworski",
   "summary": {
     "points": 1,
-    "average_points_per_race": 0.5,
-    "races": 2,
+    "average_points_per_race": 0.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 19.5,
+    "average_finish": 19.67,
     "best_lap": "1:49.175",
     "best_lap_ms": 109175,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-12T20:58:10",
-    "last_seen": "2026-04-12T20:58:10",
-    "average_pace_ms": 110208,
-    "average_pace": "1:50.208",
+    "last_race_at": "2026-04-14T20:57:04",
+    "last_seen": "2026-04-14T20:57:04",
+    "average_pace_ms": 110181,
+    "average_pace": "1:50.181",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 2.0,
     "positions_delta_races": 1,
-    "championship_rank": 2862,
-    "bestlap_rank": 2374,
+    "championship_rank": 2863,
+    "bestlap_rank": 2375,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2859,
-        "after": 2862,
-        "delta": 3,
+      "average_finish": {
+        "before": 19.5,
+        "after": 19.67,
+        "delta": 0.17,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110208,
+        "after": 110181,
+        "delta": -27,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2862,
+        "after": 2863,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-14T20:19:07"
+    "latest_change_at": "2026-04-14T20:57:04"
   },
   "recent_form": [
+    20,
     35,
     10,
     39,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 39,
-      "average_finish": 19.5,
+      "finish_sum": 59,
+      "average_finish": 19.67,
       "best_lap_ms": 109755,
       "best_lap": "1:49.755"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260414_205704_R.json",
+      "finished_at": "2026-04-14T20:57:04",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 20,
+      "participants_count": 41,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Luiz Vollrath",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.975",
+      "best_lap_ms": 109975,
+      "total_time": "23:12.827",
+      "total_time_ms": 1392827,
+      "gap": "1:22.330",
+      "gap_ms": 82330,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 19.5,
+          "after": 19.67,
+          "delta": 0.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110208,
+          "after": 110181,
+          "delta": -27,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2862,
+          "after": 2863,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2862,
+        "after": 2863,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260412_205810_R.json",
       "finished_at": "2026-04-12T20:58:10",
