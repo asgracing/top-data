@@ -3,11 +3,11 @@
   "driver": "ARI MEN",
   "summary": {
     "points": 105,
-    "average_points_per_race": 5.25,
-    "races": 20,
+    "average_points_per_race": 5.0,
+    "races": 21,
     "wins": 1,
     "podiums": 6,
-    "average_finish": 11.55,
+    "average_finish": 11.95,
     "best_lap": "1:47.822",
     "best_lap_ms": 107822,
     "best_lap_track": "monza",
@@ -19,53 +19,126 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-16T19:28:50",
-    "last_seen": "2026-04-16T19:28:50",
-    "average_pace_ms": 109781,
-    "average_pace": "1:49.781",
-    "win_rate": 5.0,
-    "podium_rate": 30.0,
-    "average_positions_delta": -3.38,
-    "positions_delta_races": 16,
+    "last_race_at": "2026-04-16T20:06:40",
+    "last_seen": "2026-04-16T20:06:40",
+    "average_pace_ms": 109763,
+    "average_pace": "1:49.763",
+    "win_rate": 4.76,
+    "podium_rate": 28.57,
+    "average_positions_delta": -3.76,
+    "positions_delta_races": 17,
     "championship_rank": 112,
-    "bestlap_rank": 646,
+    "bestlap_rank": 648,
     "latest_changes": {
       "average_finish": {
-        "before": 10.89,
-        "after": 11.55,
-        "delta": 0.66,
+        "before": 11.55,
+        "after": 11.95,
+        "delta": 0.4,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109781,
+        "after": 109763,
+        "delta": -18,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -3.38,
+        "after": -3.76,
+        "delta": -0.38,
         "trend": "down"
       },
       "races": {
-        "before": 19,
-        "after": 20,
+        "before": 20,
+        "after": 21,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-16T19:28:50"
+    "latest_change_at": "2026-04-16T20:06:40"
   },
   "recent_form": [
+    20,
     24,
     40,
     30,
-    2,
-    1
+    2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 20,
+      "races": 21,
       "wins": 1,
       "podiums": 6,
       "points": 105,
-      "finish_sum": 231,
-      "average_finish": 11.55,
+      "finish_sum": 251,
+      "average_finish": 11.95,
       "best_lap_ms": 107942,
       "best_lap": "1:47.942"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260416_200640_R.json",
+      "finished_at": "2026-04-16T20:06:40",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 20,
+      "participants_count": 45,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Peter Rugli",
+      "points": 0,
+      "qualifying_position": 10,
+      "start_position": 10,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -10,
+      "positions_gained": 0,
+      "positions_lost": 10,
+      "best_lap": "1:48.485",
+      "best_lap_ms": 108485,
+      "total_time": "22:21.144",
+      "total_time_ms": 1341144,
+      "gap": "0:42.631",
+      "gap_ms": 42631,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.55,
+          "after": 11.95,
+          "delta": 0.4,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109781,
+          "after": 109763,
+          "delta": -18,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -3.38,
+          "after": -3.76,
+          "delta": -0.38,
+          "trend": "down"
+        },
+        "races": {
+          "before": 20,
+          "after": 21,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260416_192850_R.json",
       "finished_at": "2026-04-16T19:28:50",
