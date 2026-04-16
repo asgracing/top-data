@@ -3,11 +3,11 @@
   "driver": "Dima Kulikov",
   "summary": {
     "points": 89,
-    "average_points_per_race": 2.7,
-    "races": 33,
+    "average_points_per_race": 2.62,
+    "races": 34,
     "wins": 1,
     "podiums": 4,
-    "average_finish": 12.36,
+    "average_finish": 12.47,
     "best_lap": "1:48.130",
     "best_lap_ms": 108130,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
+    "penalty_count": 4,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-14T21:33:31",
-    "last_seen": "2026-04-14T21:33:31",
-    "average_pace_ms": 110737,
-    "average_pace": "1:50.737",
-    "win_rate": 3.03,
-    "podium_rate": 12.12,
+    "last_race_at": "2026-04-16T20:43:06",
+    "last_seen": "2026-04-16T20:43:06",
+    "average_pace_ms": 110718,
+    "average_pace": "1:50.718",
+    "win_rate": 2.94,
+    "podium_rate": 11.76,
     "average_positions_delta": 0.11,
     "positions_delta_races": 28,
     "championship_rank": 139,
-    "bestlap_rank": 1042,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-16T20:06:40"
+    "bestlap_rank": 1044,
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.36,
+        "after": 12.47,
+        "delta": 0.11,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110737,
+        "after": 110718,
+        "delta": -19,
+        "trend": "up"
+      },
+      "races": {
+        "before": 33,
+        "after": 34,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-16T20:43:06"
   },
   "recent_form": [
     16,
+    16,
     22,
     21,
-    15,
-    20
+    15
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 33,
+      "races": 34,
       "wins": 1,
       "podiums": 4,
       "points": 89,
-      "finish_sum": 408,
-      "average_finish": 12.36,
+      "finish_sum": 424,
+      "average_finish": 12.47,
       "best_lap_ms": 108130,
       "best_lap": "1:48.130"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260416_204306_R.json",
+      "finished_at": "2026-04-16T20:43:06",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 16,
+      "participants_count": 51,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Fabrizio Parise",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.227",
+      "best_lap_ms": 109227,
+      "total_time": "16:07.325",
+      "total_time_ms": 967325,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.36,
+          "after": 12.47,
+          "delta": 0.11,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110737,
+          "after": 110718,
+          "delta": -19,
+          "trend": "up"
+        },
+        "races": {
+          "before": 33,
+          "after": 34,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260414_213331_R.json",
       "finished_at": "2026-04-14T21:33:31",
@@ -2886,14 +2960,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
+    "penalty_count": 4,
     "penalty_points": 0,
     "reasons": {
-      "PitSpeeding": 2
+      "PitSpeeding": 2,
+      "Cutting": 2
     },
     "types": {
       "StopAndGo_30": 1,
-      "Disqualified": 1
+      "Disqualified": 2,
+      "StopAndGo_10": 1
     }
   }
 }
