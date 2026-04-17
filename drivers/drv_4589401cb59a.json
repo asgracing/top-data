@@ -3,11 +3,11 @@
   "driver": "Dana White",
   "summary": {
     "points": 15,
-    "average_points_per_race": 3.75,
-    "races": 4,
+    "average_points_per_race": 3.0,
+    "races": 5,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 17.0,
+    "average_finish": 18.4,
     "best_lap": "1:47.910",
     "best_lap_ms": 107910,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-15T03:43:03",
-    "last_seen": "2026-04-15T03:43:03",
-    "average_pace_ms": 110643,
-    "average_pace": "1:50.643",
+    "last_race_at": "2026-04-18T00:11:57",
+    "last_seen": "2026-04-18T00:11:57",
+    "average_pace_ms": 110765,
+    "average_pace": "1:50.765",
     "win_rate": 0.0,
-    "podium_rate": 25.0,
-    "average_positions_delta": -10.5,
-    "positions_delta_races": 4,
+    "podium_rate": 20.0,
+    "average_positions_delta": -12.2,
+    "positions_delta_races": 5,
     "championship_rank": 1034,
     "bestlap_rank": 759,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-17T23:37:11"
+    "latest_changes": {
+      "average_finish": {
+        "before": 17.0,
+        "after": 18.4,
+        "delta": 1.4,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110643,
+        "after": 110765,
+        "delta": 122,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -10.5,
+        "after": -12.2,
+        "delta": -1.7,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-18T00:11:57"
   },
   "recent_form": [
+    24,
     13,
     26,
     42,
-    12,
-    16
+    12
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 1,
       "points": 15,
-      "finish_sum": 68,
-      "average_finish": 17.0,
+      "finish_sum": 92,
+      "average_finish": 18.4,
       "best_lap_ms": 107910,
       "best_lap": "1:47.910"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260418_001157_R.json",
+      "finished_at": "2026-04-18T00:11:57",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 24,
+      "participants_count": 44,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "HAYTHAM SOBHY",
+      "points": 0,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -19,
+      "positions_gained": 0,
+      "positions_lost": 19,
+      "best_lap": "1:52.842",
+      "best_lap_ms": 112842,
+      "total_time": "5:00.384",
+      "total_time_ms": 300384,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 17.0,
+          "after": 18.4,
+          "delta": 1.4,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110643,
+          "after": 110765,
+          "delta": 122,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -10.5,
+          "after": -12.2,
+          "delta": -1.7,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260415_034303_R.json",
       "finished_at": "2026-04-15T03:43:03",
