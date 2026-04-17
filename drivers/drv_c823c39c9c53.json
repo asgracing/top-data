@@ -3,11 +3,11 @@
   "driver": "Stefano Freda",
   "summary": {
     "points": 1,
-    "average_points_per_race": 1.0,
-    "races": 1,
+    "average_points_per_race": 0.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.0,
+    "average_finish": 17.5,
     "best_lap": "2:03.190",
     "best_lap_ms": 123190,
     "best_lap_track": "monza",
@@ -19,27 +19,40 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-04T22:54:41",
-    "last_seen": "2026-04-04T22:54:41",
+    "last_race_at": "2026-04-17T22:21:42",
+    "last_seen": "2026-04-17T22:21:42",
     "average_pace_ms": 126112,
     "average_pace": "2:06.112",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 6.0,
     "positions_delta_races": 1,
-    "championship_rank": 2823,
-    "bestlap_rank": 4970,
+    "championship_rank": 2950,
+    "bestlap_rank": 4971,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2822,
-        "after": 2823,
-        "delta": 1,
+      "average_finish": {
+        "before": 10.0,
+        "after": 17.5,
+        "delta": 7.5,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2823,
+        "after": 2950,
+        "delta": 127,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-17T21:43:56"
+    "latest_change_at": "2026-04-17T22:21:42"
   },
   "recent_form": [
+    25,
     30,
     10,
     34
@@ -47,17 +60,77 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 10,
-      "average_finish": 10.0,
+      "finish_sum": 35,
+      "average_finish": 17.5,
       "best_lap_ms": 123190,
       "best_lap": "2:03.190"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260417_222142_R.json",
+      "finished_at": "2026-04-17T22:21:42",
+      "track": "monza",
+      "car_model_id": 0,
+      "car_name_raw": "Porsche 991 GT3 R",
+      "car_name": "Porsche 991 GT3 R",
+      "position": 25,
+      "participants_count": 43,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrea Turato",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "21:38.665",
+      "total_time_ms": 1298665,
+      "gap": "0:02.509",
+      "gap_ms": 2509,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 17.5,
+          "delta": 7.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2823,
+          "after": 2950,
+          "delta": 127,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2823,
+        "after": 2950,
+        "delta": 127,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260404_225441_R.json",
       "finished_at": "2026-04-04T22:54:41",
