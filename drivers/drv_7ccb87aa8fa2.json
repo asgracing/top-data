@@ -4,12 +4,12 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
-    "best_lap": "1:48.260",
-    "best_lap_ms": 108260,
+    "average_finish": 14.0,
+    "best_lap": "1:47.790",
+    "best_lap_ms": 107790,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 22,
     "best_lap_car_name_raw": "McLaren 720S GT3 (2019)",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-18T01:26:18",
-    "last_seen": "2026-04-18T01:26:18",
-    "average_pace_ms": 108732,
-    "average_pace": "1:48.732",
+    "last_race_at": "2026-04-18T11:37:14",
+    "last_seen": "2026-04-18T11:37:14",
+    "average_pace_ms": 108673,
+    "average_pace": "1:48.673",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -12.0,
     "positions_delta_races": 1,
-    "championship_rank": 3456,
-    "bestlap_rank": 1233,
+    "championship_rank": 3332,
+    "bestlap_rank": 624,
     "latest_changes": {
+      "average_finish": {
+        "before": 15.0,
+        "after": 14.0,
+        "delta": -1.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 108732,
+        "after": 108673,
+        "delta": -59,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 3452,
-        "after": 3456,
-        "delta": 4,
-        "trend": "down"
+        "before": 3456,
+        "after": 3332,
+        "delta": -124,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-18T11:00:32"
+    "latest_change_at": "2026-04-18T11:37:14"
   },
   "recent_form": [
+    13,
     22,
     15,
     41
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 15,
-      "average_finish": 15.0,
-      "best_lap_ms": 108260,
-      "best_lap": "1:48.260"
+      "finish_sum": 28,
+      "average_finish": 14.0,
+      "best_lap_ms": 107790,
+      "best_lap": "1:47.790"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260418_113714_R.json",
+      "finished_at": "2026-04-18T11:37:14",
+      "track": "monza",
+      "car_model_id": 22,
+      "car_name_raw": "McLaren 720S GT3 (2019)",
+      "car_name": "McLaren 720S GT3",
+      "position": 13,
+      "participants_count": 35,
+      "scoring_participants_count": 21,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Patrick Frank",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.790",
+      "best_lap_ms": 107790,
+      "total_time": "21:31.435",
+      "total_time_ms": 1291435,
+      "gap": "1:29.776",
+      "gap_ms": 89776,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 14.0,
+          "delta": -1.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 108732,
+          "after": 108673,
+          "delta": -59,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3456,
+          "after": 3332,
+          "delta": -124,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3456,
+        "after": 3332,
+        "delta": -124,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260418_012618_R.json",
       "finished_at": "2026-04-18T01:26:18",
