@@ -3,11 +3,11 @@
   "driver": "Race Hub",
   "summary": {
     "points": 18,
-    "average_points_per_race": 1.5,
-    "races": 12,
+    "average_points_per_race": 1.38,
+    "races": 13,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.17,
+    "average_finish": 17.0,
     "best_lap": "1:48.475",
     "best_lap_ms": 108475,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-19T00:36:55",
-    "last_seen": "2026-04-19T00:36:55",
-    "average_pace_ms": 110384,
-    "average_pace": "1:50.384",
+    "last_race_at": "2026-04-19T15:48:43",
+    "last_seen": "2026-04-19T15:48:43",
+    "average_pace_ms": 110376,
+    "average_pace": "1:50.376",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 0.0,
     "positions_delta_races": 9,
-    "championship_rank": 937,
+    "championship_rank": 938,
     "bestlap_rank": 1583,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-19T15:12:42"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.17,
+        "after": 17.0,
+        "delta": 0.83,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110384,
+        "after": 110376,
+        "delta": -8,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 937,
+        "after": 938,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 12,
+        "after": 13,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-19T15:48:43"
   },
   "recent_form": [
+    27,
     32,
     4,
     17,
-    38,
-    7
+    38
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 12,
+      "races": 13,
       "wins": 0,
       "podiums": 0,
       "points": 18,
-      "finish_sum": 194,
-      "average_finish": 16.17,
+      "finish_sum": 221,
+      "average_finish": 17.0,
       "best_lap_ms": 108475,
       "best_lap": "1:48.475"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260419_154843_R.json",
+      "finished_at": "2026-04-19T15:48:43",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 27,
+      "participants_count": 49,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Max Burg",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.852",
+      "best_lap_ms": 109852,
+      "total_time": "20:52.587",
+      "total_time_ms": 1252587,
+      "gap": "0:44.431",
+      "gap_ms": 44431,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.17,
+          "after": 17.0,
+          "delta": 0.83,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110384,
+          "after": 110376,
+          "delta": -8,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 937,
+          "after": 938,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 12,
+          "after": 13,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 937,
+        "after": 938,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260419_003655_R.json",
       "finished_at": "2026-04-19T00:36:55",
