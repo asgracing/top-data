@@ -3,11 +3,11 @@
   "driver": "Ivan Tsygankov",
   "summary": {
     "points": 34,
-    "average_points_per_race": 11.33,
-    "races": 3,
+    "average_points_per_race": 8.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 4.33,
+    "average_finish": 8.25,
     "best_lap": "1:48.415",
     "best_lap_ms": 108415,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-19T01:12:11",
-    "last_seen": "2026-04-19T01:12:11",
-    "average_pace_ms": 109679,
-    "average_pace": "1:49.679",
+    "last_race_at": "2026-04-20T00:23:48",
+    "last_seen": "2026-04-20T00:23:48",
+    "average_pace_ms": 109854,
+    "average_pace": "1:49.854",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 14.33,
-    "positions_delta_races": 3,
+    "average_positions_delta": 6.75,
+    "positions_delta_races": 4,
     "championship_rank": 479,
     "bestlap_rank": 1510,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-19T23:47:27"
+    "latest_changes": {
+      "average_finish": {
+        "before": 4.33,
+        "after": 8.25,
+        "delta": 3.92,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109679,
+        "after": 109854,
+        "delta": 175,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 14.33,
+        "after": 6.75,
+        "delta": -7.58,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-20T00:23:48"
   },
   "recent_form": [
+    20,
     14,
     5,
     30,
-    4,
-    32
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 34,
-      "finish_sum": 13,
-      "average_finish": 4.33,
+      "finish_sum": 33,
+      "average_finish": 8.25,
       "best_lap_ms": 108415,
       "best_lap": "1:48.415"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260420_002348_R.json",
+      "finished_at": "2026-04-20T00:23:48",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 20,
+      "participants_count": 41,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Galileo Giorgianni",
+      "points": 0,
+      "qualifying_position": 4,
+      "start_position": 4,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -16,
+      "positions_gained": 0,
+      "positions_lost": 16,
+      "best_lap": "1:48.907",
+      "best_lap_ms": 108907,
+      "total_time": "13:07.419",
+      "total_time_ms": 787419,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 4.33,
+          "after": 8.25,
+          "delta": 3.92,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109679,
+          "after": 109854,
+          "delta": 175,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 14.33,
+          "after": 6.75,
+          "delta": -7.58,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260419_011211_R.json",
       "finished_at": "2026-04-19T01:12:11",
