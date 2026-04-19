@@ -4,12 +4,12 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
     "average_finish": 15.0,
-    "best_lap": "1:49.570",
-    "best_lap_ms": 109570,
+    "best_lap": "1:49.350",
+    "best_lap_ms": 109350,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 1,
     "best_lap_car_name_raw": "Mercedes-AMG GT3",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-29T13:16:04",
-    "last_seen": "2026-03-29T13:16:04",
-    "average_pace_ms": 117629,
-    "average_pace": "1:57.629",
+    "last_race_at": "2026-04-19T13:56:59",
+    "last_seen": "2026-04-19T13:56:59",
+    "average_pace_ms": 113658,
+    "average_pace": "1:53.658",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 12.0,
-    "positions_delta_races": 1,
-    "championship_rank": 3585,
-    "bestlap_rank": 3091,
+    "average_positions_delta": 13.5,
+    "positions_delta_races": 2,
+    "championship_rank": 3586,
+    "bestlap_rank": 2801,
     "latest_changes": {
+      "average_pace_ms": {
+        "before": 117629,
+        "after": 113658,
+        "delta": -3971,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 12.0,
+        "after": 13.5,
+        "delta": 1.5,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 3582,
-        "after": 3585,
-        "delta": 3,
+        "before": 3585,
+        "after": 3586,
+        "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-19T13:18:46"
+    "latest_change_at": "2026-04-19T13:56:59"
   },
   "recent_form": [
+    15,
     36,
     29,
     15
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 15,
+      "finish_sum": 30,
       "average_finish": 15.0,
-      "best_lap_ms": 109570,
-      "best_lap": "1:49.570"
+      "best_lap_ms": 109350,
+      "best_lap": "1:49.350"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260419_135659_R.json",
+      "finished_at": "2026-04-19T13:56:59",
+      "track": "monza",
+      "car_model_id": 1,
+      "car_name_raw": "Mercedes-AMG GT3",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 15,
+      "participants_count": 41,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "G Brownlie",
+      "points": 0,
+      "qualifying_position": 30,
+      "start_position": 30,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 15,
+      "positions_gained": 15,
+      "positions_lost": 0,
+      "best_lap": "1:49.350",
+      "best_lap_ms": 109350,
+      "total_time": "19:56.128",
+      "total_time_ms": 1196128,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 117629,
+          "after": 113658,
+          "delta": -3971,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 12.0,
+          "after": 13.5,
+          "delta": 1.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3585,
+          "after": 3586,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3585,
+        "after": 3586,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260329_131604_R.json",
       "finished_at": "2026-03-29T13:16:04",
