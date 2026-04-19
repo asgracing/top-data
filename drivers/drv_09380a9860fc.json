@@ -3,11 +3,11 @@
   "driver": "Artemij Model",
   "summary": {
     "points": 6,
-    "average_points_per_race": 2.0,
-    "races": 3,
+    "average_points_per_race": 1.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.67,
+    "average_finish": 17.0,
     "best_lap": "1:49.135",
     "best_lap_ms": 109135,
     "best_lap_track": "monza",
@@ -19,47 +19,143 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-16T20:06:40",
-    "last_seen": "2026-04-16T20:06:40",
-    "average_pace_ms": 112636,
-    "average_pace": "1:52.636",
+    "last_race_at": "2026-04-19T19:32:16",
+    "last_seen": "2026-04-19T19:32:16",
+    "average_pace_ms": 112175,
+    "average_pace": "1:52.175",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -3.0,
-    "positions_delta_races": 3,
-    "championship_rank": 1974,
-    "bestlap_rank": 2503,
+    "average_positions_delta": -5.5,
+    "positions_delta_races": 4,
+    "championship_rank": 1991,
+    "bestlap_rank": 2504,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1970,
-        "after": 1974,
-        "delta": 4,
+      "average_finish": {
+        "before": 14.67,
+        "after": 17.0,
+        "delta": 2.33,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112636,
+        "after": 112175,
+        "delta": -461,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -3.0,
+        "after": -5.5,
+        "delta": -2.5,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1974,
+        "after": 1991,
+        "delta": 17,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-19T18:55:50"
+    "latest_change_at": "2026-04-19T19:32:16"
   },
   "recent_form": [
+    24,
     27,
     26,
     10,
-    37,
-    7
+    37
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 6,
-      "finish_sum": 44,
-      "average_finish": 14.67,
+      "finish_sum": 68,
+      "average_finish": 17.0,
       "best_lap_ms": 109517,
       "best_lap": "1:49.517"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260419_193216_R.json",
+      "finished_at": "2026-04-19T19:32:16",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 24,
+      "participants_count": 44,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Alexandr Afenin",
+      "points": 0,
+      "qualifying_position": 11,
+      "start_position": 11,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -13,
+      "positions_gained": 0,
+      "positions_lost": 13,
+      "best_lap": "1:50.335",
+      "best_lap_ms": 110335,
+      "total_time": "4:23.535",
+      "total_time_ms": 263535,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 14.67,
+          "after": 17.0,
+          "delta": 2.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112636,
+          "after": 112175,
+          "delta": -461,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -3.0,
+          "after": -5.5,
+          "delta": -2.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1974,
+          "after": 1991,
+          "delta": 17,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1974,
+        "after": 1991,
+        "delta": 17,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260416_200640_R.json",
       "finished_at": "2026-04-16T20:06:40",
