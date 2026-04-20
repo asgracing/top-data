@@ -2,12 +2,12 @@
   "public_id": "drv_d7353b963c79",
   "driver": "Jonathan Klein",
   "summary": {
-    "points": 37,
-    "average_points_per_race": 12.33,
-    "races": 3,
-    "wins": 1,
-    "podiums": 1,
-    "average_finish": 7.0,
+    "points": 41,
+    "average_points_per_race": 10.25,
+    "races": 4,
+    "wins": 2,
+    "podiums": 2,
+    "average_finish": 5.5,
     "best_lap": "1:47.727",
     "best_lap_ms": 107727,
     "best_lap_track": "monza",
@@ -19,20 +19,64 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-19T15:12:42",
-    "last_seen": "2026-04-19T15:12:42",
-    "average_pace_ms": 109215,
-    "average_pace": "1:49.215",
-    "win_rate": 33.33,
-    "podium_rate": 33.33,
+    "last_race_at": "2026-04-20T11:08:38",
+    "last_seen": "2026-04-20T11:08:38",
+    "average_pace_ms": 109065,
+    "average_pace": "1:49.065",
+    "win_rate": 50.0,
+    "podium_rate": 50.0,
     "average_positions_delta": -1.33,
     "positions_delta_races": 3,
-    "championship_rank": 440,
+    "championship_rank": 389,
     "bestlap_rank": 578,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-20T05:48:05"
+    "latest_changes": {
+      "average_finish": {
+        "before": 7.0,
+        "after": 5.5,
+        "delta": -1.5,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109215,
+        "after": 109065,
+        "delta": -150,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 440,
+        "after": 389,
+        "delta": -51,
+        "trend": "up"
+      },
+      "podiums": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      },
+      "points": {
+        "before": 37,
+        "after": 41,
+        "delta": 4,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      },
+      "wins": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-20T11:08:38"
   },
   "recent_form": [
+    1,
     16,
     1,
     4,
@@ -41,17 +85,101 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
-      "wins": 1,
-      "podiums": 1,
-      "points": 37,
-      "finish_sum": 21,
-      "average_finish": 7.0,
+      "races": 4,
+      "wins": 2,
+      "podiums": 2,
+      "points": 41,
+      "finish_sum": 22,
+      "average_finish": 5.5,
       "best_lap_ms": 107727,
       "best_lap": "1:47.727"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260420_110838_R.json",
+      "finished_at": "2026-04-20T11:08:38",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 1,
+      "participants_count": 13,
+      "scoring_participants_count": 4,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Jonathan Klein",
+      "points": 4,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.942",
+      "best_lap_ms": 107942,
+      "total_time": "21:44.769",
+      "total_time_ms": 1304769,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.0,
+          "after": 5.5,
+          "delta": -1.5,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109215,
+          "after": 109065,
+          "delta": -150,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 440,
+          "after": 389,
+          "delta": -51,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 37,
+          "after": 41,
+          "delta": 4,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 440,
+        "after": 389,
+        "delta": -51,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260419_151242_R.json",
       "finished_at": "2026-04-19T15:12:42",
