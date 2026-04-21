@@ -3,11 +3,11 @@
   "driver": "Nikita О",
   "summary": {
     "points": 96,
-    "average_points_per_race": 1.71,
-    "races": 56,
+    "average_points_per_race": 1.68,
+    "races": 57,
     "wins": 0,
     "podiums": 4,
-    "average_finish": 16.86,
+    "average_finish": 16.91,
     "best_lap": "1:47.855",
     "best_lap_ms": 107855,
     "best_lap_track": "monza",
@@ -15,44 +15,130 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 14,
-    "penalty_points": 21,
+    "penalty_count": 15,
+    "penalty_points": 24,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-21T20:29:38",
-    "last_seen": "2026-04-21T20:29:38",
-    "average_pace_ms": 109955,
-    "average_pace": "1:49.955",
+    "last_race_at": "2026-04-21T21:06:07",
+    "last_seen": "2026-04-21T21:06:07",
+    "average_pace_ms": 109953,
+    "average_pace": "1:49.953",
     "win_rate": 0.0,
-    "podium_rate": 7.14,
-    "average_positions_delta": -1.51,
-    "positions_delta_races": 43,
+    "podium_rate": 7.02,
+    "average_positions_delta": -1.82,
+    "positions_delta_races": 44,
     "championship_rank": 151,
     "bestlap_rank": 743,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-21T20:29:38"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.86,
+        "after": 16.91,
+        "delta": 0.05,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109955,
+        "after": 109953,
+        "delta": -2,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -1.51,
+        "after": -1.82,
+        "delta": -0.31,
+        "trend": "down"
+      },
+      "races": {
+        "before": 56,
+        "after": 57,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-21T21:06:07"
   },
   "recent_form": [
+    20,
     35,
     18,
     25,
-    23,
-    4
+    23
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 56,
+      "races": 57,
       "wins": 0,
       "podiums": 4,
       "points": 96,
-      "finish_sum": 944,
-      "average_finish": 16.86,
+      "finish_sum": 964,
+      "average_finish": 16.91,
       "best_lap_ms": 107922,
       "best_lap": "1:47.922"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260421_210607_R.json",
+      "finished_at": "2026-04-21T21:06:07",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 20,
+      "participants_count": 44,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Kirill Bulgakov",
+      "points": 0,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -15,
+      "positions_gained": 0,
+      "positions_lost": 15,
+      "best_lap": "1:49.322",
+      "best_lap_ms": 109322,
+      "total_time": "15:15.279",
+      "total_time_ms": 915279,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 16.86,
+          "after": 16.91,
+          "delta": 0.05,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109955,
+          "after": 109953,
+          "delta": -2,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -1.51,
+          "after": -1.82,
+          "delta": -0.31,
+          "trend": "down"
+        },
+        "races": {
+          "before": 56,
+          "after": 57,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260421_202938_R.json",
       "finished_at": "2026-04-21T20:29:38",
@@ -4788,11 +4874,11 @@
     }
   ],
   "penalties": {
-    "penalty_count": 14,
-    "penalty_points": 21,
+    "penalty_count": 15,
+    "penalty_points": 24,
     "reasons": {
       "PitSpeeding": 1,
-      "Cutting": 9,
+      "Cutting": 10,
       "None": 2,
       "WrongWay": 1,
       "Trolling": 1
@@ -4800,7 +4886,7 @@
     "types": {
       "StopAndGo_30": 1,
       "Disqualified": 5,
-      "DriveThrough": 7,
+      "DriveThrough": 8,
       "None": 1
     }
   }
