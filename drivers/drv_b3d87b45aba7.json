@@ -3,11 +3,11 @@
   "driver": "RYUUKA S",
   "summary": {
     "points": 14,
-    "average_points_per_race": 2.0,
-    "races": 7,
+    "average_points_per_race": 1.75,
+    "races": 8,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 10.43,
+    "average_finish": 10.5,
     "best_lap": "1:50.350",
     "best_lap_ms": 110350,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-20T16:03:15",
-    "last_seen": "2026-04-20T16:03:15",
-    "average_pace_ms": 112896,
-    "average_pace": "1:52.896",
+    "last_race_at": "2026-04-21T15:28:55",
+    "last_seen": "2026-04-21T15:28:55",
+    "average_pace_ms": 112631,
+    "average_pace": "1:52.631",
     "win_rate": 0.0,
-    "podium_rate": 14.29,
+    "podium_rate": 12.5,
     "average_positions_delta": 2.8,
     "positions_delta_races": 5,
-    "championship_rank": 1155,
-    "bestlap_rank": 3980,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-21T14:50:34"
+    "championship_rank": 1156,
+    "bestlap_rank": 3982,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.43,
+        "after": 10.5,
+        "delta": 0.07,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112896,
+        "after": 112631,
+        "delta": -265,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1155,
+        "after": 1156,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-21T15:28:55"
   },
   "recent_form": [
+    11,
     16,
     24,
     8,
-    13,
-    9
+    13
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 1,
       "points": 14,
-      "finish_sum": 73,
-      "average_finish": 10.43,
-      "best_lap_ms": 110682,
-      "best_lap": "1:50.682"
+      "finish_sum": 84,
+      "average_finish": 10.5,
+      "best_lap_ms": 110640,
+      "best_lap": "1:50.640"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260421_152855_R.json",
+      "finished_at": "2026-04-21T15:28:55",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 11,
+      "participants_count": 44,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Dominik Lang",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.640",
+      "best_lap_ms": 110640,
+      "total_time": "23:11.548",
+      "total_time_ms": 1391548,
+      "gap": "1:30.365",
+      "gap_ms": 90365,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.43,
+          "after": 10.5,
+          "delta": 0.07,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112896,
+          "after": 112631,
+          "delta": -265,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1155,
+          "after": 1156,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1155,
+        "after": 1156,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260420_160315_R.json",
       "finished_at": "2026-04-20T16:03:15",
