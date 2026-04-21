@@ -3,11 +3,11 @@
   "driver": "Garry Champloo",
   "summary": {
     "points": 7,
-    "average_points_per_race": 1.4,
-    "races": 5,
+    "average_points_per_race": 1.17,
+    "races": 6,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 17.8,
+    "average_finish": 17.33,
     "best_lap": "1:49.622",
     "best_lap_ms": 109622,
     "best_lap_track": "monza",
@@ -15,63 +15,123 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-21T13:01:29",
-    "last_seen": "2026-04-21T13:01:29",
+    "last_race_at": "2026-04-21T13:37:26",
+    "last_seen": "2026-04-21T13:37:26",
     "average_pace_ms": 112236,
     "average_pace": "1:52.236",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 6.0,
-    "positions_delta_races": 4,
-    "championship_rank": 1861,
-    "bestlap_rank": 3248,
+    "positions_delta_races": 5,
+    "championship_rank": 1862,
+    "bestlap_rank": 3251,
     "latest_changes": {
       "average_finish": {
-        "before": 15.5,
-        "after": 17.8,
-        "delta": 2.3,
-        "trend": "down"
+        "before": 17.8,
+        "after": 17.33,
+        "delta": -0.47,
+        "trend": "up"
       },
       "championship_rank": {
-        "before": 1853,
-        "after": 1861,
-        "delta": 8,
+        "before": 1861,
+        "after": 1862,
+        "delta": 1,
         "trend": "down"
       },
       "races": {
-        "before": 4,
-        "after": 5,
+        "before": 5,
+        "after": 6,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-21T13:01:29"
+    "latest_change_at": "2026-04-21T13:37:26"
   },
   "recent_form": [
+    15,
     27,
     27,
     10,
-    20,
-    23
+    20
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 0,
       "points": 7,
-      "finish_sum": 89,
-      "average_finish": 17.8,
+      "finish_sum": 104,
+      "average_finish": 17.33,
       "best_lap_ms": 109930,
       "best_lap": "1:49.930"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260421_133726_R.json",
+      "finished_at": "2026-04-21T13:37:26",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 15,
+      "participants_count": 36,
+      "scoring_participants_count": 16,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Riccardo Bertelloni",
+      "points": 0,
+      "qualifying_position": 21,
+      "start_position": 21,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 6,
+      "positions_gained": 6,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "2:13.377",
+      "total_time_ms": 133377,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 17.8,
+          "after": 17.33,
+          "delta": -0.47,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1861,
+          "after": 1862,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1861,
+        "after": 1862,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260421_130129_R.json",
       "finished_at": "2026-04-21T13:01:29",
@@ -578,9 +638,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "None": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
