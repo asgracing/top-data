@@ -3,8 +3,8 @@
   "driver": "HC L",
   "summary": {
     "points": 11,
-    "average_points_per_race": 2.75,
-    "races": 4,
+    "average_points_per_race": 2.2,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
     "average_finish": 13.0,
@@ -19,40 +19,114 @@
     "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-19T09:34:53",
-    "last_seen": "2026-04-19T09:34:53",
-    "average_pace_ms": 109160,
-    "average_pace": "1:49.160",
+    "last_race_at": "2026-04-21T17:20:55",
+    "last_seen": "2026-04-21T17:20:55",
+    "average_pace_ms": 109100,
+    "average_pace": "1:49.100",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 6.25,
-    "positions_delta_races": 4,
+    "average_positions_delta": 7.2,
+    "positions_delta_races": 5,
     "championship_rank": 1420,
     "bestlap_rank": 419,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-21T16:43:00"
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 109160,
+        "after": 109100,
+        "delta": -60,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 6.25,
+        "after": 7.2,
+        "delta": 0.95,
+        "trend": "up"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-21T17:20:55"
   },
   "recent_form": [
+    13,
     6,
     24,
     38,
-    33,
-    34
+    33
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 11,
-      "finish_sum": 52,
+      "finish_sum": 65,
       "average_finish": 13.0,
       "best_lap_ms": 107565,
       "best_lap": "1:47.565"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260421_172055_R.json",
+      "finished_at": "2026-04-21T17:20:55",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 13,
+      "participants_count": 46,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Илья Космач",
+      "points": 0,
+      "qualifying_position": 24,
+      "start_position": 24,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 11,
+      "positions_gained": 11,
+      "positions_lost": 0,
+      "best_lap": "1:48.150",
+      "best_lap_ms": 108150,
+      "total_time": "14:18.953",
+      "total_time_ms": 858953,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 109160,
+          "after": 109100,
+          "delta": -60,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 6.25,
+          "after": 7.2,
+          "delta": 0.95,
+          "trend": "up"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260419_093453_R.json",
       "finished_at": "2026-04-19T09:34:53",
