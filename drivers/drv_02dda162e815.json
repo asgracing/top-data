@@ -3,11 +3,11 @@
   "driver": "Alex Prok",
   "summary": {
     "points": 813,
-    "average_points_per_race": 3.87,
-    "races": 210,
+    "average_points_per_race": 3.85,
+    "races": 211,
     "wins": 1,
     "podiums": 11,
-    "average_finish": 13.26,
+    "average_finish": 13.31,
     "best_lap": "1:48.137",
     "best_lap_ms": 108137,
     "best_lap_track": "monza",
@@ -15,44 +15,106 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "R",
-    "penalty_count": 28,
-    "penalty_points": 53,
+    "penalty_count": 29,
+    "penalty_points": 55,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-20T23:31:23",
-    "last_seen": "2026-04-20T23:31:23",
+    "last_race_at": "2026-04-21T19:13:06",
+    "last_seen": "2026-04-21T19:13:06",
     "average_pace_ms": 110626,
     "average_pace": "1:50.626",
-    "win_rate": 0.48,
-    "podium_rate": 5.24,
+    "win_rate": 0.47,
+    "podium_rate": 5.21,
     "average_positions_delta": -0.09,
     "positions_delta_races": 183,
     "championship_rank": 6,
-    "bestlap_rank": 1149,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-21T18:35:10"
+    "bestlap_rank": 1150,
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.26,
+        "after": 13.31,
+        "delta": 0.05,
+        "trend": "down"
+      },
+      "races": {
+        "before": 210,
+        "after": 211,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-21T19:13:06"
   },
   "recent_form": [
+    23,
     17,
     9,
     16,
-    20,
-    3
+    20
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 210,
+      "races": 211,
       "wins": 1,
       "podiums": 11,
       "points": 813,
-      "finish_sum": 2785,
-      "average_finish": 13.26,
+      "finish_sum": 2808,
+      "average_finish": 13.31,
       "best_lap_ms": 108137,
       "best_lap": "1:48.137"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260421_191306_R.json",
+      "finished_at": "2026-04-21T19:13:06",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 23,
+      "participants_count": 37,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Yuri Polyakov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.425",
+      "best_lap_ms": 110425,
+      "total_time": "22:31.970",
+      "total_time_ms": 1351970,
+      "gap": "0:46.638",
+      "gap_ms": 46638,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 13.26,
+          "after": 13.31,
+          "delta": 0.05,
+          "trend": "down"
+        },
+        "races": {
+          "before": 210,
+          "after": 211,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260420_233123_R.json",
       "finished_at": "2026-04-20T23:31:23",
@@ -14912,15 +14974,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 28,
-    "penalty_points": 53,
+    "penalty_count": 29,
+    "penalty_points": 55,
     "reasons": {
-      "PitSpeeding": 8,
+      "PitSpeeding": 9,
       "Cutting": 11,
       "Trolling": 9
     },
     "types": {
-      "DriveThrough": 11,
+      "DriveThrough": 12,
       "None": 8,
       "Disqualified": 5,
       "StopAndGo_20": 1,
