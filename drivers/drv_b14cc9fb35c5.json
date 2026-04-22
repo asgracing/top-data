@@ -3,11 +3,11 @@
   "driver": "Logofoji Lamur",
   "summary": {
     "points": 18,
-    "average_points_per_race": 9.0,
-    "races": 2,
+    "average_points_per_race": 6.0,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 10.5,
+    "average_finish": 13.0,
     "best_lap": "1:47.837",
     "best_lap_ms": 107837,
     "best_lap_track": "monza",
@@ -19,40 +19,143 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-22T20:53:52",
-    "last_seen": "2026-04-22T21:05:37",
-    "average_pace_ms": 109271,
-    "average_pace": "1:49.271",
+    "last_race_at": "2026-04-22T21:30:04",
+    "last_seen": "2026-04-22T21:30:04",
+    "average_pace_ms": 109015,
+    "average_pace": "1:49.015",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 0.0,
-    "positions_delta_races": 1,
-    "championship_rank": 973,
-    "bestlap_rank": 952,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-22T20:53:52"
+    "podium_rate": 33.33,
+    "average_positions_delta": -8.5,
+    "positions_delta_races": 2,
+    "championship_rank": 987,
+    "bestlap_rank": 740,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.5,
+        "after": 13.0,
+        "delta": 2.5,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109271,
+        "after": 109015,
+        "delta": -256,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 0.0,
+        "after": -8.5,
+        "delta": -8.5,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 973,
+        "after": 987,
+        "delta": 14,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-22T21:30:04"
   },
   "recent_form": [
+    18,
     39,
     35,
     42,
-    31,
-    2
+    31
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
       "points": 18,
-      "finish_sum": 21,
-      "average_finish": 10.5,
-      "best_lap_ms": 108000,
-      "best_lap": "1:48.000"
+      "finish_sum": 39,
+      "average_finish": 13.0,
+      "best_lap_ms": 107867,
+      "best_lap": "1:47.867"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260422_213004_R.json",
+      "finished_at": "2026-04-22T21:30:04",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 18,
+      "participants_count": 45,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "rodneyy mims",
+      "points": 0,
+      "qualifying_position": 1,
+      "start_position": 1,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -17,
+      "positions_gained": 0,
+      "positions_lost": 17,
+      "best_lap": "1:47.867",
+      "best_lap_ms": 107867,
+      "total_time": "20:51.011",
+      "total_time_ms": 1251011,
+      "gap": "0:45.288",
+      "gap_ms": 45288,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.5,
+          "after": 13.0,
+          "delta": 2.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109271,
+          "after": 109015,
+          "delta": -256,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 0.0,
+          "after": -8.5,
+          "delta": -8.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 973,
+          "after": 987,
+          "delta": 14,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 973,
+        "after": 987,
+        "delta": 14,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260422_205352_R.json",
       "finished_at": "2026-04-22T20:53:52",
