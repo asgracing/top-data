@@ -3,13 +3,13 @@
   "driver": "Bainur Kultanov",
   "summary": {
     "points": 9,
-    "average_points_per_race": 3.0,
-    "races": 3,
+    "average_points_per_race": 2.25,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 7.33,
-    "best_lap": "1:49.312",
-    "best_lap_ms": 109312,
+    "average_finish": 8.25,
+    "best_lap": "1:49.155",
+    "best_lap_ms": 109155,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 22,
     "best_lap_car_name_raw": "McLaren 720S GT3 (2019)",
@@ -19,40 +19,114 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-21T01:57:11",
-    "last_seen": "2026-04-21T01:57:11",
-    "average_pace_ms": 110963,
-    "average_pace": "1:50.963",
+    "last_race_at": "2026-04-22T15:16:10",
+    "last_seen": "2026-04-22T15:16:10",
+    "average_pace_ms": 110893,
+    "average_pace": "1:50.893",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
+    "podium_rate": 25.0,
     "average_positions_delta": 1.0,
     "positions_delta_races": 3,
     "championship_rank": 1602,
-    "bestlap_rank": 2865,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-22T12:05:40"
+    "bestlap_rank": 2637,
+    "latest_changes": {
+      "average_finish": {
+        "before": 7.33,
+        "after": 8.25,
+        "delta": 0.92,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110963,
+        "after": 110893,
+        "delta": -70,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-22T15:16:10"
   },
   "recent_form": [
     11,
+    11,
     3,
     31,
-    9,
-    10
+    9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
       "points": 9,
-      "finish_sum": 22,
-      "average_finish": 7.33,
-      "best_lap_ms": 109312,
-      "best_lap": "1:49.312"
+      "finish_sum": 33,
+      "average_finish": 8.25,
+      "best_lap_ms": 109155,
+      "best_lap": "1:49.155"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260422_151610_R.json",
+      "finished_at": "2026-04-22T15:16:10",
+      "track": "monza",
+      "car_model_id": 22,
+      "car_name_raw": "McLaren 720S GT3 (2019)",
+      "car_name": "McLaren 720S GT3",
+      "position": 11,
+      "participants_count": 21,
+      "scoring_participants_count": 11,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nikita Chapaikin",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.155",
+      "best_lap_ms": 109155,
+      "total_time": "22:53.022",
+      "total_time_ms": 1373022,
+      "gap": "1:07.354",
+      "gap_ms": 67354,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.33,
+          "after": 8.25,
+          "delta": 0.92,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110963,
+          "after": 110893,
+          "delta": -70,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260421_015711_R.json",
       "finished_at": "2026-04-21T01:57:11",
