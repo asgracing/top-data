@@ -3,11 +3,11 @@
   "driver": "Dazy Duke",
   "summary": {
     "points": 25,
-    "average_points_per_race": 2.08,
-    "races": 12,
+    "average_points_per_race": 1.92,
+    "races": 13,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.75,
+    "average_finish": 14.92,
     "best_lap": "1:48.817",
     "best_lap_ms": 108817,
     "best_lap_track": "monza",
@@ -15,69 +15,130 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-22T22:44:17",
-    "last_seen": "2026-04-22T22:44:17",
-    "average_pace_ms": 110722,
-    "average_pace": "1:50.722",
+    "last_race_at": "2026-04-22T23:29:58",
+    "last_seen": "2026-04-22T23:29:58",
+    "average_pace_ms": 110768,
+    "average_pace": "1:50.768",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -0.09,
-    "positions_delta_races": 11,
+    "average_positions_delta": -0.25,
+    "positions_delta_races": 12,
     "championship_rank": 743,
-    "bestlap_rank": 2175,
+    "bestlap_rank": 2176,
     "latest_changes": {
       "average_finish": {
-        "before": 14.09,
-        "after": 14.75,
-        "delta": 0.66,
+        "before": 14.75,
+        "after": 14.92,
+        "delta": 0.17,
         "trend": "down"
       },
       "average_pace_ms": {
-        "before": 110767,
-        "after": 110722,
-        "delta": -45,
-        "trend": "up"
+        "before": 110722,
+        "after": 110768,
+        "delta": 46,
+        "trend": "down"
       },
-      "championship_rank": {
-        "before": 742,
-        "after": 743,
-        "delta": 1,
+      "average_positions_delta": {
+        "before": -0.09,
+        "after": -0.25,
+        "delta": -0.16,
         "trend": "down"
       },
       "races": {
-        "before": 11,
-        "after": 12,
+        "before": 12,
+        "after": 13,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-22T22:44:17"
+    "latest_change_at": "2026-04-22T23:29:58"
   },
   "recent_form": [
+    17,
     22,
     35,
     7,
-    23,
-    28
+    23
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 12,
+      "races": 13,
       "wins": 0,
       "podiums": 0,
       "points": 25,
-      "finish_sum": 177,
-      "average_finish": 14.75,
+      "finish_sum": 194,
+      "average_finish": 14.92,
       "best_lap_ms": 108817,
       "best_lap": "1:48.817"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260422_232958_R.json",
+      "finished_at": "2026-04-22T23:29:58",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 17,
+      "participants_count": 42,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Vlad Galiev",
+      "points": 0,
+      "qualifying_position": 15,
+      "start_position": 15,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -2,
+      "positions_gained": 0,
+      "positions_lost": 2,
+      "best_lap": "1:49.055",
+      "best_lap_ms": 109055,
+      "total_time": "20:10.432",
+      "total_time_ms": 1210432,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 14.75,
+          "after": 14.92,
+          "delta": 0.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110722,
+          "after": 110768,
+          "delta": 46,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -0.09,
+          "after": -0.25,
+          "delta": -0.16,
+          "trend": "down"
+        },
+        "races": {
+          "before": 12,
+          "after": 13,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260422_224417_R.json",
       "finished_at": "2026-04-22T22:44:17",
@@ -1184,9 +1245,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 1,
+    "reasons": {
+      "Trolling": 1,
+      "PitSpeeding": 1
+    },
+    "types": {
+      "DriveThrough": 1,
+      "StopAndGo_30": 1
+    }
   }
 }
