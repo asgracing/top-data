@@ -3,11 +3,11 @@
   "driver": "Alex Prok",
   "summary": {
     "points": 835,
-    "average_points_per_race": 3.71,
-    "races": 225,
+    "average_points_per_race": 3.69,
+    "races": 226,
     "wins": 1,
     "podiums": 11,
-    "average_finish": 13.4,
+    "average_finish": 13.44,
     "best_lap": "1:48.137",
     "best_lap_ms": 108137,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "R",
-    "penalty_count": 33,
-    "penalty_points": 59,
+    "penalty_count": 35,
+    "penalty_points": 62,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-23T01:21:37",
-    "last_seen": "2026-04-23T01:21:37",
-    "average_pace_ms": 110600,
-    "average_pace": "1:50.600",
+    "last_race_at": "2026-04-23T18:40:01",
+    "last_seen": "2026-04-23T18:40:01",
+    "average_pace_ms": 110599,
+    "average_pace": "1:50.599",
     "win_rate": 0.44,
-    "podium_rate": 4.89,
+    "podium_rate": 4.87,
     "average_positions_delta": -0.43,
     "positions_delta_races": 196,
     "championship_rank": 5,
-    "bestlap_rank": 1176,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-23T18:02:02"
+    "bestlap_rank": 1177,
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.4,
+        "after": 13.44,
+        "delta": 0.04,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110600,
+        "after": 110599,
+        "delta": -1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 225,
+        "after": 226,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-23T18:40:01"
   },
   "recent_form": [
+    22,
     20,
     4,
     9,
-    12,
-    16
+    12
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 225,
+      "races": 226,
       "wins": 1,
       "podiums": 11,
       "points": 835,
-      "finish_sum": 3015,
-      "average_finish": 13.4,
+      "finish_sum": 3037,
+      "average_finish": 13.44,
       "best_lap_ms": 108137,
       "best_lap": "1:48.137"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260423_184001_R.json",
+      "finished_at": "2026-04-23T18:40:01",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 22,
+      "participants_count": 41,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Peter Rugli",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.230",
+      "best_lap_ms": 109230,
+      "total_time": "22:18.649",
+      "total_time_ms": 1338649,
+      "gap": "0:40.633",
+      "gap_ms": 40633,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.4,
+          "after": 13.44,
+          "delta": 0.04,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110600,
+          "after": 110599,
+          "delta": -1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 225,
+          "after": 226,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260423_012137_R.json",
       "finished_at": "2026-04-23T01:21:37",
@@ -15904,16 +15978,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 33,
-    "penalty_points": 59,
+    "penalty_count": 35,
+    "penalty_points": 62,
     "reasons": {
       "PitSpeeding": 10,
-      "Cutting": 13,
-      "Trolling": 10
+      "Cutting": 14,
+      "Trolling": 11
     },
     "types": {
-      "DriveThrough": 13,
-      "None": 10,
+      "DriveThrough": 14,
+      "None": 11,
       "Disqualified": 5,
       "StopAndGo_20": 1,
       "StopAndGo_30": 4
