@@ -3,11 +3,11 @@
   "driver": "Евгений Майоров | NRR",
   "summary": {
     "points": 712,
-    "average_points_per_race": 9.75,
-    "races": 73,
+    "average_points_per_race": 9.62,
+    "races": 74,
     "wins": 15,
     "podiums": 34,
-    "average_finish": 7.51,
+    "average_finish": 7.8,
     "best_lap": "1:46.477",
     "best_lap_ms": 106477,
     "best_lap_track": "monza",
@@ -15,44 +15,106 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 54,
-    "penalty_points": 108,
+    "penalty_count": 58,
+    "penalty_points": 120,
     "fastest_lap_awards": 38,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-23T18:02:02",
-    "last_seen": "2026-04-04T19:46:39",
+    "last_race_at": "2026-04-24T01:08:25",
+    "last_seen": "2026-04-24T01:08:25",
     "average_pace_ms": 108411,
     "average_pace": "1:48.411",
-    "win_rate": 20.55,
-    "podium_rate": 46.58,
+    "win_rate": 20.27,
+    "podium_rate": 45.95,
     "average_positions_delta": 2.55,
     "positions_delta_races": 67,
     "championship_rank": 10,
     "bestlap_rank": 16,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-24T00:30:07"
+    "latest_changes": {
+      "average_finish": {
+        "before": 7.51,
+        "after": 7.8,
+        "delta": 0.29,
+        "trend": "down"
+      },
+      "races": {
+        "before": 73,
+        "after": 74,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-24T01:08:25"
   },
   "recent_form": [
+    29,
     17,
     1,
     7,
-    3,
-    32
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 73,
+      "races": 74,
       "wins": 15,
       "podiums": 34,
       "points": 672,
-      "finish_sum": 548,
-      "average_finish": 7.51,
+      "finish_sum": 577,
+      "average_finish": 7.8,
       "best_lap_ms": 106477,
       "best_lap": "1:46.477"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260424_010825_R.json",
+      "finished_at": "2026-04-24T01:08:25",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 29,
+      "participants_count": 41,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Luke Banks",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "23:03.798",
+      "total_time_ms": 1383798,
+      "gap": "1:24.826",
+      "gap_ms": 84826,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 4,
+      "penalty_points": 12,
+      "changes": {
+        "average_finish": {
+          "before": 7.51,
+          "after": 7.8,
+          "delta": 0.29,
+          "trend": "down"
+        },
+        "races": {
+          "before": 73,
+          "after": 74,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260423_180202_R.json",
       "finished_at": "2026-04-23T18:02:02",
@@ -7670,21 +7732,21 @@
     }
   ],
   "penalties": {
-    "penalty_count": 54,
-    "penalty_points": 108,
+    "penalty_count": 58,
+    "penalty_points": 120,
     "reasons": {
       "None": 2,
-      "Cutting": 22,
-      "PitSpeeding": 1,
-      "Trolling": 29
+      "Cutting": 24,
+      "PitSpeeding": 2,
+      "Trolling": 30
     },
     "types": {
-      "DriveThrough": 21,
+      "DriveThrough": 22,
       "None": 12,
-      "Disqualified": 16,
+      "Disqualified": 17,
       "StopAndGo_10": 3,
       "StopAndGo_20": 1,
-      "StopAndGo_30": 1
+      "StopAndGo_30": 3
     }
   }
 }

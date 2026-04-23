@@ -3,11 +3,11 @@
   "driver": "Hector L",
   "summary": {
     "points": 17,
-    "average_points_per_race": 1.7,
-    "races": 10,
+    "average_points_per_race": 1.55,
+    "races": 11,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.4,
+    "average_finish": 12.18,
     "best_lap": "1:48.265",
     "best_lap_ms": 108265,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-20T19:10:31",
-    "last_seen": "2026-04-20T19:10:31",
-    "average_pace_ms": 110689,
-    "average_pace": "1:50.689",
+    "last_race_at": "2026-04-24T01:08:25",
+    "last_seen": "2026-04-24T01:08:25",
+    "average_pace_ms": 110621,
+    "average_pace": "1:50.621",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -3.56,
     "positions_delta_races": 9,
-    "championship_rank": 1044,
+    "championship_rank": 1046,
     "bestlap_rank": 1363,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-24T00:30:07"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.4,
+        "after": 12.18,
+        "delta": 0.78,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110689,
+        "after": 110621,
+        "delta": -68,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1044,
+        "after": 1046,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 10,
+        "after": 11,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-24T01:08:25"
   },
   "recent_form": [
+    20,
     31,
     22,
     8,
-    9,
     9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 10,
+      "races": 11,
       "wins": 0,
       "podiums": 0,
       "points": 17,
-      "finish_sum": 114,
-      "average_finish": 11.4,
+      "finish_sum": 134,
+      "average_finish": 12.18,
       "best_lap_ms": 108825,
       "best_lap": "1:48.825"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260424_010825_R.json",
+      "finished_at": "2026-04-24T01:08:25",
+      "track": "monza",
+      "car_model_id": 23,
+      "car_name_raw": "Porsche 911II GT3 R (2019)",
+      "car_name": "Porsche 911II GT3 R",
+      "position": 20,
+      "participants_count": 41,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Luke Banks",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.895",
+      "best_lap_ms": 108895,
+      "total_time": "23:10.712",
+      "total_time_ms": 1390712,
+      "gap": "1:31.740",
+      "gap_ms": 91740,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.4,
+          "after": 12.18,
+          "delta": 0.78,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110689,
+          "after": 110621,
+          "delta": -68,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1044,
+          "after": 1046,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 10,
+          "after": 11,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1044,
+        "after": 1046,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260420_191031_R.json",
       "finished_at": "2026-04-20T19:10:31",
