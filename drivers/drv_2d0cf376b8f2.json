@@ -3,11 +3,11 @@
   "driver": "Valerka Kotov",
   "summary": {
     "points": 15,
-    "average_points_per_race": 0.79,
-    "races": 19,
+    "average_points_per_race": 0.75,
+    "races": 20,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 18.21,
+    "average_finish": 18.6,
     "best_lap": "1:48.417",
     "best_lap_ms": 108417,
     "best_lap_track": "monza",
@@ -15,51 +15,118 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 4,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-21T17:58:50",
-    "last_seen": "2026-04-21T17:58:50",
-    "average_pace_ms": 112009,
-    "average_pace": "1:52.009",
+    "last_race_at": "2026-04-24T22:33:35",
+    "last_seen": "2026-04-24T22:33:35",
+    "average_pace_ms": 111950,
+    "average_pace": "1:51.950",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -4.23,
     "positions_delta_races": 13,
     "championship_rank": 1186,
-    "bestlap_rank": 1628,
+    "bestlap_rank": 1631,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1185,
-        "after": 1186,
-        "delta": 1,
+      "average_finish": {
+        "before": 18.21,
+        "after": 18.6,
+        "delta": 0.39,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112009,
+        "after": 111950,
+        "delta": -59,
+        "trend": "up"
+      },
+      "races": {
+        "before": 19,
+        "after": 20,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-24T21:57:30"
+    "latest_change_at": "2026-04-24T22:33:35"
   },
   "recent_form": [
+    26,
     24,
     14,
     16,
-    24,
-    44
+    24
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 19,
+      "races": 20,
       "wins": 0,
       "podiums": 0,
       "points": 15,
-      "finish_sum": 346,
-      "average_finish": 18.21,
+      "finish_sum": 372,
+      "average_finish": 18.6,
       "best_lap_ms": 108417,
       "best_lap": "1:48.417"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260424_223335_R.json",
+      "finished_at": "2026-04-24T22:33:35",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 26,
+      "participants_count": 45,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Denis Denalget [ASG]",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.812",
+      "best_lap_ms": 109812,
+      "total_time": "21:28.717",
+      "total_time_ms": 1288717,
+      "gap": "1:26.854",
+      "gap_ms": 86854,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 18.21,
+          "after": 18.6,
+          "delta": 0.39,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112009,
+          "after": 111950,
+          "delta": -59,
+          "trend": "up"
+        },
+        "races": {
+          "before": 19,
+          "after": 20,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260421_175850_R.json",
       "finished_at": "2026-04-21T17:58:50",
@@ -1870,13 +1937,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 4,
     "reasons": {
-      "None": 1
+      "None": 1,
+      "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 1,
+      "StopAndGo_30": 1
     }
   }
 }
