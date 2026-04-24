@@ -3,11 +3,11 @@
   "driver": "igor Soldatov",
   "summary": {
     "points": 218,
-    "average_points_per_race": 3.63,
-    "races": 60,
+    "average_points_per_race": 3.57,
+    "races": 61,
     "wins": 0,
     "podiums": 4,
-    "average_finish": 13.72,
+    "average_finish": 13.79,
     "best_lap": "1:47.627",
     "best_lap_ms": 107627,
     "best_lap_track": "monza",
@@ -15,57 +15,130 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "R",
-    "penalty_count": 9,
+    "penalty_count": 10,
     "penalty_points": 16,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-24T22:33:35",
-    "last_seen": "2026-04-24T22:33:35",
-    "average_pace_ms": 110549,
-    "average_pace": "1:50.549",
+    "last_race_at": "2026-04-24T23:10:18",
+    "last_seen": "2026-04-24T23:10:18",
+    "average_pace_ms": 110579,
+    "average_pace": "1:50.579",
     "win_rate": 0.0,
-    "podium_rate": 6.67,
-    "average_positions_delta": 3.43,
-    "positions_delta_races": 51,
+    "podium_rate": 6.56,
+    "average_positions_delta": 3.71,
+    "positions_delta_races": 52,
     "championship_rank": 52,
     "bestlap_rank": 515,
     "latest_changes": {
       "average_finish": {
-        "before": 13.47,
-        "after": 13.72,
-        "delta": 0.25,
+        "before": 13.72,
+        "after": 13.79,
+        "delta": 0.07,
         "trend": "down"
       },
+      "average_pace_ms": {
+        "before": 110549,
+        "after": 110579,
+        "delta": 30,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 3.43,
+        "after": 3.71,
+        "delta": 0.28,
+        "trend": "up"
+      },
       "races": {
-        "before": 59,
-        "after": 60,
+        "before": 60,
+        "after": 61,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-24T22:33:35"
+    "latest_change_at": "2026-04-24T23:10:18"
   },
   "recent_form": [
+    18,
     28,
     28,
     3,
-    57,
-    38
+    57
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 60,
+      "races": 61,
       "wins": 0,
       "podiums": 4,
       "points": 218,
-      "finish_sum": 823,
-      "average_finish": 13.72,
+      "finish_sum": 841,
+      "average_finish": 13.79,
       "best_lap_ms": 107627,
       "best_lap": "1:47.627"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260424_231018_R.json",
+      "finished_at": "2026-04-24T23:10:18",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 18,
+      "participants_count": 45,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrei Soldatenkov [ASG]",
+      "points": 0,
+      "qualifying_position": 36,
+      "start_position": 36,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 18,
+      "positions_gained": 18,
+      "positions_lost": 0,
+      "best_lap": "1:49.487",
+      "best_lap_ms": 109487,
+      "total_time": "13:15.329",
+      "total_time_ms": 795329,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.72,
+          "after": 13.79,
+          "delta": 0.07,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110549,
+          "after": 110579,
+          "delta": 30,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 3.43,
+          "after": 3.71,
+          "delta": 0.28,
+          "trend": "up"
+        },
+        "races": {
+          "before": 60,
+          "after": 61,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260424_223335_R.json",
       "finished_at": "2026-04-24T22:33:35",
@@ -5702,18 +5775,18 @@
     }
   ],
   "penalties": {
-    "penalty_count": 9,
+    "penalty_count": 10,
     "penalty_points": 16,
     "reasons": {
       "Cutting": 7,
-      "PitSpeeding": 1,
+      "PitSpeeding": 2,
       "WrongWay": 1
     },
     "types": {
       "DriveThrough": 5,
       "StopAndGo_10": 1,
       "None": 1,
-      "Disqualified": 2
+      "Disqualified": 3
     }
   }
 }
