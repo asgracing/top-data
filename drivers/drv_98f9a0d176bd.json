@@ -3,11 +3,11 @@
   "driver": "Khachatur Karapetyan",
   "summary": {
     "points": 228,
-    "average_points_per_race": 4.85,
-    "races": 47,
+    "average_points_per_race": 4.75,
+    "races": 48,
     "wins": 1,
     "podiums": 5,
-    "average_finish": 13.53,
+    "average_finish": 13.79,
     "best_lap": "1:47.660",
     "best_lap_ms": 107660,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
     "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 12,
-    "penalty_points": 15,
+    "penalty_count": 13,
+    "penalty_points": 18,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-24T14:27:07",
-    "last_seen": "2026-04-24T14:27:07",
-    "average_pace_ms": 109947,
-    "average_pace": "1:49.947",
-    "win_rate": 2.13,
-    "podium_rate": 10.64,
+    "last_race_at": "2026-04-24T18:05:12",
+    "last_seen": "2026-04-24T18:05:12",
+    "average_pace_ms": 109938,
+    "average_pace": "1:49.938",
+    "win_rate": 2.08,
+    "podium_rate": 10.42,
     "average_positions_delta": -0.65,
     "positions_delta_races": 37,
     "championship_rank": 49,
-    "bestlap_rank": 553,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-24T17:26:57"
+    "bestlap_rank": 554,
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.53,
+        "after": 13.79,
+        "delta": 0.26,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109947,
+        "after": 109938,
+        "delta": -9,
+        "trend": "up"
+      },
+      "races": {
+        "before": 47,
+        "after": 48,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-24T18:05:12"
   },
   "recent_form": [
+    26,
     12,
     2,
     31,
-    15,
-    23
+    15
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 47,
+      "races": 48,
       "wins": 1,
       "podiums": 5,
       "points": 213,
-      "finish_sum": 636,
-      "average_finish": 13.53,
+      "finish_sum": 662,
+      "average_finish": 13.79,
       "best_lap_ms": 107745,
       "best_lap": "1:47.745"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260424_180512_R.json",
+      "finished_at": "2026-04-24T18:05:12",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 26,
+      "participants_count": 57,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Dominik Bronco",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.755",
+      "best_lap_ms": 108755,
+      "total_time": "13:16.041",
+      "total_time_ms": 796041,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.53,
+          "after": 13.79,
+          "delta": 0.26,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109947,
+          "after": 109938,
+          "delta": -9,
+          "trend": "up"
+        },
+        "races": {
+          "before": 47,
+          "after": 48,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260424_142707_R.json",
       "finished_at": "2026-04-24T14:27:07",
@@ -4880,17 +4954,17 @@
     }
   ],
   "penalties": {
-    "penalty_count": 12,
-    "penalty_points": 15,
+    "penalty_count": 13,
+    "penalty_points": 18,
     "reasons": {
       "None": 2,
-      "Cutting": 8,
+      "Cutting": 9,
       "Trolling": 2
     },
     "types": {
       "DriveThrough": 6,
       "None": 5,
-      "StopAndGo_30": 1
+      "StopAndGo_30": 2
     }
   }
 }
