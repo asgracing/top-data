@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 6,
+    "races": 7,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 18.17,
+    "average_finish": 18.29,
     "best_lap": "1:47.457",
     "best_lap_ms": 107457,
     "best_lap_track": "monza",
@@ -15,44 +15,135 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "R",
-    "penalty_count": 4,
-    "penalty_points": 0,
+    "penalty_count": 5,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-24T19:57:27",
-    "last_seen": "2026-04-24T19:57:27",
-    "average_pace_ms": 109601,
-    "average_pace": "1:49.601",
+    "last_race_at": "2026-04-25T16:54:06",
+    "last_seen": "2026-04-25T16:54:06",
+    "average_pace_ms": 109476,
+    "average_pace": "1:49.476",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -6.6,
     "positions_delta_races": 5,
-    "championship_rank": 4363,
+    "championship_rank": 4365,
     "bestlap_rank": 371,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-25T16:16:32"
+    "latest_changes": {
+      "average_finish": {
+        "before": 18.17,
+        "after": 18.29,
+        "delta": 0.12,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109601,
+        "after": 109476,
+        "delta": -125,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 4363,
+        "after": 4365,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-25T16:54:06"
   },
   "recent_form": [
     19,
+    19,
     45,
     19,
-    30,
-    16
+    30
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 109,
-      "average_finish": 18.17,
+      "finish_sum": 128,
+      "average_finish": 18.29,
       "best_lap_ms": 107457,
       "best_lap": "1:47.457"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260425_165406_R.json",
+      "finished_at": "2026-04-25T16:54:06",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 19,
+      "participants_count": 47,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Man in Tights",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.732",
+      "best_lap_ms": 107732,
+      "total_time": "20:50.222",
+      "total_time_ms": 1250222,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 18.17,
+          "after": 18.29,
+          "delta": 0.12,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109601,
+          "after": 109476,
+          "delta": -125,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 4363,
+          "after": 4365,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 4363,
+        "after": 4365,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260424_195727_R.json",
       "finished_at": "2026-04-24T19:57:27",
@@ -853,13 +944,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 4,
-    "penalty_points": 0,
+    "penalty_count": 5,
+    "penalty_points": 3,
     "reasons": {
-      "None": 4
+      "None": 4,
+      "Cutting": 1
     },
     "types": {
-      "DriveThrough": 2,
+      "DriveThrough": 3,
       "Disqualified": 2
     }
   }
