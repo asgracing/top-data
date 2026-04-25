@@ -3,11 +3,11 @@
   "driver": "Pavel Syomchenko",
   "summary": {
     "points": 99,
-    "average_points_per_race": 7.62,
-    "races": 13,
+    "average_points_per_race": 7.07,
+    "races": 14,
     "wins": 2,
     "podiums": 5,
-    "average_finish": 10.0,
+    "average_finish": 11.5,
     "best_lap": "1:47.155",
     "best_lap_ms": 107155,
     "best_lap_track": "monza",
@@ -15,51 +15,106 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 5,
-    "penalty_points": 9,
+    "penalty_count": 6,
+    "penalty_points": 12,
     "fastest_lap_awards": 3,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-23T22:23:20",
-    "last_seen": "2026-04-23T22:23:20",
+    "last_race_at": "2026-04-25T19:26:55",
+    "last_seen": "2026-04-25T19:26:55",
     "average_pace_ms": 108327,
     "average_pace": "1:48.327",
-    "win_rate": 15.38,
-    "podium_rate": 38.46,
+    "win_rate": 14.29,
+    "podium_rate": 35.71,
     "average_positions_delta": -0.8,
     "positions_delta_races": 10,
     "championship_rank": 161,
     "bestlap_rank": 183,
     "latest_changes": {
-      "championship_rank": {
-        "before": 160,
-        "after": 161,
-        "delta": 1,
+      "average_finish": {
+        "before": 10.0,
+        "after": 11.5,
+        "delta": 1.5,
         "trend": "down"
+      },
+      "races": {
+        "before": 13,
+        "after": 14,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-25T18:47:55"
+    "latest_change_at": "2026-04-25T19:26:55"
   },
   "recent_form": [
+    31,
     19,
     27,
     29,
-    2,
-    20
+    2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 13,
+      "races": 14,
       "wins": 2,
       "podiums": 5,
       "points": 99,
-      "finish_sum": 130,
-      "average_finish": 10.0,
+      "finish_sum": 161,
+      "average_finish": 11.5,
       "best_lap_ms": 107440,
       "best_lap": "1:47.440"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260425_192655_R.json",
+      "finished_at": "2026-04-25T19:26:55",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 31,
+      "participants_count": 43,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "IWo Basiński",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "20:59.232",
+      "total_time_ms": 1259232,
+      "gap": "0:58.120",
+      "gap_ms": 58120,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 11.5,
+          "delta": 1.5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 13,
+          "after": 14,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260423_222320_R.json",
       "finished_at": "2026-04-23T22:23:20",
@@ -1270,14 +1325,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 5,
-    "penalty_points": 9,
+    "penalty_count": 6,
+    "penalty_points": 12,
     "reasons": {
       "None": 1,
-      "Cutting": 4
+      "Cutting": 5
     },
     "types": {
-      "DriveThrough": 2,
+      "DriveThrough": 3,
       "None": 2,
       "StopAndGo_10": 1
     }
