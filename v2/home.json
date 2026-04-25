@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-26T01:10:31",
+  "generated_at": "2026-04-26T01:23:31",
   "leaderboard": [
     {
       "player_id": "S76561199121481915",
@@ -5347,6 +5347,29 @@
   ],
   "safety": [
     {
+      "player_id": "S76561199445415102",
+      "public_id": "drv_32d20c93fe7d",
+      "driver": "Евгений Майоров | NRR",
+      "penalty_count": 71,
+      "penalty_points": 150,
+      "reasons": {
+        "None": 3,
+        "Cutting": 24,
+        "PitSpeeding": 4,
+        "Trolling": 40
+      },
+      "penalties": {
+        "DriveThrough": 25,
+        "None": 12,
+        "Disqualified": 26,
+        "StopAndGo_10": 4,
+        "StopAndGo_20": 1,
+        "StopAndGo_30": 3
+      },
+      "last_seen": "2026-04-26T01:22:18",
+      "rank": 1
+    },
+    {
       "player_id": "S76561199001001028",
       "public_id": "drv_245a340b9a34",
       "driver": "Otto Cohen [ASG]",
@@ -5366,29 +5389,6 @@
         "StopAndGo_20": 3
       },
       "last_seen": "2026-04-25T01:11:52",
-      "rank": 1
-    },
-    {
-      "player_id": "S76561199445415102",
-      "public_id": "drv_32d20c93fe7d",
-      "driver": "Евгений Майоров | NRR",
-      "penalty_count": 66,
-      "penalty_points": 135,
-      "reasons": {
-        "None": 3,
-        "Cutting": 24,
-        "PitSpeeding": 4,
-        "Trolling": 35
-      },
-      "penalties": {
-        "DriveThrough": 25,
-        "None": 12,
-        "Disqualified": 21,
-        "StopAndGo_10": 4,
-        "StopAndGo_20": 1,
-        "StopAndGo_30": 3
-      },
-      "last_seen": "2026-04-24T20:41:48",
       "rank": 2
     },
     {
@@ -7423,14 +7423,14 @@
     },
     {
       "date": "2026-04-26",
-      "unique_players": 66
+      "unique_players": 76
     }
   ],
   "global_stats": {
     "date": "2026-04-26",
-    "unique_players_today": 66,
+    "unique_players_today": 76,
     "races_today": 2,
-    "sessions_today": 4,
+    "sessions_today": 5,
     "points_earned_today": 204,
     "wins_today": 2,
     "podiums_today": 6,
@@ -7439,16 +7439,16 @@
       "monza"
     ],
     "best_lap_today": {
-      "lap": "1:47.065",
-      "lap_ms": 107065,
-      "driver": "Kirill Bulgakov",
-      "player_id": "S76561199121481915",
-      "public_id": "drv_780fce005a4b",
+      "lap": "1:46.982",
+      "lap_ms": 106982,
+      "driver": "S L",
+      "player_id": "S76561199743687142",
+      "public_id": "drv_3037f17810ab",
       "track": "monza",
       "car_model_id": 31,
       "car_name_raw": "Audi R8 LMS GT3 evo II",
       "car_name": "Audi R8 LMS GT3 evo II",
-      "session_type": "R"
+      "session_type": "Q"
     },
     "most_active_driver_today": {
       "player_id": "S76561198442612903",
@@ -7462,7 +7462,7 @@
       "driver": "P PhoeniX",
       "points": 36
     },
-    "updated_at": "2026-04-26T01:10:31"
+    "updated_at": "2026-04-26T01:23:31"
   },
   "driver_of_the_day": {
     "date": "2026-04-26",
@@ -7481,16 +7481,16 @@
     "best_lap_car_model_id": 30,
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
-    "updated_at": "2026-04-26T01:10:31"
+    "updated_at": "2026-04-26T01:23:31"
   },
   "server_status": {
     "status": "online",
     "server_online": true,
-    "players_online": 24,
+    "players_online": 27,
     "tcp_listening": true,
     "udp_listening": true,
     "broadcast_listening": true,
-    "updated_at": "2026-04-26T01:10:30",
+    "updated_at": "2026-04-26T01:23:30",
     "server_process_name": "accServer.exe",
     "server_process_count": 1,
     "servers": {
@@ -7498,7 +7498,7 @@
         "name": "main",
         "status": "online",
         "server_online": true,
-        "players_online": 24,
+        "players_online": 27,
         "tcp_port": 10040,
         "udp_port": 10039,
         "broadcast_port": 8999,
@@ -7523,7 +7523,7 @@
       "name": "main",
       "status": "online",
       "server_online": true,
-      "players_online": 24,
+      "players_online": 27,
       "tcp_port": 10040,
       "udp_port": 10039,
       "broadcast_port": 8999,
@@ -17207,12 +17207,12 @@
   },
   "tables": {
     "leaderboard": {
-      "total_items": 7382,
+      "total_items": 7383,
       "preview_items": 100,
       "full": "tables/leaderboard.json"
     },
     "bestlaps": {
-      "total_items": 5640,
+      "total_items": 5641,
       "preview_items": 100,
       "full": "tables/bestlaps.json"
     },
