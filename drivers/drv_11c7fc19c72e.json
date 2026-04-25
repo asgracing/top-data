@@ -3,11 +3,11 @@
   "driver": "bob erwing",
   "summary": {
     "points": 219,
-    "average_points_per_race": 8.76,
-    "races": 25,
+    "average_points_per_race": 8.42,
+    "races": 26,
     "wins": 3,
     "podiums": 10,
-    "average_finish": 9.56,
+    "average_finish": 9.88,
     "best_lap": "1:47.352",
     "best_lap_ms": 107352,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "Q",
-    "penalty_count": 2,
-    "penalty_points": 6,
+    "penalty_count": 3,
+    "penalty_points": 9,
     "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-20T00:23:48",
-    "last_seen": "2026-04-20T00:23:48",
-    "average_pace_ms": 108859,
-    "average_pace": "1:48.859",
-    "win_rate": 12.0,
-    "podium_rate": 40.0,
+    "last_race_at": "2026-04-25T22:33:31",
+    "last_seen": "2026-04-25T22:33:31",
+    "average_pace_ms": 109010,
+    "average_pace": "1:49.010",
+    "win_rate": 11.54,
+    "podium_rate": 38.46,
     "average_positions_delta": 0.06,
     "positions_delta_races": 18,
     "championship_rank": 55,
     "bestlap_rank": 291,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-25T21:56:49"
+    "latest_changes": {
+      "average_finish": {
+        "before": 9.56,
+        "after": 9.88,
+        "delta": 0.32,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108859,
+        "after": 109010,
+        "delta": 151,
+        "trend": "down"
+      },
+      "races": {
+        "before": 25,
+        "after": 26,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-25T22:33:31"
   },
   "recent_form": [
+    18,
     21,
     37,
     3,
-    41,
-    2
+    41
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 25,
+      "races": 26,
       "wins": 3,
       "podiums": 10,
       "points": 219,
-      "finish_sum": 239,
-      "average_finish": 9.56,
+      "finish_sum": 257,
+      "average_finish": 9.88,
       "best_lap_ms": 107475,
       "best_lap": "1:47.475"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260425_223331_R.json",
+      "finished_at": "2026-04-25T22:33:31",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 18,
+      "participants_count": 54,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Artyom Kharitonovich",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.832",
+      "best_lap_ms": 107832,
+      "total_time": "20:43.423",
+      "total_time_ms": 1243423,
+      "gap": "0:42.419",
+      "gap_ms": 42419,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 9.56,
+          "after": 9.88,
+          "delta": 0.32,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108859,
+          "after": 109010,
+          "delta": 151,
+          "trend": "down"
+        },
+        "races": {
+          "before": 25,
+          "after": 26,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260420_002348_R.json",
       "finished_at": "2026-04-20T00:23:48",
@@ -2479,13 +2553,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 6,
+    "penalty_count": 3,
+    "penalty_points": 9,
     "reasons": {
-      "Cutting": 2
+      "Cutting": 3
     },
     "types": {
-      "DriveThrough": 2
+      "DriveThrough": 3
     }
   }
 }
