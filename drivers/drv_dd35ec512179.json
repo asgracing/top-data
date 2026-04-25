@@ -3,11 +3,11 @@
   "driver": "bocman g",
   "summary": {
     "points": 10,
-    "average_points_per_race": 3.33,
-    "races": 3,
+    "average_points_per_race": 2.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.33,
+    "average_finish": 19.0,
     "best_lap": "1:49.040",
     "best_lap_ms": 109040,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-26T21:48:06",
-    "last_seen": "2026-03-26T21:48:06",
-    "average_pace_ms": 112682,
-    "average_pace": "1:52.682",
+    "last_race_at": "2026-04-25T18:09:51",
+    "last_seen": "2026-04-25T18:09:51",
+    "average_pace_ms": 112460,
+    "average_pace": "1:52.460",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 12.67,
     "positions_delta_races": 3,
-    "championship_rank": 1650,
-    "bestlap_rank": 2596,
+    "championship_rank": 1661,
+    "bestlap_rank": 2597,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1649,
-        "after": 1650,
-        "delta": 1,
+      "average_finish": {
+        "before": 16.33,
+        "after": 19.0,
+        "delta": 2.67,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112682,
+        "after": 112460,
+        "delta": -222,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1650,
+        "after": 1661,
+        "delta": 11,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-25T17:31:52"
+    "latest_change_at": "2026-04-25T18:09:51"
   },
   "recent_form": [
+    27,
     20,
     24,
     5,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 49,
-      "average_finish": 16.33,
+      "finish_sum": 76,
+      "average_finish": 19.0,
       "best_lap_ms": 109040,
       "best_lap": "1:49.040"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260425_180951_R.json",
+      "finished_at": "2026-04-25T18:09:51",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 27,
+      "participants_count": 46,
+      "scoring_participants_count": 32,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Maurizio Botta",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.352",
+      "best_lap_ms": 109352,
+      "total_time": "22:20.677",
+      "total_time_ms": 1340677,
+      "gap": "0:42.374",
+      "gap_ms": 42374,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.33,
+          "after": 19.0,
+          "delta": 2.67,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112682,
+          "after": 112460,
+          "delta": -222,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1650,
+          "after": 1661,
+          "delta": 11,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1650,
+        "after": 1661,
+        "delta": 11,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260326_214806_R.json",
       "finished_at": "2026-03-26T21:48:06",
