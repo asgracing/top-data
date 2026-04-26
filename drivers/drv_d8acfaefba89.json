@@ -3,11 +3,11 @@
   "driver": "P PhoeniX",
   "summary": {
     "points": 55,
-    "average_points_per_race": 13.75,
-    "races": 4,
+    "average_points_per_race": 11.0,
+    "races": 5,
     "wins": 0,
     "podiums": 3,
-    "average_finish": 3.75,
+    "average_finish": 7.4,
     "best_lap": "1:47.430",
     "best_lap_ms": 107430,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-26T01:10:00",
-    "last_seen": "2026-04-26T01:10:00",
-    "average_pace_ms": 109757,
-    "average_pace": "1:49.757",
+    "last_race_at": "2026-04-26T18:31:50",
+    "last_seen": "2026-04-26T18:31:50",
+    "average_pace_ms": 109715,
+    "average_pace": "1:49.715",
     "win_rate": 0.0,
-    "podium_rate": 75.0,
+    "podium_rate": 60.0,
     "average_positions_delta": 7.0,
     "positions_delta_races": 4,
-    "championship_rank": 328,
+    "championship_rank": 330,
     "bestlap_rank": 362,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-26T17:54:09"
+    "latest_changes": {
+      "average_finish": {
+        "before": 3.75,
+        "after": 7.4,
+        "delta": 3.65,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109757,
+        "after": 109715,
+        "delta": -42,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 328,
+        "after": 330,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-26T18:31:50"
   },
   "recent_form": [
+    22,
     2,
     2,
     3,
-    8,
-    53
+    8
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 3,
       "points": 55,
-      "finish_sum": 15,
-      "average_finish": 3.75,
+      "finish_sum": 37,
+      "average_finish": 7.4,
       "best_lap_ms": 107430,
       "best_lap": "1:47.430"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260426_183150_R.json",
+      "finished_at": "2026-04-26T18:31:50",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 22,
+      "participants_count": 47,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Peter Lüpertz",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.875",
+      "best_lap_ms": 108875,
+      "total_time": "22:53.675",
+      "total_time_ms": 1373675,
+      "gap": "1:11.726",
+      "gap_ms": 71726,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 3.75,
+          "after": 7.4,
+          "delta": 3.65,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109757,
+          "after": 109715,
+          "delta": -42,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 328,
+          "after": 330,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 328,
+        "after": 330,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260426_011000_R.json",
       "finished_at": "2026-04-26T01:10:00",
