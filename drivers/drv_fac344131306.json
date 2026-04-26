@@ -3,11 +3,11 @@
   "driver": "Rodrigo Oliveira",
   "summary": {
     "points": 38,
-    "average_points_per_race": 9.5,
-    "races": 4,
+    "average_points_per_race": 7.6,
+    "races": 5,
     "wins": 1,
     "podiums": 2,
-    "average_finish": 7.75,
+    "average_finish": 9.2,
     "best_lap": "1:48.097",
     "best_lap_ms": 108097,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-26T02:22:25",
-    "last_seen": "2026-04-26T02:22:25",
+    "last_race_at": "2026-04-26T03:32:11",
+    "last_seen": "2026-04-26T03:32:11",
     "average_pace_ms": 109967,
     "average_pace": "1:49.967",
-    "win_rate": 25.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 6.5,
-    "positions_delta_races": 4,
+    "win_rate": 20.0,
+    "podium_rate": 40.0,
+    "average_positions_delta": 5.0,
+    "positions_delta_races": 5,
     "championship_rank": 492,
     "bestlap_rank": 1156,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-26T02:56:21"
+    "latest_changes": {
+      "average_finish": {
+        "before": 7.75,
+        "after": 9.2,
+        "delta": 1.45,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 6.5,
+        "after": 5.0,
+        "delta": -1.5,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-26T03:32:11"
   },
   "recent_form": [
+    15,
     27,
     3,
     5,
-    19,
-    25
+    19
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 1,
       "podiums": 2,
       "points": 38,
-      "finish_sum": 31,
-      "average_finish": 7.75,
+      "finish_sum": 46,
+      "average_finish": 9.2,
       "best_lap_ms": 108097,
       "best_lap": "1:48.097"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260426_033211_R.json",
+      "finished_at": "2026-04-26T03:32:11",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 15,
+      "participants_count": 29,
+      "scoring_participants_count": 16,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "stephane goyette",
+      "points": 0,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "2:16.079",
+      "total_time_ms": 136079,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 7.75,
+          "after": 9.2,
+          "delta": 1.45,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 6.5,
+          "after": 5.0,
+          "delta": -1.5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260426_022225_R.json",
       "finished_at": "2026-04-26T02:22:25",
@@ -547,9 +621,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
