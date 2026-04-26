@@ -15,12 +15,12 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-26T08:32:14",
-    "last_seen": "2026-04-26T08:32:14",
+    "last_race_at": "2026-04-26T11:03:44",
+    "last_seen": "2026-04-26T11:03:44",
     "average_pace_ms": 111071,
     "average_pace": "1:51.071",
     "win_rate": 6.67,
@@ -28,16 +28,16 @@
     "average_positions_delta": 1.25,
     "positions_delta_races": 28,
     "championship_rank": 202,
-    "bestlap_rank": 1767,
+    "bestlap_rank": 1770,
     "latest_changes": {},
-    "latest_change_at": "2026-04-26T10:23:35"
+    "latest_change_at": "2026-04-26T11:03:44"
   },
   "recent_form": [
+    27,
     11,
     21,
     6,
-    6,
-    4
+    6
   ],
   "track_stats": [
     {
@@ -53,6 +53,42 @@
     }
   ],
   "race_history": [
+    {
+      "race_id": "260426_110344_R.json",
+      "finished_at": "2026-04-26T11:03:44",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 27,
+      "participants_count": 47,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Man in Tights",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "1:27.602",
+      "total_time_ms": 87602,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 0,
+      "counted_for_stats": false,
+      "counted_for_points": false,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {},
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260426_083214_R.json",
       "finished_at": "2026-04-26T08:32:14",
@@ -3218,13 +3254,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 3,
+    "penalty_count": 2,
+    "penalty_points": 6,
     "reasons": {
-      "Cutting": 1
+      "Cutting": 1,
+      "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 1,
+      "StopAndGo_30": 1
     }
   }
 }
