@@ -3,11 +3,11 @@
   "driver": "bocman g",
   "summary": {
     "points": 22,
-    "average_points_per_race": 3.67,
-    "races": 6,
+    "average_points_per_race": 3.14,
+    "races": 7,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
+    "average_finish": 15.71,
     "best_lap": "1:48.240",
     "best_lap_ms": 108240,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-25T19:26:55",
-    "last_seen": "2026-04-25T19:26:55",
-    "average_pace_ms": 111331,
-    "average_pace": "1:51.331",
+    "last_race_at": "2026-04-26T20:25:37",
+    "last_seen": "2026-04-26T20:25:37",
+    "average_pace_ms": 111144,
+    "average_pace": "1:51.144",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 10.6,
     "positions_delta_races": 5,
-    "championship_rank": 884,
-    "bestlap_rank": 1390,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-26T19:47:39"
+    "championship_rank": 885,
+    "bestlap_rank": 1391,
+    "latest_changes": {
+      "average_finish": {
+        "before": 15.0,
+        "after": 15.71,
+        "delta": 0.71,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111331,
+        "after": 111144,
+        "delta": -187,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 884,
+        "after": 885,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-26T20:25:37"
   },
   "recent_form": [
+    20,
     5,
     9,
     27,
-    20,
-    24
+    20
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 0,
       "points": 22,
-      "finish_sum": 90,
-      "average_finish": 15.0,
-      "best_lap_ms": 108602,
-      "best_lap": "1:48.602"
+      "finish_sum": 110,
+      "average_finish": 15.71,
+      "best_lap_ms": 108382,
+      "best_lap": "1:48.382"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260426_202537_R.json",
+      "finished_at": "2026-04-26T20:25:37",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 20,
+      "participants_count": 51,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Phil Vaillant | DSR",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.382",
+      "best_lap_ms": 108382,
+      "total_time": "11:07.411",
+      "total_time_ms": 667411,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 15.71,
+          "delta": 0.71,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111331,
+          "after": 111144,
+          "delta": -187,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 884,
+          "after": 885,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 884,
+        "after": 885,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260425_192655_R.json",
       "finished_at": "2026-04-25T19:26:55",
