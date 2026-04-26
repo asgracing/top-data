@@ -2,9 +2,9 @@
   "public_id": "drv_55fa9ca12e9e",
   "driver": "Helmut Kohler",
   "summary": {
-    "points": 240,
-    "average_points_per_race": 5.71,
-    "races": 42,
+    "points": 290,
+    "average_points_per_race": 6.74,
+    "races": 43,
     "wins": 1,
     "podiums": 5,
     "average_finish": 13.86,
@@ -19,40 +19,143 @@
     "penalty_points": 5,
     "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-26T19:47:39",
-    "last_seen": "2026-04-26T19:47:39",
-    "average_pace_ms": 109068,
-    "average_pace": "1:49.068",
-    "win_rate": 2.38,
-    "podium_rate": 11.9,
-    "average_positions_delta": -3.94,
-    "positions_delta_races": 34,
-    "championship_rank": 51,
+    "last_race_at": "2026-04-26T21:30:31",
+    "last_seen": "2026-04-26T21:30:31",
+    "average_pace_ms": 109074,
+    "average_pace": "1:49.074",
+    "win_rate": 2.33,
+    "podium_rate": 11.63,
+    "average_positions_delta": -4.14,
+    "positions_delta_races": 35,
+    "championship_rank": 42,
     "bestlap_rank": 65,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-26T21:03:44"
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 109068,
+        "after": 109074,
+        "delta": 6,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -3.94,
+        "after": -4.14,
+        "delta": -0.2,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 51,
+        "after": 42,
+        "delta": -9,
+        "trend": "up"
+      },
+      "points": {
+        "before": 240,
+        "after": 290,
+        "delta": 50,
+        "trend": "up"
+      },
+      "races": {
+        "before": 42,
+        "after": 43,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-26T21:30:31"
   },
   "recent_form": [
+    14,
     3,
     15,
     2,
-    27,
-    14
+    27
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 42,
+      "races": 43,
       "wins": 1,
       "podiums": 5,
-      "points": 240,
-      "finish_sum": 582,
+      "points": 290,
+      "finish_sum": 596,
       "average_finish": 13.86,
       "best_lap_ms": 106812,
       "best_lap": "1:46.812"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/hourly/hourly_260426_213031_R.json",
+      "finished_at": "2026-04-26T21:30:31",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 14,
+      "participants_count": 20,
+      "scoring_participants_count": 20,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
+      "points_multiplier": 5,
+      "winner": "Adam Sibbs | SLR",
+      "points": 50,
+      "qualifying_position": 3,
+      "start_position": 3,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -11,
+      "positions_gained": 0,
+      "positions_lost": 11,
+      "best_lap": "1:47.197",
+      "best_lap_ms": 107197,
+      "total_time": "36:41.605",
+      "total_time_ms": 2201605,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 18,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 109068,
+          "after": 109074,
+          "delta": 6,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -3.94,
+          "after": -4.14,
+          "delta": -0.2,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 51,
+          "after": 42,
+          "delta": -9,
+          "trend": "up"
+        },
+        "points": {
+          "before": 240,
+          "after": 290,
+          "delta": 50,
+          "trend": "up"
+        },
+        "races": {
+          "before": 42,
+          "after": 43,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 51,
+        "after": 42,
+        "delta": -9,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260426_194739_R.json",
       "finished_at": "2026-04-26T19:47:39",
