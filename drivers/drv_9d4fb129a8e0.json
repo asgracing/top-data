@@ -3,8 +3,8 @@
   "driver": "BEAM APISIT",
   "summary": {
     "points": 10,
-    "average_points_per_race": 1.67,
-    "races": 6,
+    "average_points_per_race": 1.43,
+    "races": 7,
     "wins": 1,
     "podiums": 1,
     "average_finish": 11.0,
@@ -15,51 +15,118 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-15T13:14:42",
-    "last_seen": "2026-04-15T13:14:42",
-    "average_pace_ms": 109543,
-    "average_pace": "1:49.543",
-    "win_rate": 16.67,
-    "podium_rate": 16.67,
-    "average_positions_delta": -4.5,
-    "positions_delta_races": 4,
+    "last_race_at": "2026-04-28T22:04:27",
+    "last_seen": "2026-04-28T22:04:27",
+    "average_pace_ms": 109500,
+    "average_pace": "1:49.500",
+    "win_rate": 14.29,
+    "podium_rate": 14.29,
+    "average_positions_delta": -5.4,
+    "positions_delta_races": 5,
     "championship_rank": 1609,
     "bestlap_rank": 752,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1608,
-        "after": 1609,
-        "delta": 1,
+      "average_pace_ms": {
+        "before": 109543,
+        "after": 109500,
+        "delta": -43,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -4.5,
+        "after": -5.4,
+        "delta": -0.9,
         "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-28T21:30:18"
+    "latest_change_at": "2026-04-28T22:04:27"
   },
   "recent_form": [
+    11,
     23,
     1,
     37,
-    13,
     13
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 1,
       "podiums": 1,
       "points": 10,
-      "finish_sum": 66,
+      "finish_sum": 77,
       "average_finish": 11.0,
       "best_lap_ms": 107790,
       "best_lap": "1:47.790"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260428_220427_R.json",
+      "finished_at": "2026-04-28T22:04:27",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 11,
+      "participants_count": 20,
+      "scoring_participants_count": 12,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Javier Breogan.VR.[ASG]",
+      "points": 0,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -9,
+      "positions_gained": 0,
+      "positions_lost": 9,
+      "best_lap": "1:48.330",
+      "best_lap_ms": 108330,
+      "total_time": "9:56.495",
+      "total_time_ms": 596495,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_pace_ms": {
+          "before": 109543,
+          "after": 109500,
+          "delta": -43,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -4.5,
+          "after": -5.4,
+          "delta": -0.9,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260415_131442_R.json",
       "finished_at": "2026-04-15T13:14:42",
@@ -584,9 +651,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_20": 1
+    }
   }
 }
