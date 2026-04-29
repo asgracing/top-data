@@ -3,11 +3,11 @@
   "driver": "Манзур Смолкович",
   "summary": {
     "points": 10,
-    "average_points_per_race": 5.0,
-    "races": 2,
+    "average_points_per_race": 3.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 17.5,
+    "average_finish": 19.67,
     "best_lap": "1:48.892",
     "best_lap_ms": 108892,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-27T21:31:47",
-    "last_seen": "2026-04-27T21:31:47",
+    "last_race_at": "2026-04-29T18:11:22",
+    "last_seen": "2026-04-29T18:11:22",
     "average_pace_ms": 110548,
     "average_pace": "1:50.548",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -1.0,
-    "positions_delta_races": 2,
-    "championship_rank": 1754,
-    "bestlap_rank": 2506,
+    "average_positions_delta": 0.0,
+    "positions_delta_races": 3,
+    "championship_rank": 1762,
+    "bestlap_rank": 2508,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1753,
-        "after": 1754,
-        "delta": 1,
+      "average_finish": {
+        "before": 17.5,
+        "after": 19.67,
+        "delta": 2.17,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -1.0,
+        "after": 0.0,
+        "delta": 1.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1754,
+        "after": 1762,
+        "delta": 8,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-29T17:30:20"
+    "latest_change_at": "2026-04-29T18:11:22"
   },
   "recent_form": [
+    24,
     31,
     41,
     4
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 35,
-      "average_finish": 17.5,
+      "finish_sum": 59,
+      "average_finish": 19.67,
       "best_lap_ms": 108892,
       "best_lap": "1:48.892"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260429_181122_R.json",
+      "finished_at": "2026-04-29T18:11:22",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 24,
+      "participants_count": 54,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nome Cognome",
+      "points": 0,
+      "qualifying_position": 26,
+      "start_position": 26,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 2,
+      "positions_gained": 2,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "5:43.345",
+      "total_time_ms": 343345,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 17.5,
+          "after": 19.67,
+          "delta": 2.17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -1.0,
+          "after": 0.0,
+          "delta": 1.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1754,
+          "after": 1762,
+          "delta": 8,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1754,
+        "after": 1762,
+        "delta": 8,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260427_213147_R.json",
       "finished_at": "2026-04-27T21:31:47",
