@@ -3,11 +3,11 @@
   "driver": "Chittayasodhara KASIDIT | MDN",
   "summary": {
     "points": 92,
-    "average_points_per_race": 8.36,
-    "races": 11,
+    "average_points_per_race": 7.67,
+    "races": 12,
     "wins": 2,
     "podiums": 4,
-    "average_finish": 12.0,
+    "average_finish": 12.92,
     "best_lap": "1:46.925",
     "best_lap_ms": 106925,
     "best_lap_track": "monza",
@@ -15,44 +15,130 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 3,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-27T19:00:17",
-    "last_seen": "2026-04-27T19:00:17",
-    "average_pace_ms": 108926,
-    "average_pace": "1:48.926",
-    "win_rate": 18.18,
-    "podium_rate": 36.36,
-    "average_positions_delta": 1.22,
-    "positions_delta_races": 9,
+    "last_race_at": "2026-04-29T20:43:43",
+    "last_seen": "2026-04-29T20:43:43",
+    "average_pace_ms": 108961,
+    "average_pace": "1:48.961",
+    "win_rate": 16.67,
+    "podium_rate": 33.33,
+    "average_positions_delta": 2.9,
+    "positions_delta_races": 10,
     "championship_rank": 201,
     "bestlap_rank": 98,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-29T20:05:42"
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.0,
+        "after": 12.92,
+        "delta": 0.92,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108926,
+        "after": 108961,
+        "delta": 35,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.22,
+        "after": 2.9,
+        "delta": 1.68,
+        "trend": "up"
+      },
+      "races": {
+        "before": 11,
+        "after": 12,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-29T20:43:43"
   },
   "recent_form": [
+    23,
     32,
     26,
     32,
-    38,
-    24
+    38
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 11,
+      "races": 12,
       "wins": 2,
       "podiums": 4,
       "points": 92,
-      "finish_sum": 132,
-      "average_finish": 12.0,
+      "finish_sum": 155,
+      "average_finish": 12.92,
       "best_lap_ms": 107190,
       "best_lap": "1:47.190"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260429_204343_R.json",
+      "finished_at": "2026-04-29T20:43:43",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 23,
+      "participants_count": 53,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "PALM TATTAPONG | MDN",
+      "points": 0,
+      "qualifying_position": 41,
+      "start_position": 41,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 18,
+      "positions_gained": 18,
+      "positions_lost": 0,
+      "best_lap": "1:48.442",
+      "best_lap_ms": 108442,
+      "total_time": "10:12.205",
+      "total_time_ms": 612205,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 12.0,
+          "after": 12.92,
+          "delta": 0.92,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108926,
+          "after": 108961,
+          "delta": 35,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.22,
+          "after": 2.9,
+          "delta": 1.68,
+          "trend": "up"
+        },
+        "races": {
+          "before": 11,
+          "after": 12,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260427_190017_R.json",
       "finished_at": "2026-04-27T19:00:17",
@@ -1274,14 +1360,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 3,
+    "penalty_count": 3,
+    "penalty_points": 6,
     "reasons": {
       "Trolling": 1,
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
-      "DriveThrough": 1,
+      "DriveThrough": 2,
       "None": 1
     }
   }
