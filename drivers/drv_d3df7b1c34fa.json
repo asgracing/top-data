@@ -3,11 +3,11 @@
   "driver": "Roga Yparoga",
   "summary": {
     "points": 22,
-    "average_points_per_race": 7.33,
-    "races": 3,
+    "average_points_per_race": 5.5,
+    "races": 4,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 10.0,
+    "average_finish": 13.5,
     "best_lap": "1:49.360",
     "best_lap_ms": 109360,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T18:04:05",
-    "last_seen": "2026-03-22T18:04:05",
-    "average_pace_ms": 111146,
-    "average_pace": "1:51.146",
-    "win_rate": 33.33,
-    "podium_rate": 33.33,
+    "last_race_at": "2026-04-29T21:22:11",
+    "last_seen": "2026-04-29T21:22:11",
+    "average_pace_ms": 111208,
+    "average_pace": "1:51.208",
+    "win_rate": 25.0,
+    "podium_rate": 25.0,
     "average_positions_delta": 17.0,
     "positions_delta_races": 2,
-    "championship_rank": 896,
-    "bestlap_rank": 3268,
+    "championship_rank": 897,
+    "bestlap_rank": 3270,
     "latest_changes": {
+      "average_finish": {
+        "before": 10.0,
+        "after": 13.5,
+        "delta": 3.5,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111146,
+        "after": 111208,
+        "delta": 62,
+        "trend": "down"
+      },
       "championship_rank": {
-        "before": 895,
-        "after": 896,
+        "before": 896,
+        "after": 897,
         "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-29T20:43:43"
+    "latest_change_at": "2026-04-29T21:22:11"
   },
   "recent_form": [
+    24,
     30,
     9,
     20,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 1,
       "podiums": 1,
       "points": 22,
-      "finish_sum": 30,
-      "average_finish": 10.0,
+      "finish_sum": 54,
+      "average_finish": 13.5,
       "best_lap_ms": 109360,
       "best_lap": "1:49.360"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260429_212211_R.json",
+      "finished_at": "2026-04-29T21:22:11",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 24,
+      "participants_count": 54,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "david pinosa",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:52.202",
+      "best_lap_ms": 112202,
+      "total_time": "16:59.592",
+      "total_time_ms": 1019592,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.0,
+          "after": 13.5,
+          "delta": 3.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111146,
+          "after": 111208,
+          "delta": 62,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 896,
+          "after": 897,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 896,
+        "after": 897,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260322_180405_R.json",
       "finished_at": "2026-03-22T18:04:05",
