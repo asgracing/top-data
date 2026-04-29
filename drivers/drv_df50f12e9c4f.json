@@ -2,12 +2,12 @@
   "public_id": "drv_df50f12e9c4f",
   "driver": "ASP asp",
   "summary": {
-    "points": 77,
+    "points": 78,
     "average_points_per_race": 1.07,
-    "races": 72,
+    "races": 73,
     "wins": 2,
-    "podiums": 9,
-    "average_finish": 12.94,
+    "podiums": 10,
+    "average_finish": 12.79,
     "best_lap": "1:48.935",
     "best_lap_ms": 108935,
     "best_lap_track": "monza",
@@ -19,40 +19,138 @@
     "penalty_points": 9,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-28T21:30:18",
-    "last_seen": "2026-04-28T21:30:18",
+    "last_race_at": "2026-04-29T12:22:32",
+    "last_seen": "2026-04-29T12:22:32",
     "average_pace_ms": 111955,
     "average_pace": "1:51.955",
-    "win_rate": 2.78,
-    "podium_rate": 12.5,
-    "average_positions_delta": 2.6,
-    "positions_delta_races": 67,
+    "win_rate": 2.74,
+    "podium_rate": 13.7,
+    "average_positions_delta": 2.54,
+    "positions_delta_races": 68,
     "championship_rank": 230,
     "bestlap_rank": 2576,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-29T10:30:34"
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.94,
+        "after": 12.79,
+        "delta": -0.15,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 2.6,
+        "after": 2.54,
+        "delta": -0.06,
+        "trend": "down"
+      },
+      "podiums": {
+        "before": 9,
+        "after": 10,
+        "delta": 1,
+        "trend": "up"
+      },
+      "points": {
+        "before": 77,
+        "after": 78,
+        "delta": 1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 72,
+        "after": 73,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-29T12:22:32"
   },
   "recent_form": [
+    2,
     7,
     2,
     3,
-    3,
-    5
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 72,
+      "races": 73,
       "wins": 2,
-      "podiums": 9,
-      "points": 77,
-      "finish_sum": 932,
-      "average_finish": 12.94,
+      "podiums": 10,
+      "points": 78,
+      "finish_sum": 934,
+      "average_finish": 12.79,
       "best_lap_ms": 108935,
       "best_lap": "1:48.935"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260429_122232_R.json",
+      "finished_at": "2026-04-29T12:22:32",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 2,
+      "participants_count": 2,
+      "scoring_participants_count": 2,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Artem AIRBAG",
+      "points": 1,
+      "qualifying_position": 1,
+      "start_position": 1,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": "1:49.550",
+      "best_lap_ms": 109550,
+      "total_time": "20:27.004",
+      "total_time_ms": 1227004,
+      "gap": "0:04.446",
+      "gap_ms": 4446,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.94,
+          "after": 12.79,
+          "delta": -0.15,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 2.6,
+          "after": 2.54,
+          "delta": -0.06,
+          "trend": "down"
+        },
+        "podiums": {
+          "before": 9,
+          "after": 10,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 77,
+          "after": 78,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 72,
+          "after": 73,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260428_213018_R.json",
       "finished_at": "2026-04-28T21:30:18",
