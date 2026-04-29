@@ -3,11 +3,11 @@
   "driver": "bob erwing",
   "summary": {
     "points": 247,
-    "average_points_per_race": 8.82,
-    "races": 28,
+    "average_points_per_race": 8.52,
+    "races": 29,
     "wins": 3,
     "podiums": 11,
-    "average_finish": 9.43,
+    "average_finish": 9.83,
     "best_lap": "1:47.352",
     "best_lap_ms": 107352,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 15,
     "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-27T00:10:13",
-    "last_seen": "2026-04-27T00:10:13",
-    "average_pace_ms": 109032,
-    "average_pace": "1:49.032",
-    "win_rate": 10.71,
-    "podium_rate": 39.29,
-    "average_positions_delta": 1.65,
-    "positions_delta_races": 20,
+    "last_race_at": "2026-04-29T22:37:54",
+    "last_seen": "2026-04-29T22:37:54",
+    "average_pace_ms": 109042,
+    "average_pace": "1:49.042",
+    "win_rate": 10.34,
+    "podium_rate": 37.93,
+    "average_positions_delta": 1.67,
+    "positions_delta_races": 21,
     "championship_rank": 54,
     "bestlap_rank": 305,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-29T21:59:39"
+    "latest_changes": {
+      "average_finish": {
+        "before": 9.43,
+        "after": 9.83,
+        "delta": 0.4,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109032,
+        "after": 109042,
+        "delta": 10,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.65,
+        "after": 1.67,
+        "delta": 0.02,
+        "trend": "up"
+      },
+      "races": {
+        "before": 28,
+        "after": 29,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-29T22:37:54"
   },
   "recent_form": [
+    21,
     33,
     5,
     26,
-    27,
-    2
+    27
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 28,
+      "races": 29,
       "wins": 3,
       "podiums": 11,
       "points": 247,
-      "finish_sum": 264,
-      "average_finish": 9.43,
+      "finish_sum": 285,
+      "average_finish": 9.83,
       "best_lap_ms": 107475,
       "best_lap": "1:47.475"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260429_223754_R.json",
+      "finished_at": "2026-04-29T22:37:54",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 21,
+      "participants_count": 47,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Илья Космач",
+      "points": 0,
+      "qualifying_position": 23,
+      "start_position": 23,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 2,
+      "positions_gained": 2,
+      "positions_lost": 0,
+      "best_lap": "1:47.990",
+      "best_lap_ms": 107990,
+      "total_time": "22:55.079",
+      "total_time_ms": 1375079,
+      "gap": "1:20.716",
+      "gap_ms": 80716,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.43,
+          "after": 9.83,
+          "delta": 0.4,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109032,
+          "after": 109042,
+          "delta": 10,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.65,
+          "after": 1.67,
+          "delta": 0.02,
+          "trend": "up"
+        },
+        "races": {
+          "before": 28,
+          "after": 29,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260427_001013_R.json",
       "finished_at": "2026-04-27T00:10:13",
