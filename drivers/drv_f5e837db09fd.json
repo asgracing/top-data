@@ -3,11 +3,11 @@
   "driver": "weike tan",
   "summary": {
     "points": 10,
-    "average_points_per_race": 3.33,
-    "races": 3,
+    "average_points_per_race": 2.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 7.33,
+    "average_finish": 11.0,
     "best_lap": "1:49.495",
     "best_lap_ms": 109495,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-30T05:35:26",
-    "last_seen": "2026-04-30T05:35:26",
-    "average_pace_ms": 112830,
-    "average_pace": "1:52.830",
+    "last_race_at": "2026-04-30T18:20:02",
+    "last_seen": "2026-04-30T18:20:02",
+    "average_pace_ms": 112730,
+    "average_pace": "1:52.730",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 4.0,
     "positions_delta_races": 2,
-    "championship_rank": 1707,
-    "bestlap_rank": 3522,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-30T17:44:11"
+    "championship_rank": 1735,
+    "bestlap_rank": 3524,
+    "latest_changes": {
+      "average_finish": {
+        "before": 7.33,
+        "after": 11.0,
+        "delta": 3.67,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112830,
+        "after": 112730,
+        "delta": -100,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1707,
+        "after": 1735,
+        "delta": 28,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-30T18:20:02"
   },
   "recent_form": [
+    22,
     6,
     37,
     8,
-    29,
-    8
+    29
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 22,
-      "average_finish": 7.33,
+      "finish_sum": 44,
+      "average_finish": 11.0,
       "best_lap_ms": 109495,
       "best_lap": "1:49.495"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260430_182002_R.json",
+      "finished_at": "2026-04-30T18:20:02",
+      "track": "monza",
+      "car_model_id": 36,
+      "car_name_raw": "Ford Mustang GT3",
+      "car_name": "Ford Mustang GT3",
+      "position": 22,
+      "participants_count": 59,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Chris Savage",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.067",
+      "best_lap_ms": 111067,
+      "total_time": "14:37.251",
+      "total_time_ms": 877251,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.33,
+          "after": 11.0,
+          "delta": 3.67,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112830,
+          "after": 112730,
+          "delta": -100,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1707,
+          "after": 1735,
+          "delta": 28,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1707,
+        "after": 1735,
+        "delta": 28,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260430_053526_R.json",
       "finished_at": "2026-04-30T05:35:26",
