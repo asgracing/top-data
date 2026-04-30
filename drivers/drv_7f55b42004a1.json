@@ -3,11 +3,11 @@
   "driver": "André Ketterer",
   "summary": {
     "points": 91,
-    "average_points_per_race": 6.07,
-    "races": 15,
+    "average_points_per_race": 5.69,
+    "races": 16,
     "wins": 2,
     "podiums": 4,
-    "average_finish": 10.13,
+    "average_finish": 11.0,
     "best_lap": "1:47.662",
     "best_lap_ms": 107662,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
     "best_lap_car_name": "McLaren 720S GT3 Evo",
     "best_lap_session_type": "Q",
-    "penalty_count": 3,
-    "penalty_points": 4,
+    "penalty_count": 4,
+    "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-30T21:29:03",
-    "last_seen": "2026-04-30T21:29:03",
-    "average_pace_ms": 109710,
-    "average_pace": "1:49.710",
-    "win_rate": 13.33,
-    "podium_rate": 26.67,
+    "last_race_at": "2026-05-01T01:57:13",
+    "last_seen": "2026-05-01T01:57:13",
+    "average_pace_ms": 109653,
+    "average_pace": "1:49.653",
+    "win_rate": 12.5,
+    "podium_rate": 25.0,
     "average_positions_delta": 1.83,
     "positions_delta_races": 12,
     "championship_rank": 205,
-    "bestlap_rank": 605,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-01T01:18:58"
+    "bestlap_rank": 606,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.13,
+        "after": 11.0,
+        "delta": 0.87,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109710,
+        "after": 109653,
+        "delta": -57,
+        "trend": "up"
+      },
+      "races": {
+        "before": 15,
+        "after": 16,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-01T01:57:13"
   },
   "recent_form": [
+    24,
     13,
     2,
     1,
-    11,
-    28
+    11
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 15,
+      "races": 16,
       "wins": 2,
       "podiums": 4,
       "points": 91,
-      "finish_sum": 152,
-      "average_finish": 10.13,
+      "finish_sum": 176,
+      "average_finish": 11.0,
       "best_lap_ms": 107700,
       "best_lap": "1:47.700"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260501_015713_R.json",
+      "finished_at": "2026-05-01T01:57:13",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 24,
+      "participants_count": 40,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Muhammad Guseynov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.882",
+      "best_lap_ms": 107882,
+      "total_time": "22:11.940",
+      "total_time_ms": 1331940,
+      "gap": "0:30.343",
+      "gap_ms": 30343,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 10.13,
+          "after": 11.0,
+          "delta": 0.87,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109710,
+          "after": 109653,
+          "delta": -57,
+          "trend": "up"
+        },
+        "races": {
+          "before": 15,
+          "after": 16,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260430_212903_R.json",
       "finished_at": "2026-04-30T21:29:03",
@@ -1193,13 +1267,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 3,
-    "penalty_points": 4,
+    "penalty_count": 4,
+    "penalty_points": 6,
     "reasons": {
-      "Cutting": 3
+      "Cutting": 4
     },
     "types": {
-      "DriveThrough": 1,
+      "DriveThrough": 2,
       "StopAndGo_10": 1,
       "None": 1
     }
