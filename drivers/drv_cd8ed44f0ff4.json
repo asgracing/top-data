@@ -3,11 +3,11 @@
   "driver": "Kitay Tant",
   "summary": {
     "points": 55,
-    "average_points_per_race": 3.24,
-    "races": 17,
+    "average_points_per_race": 3.06,
+    "races": 18,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 14.41,
+    "average_finish": 14.39,
     "best_lap": "1:48.405",
     "best_lap_ms": 108405,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
     "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-27T22:08:11",
-    "last_seen": "2026-04-27T22:08:11",
-    "average_pace_ms": 110345,
-    "average_pace": "1:50.345",
+    "last_race_at": "2026-04-30T15:44:36",
+    "last_seen": "2026-04-30T15:44:36",
+    "average_pace_ms": 110371,
+    "average_pace": "1:50.371",
     "win_rate": 0.0,
-    "podium_rate": 11.76,
+    "podium_rate": 11.11,
     "average_positions_delta": 3.64,
     "positions_delta_races": 11,
     "championship_rank": 355,
     "bestlap_rank": 1733,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-30T15:05:36"
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.41,
+        "after": 14.39,
+        "delta": -0.02,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 110345,
+        "after": 110371,
+        "delta": 26,
+        "trend": "down"
+      },
+      "races": {
+        "before": 17,
+        "after": 18,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-30T15:44:36"
   },
   "recent_form": [
+    14,
     20,
     20,
     34,
-    28,
-    21
+    28
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 17,
+      "races": 18,
       "wins": 0,
       "podiums": 2,
       "points": 55,
-      "finish_sum": 245,
-      "average_finish": 14.41,
+      "finish_sum": 259,
+      "average_finish": 14.39,
       "best_lap_ms": 108405,
       "best_lap": "1:48.405"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260430_154436_R.json",
+      "finished_at": "2026-04-30T15:44:36",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 14,
+      "participants_count": 40,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Yaroslav Fedorchuck",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:50.907",
+      "best_lap_ms": 110907,
+      "total_time": "14:26.094",
+      "total_time_ms": 866094,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 14.41,
+          "after": 14.39,
+          "delta": -0.02,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110345,
+          "after": 110371,
+          "delta": 26,
+          "trend": "down"
+        },
+        "races": {
+          "before": 17,
+          "after": 18,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260427_220811_R.json",
       "finished_at": "2026-04-27T22:08:11",
@@ -1398,9 +1472,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Trolling": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
