@@ -3,11 +3,11 @@
   "driver": "Shelby Daytona",
   "summary": {
     "points": 21,
-    "average_points_per_race": 5.25,
-    "races": 4,
+    "average_points_per_race": 4.2,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 10.5,
+    "average_finish": 11.4,
     "best_lap": "1:48.540",
     "best_lap_ms": 108540,
     "best_lap_track": "monza",
@@ -19,10 +19,10 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-29T10:30:34",
-    "last_seen": "2026-04-29T10:30:34",
-    "average_pace_ms": 109567,
-    "average_pace": "1:49.567",
+    "last_race_at": "2026-04-30T17:06:03",
+    "last_seen": "2026-04-30T17:06:03",
+    "average_pace_ms": 109557,
+    "average_pace": "1:49.557",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 1.33,
@@ -30,36 +30,103 @@
     "championship_rank": 947,
     "bestlap_rank": 1972,
     "latest_changes": {
-      "championship_rank": {
-        "before": 946,
-        "after": 947,
-        "delta": 1,
+      "average_finish": {
+        "before": 10.5,
+        "after": 11.4,
+        "delta": 0.9,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109567,
+        "after": 109557,
+        "delta": -10,
+        "trend": "up"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-04-30T16:27:58"
+    "latest_change_at": "2026-04-30T17:06:03"
   },
   "recent_form": [
+    15,
     5,
     8,
     25,
-    4,
-    26
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 21,
-      "finish_sum": 42,
-      "average_finish": 10.5,
+      "finish_sum": 57,
+      "average_finish": 11.4,
       "best_lap_ms": 108540,
       "best_lap": "1:48.540"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260430_170603_R.json",
+      "finished_at": "2026-04-30T17:06:03",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 15,
+      "participants_count": 44,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Max Hohlov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.277",
+      "best_lap_ms": 109277,
+      "total_time": "17:06.678",
+      "total_time_ms": 1026678,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.5,
+          "after": 11.4,
+          "delta": 0.9,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109567,
+          "after": 109557,
+          "delta": -10,
+          "trend": "up"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260429_103034_R.json",
       "finished_at": "2026-04-29T10:30:34",
