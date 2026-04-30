@@ -3,11 +3,11 @@
   "driver": "Dominic Toretto",
   "summary": {
     "points": 12,
-    "average_points_per_race": 0.8,
-    "races": 15,
+    "average_points_per_race": 0.75,
+    "races": 16,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 13.4,
+    "average_finish": 13.62,
     "best_lap": "1:49.362",
     "best_lap_ms": 109362,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 1,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-30T18:20:02",
-    "last_seen": "2026-04-30T18:20:02",
-    "average_pace_ms": 112239,
-    "average_pace": "1:52.239",
-    "win_rate": 6.67,
-    "podium_rate": 6.67,
-    "average_positions_delta": 4.62,
-    "positions_delta_races": 13,
+    "last_race_at": "2026-04-30T19:34:53",
+    "last_seen": "2026-04-30T19:34:53",
+    "average_pace_ms": 112311,
+    "average_pace": "1:52.311",
+    "win_rate": 6.25,
+    "podium_rate": 6.25,
+    "average_positions_delta": 4.21,
+    "positions_delta_races": 14,
     "championship_rank": 1414,
-    "bestlap_rank": 3311,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-30T18:58:01"
+    "bestlap_rank": 3312,
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.4,
+        "after": 13.62,
+        "delta": 0.22,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112239,
+        "after": 112311,
+        "delta": 72,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 4.62,
+        "after": 4.21,
+        "delta": -0.41,
+        "trend": "down"
+      },
+      "races": {
+        "before": 15,
+        "after": 16,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-30T19:34:53"
   },
   "recent_form": [
+    17,
     12,
     12,
     14,
-    43,
-    22
+    43
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 15,
+      "races": 16,
       "wins": 1,
       "podiums": 1,
       "points": 12,
-      "finish_sum": 201,
-      "average_finish": 13.4,
+      "finish_sum": 218,
+      "average_finish": 13.62,
       "best_lap_ms": 109362,
       "best_lap": "1:49.362"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260430_193453_R.json",
+      "finished_at": "2026-04-30T19:34:53",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 17,
+      "participants_count": 48,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "William Joseph Blazkowicz",
+      "points": 0,
+      "qualifying_position": 16,
+      "start_position": 16,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -1,
+      "positions_gained": 0,
+      "positions_lost": 1,
+      "best_lap": "1:53.257",
+      "best_lap_ms": 113257,
+      "total_time": "15:49.981",
+      "total_time_ms": 949981,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.4,
+          "after": 13.62,
+          "delta": 0.22,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112239,
+          "after": 112311,
+          "delta": 72,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 4.62,
+          "after": 4.21,
+          "delta": -0.41,
+          "trend": "down"
+        },
+        "races": {
+          "before": 15,
+          "after": 16,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260430_182002_R.json",
       "finished_at": "2026-04-30T18:20:02",

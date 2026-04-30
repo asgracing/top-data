@@ -2,9 +2,9 @@
   "public_id": "drv_6ca153ce9bf7",
   "driver": "Nick Fisher [ASG]",
   "summary": {
-    "points": 1205,
-    "average_points_per_race": 7.13,
-    "races": 169,
+    "points": 1209,
+    "average_points_per_race": 7.11,
+    "races": 170,
     "wins": 5,
     "podiums": 31,
     "average_finish": 8.46,
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "R",
-    "penalty_count": 4,
-    "penalty_points": 5,
+    "penalty_count": 6,
+    "penalty_points": 8,
     "fastest_lap_awards": 3,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-30T18:20:02",
-    "last_seen": "2026-04-30T18:20:02",
-    "average_pace_ms": 109883,
-    "average_pace": "1:49.883",
-    "win_rate": 2.96,
-    "podium_rate": 18.34,
+    "last_race_at": "2026-04-30T19:34:53",
+    "last_seen": "2026-04-30T19:34:53",
+    "average_pace_ms": 109875,
+    "average_pace": "1:49.875",
+    "win_rate": 2.94,
+    "podium_rate": 18.24,
     "average_positions_delta": 8.35,
     "positions_delta_races": 159,
     "championship_rank": 4,
     "bestlap_rank": 389,
-    "latest_changes": {},
-    "latest_change_at": "2026-04-30T18:58:01"
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 109883,
+        "after": 109875,
+        "delta": -8,
+        "trend": "up"
+      },
+      "points": {
+        "before": 1205,
+        "after": 1209,
+        "delta": 4,
+        "trend": "up"
+      },
+      "races": {
+        "before": 169,
+        "after": 170,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-04-30T19:34:53"
   },
   "recent_form": [
+    8,
     5,
     45,
     13,
-    6,
-    5
+    6
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 169,
+      "races": 170,
       "wins": 5,
       "podiums": 31,
-      "points": 1175,
-      "finish_sum": 1430,
+      "points": 1179,
+      "finish_sum": 1438,
       "average_finish": 8.46,
       "best_lap_ms": 107455,
       "best_lap": "1:47.455"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260430_193453_R.json",
+      "finished_at": "2026-04-30T19:34:53",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 8,
+      "participants_count": 48,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "William Joseph Blazkowicz",
+      "points": 4,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.532",
+      "best_lap_ms": 107532,
+      "total_time": "20:42.486",
+      "total_time_ms": 1242486,
+      "gap": "0:29.953",
+      "gap_ms": 29953,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_pace_ms": {
+          "before": 109883,
+          "after": 109875,
+          "delta": -8,
+          "trend": "up"
+        },
+        "points": {
+          "before": 1205,
+          "after": 1209,
+          "delta": 4,
+          "trend": "up"
+        },
+        "races": {
+          "before": 169,
+          "after": 170,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260430_182002_R.json",
       "finished_at": "2026-04-30T18:20:02",
@@ -14589,15 +14663,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 4,
-    "penalty_points": 5,
+    "penalty_count": 6,
+    "penalty_points": 8,
     "reasons": {
       "Trolling": 2,
-      "Cutting": 2
+      "Cutting": 3,
+      "None": 1
     },
     "types": {
-      "DriveThrough": 2,
-      "None": 2
+      "DriveThrough": 3,
+      "None": 3
     }
   }
 }
