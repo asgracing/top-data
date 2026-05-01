@@ -3,11 +3,11 @@
   "driver": "Lex Klex",
   "summary": {
     "points": 10,
-    "average_points_per_race": 2.0,
-    "races": 5,
+    "average_points_per_race": 1.67,
+    "races": 6,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 7.6,
+    "average_finish": 9.17,
     "best_lap": "1:48.117",
     "best_lap_ms": 108117,
     "best_lap_track": "monza",
@@ -19,47 +19,126 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T23:43:29",
-    "last_seen": "2026-05-01T23:43:29",
-    "average_pace_ms": 109715,
-    "average_pace": "1:49.715",
+    "last_race_at": "2026-05-02T00:21:44",
+    "last_seen": "2026-05-02T00:21:44",
+    "average_pace_ms": 109864,
+    "average_pace": "1:49.864",
     "win_rate": 0.0,
-    "podium_rate": 40.0,
-    "average_positions_delta": -4.75,
-    "positions_delta_races": 4,
+    "podium_rate": 33.33,
+    "average_positions_delta": -4.8,
+    "positions_delta_races": 5,
     "championship_rank": 1677,
     "bestlap_rank": 1299,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1676,
-        "after": 1677,
-        "delta": 1,
+      "average_finish": {
+        "before": 7.6,
+        "after": 9.17,
+        "delta": 1.57,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109715,
+        "after": 109864,
+        "delta": 149,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -4.75,
+        "after": -4.8,
+        "delta": -0.05,
+        "trend": "down"
+      },
+      "races": {
+        "before": 5,
+        "after": 6,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-01T23:43:29"
+    "latest_change_at": "2026-05-02T00:21:44"
   },
   "recent_form": [
+    17,
     44,
     13,
     2,
-    10,
-    3
+    10
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 2,
       "points": 10,
-      "finish_sum": 38,
-      "average_finish": 7.6,
+      "finish_sum": 55,
+      "average_finish": 9.17,
       "best_lap_ms": 108117,
       "best_lap": "1:48.117"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_002144_R.json",
+      "finished_at": "2026-05-02T00:21:44",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 17,
+      "participants_count": 42,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrei Soldatenkov [ASG]",
+      "points": 0,
+      "qualifying_position": 12,
+      "start_position": 12,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -5,
+      "positions_gained": 0,
+      "positions_lost": 5,
+      "best_lap": "1:49.422",
+      "best_lap_ms": 109422,
+      "total_time": "22:52.584",
+      "total_time_ms": 1372584,
+      "gap": "1:03.013",
+      "gap_ms": 63013,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.6,
+          "after": 9.17,
+          "delta": 1.57,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109715,
+          "after": 109864,
+          "delta": 149,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -4.75,
+          "after": -4.8,
+          "delta": -0.05,
+          "trend": "down"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_234329_R.json",
       "finished_at": "2026-05-01T23:43:29",
