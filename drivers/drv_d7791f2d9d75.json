@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 2,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 21.5,
+    "average_finish": 22.67,
     "best_lap": "1:48.195",
     "best_lap_ms": 108195,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-27T19:38:26",
-    "last_seen": "2026-04-27T19:38:26",
-    "average_pace_ms": 110535,
-    "average_pace": "1:50.535",
+    "last_race_at": "2026-05-01T19:15:41",
+    "last_seen": "2026-05-01T19:15:41",
+    "average_pace_ms": 110391,
+    "average_pace": "1:50.391",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -11.0,
-    "positions_delta_races": 2,
-    "championship_rank": 5259,
+    "positions_delta_races": 3,
+    "championship_rank": 5392,
     "bestlap_rank": 1416,
     "latest_changes": {
-      "championship_rank": {
-        "before": 5257,
-        "after": 5259,
-        "delta": 2,
+      "average_finish": {
+        "before": 21.5,
+        "after": 22.67,
+        "delta": 1.17,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110535,
+        "after": 110391,
+        "delta": -144,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 5259,
+        "after": 5392,
+        "delta": 133,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-01T18:37:18"
+    "latest_change_at": "2026-05-01T19:15:41"
   },
   "recent_form": [
+    25,
     26,
     17,
     46
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 43,
-      "average_finish": 21.5,
-      "best_lap_ms": 109427,
-      "best_lap": "1:49.427"
+      "finish_sum": 68,
+      "average_finish": 22.67,
+      "best_lap_ms": 108492,
+      "best_lap": "1:48.492"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260501_191541_R.json",
+      "finished_at": "2026-05-01T19:15:41",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 25,
+      "participants_count": 54,
+      "scoring_participants_count": 39,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Marco Segato [VRT]",
+      "points": 0,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -11,
+      "positions_gained": 0,
+      "positions_lost": 11,
+      "best_lap": "1:48.492",
+      "best_lap_ms": 108492,
+      "total_time": "8:49.626",
+      "total_time_ms": 529626,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 21.5,
+          "after": 22.67,
+          "delta": 1.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110535,
+          "after": 110391,
+          "delta": -144,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 5259,
+          "after": 5392,
+          "delta": 133,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 5259,
+        "after": 5392,
+        "delta": 133,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260427_193826_R.json",
       "finished_at": "2026-04-27T19:38:26",
