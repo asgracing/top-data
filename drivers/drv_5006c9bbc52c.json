@@ -2,14 +2,14 @@
   "public_id": "drv_5006c9bbc52c",
   "driver": "Ethan Grey",
   "summary": {
-    "points": 15,
-    "average_points_per_race": 15.0,
-    "races": 1,
-    "wins": 0,
-    "podiums": 1,
-    "average_finish": 3.0,
-    "best_lap": "1:47.575",
-    "best_lap_ms": 107575,
+    "points": 26,
+    "average_points_per_race": 13.0,
+    "races": 2,
+    "wins": 1,
+    "podiums": 2,
+    "average_finish": 2.0,
+    "best_lap": "1:47.487",
+    "best_lap_ms": 107487,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 25,
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
@@ -17,22 +17,72 @@
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
-    "fastest_lap_awards": 0,
+    "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-30T18:20:02",
-    "last_seen": "2026-04-30T18:20:02",
-    "average_pace_ms": 108306,
-    "average_pace": "1:48.306",
-    "win_rate": 0.0,
+    "last_race_at": "2026-05-01T10:27:10",
+    "last_seen": "2026-05-01T10:27:10",
+    "average_pace_ms": 108127,
+    "average_pace": "1:48.127",
+    "win_rate": 50.0,
     "podium_rate": 100.0,
-    "average_positions_delta": 21.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1235,
-    "bestlap_rank": 495,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-01T09:51:25"
+    "average_positions_delta": 16.5,
+    "positions_delta_races": 2,
+    "championship_rank": 757,
+    "bestlap_rank": 421,
+    "latest_changes": {
+      "average_finish": {
+        "before": 3.0,
+        "after": 2.0,
+        "delta": -1.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 108306,
+        "after": 108127,
+        "delta": -179,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 21.0,
+        "after": 16.5,
+        "delta": -4.5,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1235,
+        "after": 757,
+        "delta": -478,
+        "trend": "up"
+      },
+      "podiums": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      },
+      "points": {
+        "before": 15,
+        "after": 26,
+        "delta": 11,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      },
+      "wins": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-01T10:27:10"
   },
   "recent_form": [
+    1,
     41,
     3,
     39
@@ -40,17 +90,107 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
-      "wins": 0,
-      "podiums": 1,
-      "points": 15,
-      "finish_sum": 3,
-      "average_finish": 3.0,
-      "best_lap_ms": 107575,
-      "best_lap": "1:47.575"
+      "races": 2,
+      "wins": 1,
+      "podiums": 2,
+      "points": 26,
+      "finish_sum": 4,
+      "average_finish": 2.0,
+      "best_lap_ms": 107487,
+      "best_lap": "1:47.487"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260501_102710_R.json",
+      "finished_at": "2026-05-01T10:27:10",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 1,
+      "participants_count": 29,
+      "scoring_participants_count": 11,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Ethan Grey",
+      "points": 11,
+      "qualifying_position": 13,
+      "start_position": 13,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 12,
+      "positions_gained": 12,
+      "positions_lost": 0,
+      "best_lap": "1:47.487",
+      "best_lap_ms": 107487,
+      "total_time": "20:02.095",
+      "total_time_ms": 1202095,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 3.0,
+          "after": 2.0,
+          "delta": -1.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 108306,
+          "after": 108127,
+          "delta": -179,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 21.0,
+          "after": 16.5,
+          "delta": -4.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1235,
+          "after": 757,
+          "delta": -478,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 15,
+          "after": 26,
+          "delta": 11,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1235,
+        "after": 757,
+        "delta": -478,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260430_182002_R.json",
       "finished_at": "2026-04-30T18:20:02",
