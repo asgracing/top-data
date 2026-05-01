@@ -4,7 +4,7 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
     "average_finish": 17.0,
@@ -19,61 +19,128 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T21:05:19",
-    "last_seen": "2026-05-01T21:05:19",
-    "average_pace_ms": 110714,
-    "average_pace": "1:50.714",
+    "last_race_at": "2026-05-01T21:43:42",
+    "last_seen": "2026-05-01T21:43:42",
+    "average_pace_ms": 111184,
+    "average_pace": "1:51.184",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": null,
-    "positions_delta_races": 0,
-    "championship_rank": 4472,
-    "bestlap_rank": 4438,
+    "average_positions_delta": 0.0,
+    "positions_delta_races": 1,
+    "championship_rank": 4474,
+    "bestlap_rank": 4440,
     "latest_changes": {
-      "average_finish": {
-        "before": null,
-        "after": 17.0,
-        "delta": null,
-        "trend": "up"
-      },
       "average_pace_ms": {
+        "before": 110714,
+        "after": 111184,
+        "delta": 470,
+        "trend": "down"
+      },
+      "average_positions_delta": {
         "before": null,
-        "after": 110714,
+        "after": 0.0,
         "delta": null,
         "trend": "up"
       },
       "championship_rank": {
-        "before": 6386,
-        "after": 4472,
-        "delta": -1914,
-        "trend": "up"
+        "before": 4472,
+        "after": 4474,
+        "delta": 2,
+        "trend": "down"
       },
       "races": {
-        "before": 0,
-        "after": 1,
+        "before": 1,
+        "after": 2,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-01T21:05:19"
+    "latest_change_at": "2026-05-01T21:43:42"
   },
   "recent_form": [
+    17,
     17
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 17,
+      "finish_sum": 34,
       "average_finish": 17.0,
       "best_lap_ms": 110192,
       "best_lap": "1:50.192"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260501_214342_R.json",
+      "finished_at": "2026-05-01T21:43:42",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 17,
+      "participants_count": 39,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Stas Skliarov",
+      "points": 0,
+      "qualifying_position": 17,
+      "start_position": 17,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 0,
+      "positions_gained": 0,
+      "positions_lost": 0,
+      "best_lap": "1:51.640",
+      "best_lap_ms": 111640,
+      "total_time": "17:46.379",
+      "total_time_ms": 1066379,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 110714,
+          "after": 111184,
+          "delta": 470,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": null,
+          "after": 0.0,
+          "delta": null,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 4472,
+          "after": 4474,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 4472,
+        "after": 4474,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_210519_R.json",
       "finished_at": "2026-05-01T21:05:19",
