@@ -3,11 +3,11 @@
   "driver": "Matej Skedelj",
   "summary": {
     "points": 15,
-    "average_points_per_race": 5.0,
-    "races": 3,
+    "average_points_per_race": 3.75,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 13.67,
+    "average_finish": 15.25,
     "best_lap": "1:48.782",
     "best_lap_ms": 108782,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T13:37:08",
-    "last_seen": "2026-05-01T13:37:08",
-    "average_pace_ms": 110081,
-    "average_pace": "1:50.081",
+    "last_race_at": "2026-05-01T17:59:23",
+    "last_seen": "2026-05-01T17:59:23",
+    "average_pace_ms": 110002,
+    "average_pace": "1:50.002",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
+    "podium_rate": 25.0,
     "average_positions_delta": -5.33,
     "positions_delta_races": 3,
-    "championship_rank": 1288,
-    "bestlap_rank": 2401,
+    "championship_rank": 1294,
+    "bestlap_rank": 2406,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1287,
-        "after": 1288,
-        "delta": 1,
+      "average_finish": {
+        "before": 13.67,
+        "after": 15.25,
+        "delta": 1.58,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110081,
+        "after": 110002,
+        "delta": -79,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1288,
+        "after": 1294,
+        "delta": 6,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-01T17:21:17"
+    "latest_change_at": "2026-05-01T17:59:23"
   },
   "recent_form": [
+    20,
     3,
     23,
     15,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
       "points": 15,
-      "finish_sum": 41,
-      "average_finish": 13.67,
-      "best_lap_ms": 109052,
-      "best_lap": "1:49.052"
+      "finish_sum": 61,
+      "average_finish": 15.25,
+      "best_lap_ms": 108815,
+      "best_lap": "1:48.815"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260501_175923_R.json",
+      "finished_at": "2026-05-01T17:59:23",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 20,
+      "participants_count": 48,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Илья Космач",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.815",
+      "best_lap_ms": 108815,
+      "total_time": "21:58.658",
+      "total_time_ms": 1318658,
+      "gap": "0:31.163",
+      "gap_ms": 31163,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.67,
+          "after": 15.25,
+          "delta": 1.58,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110081,
+          "after": 110002,
+          "delta": -79,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1288,
+          "after": 1294,
+          "delta": 6,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1288,
+        "after": 1294,
+        "delta": 6,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_133708_R.json",
       "finished_at": "2026-05-01T13:37:08",
