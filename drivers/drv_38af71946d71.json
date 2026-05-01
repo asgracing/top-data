@@ -2,12 +2,12 @@
   "public_id": "drv_38af71946d71",
   "driver": "BERTIX2000 BERTIX2000",
   "summary": {
-    "points": 6,
-    "average_points_per_race": 2.0,
-    "races": 3,
-    "wins": 0,
-    "podiums": 0,
-    "average_finish": 6.67,
+    "points": 26,
+    "average_points_per_race": 6.5,
+    "races": 4,
+    "wins": 1,
+    "podiums": 1,
+    "average_finish": 5.25,
     "best_lap": "1:49.347",
     "best_lap_ms": 109347,
     "best_lap_track": "monza",
@@ -19,57 +19,70 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-02T02:15:51",
-    "last_seen": "2026-05-02T02:28:10",
-    "average_pace_ms": 112374,
-    "average_pace": "1:52.374",
-    "win_rate": 0.0,
-    "podium_rate": 0.0,
-    "average_positions_delta": 1.5,
-    "positions_delta_races": 2,
-    "championship_rank": 2275,
-    "bestlap_rank": 3846,
+    "last_race_at": "2026-05-02T02:52:58",
+    "last_seen": "2026-05-02T02:52:58",
+    "average_pace_ms": 111933,
+    "average_pace": "1:51.933",
+    "win_rate": 25.0,
+    "podium_rate": 25.0,
+    "average_positions_delta": 4.0,
+    "positions_delta_races": 3,
+    "championship_rank": 774,
+    "bestlap_rank": 3376,
     "latest_changes": {
       "average_finish": {
-        "before": 5.5,
-        "after": 6.67,
-        "delta": 1.17,
-        "trend": "down"
+        "before": 6.67,
+        "after": 5.25,
+        "delta": -1.42,
+        "trend": "up"
       },
       "average_pace_ms": {
-        "before": 111426,
-        "after": 112374,
-        "delta": 948,
-        "trend": "down"
+        "before": 112374,
+        "after": 111933,
+        "delta": -441,
+        "trend": "up"
       },
       "average_positions_delta": {
-        "before": 1.0,
-        "after": 1.5,
-        "delta": 0.5,
+        "before": 1.5,
+        "after": 4.0,
+        "delta": 2.5,
         "trend": "up"
       },
       "championship_rank": {
-        "before": 2661,
-        "after": 2275,
-        "delta": -386,
+        "before": 2275,
+        "after": 774,
+        "delta": -1501,
+        "trend": "up"
+      },
+      "podiums": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
         "trend": "up"
       },
       "points": {
-        "before": 4,
-        "after": 6,
-        "delta": 2,
+        "before": 6,
+        "after": 26,
+        "delta": 20,
         "trend": "up"
       },
       "races": {
-        "before": 2,
-        "after": 3,
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      },
+      "wins": {
+        "before": 0,
+        "after": 1,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-02T02:15:51"
+    "latest_change_at": "2026-05-02T02:52:58"
   },
   "recent_form": [
+    1,
     9,
     40,
     4,
@@ -78,17 +91,107 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
-      "wins": 0,
-      "podiums": 0,
-      "points": 6,
-      "finish_sum": 20,
-      "average_finish": 6.67,
+      "races": 4,
+      "wins": 1,
+      "podiums": 1,
+      "points": 26,
+      "finish_sum": 21,
+      "average_finish": 5.25,
       "best_lap_ms": 110060,
       "best_lap": "1:50.060"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_025258_R.json",
+      "finished_at": "2026-05-02T02:52:58",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 1,
+      "participants_count": 41,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "BERTIX2000 BERTIX2000",
+      "points": 20,
+      "qualifying_position": 10,
+      "start_position": 10,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 9,
+      "positions_gained": 9,
+      "positions_lost": 0,
+      "best_lap": "1:50.140",
+      "best_lap_ms": 110140,
+      "total_time": "20:27.216",
+      "total_time_ms": 1227216,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 6.67,
+          "after": 5.25,
+          "delta": -1.42,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 112374,
+          "after": 111933,
+          "delta": -441,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 1.5,
+          "after": 4.0,
+          "delta": 2.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2275,
+          "after": 774,
+          "delta": -1501,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 6,
+          "after": 26,
+          "delta": 20,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2275,
+        "after": 774,
+        "delta": -1501,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260502_021551_R.json",
       "finished_at": "2026-05-02T02:15:51",
