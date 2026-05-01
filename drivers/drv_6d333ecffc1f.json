@@ -3,11 +3,11 @@
   "driver": "Ilya Dukhnenko",
   "summary": {
     "points": 37,
-    "average_points_per_race": 9.25,
-    "races": 4,
+    "average_points_per_race": 7.4,
+    "races": 5,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 8.5,
+    "average_finish": 11.0,
     "best_lap": "1:49.510",
     "best_lap_ms": 109510,
     "best_lap_track": "monza",
@@ -19,40 +19,114 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-26T21:30:31",
-    "last_seen": "2026-04-26T21:30:31",
-    "average_pace_ms": 111633,
-    "average_pace": "1:51.633",
+    "last_race_at": "2026-05-02T00:59:41",
+    "last_seen": "2026-05-02T00:59:41",
+    "average_pace_ms": 111643,
+    "average_pace": "1:51.643",
     "win_rate": 0.0,
-    "podium_rate": 25.0,
+    "podium_rate": 20.0,
     "average_positions_delta": -1.0,
     "positions_delta_races": 2,
     "championship_rank": 574,
-    "bestlap_rank": 3632,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-02T00:21:44"
+    "bestlap_rank": 3633,
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.5,
+        "after": 11.0,
+        "delta": 2.5,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111633,
+        "after": 111643,
+        "delta": 10,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-02T00:59:41"
   },
   "recent_form": [
+    21,
     18,
     23,
     8,
-    22,
-    5
+    22
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 1,
       "points": 37,
-      "finish_sum": 34,
-      "average_finish": 8.5,
+      "finish_sum": 55,
+      "average_finish": 11.0,
       "best_lap_ms": 109510,
       "best_lap": "1:49.510"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_005941_R.json",
+      "finished_at": "2026-05-02T00:59:41",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 21,
+      "participants_count": 46,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Galileo Giorgianni",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.825",
+      "best_lap_ms": 111825,
+      "total_time": "22:29.085",
+      "total_time_ms": 1349085,
+      "gap": "0:50.133",
+      "gap_ms": 50133,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.5,
+          "after": 11.0,
+          "delta": 2.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111633,
+          "after": 111643,
+          "delta": 10,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260426_213031_R.json",
       "finished_at": "2026-04-26T21:30:31",
