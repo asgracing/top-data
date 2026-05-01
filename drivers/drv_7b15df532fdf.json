@@ -3,43 +3,68 @@
   "driver": "Sarayut Ratso",
   "summary": {
     "points": 2,
-    "average_points_per_race": 2.0,
-    "races": 1,
+    "average_points_per_race": 1.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 6.0,
-    "best_lap": "1:53.250",
-    "best_lap_ms": 113250,
+    "average_finish": 8.5,
+    "best_lap": "1:51.742",
+    "best_lap_ms": 111742,
     "best_lap_track": "monza",
-    "best_lap_car_model_id": 25,
-    "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
-    "best_lap_car_name": "Mercedes-AMG GT3",
+    "best_lap_car_model_id": 8,
+    "best_lap_car_name_raw": "Bentley Continental GT3 2018",
+    "best_lap_car_name": "Bentley Continental GT3",
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-29T15:44:46",
-    "last_seen": "2026-04-29T15:44:46",
-    "average_pace_ms": 115518,
-    "average_pace": "1:55.518",
+    "last_race_at": "2026-05-01T14:52:06",
+    "last_seen": "2026-05-01T14:52:06",
+    "average_pace_ms": 114456,
+    "average_pace": "1:54.456",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 3.0,
-    "positions_delta_races": 1,
-    "championship_rank": 3082,
-    "bestlap_rank": 5792,
+    "average_positions_delta": 10.0,
+    "positions_delta_races": 2,
+    "championship_rank": 3124,
+    "bestlap_rank": 5439,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3081,
-        "after": 3082,
-        "delta": 1,
+      "average_finish": {
+        "before": 6.0,
+        "after": 8.5,
+        "delta": 2.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 115518,
+        "after": 114456,
+        "delta": -1062,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 3.0,
+        "after": 10.0,
+        "delta": 7.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3082,
+        "after": 3124,
+        "delta": 42,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-01T14:13:32"
+    "latest_change_at": "2026-05-01T14:52:06"
   },
   "recent_form": [
+    11,
     2,
     23,
     6
@@ -47,17 +72,89 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 6,
-      "average_finish": 6.0,
-      "best_lap_ms": 113250,
-      "best_lap": "1:53.250"
+      "finish_sum": 17,
+      "average_finish": 8.5,
+      "best_lap_ms": 111742,
+      "best_lap": "1:51.742"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260501_145206_R.json",
+      "finished_at": "2026-05-01T14:52:06",
+      "track": "monza",
+      "car_model_id": 8,
+      "car_name_raw": "Bentley Continental GT3 2018",
+      "car_name": "Bentley Continental GT3",
+      "position": 11,
+      "participants_count": 48,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "nico rodder",
+      "points": 0,
+      "qualifying_position": 28,
+      "start_position": 28,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 17,
+      "positions_gained": 17,
+      "positions_lost": 0,
+      "best_lap": "1:51.742",
+      "best_lap_ms": 111742,
+      "total_time": "22:56.754",
+      "total_time_ms": 1376754,
+      "gap": "1:01.706",
+      "gap_ms": 61706,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 6.0,
+          "after": 8.5,
+          "delta": 2.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 115518,
+          "after": 114456,
+          "delta": -1062,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 3.0,
+          "after": 10.0,
+          "delta": 7.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3082,
+          "after": 3124,
+          "delta": 42,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3082,
+        "after": 3124,
+        "delta": 42,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260429_154446_R.json",
       "finished_at": "2026-04-29T15:44:46",
