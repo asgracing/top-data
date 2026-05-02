@@ -3,11 +3,11 @@
   "driver": "Alex [AU]",
   "summary": {
     "points": 26,
-    "average_points_per_race": 8.67,
-    "races": 3,
+    "average_points_per_race": 6.5,
+    "races": 4,
     "wins": 2,
     "podiums": 2,
-    "average_finish": 2.33,
+    "average_finish": 8.5,
     "best_lap": "1:47.865",
     "best_lap_ms": 107865,
     "best_lap_track": "monza",
@@ -15,44 +15,135 @@
     "best_lap_car_name_raw": "Bentley Continental GT3 2018",
     "best_lap_car_name": "Bentley Continental GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T08:39:40",
-    "last_seen": "2026-05-01T08:39:40",
+    "last_race_at": "2026-05-02T15:34:27",
+    "last_seen": "2026-05-02T15:34:27",
     "average_pace_ms": 109870,
     "average_pace": "1:49.870",
-    "win_rate": 66.67,
-    "podium_rate": 66.67,
-    "average_positions_delta": 3.33,
-    "positions_delta_races": 3,
-    "championship_rank": 767,
+    "win_rate": 50.0,
+    "podium_rate": 50.0,
+    "average_positions_delta": 4.0,
+    "positions_delta_races": 4,
+    "championship_rank": 769,
     "bestlap_rank": 897,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-02T14:54:02"
+    "latest_changes": {
+      "average_finish": {
+        "before": 2.33,
+        "after": 8.5,
+        "delta": 6.17,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 3.33,
+        "after": 4.0,
+        "delta": 0.67,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 767,
+        "after": 769,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-02T15:34:27"
   },
   "recent_form": [
+    27,
     9,
     1,
     1,
-    17,
-    13
+    17
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 2,
       "podiums": 2,
       "points": 26,
-      "finish_sum": 7,
-      "average_finish": 2.33,
+      "finish_sum": 34,
+      "average_finish": 8.5,
       "best_lap_ms": 107865,
       "best_lap": "1:47.865"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_153426_R.json",
+      "finished_at": "2026-05-02T15:34:27",
+      "track": "monza",
+      "car_model_id": 8,
+      "car_name_raw": "Bentley Continental GT3 2018",
+      "car_name": "Bentley Continental GT3",
+      "position": 27,
+      "participants_count": 41,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Max Masters",
+      "points": 0,
+      "qualifying_position": 33,
+      "start_position": 33,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 6,
+      "positions_gained": 6,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "3:18.016",
+      "total_time_ms": 198016,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.33,
+          "after": 8.5,
+          "delta": 6.17,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 3.33,
+          "after": 4.0,
+          "delta": 0.67,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 767,
+          "after": 769,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 767,
+        "after": 769,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_083940_R.json",
       "finished_at": "2026-05-01T08:39:40",
@@ -433,9 +524,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
