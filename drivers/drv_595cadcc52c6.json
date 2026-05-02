@@ -2,14 +2,14 @@
   "public_id": "drv_595cadcc52c6",
   "driver": "Dale Earnhardt",
   "summary": {
-    "points": 1,
-    "average_points_per_race": 1.0,
-    "races": 1,
+    "points": 7,
+    "average_points_per_race": 3.5,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 9.0,
-    "best_lap": "1:48.907",
-    "best_lap_ms": 108907,
+    "average_finish": 8.0,
+    "best_lap": "1:48.840",
+    "best_lap_ms": 108840,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 14,
     "best_lap_car_name_raw": "Jaguar G3",
@@ -19,44 +19,153 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-06T00:43:00",
-    "last_seen": "2026-04-06T00:43:00",
-    "average_pace_ms": 109368,
-    "average_pace": "1:49.368",
+    "last_race_at": "2026-05-02T23:42:39",
+    "last_seen": "2026-05-02T23:42:39",
+    "average_pace_ms": 110233,
+    "average_pace": "1:50.233",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 25.0,
-    "positions_delta_races": 1,
-    "championship_rank": 3496,
-    "bestlap_rank": 2683,
+    "average_positions_delta": 27.0,
+    "positions_delta_races": 2,
+    "championship_rank": 2195,
+    "bestlap_rank": 2571,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3493,
-        "after": 3496,
-        "delta": 3,
+      "average_finish": {
+        "before": 9.0,
+        "after": 8.0,
+        "delta": -1.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109368,
+        "after": 110233,
+        "delta": 865,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 25.0,
+        "after": 27.0,
+        "delta": 2.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3496,
+        "after": 2195,
+        "delta": -1301,
+        "trend": "up"
+      },
+      "points": {
+        "before": 1,
+        "after": 7,
+        "delta": 6,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-02T23:04:35"
+    "latest_change_at": "2026-05-02T23:42:39"
   },
   "recent_form": [
+    7,
     32,
     9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
-      "points": 1,
-      "finish_sum": 9,
-      "average_finish": 9.0,
-      "best_lap_ms": 108907,
-      "best_lap": "1:48.907"
+      "points": 7,
+      "finish_sum": 16,
+      "average_finish": 8.0,
+      "best_lap_ms": 108840,
+      "best_lap": "1:48.840"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_234239_R.json",
+      "finished_at": "2026-05-02T23:42:39",
+      "track": "monza",
+      "car_model_id": 14,
+      "car_name_raw": "Jaguar G3",
+      "car_name": "Jaguar G3",
+      "position": 7,
+      "participants_count": 52,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Peter Diem",
+      "points": 6,
+      "qualifying_position": 36,
+      "start_position": 36,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 29,
+      "positions_gained": 29,
+      "positions_lost": 0,
+      "best_lap": "1:48.840",
+      "best_lap_ms": 108840,
+      "total_time": "22:13.415",
+      "total_time_ms": 1333415,
+      "gap": "0:30.010",
+      "gap_ms": 30010,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.0,
+          "after": 8.0,
+          "delta": -1.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109368,
+          "after": 110233,
+          "delta": 865,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 25.0,
+          "after": 27.0,
+          "delta": 2.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3496,
+          "after": 2195,
+          "delta": -1301,
+          "trend": "up"
+        },
+        "points": {
+          "before": 1,
+          "after": 7,
+          "delta": 6,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3496,
+        "after": 2195,
+        "delta": -1301,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/sunset/sunset_260406_004300_R.json",
       "finished_at": "2026-04-06T00:43:00",
