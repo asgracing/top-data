@@ -3,11 +3,11 @@
   "driver": "88 NickCola | S24",
   "summary": {
     "points": 5,
-    "average_points_per_race": 2.5,
-    "races": 2,
+    "average_points_per_race": 1.67,
+    "races": 3,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 2.5,
+    "average_finish": 8.33,
     "best_lap": "1:48.935",
     "best_lap_ms": 108935,
     "best_lap_track": "monza",
@@ -15,48 +15,121 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 1,
-    "penalty_points": 2,
+    "penalty_count": 2,
+    "penalty_points": 4,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-25T03:42:43",
-    "last_seen": "2026-03-25T03:42:43",
+    "last_race_at": "2026-05-02T03:29:34",
+    "last_seen": "2026-05-02T03:29:34",
     "average_pace_ms": 118125,
     "average_pace": "1:58.125",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
+    "podium_rate": 66.67,
     "average_positions_delta": 0.5,
     "positions_delta_races": 2,
-    "championship_rank": 2441,
-    "bestlap_rank": 2696,
+    "championship_rank": 2443,
+    "bestlap_rank": 2697,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2437,
-        "after": 2441,
-        "delta": 4,
+      "average_finish": {
+        "before": 2.5,
+        "after": 8.33,
+        "delta": 5.83,
         "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2441,
+        "after": 2443,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-02T02:52:58"
+    "latest_change_at": "2026-05-02T03:29:34"
   },
   "recent_form": [
+    20,
     3,
     2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 2,
       "points": 5,
-      "finish_sum": 5,
-      "average_finish": 2.5,
+      "finish_sum": 25,
+      "average_finish": 8.33,
       "best_lap_ms": 108935,
       "best_lap": "1:48.935"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_032934_R.json",
+      "finished_at": "2026-05-02T03:29:34",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 20,
+      "participants_count": 32,
+      "scoring_participants_count": 21,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Manuel Manubri [RWL]",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "21:30.759",
+      "total_time_ms": 1290759,
+      "gap": "1:17.613",
+      "gap_ms": 77613,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 2.5,
+          "after": 8.33,
+          "delta": 5.83,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2441,
+          "after": 2443,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2441,
+        "after": 2443,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260325_034243_R.json",
       "finished_at": "2026-03-25T03:42:43",
@@ -227,13 +300,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 2,
+    "penalty_count": 2,
+    "penalty_points": 4,
     "reasons": {
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
-      "StopAndGo_10": 1
+      "StopAndGo_10": 1,
+      "StopAndGo_30": 1
     }
   }
 }
