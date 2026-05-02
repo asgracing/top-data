@@ -3,11 +3,11 @@
   "driver": "alex flamov",
   "summary": {
     "points": 24,
-    "average_points_per_race": 3.43,
-    "races": 7,
+    "average_points_per_race": 3.0,
+    "races": 8,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.43,
+    "average_finish": 15.25,
     "best_lap": "1:48.262",
     "best_lap_ms": 108262,
     "best_lap_track": "monza",
@@ -19,10 +19,10 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T23:43:29",
-    "last_seen": "2026-05-01T23:43:29",
-    "average_pace_ms": 109917,
-    "average_pace": "1:49.917",
+    "last_race_at": "2026-05-02T21:09:05",
+    "last_seen": "2026-05-02T21:09:05",
+    "average_pace_ms": 109833,
+    "average_pace": "1:49.833",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 0.25,
@@ -30,36 +30,103 @@
     "championship_rank": 917,
     "bestlap_rank": 1539,
     "latest_changes": {
-      "championship_rank": {
-        "before": 916,
-        "after": 917,
-        "delta": 1,
+      "average_finish": {
+        "before": 14.43,
+        "after": 15.25,
+        "delta": 0.82,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109917,
+        "after": 109833,
+        "delta": -84,
+        "trend": "up"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-02T20:32:52"
+    "latest_change_at": "2026-05-02T21:09:05"
   },
   "recent_form": [
+    21,
     40,
     21,
     22,
-    7,
-    16
+    7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 0,
       "points": 24,
-      "finish_sum": 101,
-      "average_finish": 14.43,
+      "finish_sum": 122,
+      "average_finish": 15.25,
       "best_lap_ms": 108280,
       "best_lap": "1:48.280"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260502_210905_R.json",
+      "finished_at": "2026-05-02T21:09:05",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 21,
+      "participants_count": 55,
+      "scoring_participants_count": 34,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "L Brown (RMP)",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.325",
+      "best_lap_ms": 108325,
+      "total_time": "21:22.213",
+      "total_time_ms": 1282213,
+      "gap": "1:19.779",
+      "gap_ms": 79779,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 14.43,
+          "after": 15.25,
+          "delta": 0.82,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109917,
+          "after": 109833,
+          "delta": -84,
+          "trend": "up"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_234329_R.json",
       "finished_at": "2026-05-01T23:43:29",
