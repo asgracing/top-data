@@ -3,11 +3,11 @@
   "driver": "Mr .K",
   "summary": {
     "points": 87,
-    "average_points_per_race": 4.14,
-    "races": 21,
+    "average_points_per_race": 3.95,
+    "races": 22,
     "wins": 1,
     "podiums": 3,
-    "average_finish": 15.24,
+    "average_finish": 15.82,
     "best_lap": "1:46.675",
     "best_lap_ms": 106675,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 5,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "fastest_lap_awards": 8,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T20:28:39",
-    "last_seen": "2026-05-01T20:28:39",
-    "average_pace_ms": 108670,
-    "average_pace": "1:48.670",
-    "win_rate": 4.76,
-    "podium_rate": 14.29,
+    "last_race_at": "2026-05-03T23:03:42",
+    "last_seen": "2026-05-03T23:03:42",
+    "average_pace_ms": 108652,
+    "average_pace": "1:48.652",
+    "win_rate": 4.55,
+    "podium_rate": 13.64,
     "average_positions_delta": 3.88,
     "positions_delta_races": 16,
     "championship_rank": 231,
     "bestlap_rank": 42,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-03T22:24:03"
+    "latest_changes": {
+      "average_finish": {
+        "before": 15.24,
+        "after": 15.82,
+        "delta": 0.58,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108670,
+        "after": 108652,
+        "delta": -18,
+        "trend": "up"
+      },
+      "races": {
+        "before": 21,
+        "after": 22,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-03T23:03:42"
   },
   "recent_form": [
+    28,
     16,
     31,
     30,
-    26,
-    48
+    26
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 21,
+      "races": 22,
       "wins": 1,
       "podiums": 3,
       "points": 87,
-      "finish_sum": 320,
-      "average_finish": 15.24,
+      "finish_sum": 348,
+      "average_finish": 15.82,
       "best_lap_ms": 106675,
       "best_lap": "1:46.675"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260503_230342_R.json",
+      "finished_at": "2026-05-03T23:03:42",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 28,
+      "participants_count": 46,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Max Hohlov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.395",
+      "best_lap_ms": 107395,
+      "total_time": "13:58.849",
+      "total_time_ms": 838849,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 15.24,
+          "after": 15.82,
+          "delta": 0.58,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108670,
+          "after": 108652,
+          "delta": -18,
+          "trend": "up"
+        },
+        "races": {
+          "before": 21,
+          "after": 22,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_202839_R.json",
       "finished_at": "2026-05-01T20:28:39",
@@ -2104,14 +2178,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 5,
+    "penalty_count": 3,
+    "penalty_points": 8,
     "reasons": {
-      "Cutting": 1,
+      "Cutting": 2,
       "Trolling": 1
     },
     "types": {
-      "DriveThrough": 1,
+      "DriveThrough": 2,
       "Disqualified": 1
     }
   }
