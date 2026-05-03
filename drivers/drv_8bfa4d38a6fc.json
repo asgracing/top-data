@@ -3,11 +3,11 @@
   "driver": "R A",
   "summary": {
     "points": 223,
-    "average_points_per_race": 7.96,
-    "races": 28,
+    "average_points_per_race": 7.69,
+    "races": 29,
     "wins": 3,
     "podiums": 9,
-    "average_finish": 8.82,
+    "average_finish": 9.31,
     "best_lap": "1:47.560",
     "best_lap_ms": 107560,
     "best_lap_track": "monza",
@@ -19,40 +19,114 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-02T19:17:47",
-    "last_seen": "2026-05-02T19:17:47",
-    "average_pace_ms": 109343,
-    "average_pace": "1:49.343",
-    "win_rate": 10.71,
-    "podium_rate": 32.14,
+    "last_race_at": "2026-05-03T14:52:27",
+    "last_seen": "2026-05-03T14:52:27",
+    "average_pace_ms": 109345,
+    "average_pace": "1:49.345",
+    "win_rate": 10.34,
+    "podium_rate": 31.03,
     "average_positions_delta": 1.83,
     "positions_delta_races": 24,
     "championship_rank": 74,
     "bestlap_rank": 505,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-03T14:15:38"
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.82,
+        "after": 9.31,
+        "delta": 0.49,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109343,
+        "after": 109345,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 28,
+        "after": 29,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-03T14:52:27"
   },
   "recent_form": [
+    23,
     39,
     33,
     3,
-    8,
-    19
+    8
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 28,
+      "races": 29,
       "wins": 3,
       "podiums": 9,
       "points": 223,
-      "finish_sum": 247,
-      "average_finish": 8.82,
+      "finish_sum": 270,
+      "average_finish": 9.31,
       "best_lap_ms": 107560,
       "best_lap": "1:47.560"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260503_145227_R.json",
+      "finished_at": "2026-05-03T14:52:27",
+      "track": "monza",
+      "car_model_id": 12,
+      "car_name_raw": "Aston Martin V12 Vantage GT3",
+      "car_name": "Aston Martin V12 Vantage GT3",
+      "position": 23,
+      "participants_count": 45,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "maj herbstritt",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.470",
+      "best_lap_ms": 109470,
+      "total_time": "19:53.777",
+      "total_time_ms": 1193777,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.82,
+          "after": 9.31,
+          "delta": 0.49,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109343,
+          "after": 109345,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 28,
+          "after": 29,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260502_191747_R.json",
       "finished_at": "2026-05-02T19:17:47",
