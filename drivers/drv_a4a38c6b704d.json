@@ -3,13 +3,13 @@
   "driver": "Bruno Aguiar",
   "summary": {
     "points": 8,
-    "average_points_per_race": 4.0,
-    "races": 2,
+    "average_points_per_race": 2.67,
+    "races": 3,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 2.0,
-    "best_lap": "1:48.477",
-    "best_lap_ms": 108477,
+    "average_finish": 5.67,
+    "best_lap": "1:48.022",
+    "best_lap_ms": 108022,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 32,
     "best_lap_car_name_raw": "Ferrari 296 GT3",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-02T07:18:46",
-    "last_seen": "2026-05-02T07:18:46",
-    "average_pace_ms": 109453,
-    "average_pace": "1:49.453",
+    "last_race_at": "2026-05-04T02:48:31",
+    "last_seen": "2026-05-04T02:48:31",
+    "average_pace_ms": 109131,
+    "average_pace": "1:49.131",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
+    "podium_rate": 66.67,
     "average_positions_delta": 9.0,
     "positions_delta_races": 2,
-    "championship_rank": 1979,
-    "bestlap_rank": 1989,
+    "championship_rank": 1983,
+    "bestlap_rank": 1178,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1978,
-        "after": 1979,
-        "delta": 1,
+      "average_finish": {
+        "before": 2.0,
+        "after": 5.67,
+        "delta": 3.67,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109453,
+        "after": 109131,
+        "delta": -322,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1979,
+        "after": 1983,
+        "delta": 4,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-04T02:11:42"
+    "latest_change_at": "2026-05-04T02:48:31"
   },
   "recent_form": [
+    13,
     11,
     2,
     15,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 2,
       "points": 8,
-      "finish_sum": 4,
-      "average_finish": 2.0,
-      "best_lap_ms": 108477,
-      "best_lap": "1:48.477"
+      "finish_sum": 17,
+      "average_finish": 5.67,
+      "best_lap_ms": 108022,
+      "best_lap": "1:48.022"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260504_024831_R.json",
+      "finished_at": "2026-05-04T02:48:31",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 13,
+      "participants_count": 27,
+      "scoring_participants_count": 20,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "David Knight",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.022",
+      "best_lap_ms": 108022,
+      "total_time": "21:08.078",
+      "total_time_ms": 1268078,
+      "gap": "0:43.119",
+      "gap_ms": 43119,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.0,
+          "after": 5.67,
+          "delta": 3.67,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109453,
+          "after": 109131,
+          "delta": -322,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1979,
+          "after": 1983,
+          "delta": 4,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1979,
+        "after": 1983,
+        "delta": 4,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260502_071846_R.json",
       "finished_at": "2026-05-02T07:18:46",
