@@ -3,11 +3,11 @@
   "driver": "Alexander Deryabin",
   "summary": {
     "points": 128,
-    "average_points_per_race": 18.29,
-    "races": 7,
+    "average_points_per_race": 16.0,
+    "races": 8,
     "wins": 4,
     "podiums": 5,
-    "average_finish": 3.43,
+    "average_finish": 5.62,
     "best_lap": "1:46.950",
     "best_lap_ms": 106950,
     "best_lap_track": "monza",
@@ -19,40 +19,114 @@
     "penalty_points": 0,
     "fastest_lap_awards": 3,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-26T02:22:25",
-    "last_seen": "2026-04-26T02:22:25",
-    "average_pace_ms": 108036,
-    "average_pace": "1:48.036",
-    "win_rate": 57.14,
-    "podium_rate": 71.43,
+    "last_race_at": "2026-05-06T00:57:24",
+    "last_seen": "2026-05-06T00:57:24",
+    "average_pace_ms": 108191,
+    "average_pace": "1:48.191",
+    "win_rate": 50.0,
+    "podium_rate": 62.5,
     "average_positions_delta": 0.29,
     "positions_delta_races": 7,
     "championship_rank": 152,
     "bestlap_rank": 109,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-06T00:19:17"
+    "latest_changes": {
+      "average_finish": {
+        "before": 3.43,
+        "after": 5.62,
+        "delta": 2.19,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108036,
+        "after": 108191,
+        "delta": 155,
+        "trend": "down"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-06T00:57:24"
   },
   "recent_form": [
+    21,
     24,
     2,
     1,
-    1,
-    38
+    1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 4,
       "podiums": 5,
       "points": 128,
-      "finish_sum": 24,
-      "average_finish": 3.43,
+      "finish_sum": 45,
+      "average_finish": 5.62,
       "best_lap_ms": 107070,
       "best_lap": "1:47.070"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260506_005724_R.json",
+      "finished_at": "2026-05-06T00:57:24",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 21,
+      "participants_count": 40,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Mücahit Yardım",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.427",
+      "best_lap_ms": 107427,
+      "total_time": "14:18.432",
+      "total_time_ms": 858432,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 3.43,
+          "after": 5.62,
+          "delta": 2.19,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108036,
+          "after": 108191,
+          "delta": 155,
+          "trend": "down"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260426_022225_R.json",
       "finished_at": "2026-04-26T02:22:25",
