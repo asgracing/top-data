@@ -3,11 +3,11 @@
   "driver": "ANTON SHCHEGOLEV",
   "summary": {
     "points": 6,
-    "average_points_per_race": 3.0,
-    "races": 2,
+    "average_points_per_race": 2.0,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 9.5,
+    "average_finish": 13.0,
     "best_lap": "1:48.697",
     "best_lap_ms": 108697,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-02T21:46:41",
-    "last_seen": "2026-05-02T21:46:41",
-    "average_pace_ms": 111076,
-    "average_pace": "1:51.076",
+    "last_race_at": "2026-05-05T20:28:37",
+    "last_seen": "2026-05-05T20:28:37",
+    "average_pace_ms": 110820,
+    "average_pace": "1:50.820",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 4.0,
     "positions_delta_races": 2,
-    "championship_rank": 2463,
-    "bestlap_rank": 2409,
+    "championship_rank": 2491,
+    "bestlap_rank": 2410,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2462,
-        "after": 2463,
-        "delta": 1,
+      "average_finish": {
+        "before": 9.5,
+        "after": 13.0,
+        "delta": 3.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111076,
+        "after": 110820,
+        "delta": -256,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2463,
+        "after": 2491,
+        "delta": 28,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-05T19:50:42"
+    "latest_change_at": "2026-05-05T20:28:37"
   },
   "recent_form": [
+    20,
     12,
     7,
     57
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 6,
-      "finish_sum": 19,
-      "average_finish": 9.5,
+      "finish_sum": 39,
+      "average_finish": 13.0,
       "best_lap_ms": 108992,
       "best_lap": "1:48.992"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260505_202837_R.json",
+      "finished_at": "2026-05-05T20:28:37",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 20,
+      "participants_count": 59,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Ralf Kap",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.260",
+      "best_lap_ms": 109260,
+      "total_time": "21:54.579",
+      "total_time_ms": 1314579,
+      "gap": "0:21.941",
+      "gap_ms": 21941,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.5,
+          "after": 13.0,
+          "delta": 3.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111076,
+          "after": 110820,
+          "delta": -256,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2463,
+          "after": 2491,
+          "delta": 28,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2463,
+        "after": 2491,
+        "delta": 28,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260502_214641_R.json",
       "finished_at": "2026-05-02T21:46:41",
