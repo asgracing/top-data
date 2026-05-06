@@ -3,11 +3,11 @@
   "driver": "Jack Petushitel",
   "summary": {
     "points": 531,
-    "average_points_per_race": 8.56,
-    "races": 62,
+    "average_points_per_race": 8.43,
+    "races": 63,
     "wins": 10,
     "podiums": 21,
-    "average_finish": 11.15,
+    "average_finish": 11.25,
     "best_lap": "1:47.102",
     "best_lap_ms": 107102,
     "best_lap_track": "monza",
@@ -19,40 +19,114 @@
     "penalty_points": 11,
     "fastest_lap_awards": 3,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-04T16:28:18",
-    "last_seen": "2026-05-04T16:28:18",
-    "average_pace_ms": 108902,
-    "average_pace": "1:48.902",
-    "win_rate": 16.13,
-    "podium_rate": 33.87,
+    "last_race_at": "2026-05-06T19:24:37",
+    "last_seen": "2026-05-06T19:24:37",
+    "average_pace_ms": 108892,
+    "average_pace": "1:48.892",
+    "win_rate": 15.87,
+    "podium_rate": 33.33,
     "average_positions_delta": -1.53,
     "positions_delta_races": 51,
     "championship_rank": 31,
     "bestlap_rank": 181,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-06T18:46:39"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.15,
+        "after": 11.25,
+        "delta": 0.1,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108902,
+        "after": 108892,
+        "delta": -10,
+        "trend": "up"
+      },
+      "races": {
+        "before": 62,
+        "after": 63,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-06T19:24:37"
   },
   "recent_form": [
+    18,
     1,
     2,
     8,
-    33,
-    2
+    33
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 62,
+      "races": 63,
       "wins": 10,
       "podiums": 21,
       "points": 531,
-      "finish_sum": 691,
-      "average_finish": 11.15,
+      "finish_sum": 709,
+      "average_finish": 11.25,
       "best_lap_ms": 107320,
       "best_lap": "1:47.320"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260506_192437_R.json",
+      "finished_at": "2026-05-06T19:24:37",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 18,
+      "participants_count": 58,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Matej Dobal",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.457",
+      "best_lap_ms": 107457,
+      "total_time": "22:41.936",
+      "total_time_ms": 1361936,
+      "gap": "0:59.383",
+      "gap_ms": 59383,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.15,
+          "after": 11.25,
+          "delta": 0.1,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108902,
+          "after": 108892,
+          "delta": -10,
+          "trend": "up"
+        },
+        "races": {
+          "before": 62,
+          "after": 63,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260504_162817_R.json",
       "finished_at": "2026-05-04T16:28:18",
