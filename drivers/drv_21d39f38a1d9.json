@@ -3,11 +3,11 @@
   "driver": "fabien_208",
   "summary": {
     "points": 12,
-    "average_points_per_race": 1.71,
-    "races": 7,
+    "average_points_per_race": 1.5,
+    "races": 8,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 21.29,
+    "average_finish": 20.62,
     "best_lap": "1:47.885",
     "best_lap_ms": 107885,
     "best_lap_track": "monza",
@@ -15,44 +15,123 @@
     "best_lap_car_name_raw": "Porsche 992 GT3 R",
     "best_lap_car_name": "Porsche 992 GT3 R",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-06T11:27:04",
-    "last_seen": "2026-05-06T11:27:04",
+    "last_race_at": "2026-05-06T12:03:03",
+    "last_seen": "2026-05-06T12:03:03",
     "average_pace_ms": 109423,
     "average_pace": "1:49.423",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 4.83,
     "positions_delta_races": 6,
-    "championship_rank": 1732,
+    "championship_rank": 1734,
     "bestlap_rank": 987,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-06T11:27:04"
+    "latest_changes": {
+      "average_finish": {
+        "before": 21.29,
+        "after": 20.62,
+        "delta": -0.67,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1732,
+        "after": 1734,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 7,
+        "after": 8,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-06T12:03:03"
   },
   "recent_form": [
+    16,
     20,
     17,
     27,
-    30,
-    34
+    30
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 7,
+      "races": 8,
       "wins": 0,
       "podiums": 0,
       "points": 12,
-      "finish_sum": 149,
-      "average_finish": 21.29,
+      "finish_sum": 165,
+      "average_finish": 20.62,
       "best_lap_ms": 107885,
       "best_lap": "1:47.885"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260506_120303_R.json",
+      "finished_at": "2026-05-06T12:03:03",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 16,
+      "participants_count": 24,
+      "scoring_participants_count": 17,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Watashiwa Kamidesu",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "18:02.679",
+      "total_time_ms": 1082679,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 21.29,
+          "after": 20.62,
+          "delta": -0.67,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1732,
+          "after": 1734,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 7,
+          "after": 8,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1732,
+        "after": 1734,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260506_112704_R.json",
       "finished_at": "2026-05-06T11:27:04",
@@ -847,9 +926,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 2,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1
+    }
   }
 }
