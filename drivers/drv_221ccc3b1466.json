@@ -3,11 +3,11 @@
   "driver": "Murat Kagirov",
   "summary": {
     "points": 20,
-    "average_points_per_race": 10.0,
-    "races": 2,
+    "average_points_per_race": 6.67,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.0,
+    "average_finish": 14.0,
     "best_lap": "1:50.265",
     "best_lap_ms": 110265,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-30T22:45:11",
-    "last_seen": "2026-04-30T22:45:11",
-    "average_pace_ms": 112096,
-    "average_pace": "1:52.096",
+    "last_race_at": "2026-05-06T15:40:35",
+    "last_seen": "2026-05-06T15:40:35",
+    "average_pace_ms": 112326,
+    "average_pace": "1:52.326",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 15.0,
     "positions_delta_races": 2,
-    "championship_rank": 1097,
-    "bestlap_rank": 4830,
+    "championship_rank": 1100,
+    "bestlap_rank": 4831,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1096,
-        "after": 1097,
-        "delta": 1,
+      "average_finish": {
+        "before": 12.0,
+        "after": 14.0,
+        "delta": 2.0,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112096,
+        "after": 112326,
+        "delta": 230,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1097,
+        "after": 1100,
+        "delta": 3,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-06T15:04:22"
+    "latest_change_at": "2026-05-06T15:40:35"
   },
   "recent_form": [
+    18,
     36,
     13,
     11,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 24,
-      "average_finish": 12.0,
+      "finish_sum": 42,
+      "average_finish": 14.0,
       "best_lap_ms": 110265,
       "best_lap": "1:50.265"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260506_154035_R.json",
+      "finished_at": "2026-05-06T15:40:35",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 18,
+      "participants_count": 36,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Peter Rugli",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:54.160",
+      "best_lap_ms": 114160,
+      "total_time": "17:31.994",
+      "total_time_ms": 1051994,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.0,
+          "after": 14.0,
+          "delta": 2.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112096,
+          "after": 112326,
+          "delta": 230,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1097,
+          "after": 1100,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1097,
+        "after": 1100,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260430_224511_R.json",
       "finished_at": "2026-04-30T22:45:11",
