@@ -3,13 +3,13 @@
   "driver": "Alexey Kulkov",
   "summary": {
     "points": 2,
-    "average_points_per_race": 2.0,
-    "races": 1,
+    "average_points_per_race": 1.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 9.0,
-    "best_lap": "1:50.415",
-    "best_lap_ms": 110415,
+    "average_finish": 14.5,
+    "best_lap": "1:48.977",
+    "best_lap_ms": 108977,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 31,
     "best_lap_car_name_raw": "Audi R8 LMS GT3 evo II",
@@ -19,43 +19,140 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-03-22T14:57:50",
-    "last_seen": "2026-03-22T14:57:50",
-    "average_pace_ms": 111531,
-    "average_pace": "1:51.531",
+    "last_race_at": "2026-05-06T21:17:59",
+    "last_seen": "2026-05-06T21:17:59",
+    "average_pace_ms": 111328,
+    "average_pace": "1:51.328",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 2.0,
-    "positions_delta_races": 1,
-    "championship_rank": 3389,
-    "bestlap_rank": 5003,
+    "average_positions_delta": 7.5,
+    "positions_delta_races": 2,
+    "championship_rank": 3565,
+    "bestlap_rank": 2971,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3387,
-        "after": 3389,
-        "delta": 2,
+      "average_finish": {
+        "before": 9.0,
+        "after": 14.5,
+        "delta": 5.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111531,
+        "after": 111328,
+        "delta": -203,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 2.0,
+        "after": 7.5,
+        "delta": 5.5,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3389,
+        "after": 3565,
+        "delta": 176,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-06T20:40:25"
+    "latest_change_at": "2026-05-06T21:17:59"
   },
   "recent_form": [
+    20,
     9
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 9,
-      "average_finish": 9.0,
-      "best_lap_ms": 110415,
-      "best_lap": "1:50.415"
+      "finish_sum": 29,
+      "average_finish": 14.5,
+      "best_lap_ms": 108977,
+      "best_lap": "1:48.977"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260506_211759_R.json",
+      "finished_at": "2026-05-06T21:17:59",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 20,
+      "participants_count": 49,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Carlo Seegerer",
+      "points": 0,
+      "qualifying_position": 33,
+      "start_position": 33,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 13,
+      "positions_gained": 13,
+      "positions_lost": 0,
+      "best_lap": "1:48.977",
+      "best_lap_ms": 108977,
+      "total_time": "14:35.952",
+      "total_time_ms": 875952,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 9.0,
+          "after": 14.5,
+          "delta": 5.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111531,
+          "after": 111328,
+          "delta": -203,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 2.0,
+          "after": 7.5,
+          "delta": 5.5,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3389,
+          "after": 3565,
+          "delta": 176,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3389,
+        "after": 3565,
+        "delta": 176,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260322_145750_R.json",
       "finished_at": "2026-03-22T14:57:50",
