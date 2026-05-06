@@ -3,11 +3,11 @@
   "driver": "spartak racer",
   "summary": {
     "points": 14,
-    "average_points_per_race": 2.33,
-    "races": 6,
+    "average_points_per_race": 2.0,
+    "races": 7,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 10.83,
+    "average_finish": 11.71,
     "best_lap": "1:50.597",
     "best_lap_ms": 110597,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-22T17:07:26",
-    "last_seen": "2026-04-22T17:07:26",
-    "average_pace_ms": 112086,
-    "average_pace": "1:52.086",
+    "last_race_at": "2026-05-06T13:52:34",
+    "last_seen": "2026-05-06T13:52:34",
+    "average_pace_ms": 112079,
+    "average_pace": "1:52.079",
     "win_rate": 0.0,
-    "podium_rate": 16.67,
+    "podium_rate": 14.29,
     "average_positions_delta": 4.75,
     "positions_delta_races": 4,
-    "championship_rank": 1460,
-    "bestlap_rank": 5146,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-06T13:17:02"
+    "championship_rank": 1463,
+    "bestlap_rank": 5150,
+    "latest_changes": {
+      "average_finish": {
+        "before": 10.83,
+        "after": 11.71,
+        "delta": 0.88,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112086,
+        "after": 112079,
+        "delta": -7,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1460,
+        "after": 1463,
+        "delta": 3,
+        "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-06T13:52:34"
   },
   "recent_form": [
+    17,
     5,
     27,
     9,
-    2,
-    11
+    2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 0,
       "podiums": 1,
       "points": 14,
-      "finish_sum": 65,
-      "average_finish": 10.83,
+      "finish_sum": 82,
+      "average_finish": 11.71,
       "best_lap_ms": 110597,
       "best_lap": "1:50.597"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260506_135234_R.json",
+      "finished_at": "2026-05-06T13:52:34",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 17,
+      "participants_count": 26,
+      "scoring_participants_count": 17,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Vahe Gabrielyan",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.670",
+      "best_lap_ms": 111670,
+      "total_time": "21:22.425",
+      "total_time_ms": 1282425,
+      "gap": "1:16.171",
+      "gap_ms": 76171,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 10.83,
+          "after": 11.71,
+          "delta": 0.88,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112086,
+          "after": 112079,
+          "delta": -7,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1460,
+          "after": 1463,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1460,
+        "after": 1463,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260422_170726_R.json",
       "finished_at": "2026-04-22T17:07:26",
