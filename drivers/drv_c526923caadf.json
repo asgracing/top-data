@@ -3,11 +3,11 @@
   "driver": "Mücahit Yardım",
   "summary": {
     "points": 245,
-    "average_points_per_race": 10.65,
-    "races": 23,
+    "average_points_per_race": 10.21,
+    "races": 24,
     "wins": 7,
     "podiums": 11,
-    "average_finish": 11.61,
+    "average_finish": 12.29,
     "best_lap": "1:47.020",
     "best_lap_ms": 107020,
     "best_lap_track": "monza",
@@ -15,51 +15,118 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 3,
-    "penalty_points": 7,
+    "penalty_count": 4,
+    "penalty_points": 10,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-06T20:40:25",
-    "last_seen": "2026-05-06T20:40:25",
+    "last_race_at": "2026-05-07T22:41:18",
+    "last_seen": "2026-05-07T22:41:18",
     "average_pace_ms": 109055,
     "average_pace": "1:49.055",
-    "win_rate": 30.43,
-    "podium_rate": 47.83,
-    "average_positions_delta": -0.1,
-    "positions_delta_races": 21,
+    "win_rate": 29.17,
+    "podium_rate": 45.83,
+    "average_positions_delta": 0.14,
+    "positions_delta_races": 22,
     "championship_rank": 73,
     "bestlap_rank": 142,
     "latest_changes": {
-      "championship_rank": {
-        "before": 71,
-        "after": 73,
-        "delta": 2,
+      "average_finish": {
+        "before": 11.61,
+        "after": 12.29,
+        "delta": 0.68,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -0.1,
+        "after": 0.14,
+        "delta": 0.24,
+        "trend": "up"
+      },
+      "races": {
+        "before": 23,
+        "after": 24,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-07T22:31:47"
+    "latest_change_at": "2026-05-07T22:41:18"
   },
   "recent_form": [
+    28,
     17,
     1,
     31,
-    1,
-    49
+    1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 23,
+      "races": 24,
       "wins": 7,
       "podiums": 11,
       "points": 245,
-      "finish_sum": 267,
-      "average_finish": 11.61,
+      "finish_sum": 295,
+      "average_finish": 12.29,
       "best_lap_ms": 107142,
       "best_lap": "1:47.142"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260507_224118_R.json",
+      "finished_at": "2026-05-07T22:41:18",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 28,
+      "participants_count": 46,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Aleksandr Knyazev",
+      "points": 0,
+      "qualifying_position": 33,
+      "start_position": 33,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 5,
+      "positions_gained": 5,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "20:47.850",
+      "total_time_ms": 1247850,
+      "gap": "0:46.157",
+      "gap_ms": 46157,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 11.61,
+          "after": 12.29,
+          "delta": 0.68,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -0.1,
+          "after": 0.14,
+          "delta": 0.24,
+          "trend": "up"
+        },
+        "races": {
+          "before": 23,
+          "after": 24,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260506_204025_R.json",
       "finished_at": "2026-05-06T20:40:25",
@@ -2100,16 +2167,17 @@
     }
   ],
   "penalties": {
-    "penalty_count": 3,
-    "penalty_points": 7,
+    "penalty_count": 4,
+    "penalty_points": 10,
     "reasons": {
       "PitSpeeding": 1,
       "None": 1,
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
       "StopAndGo_30": 1,
-      "DriveThrough": 2
+      "DriveThrough": 2,
+      "StopAndGo_10": 1
     }
   }
 }
