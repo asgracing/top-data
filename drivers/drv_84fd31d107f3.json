@@ -3,11 +3,11 @@
   "driver": "Konstantine TokTissTTV",
   "summary": {
     "points": 16,
-    "average_points_per_race": 1.78,
-    "races": 9,
+    "average_points_per_race": 1.6,
+    "races": 10,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.22,
+    "average_finish": 14.8,
     "best_lap": "1:49.282",
     "best_lap_ms": 109282,
     "best_lap_track": "monza",
@@ -15,75 +15,130 @@
     "best_lap_car_name_raw": "Lexus RC F GT3",
     "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-08T22:44:18",
-    "last_seen": "2026-05-08T22:44:18",
-    "average_pace_ms": 111923,
-    "average_pace": "1:51.923",
+    "last_race_at": "2026-05-08T23:11:36",
+    "last_seen": "2026-05-08T23:11:36",
+    "average_pace_ms": 111675,
+    "average_pace": "1:51.675",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 4.71,
-    "positions_delta_races": 7,
+    "average_positions_delta": 4.12,
+    "positions_delta_races": 8,
     "championship_rank": 1408,
     "bestlap_rank": 3591,
     "latest_changes": {
       "average_finish": {
-        "before": 14.25,
-        "after": 15.22,
-        "delta": 0.97,
-        "trend": "down"
+        "before": 15.22,
+        "after": 14.8,
+        "delta": -0.42,
+        "trend": "up"
       },
       "average_pace_ms": {
-        "before": 111971,
-        "after": 111923,
-        "delta": -48,
+        "before": 111923,
+        "after": 111675,
+        "delta": -248,
         "trend": "up"
       },
       "average_positions_delta": {
-        "before": 4.83,
-        "after": 4.71,
-        "delta": -0.12,
-        "trend": "down"
-      },
-      "championship_rank": {
-        "before": 1404,
-        "after": 1408,
-        "delta": 4,
+        "before": 4.71,
+        "after": 4.12,
+        "delta": -0.59,
         "trend": "down"
       },
       "races": {
-        "before": 8,
-        "after": 9,
+        "before": 9,
+        "after": 10,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-08T22:44:18"
+    "latest_change_at": "2026-05-08T23:11:36"
   },
   "recent_form": [
+    11,
     23,
     19,
     20,
-    34,
-    5
+    34
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 9,
+      "races": 10,
       "wins": 0,
       "podiums": 0,
       "points": 16,
-      "finish_sum": 137,
-      "average_finish": 15.22,
+      "finish_sum": 148,
+      "average_finish": 14.8,
       "best_lap_ms": 109282,
       "best_lap": "1:49.282"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260508_231136_R.json",
+      "finished_at": "2026-05-08T23:11:36",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 11,
+      "participants_count": 47,
+      "scoring_participants_count": 16,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "GREEK COOK",
+      "points": 0,
+      "qualifying_position": 11,
+      "start_position": 11,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 0,
+      "positions_gained": 0,
+      "positions_lost": 0,
+      "best_lap": "1:49.330",
+      "best_lap_ms": 109330,
+      "total_time": "22:49.836",
+      "total_time_ms": 1369836,
+      "gap": "1:08.057",
+      "gap_ms": 68057,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 15.22,
+          "after": 14.8,
+          "delta": -0.42,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111923,
+          "after": 111675,
+          "delta": -248,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 4.71,
+          "after": 4.12,
+          "delta": -0.59,
+          "trend": "down"
+        },
+        "races": {
+          "before": 9,
+          "after": 10,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260508_224418_R.json",
       "finished_at": "2026-05-08T22:44:18",
@@ -819,9 +874,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "Trolling": 1,
+      "Cutting": 1
+    },
+    "types": {
+      "DriveThrough": 1,
+      "None": 1
+    }
   }
 }
