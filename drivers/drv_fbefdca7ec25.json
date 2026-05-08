@@ -3,11 +3,11 @@
   "driver": "Jelle De Brandt",
   "summary": {
     "points": 32,
-    "average_points_per_race": 16.0,
-    "races": 2,
+    "average_points_per_race": 10.67,
+    "races": 3,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 4.0,
+    "average_finish": 11.33,
     "best_lap": "1:46.827",
     "best_lap_ms": 106827,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-07T21:27:07",
-    "last_seen": "2026-05-07T21:27:07",
-    "average_pace_ms": 107903,
-    "average_pace": "1:47.903",
-    "win_rate": 50.0,
-    "podium_rate": 50.0,
+    "last_race_at": "2026-05-08T18:23:32",
+    "last_seen": "2026-05-08T18:23:32",
+    "average_pace_ms": 107921,
+    "average_pace": "1:47.921",
+    "win_rate": 33.33,
+    "podium_rate": 33.33,
     "average_positions_delta": -3.0,
     "positions_delta_races": 2,
-    "championship_rank": 735,
+    "championship_rank": 736,
     "bestlap_rank": 82,
     "latest_changes": {
+      "average_finish": {
+        "before": 4.0,
+        "after": 11.33,
+        "delta": 7.33,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 107903,
+        "after": 107921,
+        "delta": 18,
+        "trend": "down"
+      },
       "championship_rank": {
-        "before": 734,
-        "after": 735,
+        "before": 735,
+        "after": 736,
         "delta": 1,
         "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-08T17:45:42"
+    "latest_change_at": "2026-05-08T18:23:32"
   },
   "recent_form": [
+    26,
     34,
     7,
     1
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 1,
       "podiums": 1,
       "points": 32,
-      "finish_sum": 8,
-      "average_finish": 4.0,
+      "finish_sum": 34,
+      "average_finish": 11.33,
       "best_lap_ms": 106827,
       "best_lap": "1:46.827"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260508_182332_R.json",
+      "finished_at": "2026-05-08T18:23:32",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 26,
+      "participants_count": 49,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Mücahit Yardım",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.302",
+      "best_lap_ms": 108302,
+      "total_time": "23:11.132",
+      "total_time_ms": 1391132,
+      "gap": "1:30.350",
+      "gap_ms": 90350,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 4.0,
+          "after": 11.33,
+          "delta": 7.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 107903,
+          "after": 107921,
+          "delta": 18,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 735,
+          "after": 736,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 735,
+        "after": 736,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260507_212707_R.json",
       "finished_at": "2026-05-07T21:27:07",
