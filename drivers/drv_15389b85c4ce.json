@@ -3,11 +3,11 @@
   "driver": "Dmitrii Mikhailov",
   "summary": {
     "points": 35,
-    "average_points_per_race": 11.67,
-    "races": 3,
+    "average_points_per_race": 8.75,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.33,
+    "average_finish": 14.0,
     "best_lap": "1:52.867",
     "best_lap_ms": 112867,
     "best_lap_track": "monza",
@@ -19,27 +19,40 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-04T21:31:35",
-    "last_seen": "2026-05-04T21:31:35",
-    "average_pace_ms": 119462,
-    "average_pace": "1:59.462",
+    "last_race_at": "2026-05-08T19:39:03",
+    "last_seen": "2026-05-08T19:39:03",
+    "average_pace_ms": 119207,
+    "average_pace": "1:59.207",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 8.33,
     "positions_delta_races": 3,
     "championship_rank": 678,
-    "bestlap_rank": 6322,
+    "bestlap_rank": 6324,
     "latest_changes": {
-      "championship_rank": {
-        "before": 677,
-        "after": 678,
-        "delta": 1,
+      "average_finish": {
+        "before": 12.33,
+        "after": 14.0,
+        "delta": 1.67,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 119462,
+        "after": 119207,
+        "delta": -255,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-08T19:00:57"
+    "latest_change_at": "2026-05-08T19:39:03"
   },
   "recent_form": [
+    19,
     15,
     5,
     4,
@@ -48,17 +61,72 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 35,
-      "finish_sum": 37,
-      "average_finish": 12.33,
+      "finish_sum": 56,
+      "average_finish": 14.0,
       "best_lap_ms": 112867,
       "best_lap": "1:52.867"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260508_193903_R.json",
+      "finished_at": "2026-05-08T19:39:03",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 19,
+      "participants_count": 47,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Trygve Kristoffersen",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:53.342",
+      "best_lap_ms": 113342,
+      "total_time": "23:29.123",
+      "total_time_ms": 1409123,
+      "gap": "1:48.941",
+      "gap_ms": 108941,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.33,
+          "after": 14.0,
+          "delta": 1.67,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 119462,
+          "after": 119207,
+          "delta": -255,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260504_213135_R.json",
       "finished_at": "2026-05-04T21:31:35",
