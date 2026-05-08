@@ -2,14 +2,14 @@
   "public_id": "drv_1fc2ad321cd5",
   "driver": "Evgeniy Doneckiy",
   "summary": {
-    "points": 6,
-    "average_points_per_race": 3.0,
-    "races": 2,
-    "wins": 1,
-    "podiums": 1,
-    "average_finish": 8.0,
-    "best_lap": "1:48.117",
-    "best_lap_ms": 108117,
+    "points": 11,
+    "average_points_per_race": 3.67,
+    "races": 3,
+    "wins": 2,
+    "podiums": 2,
+    "average_finish": 5.67,
+    "best_lap": "1:47.997",
+    "best_lap_ms": 107997,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 8,
     "best_lap_car_name_raw": "Bentley Continental GT3 2018",
@@ -19,47 +19,179 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-11T04:46:58",
-    "last_seen": "2026-04-11T04:46:58",
-    "average_pace_ms": 109858,
-    "average_pace": "1:49.858",
-    "win_rate": 50.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": -7.0,
-    "positions_delta_races": 2,
-    "championship_rank": 2403,
-    "bestlap_rank": 1431,
+    "last_race_at": "2026-05-08T04:59:29",
+    "last_seen": "2026-05-08T04:59:29",
+    "average_pace_ms": 109220,
+    "average_pace": "1:49.220",
+    "win_rate": 66.67,
+    "podium_rate": 66.67,
+    "average_positions_delta": -2.33,
+    "positions_delta_races": 3,
+    "championship_rank": 1791,
+    "bestlap_rank": 1199,
     "latest_changes": {
+      "average_finish": {
+        "before": 8.0,
+        "after": 5.67,
+        "delta": -2.33,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109858,
+        "after": 109220,
+        "delta": -638,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -7.0,
+        "after": -2.33,
+        "delta": 4.67,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 2402,
-        "after": 2403,
+        "before": 2403,
+        "after": 1791,
+        "delta": -612,
+        "trend": "up"
+      },
+      "podiums": {
+        "before": 1,
+        "after": 2,
         "delta": 1,
-        "trend": "down"
+        "trend": "up"
+      },
+      "points": {
+        "before": 6,
+        "after": 11,
+        "delta": 5,
+        "trend": "up"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      },
+      "wins": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-08T04:18:06"
+    "latest_change_at": "2026-05-08T04:59:29"
   },
   "recent_form": [
+    1,
     11,
     15,
     31,
-    7,
-    1
+    7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
-      "wins": 1,
-      "podiums": 1,
-      "points": 6,
-      "finish_sum": 16,
-      "average_finish": 8.0,
-      "best_lap_ms": 108117,
-      "best_lap": "1:48.117"
+      "races": 3,
+      "wins": 2,
+      "podiums": 2,
+      "points": 11,
+      "finish_sum": 17,
+      "average_finish": 5.67,
+      "best_lap_ms": 107997,
+      "best_lap": "1:47.997"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260508_045929_R.json",
+      "finished_at": "2026-05-08T04:59:29",
+      "track": "monza",
+      "car_model_id": 8,
+      "car_name_raw": "Bentley Continental GT3 2018",
+      "car_name": "Bentley Continental GT3",
+      "position": 1,
+      "participants_count": 16,
+      "scoring_participants_count": 8,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Evgeniy Doneckiy",
+      "points": 5,
+      "qualifying_position": 8,
+      "start_position": 8,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 7,
+      "positions_gained": 7,
+      "positions_lost": 0,
+      "best_lap": "1:47.997",
+      "best_lap_ms": 107997,
+      "total_time": "20:01.737",
+      "total_time_ms": 1201737,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.0,
+          "after": 5.67,
+          "delta": -2.33,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109858,
+          "after": 109220,
+          "delta": -638,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -7.0,
+          "after": -2.33,
+          "delta": 4.67,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2403,
+          "after": 1791,
+          "delta": -612,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 6,
+          "after": 11,
+          "delta": 5,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2403,
+        "after": 1791,
+        "delta": -612,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260411_044658_R.json",
       "finished_at": "2026-04-11T04:46:58",
