@@ -3,11 +3,11 @@
   "driver": "PROK AAAAA",
   "summary": {
     "points": 335,
-    "average_points_per_race": 10.15,
-    "races": 33,
+    "average_points_per_race": 9.85,
+    "races": 34,
     "wins": 1,
     "podiums": 8,
-    "average_finish": 12.58,
+    "average_finish": 12.71,
     "best_lap": "1:47.790",
     "best_lap_ms": 107790,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 9,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-07T22:31:47",
-    "last_seen": "2026-05-07T22:31:47",
-    "average_pace_ms": 111565,
-    "average_pace": "1:51.565",
-    "win_rate": 3.03,
-    "podium_rate": 24.24,
-    "average_positions_delta": 2.52,
-    "positions_delta_races": 29,
+    "last_race_at": "2026-05-09T01:35:05",
+    "last_seen": "2026-05-09T01:35:05",
+    "average_pace_ms": 111564,
+    "average_pace": "1:51.564",
+    "win_rate": 2.94,
+    "podium_rate": 23.53,
+    "average_positions_delta": 2.9,
+    "positions_delta_races": 30,
     "championship_rank": 54,
     "bestlap_rank": 881,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-09T00:56:54"
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.58,
+        "after": 12.71,
+        "delta": 0.13,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111565,
+        "after": 111564,
+        "delta": -1,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 2.52,
+        "after": 2.9,
+        "delta": 0.38,
+        "trend": "up"
+      },
+      "races": {
+        "before": 33,
+        "after": 34,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-09T01:35:05"
   },
   "recent_form": [
+    17,
     7,
     42,
     32,
-    3,
-    2
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 33,
+      "races": 34,
       "wins": 1,
       "podiums": 8,
       "points": 335,
-      "finish_sum": 415,
-      "average_finish": 12.58,
+      "finish_sum": 432,
+      "average_finish": 12.71,
       "best_lap_ms": 107790,
       "best_lap": "1:47.790"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260509_013505_R.json",
+      "finished_at": "2026-05-09T01:35:05",
+      "track": "monza",
+      "car_model_id": 16,
+      "car_name_raw": "Lamborghini Huracan Evo (2019)",
+      "car_name": "Lamborghini Huracan Evo",
+      "position": 17,
+      "participants_count": 39,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Rafael Grigoriu",
+      "points": 0,
+      "qualifying_position": 31,
+      "start_position": 31,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 14,
+      "positions_gained": 14,
+      "positions_lost": 0,
+      "best_lap": "1:51.285",
+      "best_lap_ms": 111285,
+      "total_time": "7:54.794",
+      "total_time_ms": 474794,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.58,
+          "after": 12.71,
+          "delta": 0.13,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111565,
+          "after": 111564,
+          "delta": -1,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 2.52,
+          "after": 2.9,
+          "delta": 0.38,
+          "trend": "up"
+        },
+        "races": {
+          "before": 33,
+          "after": 34,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260507_223147_R.json",
       "finished_at": "2026-05-07T22:31:47",
