@@ -3,11 +3,11 @@
   "driver": "artem swers",
   "summary": {
     "points": 91,
-    "average_points_per_race": 2.39,
-    "races": 38,
+    "average_points_per_race": 2.33,
+    "races": 39,
     "wins": 0,
     "podiums": 3,
-    "average_finish": 16.74,
+    "average_finish": 16.77,
     "best_lap": "1:48.257",
     "best_lap_ms": 108257,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 13,
+    "penalty_count": 15,
     "penalty_points": 4,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-07T23:57:49",
-    "last_seen": "2026-05-07T23:57:49",
-    "average_pace_ms": 110081,
-    "average_pace": "1:50.081",
+    "last_race_at": "2026-05-09T12:02:33",
+    "last_seen": "2026-05-09T12:02:33",
+    "average_pace_ms": 110079,
+    "average_pace": "1:50.079",
     "win_rate": 0.0,
-    "podium_rate": 7.89,
+    "podium_rate": 7.69,
     "average_positions_delta": 2.19,
     "positions_delta_races": 26,
     "championship_rank": 250,
     "bestlap_rank": 1694,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-09T11:24:11"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.74,
+        "after": 16.77,
+        "delta": 0.03,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110081,
+        "after": 110079,
+        "delta": -2,
+        "trend": "up"
+      },
+      "races": {
+        "before": 38,
+        "after": 39,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-09T12:02:33"
   },
   "recent_form": [
+    18,
     21,
     19,
     21,
-    6,
-    26
+    6
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 38,
+      "races": 39,
       "wins": 0,
       "podiums": 3,
       "points": 91,
-      "finish_sum": 636,
-      "average_finish": 16.74,
+      "finish_sum": 654,
+      "average_finish": 16.77,
       "best_lap_ms": 108257,
       "best_lap": "1:48.257"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260509_120233_R.json",
+      "finished_at": "2026-05-09T12:02:33",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 18,
+      "participants_count": 42,
+      "scoring_participants_count": 23,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nikita Chapaikin",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.890",
+      "best_lap_ms": 109890,
+      "total_time": "18:00.982",
+      "total_time_ms": 1080982,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.74,
+          "after": 16.77,
+          "delta": 0.03,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110081,
+          "after": 110079,
+          "delta": -2,
+          "trend": "up"
+        },
+        "races": {
+          "before": 38,
+          "after": 39,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260507_235749_R.json",
       "finished_at": "2026-05-07T23:57:49",
@@ -3162,16 +3236,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 13,
+    "penalty_count": 15,
     "penalty_points": 4,
     "reasons": {
-      "PitSpeeding": 4,
+      "PitSpeeding": 6,
       "Cutting": 7,
       "None": 2
     },
     "types": {
-      "DriveThrough": 5,
-      "Disqualified": 6,
+      "DriveThrough": 6,
+      "Disqualified": 7,
       "StopAndGo_30": 2
     }
   }
