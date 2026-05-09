@@ -4,42 +4,67 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 22.0,
-    "best_lap": null,
-    "best_lap_ms": null,
-    "best_lap_track": null,
-    "best_lap_car_model_id": null,
-    "best_lap_car_name_raw": null,
-    "best_lap_car_name": null,
-    "best_lap_session_type": null,
+    "average_finish": 24.0,
+    "best_lap": "1:55.095",
+    "best_lap_ms": 115095,
+    "best_lap_track": "monza",
+    "best_lap_car_model_id": 6,
+    "best_lap_car_name_raw": "Nissan GT-R Nismo GT3 2018",
+    "best_lap_car_name": "Nissan GT-R Nismo GT3",
+    "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-09T22:31:18",
-    "last_seen": "2026-05-09T22:31:18",
-    "average_pace_ms": null,
-    "average_pace": null,
+    "last_race_at": "2026-05-09T23:09:29",
+    "last_seen": "2026-05-09T23:09:29",
+    "average_pace_ms": 115095,
+    "average_pace": "1:55.095",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 12.0,
-    "positions_delta_races": 1,
-    "championship_rank": 5949,
-    "bestlap_rank": null,
+    "average_positions_delta": 1.5,
+    "positions_delta_races": 2,
+    "championship_rank": 6245,
+    "bestlap_rank": 6641,
     "latest_changes": {
-      "championship_rank": {
-        "before": 5946,
-        "after": 5949,
-        "delta": 3,
+      "average_finish": {
+        "before": 22.0,
+        "after": 24.0,
+        "delta": 2.0,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": null,
+        "after": 115095,
+        "delta": null,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 12.0,
+        "after": 1.5,
+        "delta": -10.5,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 5949,
+        "after": 6245,
+        "delta": 296,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-09T22:31:18"
+    "latest_change_at": "2026-05-09T23:09:29"
   },
   "recent_form": [
+    26,
     49,
     19,
     22
@@ -47,17 +72,89 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 22,
-      "average_finish": 22.0,
-      "best_lap_ms": null,
-      "best_lap": null
+      "finish_sum": 48,
+      "average_finish": 24.0,
+      "best_lap_ms": 115095,
+      "best_lap": "1:55.095"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260509_230929_R.json",
+      "finished_at": "2026-05-09T23:09:29",
+      "track": "monza",
+      "car_model_id": 6,
+      "car_name_raw": "Nissan GT-R Nismo GT3 2018",
+      "car_name": "Nissan GT-R Nismo GT3",
+      "position": 26,
+      "participants_count": 51,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Xavi DeLa [CAT]",
+      "points": 0,
+      "qualifying_position": 17,
+      "start_position": 17,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -9,
+      "positions_gained": 0,
+      "positions_lost": 9,
+      "best_lap": "1:55.095",
+      "best_lap_ms": 115095,
+      "total_time": "7:20.464",
+      "total_time_ms": 440464,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 22.0,
+          "after": 24.0,
+          "delta": 2.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": null,
+          "after": 115095,
+          "delta": null,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 12.0,
+          "after": 1.5,
+          "delta": -10.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 5949,
+          "after": 6245,
+          "delta": 296,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 5949,
+        "after": 6245,
+        "delta": 296,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260509_223118_R.json",
       "finished_at": "2026-05-09T22:31:18",
