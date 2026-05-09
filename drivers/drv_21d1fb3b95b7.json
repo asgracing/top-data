@@ -3,11 +3,11 @@
   "driver": "Donut Gubrud",
   "summary": {
     "points": 42,
-    "average_points_per_race": 3.5,
-    "races": 12,
+    "average_points_per_race": 3.23,
+    "races": 13,
     "wins": 1,
     "podiums": 2,
-    "average_finish": 11.42,
+    "average_finish": 12.31,
     "best_lap": "1:47.882",
     "best_lap_ms": 107882,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-07T03:35:49",
-    "last_seen": "2026-05-07T03:35:49",
+    "last_race_at": "2026-05-09T17:39:10",
+    "last_seen": "2026-05-09T17:39:10",
     "average_pace_ms": 110152,
     "average_pace": "1:50.152",
-    "win_rate": 8.33,
-    "podium_rate": 16.67,
-    "average_positions_delta": 2.5,
-    "positions_delta_races": 12,
-    "championship_rank": 581,
+    "win_rate": 7.69,
+    "podium_rate": 15.38,
+    "average_positions_delta": 3.38,
+    "positions_delta_races": 13,
+    "championship_rank": 582,
     "bestlap_rank": 1037,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-09T17:01:20"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.42,
+        "after": 12.31,
+        "delta": 0.89,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 2.5,
+        "after": 3.38,
+        "delta": 0.88,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 581,
+        "after": 582,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 12,
+        "after": 13,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-09T17:39:10"
   },
   "recent_form": [
+    23,
     16,
     6,
     3,
-    7,
-    17
+    7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 12,
+      "races": 13,
       "wins": 1,
       "podiums": 2,
       "points": 42,
-      "finish_sum": 137,
-      "average_finish": 11.42,
+      "finish_sum": 160,
+      "average_finish": 12.31,
       "best_lap_ms": 107882,
       "best_lap": "1:47.882"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260509_173910_R.json",
+      "finished_at": "2026-05-09T17:39:10",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 23,
+      "participants_count": 52,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Rajdeep Ghosh",
+      "points": 0,
+      "qualifying_position": 37,
+      "start_position": 37,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 14,
+      "positions_gained": 14,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "6:19.255",
+      "total_time_ms": 379255,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.42,
+          "after": 12.31,
+          "delta": 0.89,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 2.5,
+          "after": 3.38,
+          "delta": 0.88,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 581,
+          "after": 582,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 12,
+          "after": 13,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 581,
+        "after": 582,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260507_033549_R.json",
       "finished_at": "2026-05-07T03:35:49",
