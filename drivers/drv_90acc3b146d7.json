@@ -4,7 +4,7 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 2,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
     "average_finish": 23.0,
@@ -19,20 +19,40 @@
     "penalty_points": 6,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-09T01:35:05",
-    "last_seen": "2026-05-09T01:35:05",
-    "average_pace_ms": 109156,
-    "average_pace": "1:49.156",
+    "last_race_at": "2026-05-09T23:45:38",
+    "last_seen": "2026-05-09T23:45:38",
+    "average_pace_ms": 108990,
+    "average_pace": "1:48.990",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": null,
     "positions_delta_races": 0,
-    "championship_rank": 6118,
-    "bestlap_rank": 2037,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-09T23:09:29"
+    "championship_rank": 6121,
+    "bestlap_rank": 2038,
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 109156,
+        "after": 108990,
+        "delta": -166,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 6118,
+        "after": 6121,
+        "delta": 3,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-09T23:45:38"
   },
   "recent_form": [
+    23,
     21,
     25,
     43,
@@ -41,17 +61,77 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 46,
+      "finish_sum": 69,
       "average_finish": 23.0,
       "best_lap_ms": 108425,
       "best_lap": "1:48.425"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260509_234538_R.json",
+      "finished_at": "2026-05-09T23:45:38",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 23,
+      "participants_count": 46,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nick Fisher [ASG]",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.457",
+      "best_lap_ms": 108457,
+      "total_time": "20:49.402",
+      "total_time_ms": 1249402,
+      "gap": "0:49.286",
+      "gap_ms": 49286,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 109156,
+          "after": 108990,
+          "delta": -166,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 6118,
+          "after": 6121,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 6118,
+        "after": 6121,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260509_013505_R.json",
       "finished_at": "2026-05-09T01:35:05",

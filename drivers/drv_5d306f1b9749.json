@@ -3,11 +3,11 @@
   "driver": "Nico Stransky",
   "summary": {
     "points": 15,
-    "average_points_per_race": 15.0,
-    "races": 1,
+    "average_points_per_race": 7.5,
+    "races": 2,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 3.0,
+    "average_finish": 13.5,
     "best_lap": "1:47.860",
     "best_lap_ms": 107860,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-01T17:21:17",
-    "last_seen": "2026-05-01T17:21:17",
-    "average_pace_ms": 110344,
-    "average_pace": "1:50.344",
+    "last_race_at": "2026-05-09T23:45:38",
+    "last_seen": "2026-05-09T23:45:38",
+    "average_pace_ms": 109905,
+    "average_pace": "1:49.905",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
+    "podium_rate": 50.0,
     "average_positions_delta": 5.0,
     "positions_delta_races": 1,
-    "championship_rank": 1475,
-    "bestlap_rank": 999,
+    "championship_rank": 1508,
+    "bestlap_rank": 1000,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1474,
-        "after": 1475,
-        "delta": 1,
+      "average_finish": {
+        "before": 3.0,
+        "after": 13.5,
+        "delta": 10.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110344,
+        "after": 109905,
+        "delta": -439,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1475,
+        "after": 1508,
+        "delta": 33,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-09T23:09:29"
+    "latest_change_at": "2026-05-09T23:45:38"
   },
   "recent_form": [
+    24,
     3,
     35,
     41
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 1,
       "points": 15,
-      "finish_sum": 3,
-      "average_finish": 3.0,
+      "finish_sum": 27,
+      "average_finish": 13.5,
       "best_lap_ms": 107860,
       "best_lap": "1:47.860"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260509_234538_R.json",
+      "finished_at": "2026-05-09T23:45:38",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 24,
+      "participants_count": 46,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nick Fisher [ASG]",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.205",
+      "best_lap_ms": 108205,
+      "total_time": "21:25.250",
+      "total_time_ms": 1285250,
+      "gap": "1:25.134",
+      "gap_ms": 85134,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 3.0,
+          "after": 13.5,
+          "delta": 10.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110344,
+          "after": 109905,
+          "delta": -439,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1475,
+          "after": 1508,
+          "delta": 33,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1475,
+        "after": 1508,
+        "delta": 33,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260501_172117_R.json",
       "finished_at": "2026-05-01T17:21:17",
