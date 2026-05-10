@@ -3,36 +3,68 @@
   "driver": "Nick Silva",
   "summary": {
     "points": 6,
-    "average_points_per_race": 3.0,
-    "races": 2,
+    "average_points_per_race": 2.0,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 8.0,
-    "best_lap": "1:50.595",
-    "best_lap_ms": 110595,
+    "average_finish": 9.0,
+    "best_lap": "1:50.405",
+    "best_lap_ms": 110405,
     "best_lap_track": "monza",
-    "best_lap_car_model_id": 20,
-    "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
-    "best_lap_car_name": "AMR V8 Vantage",
+    "best_lap_car_model_id": 25,
+    "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
+    "best_lap_car_name": "Mercedes-AMG GT3",
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-05T02:14:16",
-    "last_seen": "2026-05-05T02:14:16",
-    "average_pace_ms": 112515,
-    "average_pace": "1:52.515",
+    "last_race_at": "2026-05-11T02:29:43",
+    "last_seen": "2026-05-11T02:29:43",
+    "average_pace_ms": 112189,
+    "average_pace": "1:52.189",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 1.5,
-    "positions_delta_races": 2,
-    "championship_rank": 2529,
-    "bestlap_rank": 5440,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-11T01:51:47"
+    "podium_rate": 33.33,
+    "average_positions_delta": 7.67,
+    "positions_delta_races": 3,
+    "championship_rank": 2530,
+    "bestlap_rank": 5261,
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.0,
+        "after": 9.0,
+        "delta": 1.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112515,
+        "after": 112189,
+        "delta": -326,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 1.5,
+        "after": 7.67,
+        "delta": 6.17,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2529,
+        "after": 2530,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-11T02:29:43"
   },
   "recent_form": [
+    11,
     16,
     13,
     3
@@ -40,17 +72,89 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
       "points": 6,
-      "finish_sum": 16,
-      "average_finish": 8.0,
-      "best_lap_ms": 110595,
-      "best_lap": "1:50.595"
+      "finish_sum": 27,
+      "average_finish": 9.0,
+      "best_lap_ms": 110405,
+      "best_lap": "1:50.405"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260511_022943_R.json",
+      "finished_at": "2026-05-11T02:29:43",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 11,
+      "participants_count": 37,
+      "scoring_participants_count": 21,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "twitch.tv\\SimDriverP1 P1",
+      "points": 0,
+      "qualifying_position": 31,
+      "start_position": 31,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 20,
+      "positions_gained": 20,
+      "positions_lost": 0,
+      "best_lap": "1:50.405",
+      "best_lap_ms": 110405,
+      "total_time": "22:45.700",
+      "total_time_ms": 1365700,
+      "gap": "1:16.897",
+      "gap_ms": 76897,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.0,
+          "after": 9.0,
+          "delta": 1.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112515,
+          "after": 112189,
+          "delta": -326,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 1.5,
+          "after": 7.67,
+          "delta": 6.17,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2529,
+          "after": 2530,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2529,
+        "after": 2530,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260505_021416_R.json",
       "finished_at": "2026-05-05T02:14:16",
