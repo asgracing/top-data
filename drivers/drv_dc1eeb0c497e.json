@@ -3,11 +3,11 @@
   "driver": "T Sever",
   "summary": {
     "points": 129,
-    "average_points_per_race": 5.38,
-    "races": 24,
+    "average_points_per_race": 5.16,
+    "races": 25,
     "wins": 5,
     "podiums": 8,
-    "average_finish": 11.25,
+    "average_finish": 11.72,
     "best_lap": "1:47.325",
     "best_lap_ms": 107325,
     "best_lap_track": "monza",
@@ -19,40 +19,114 @@
     "penalty_points": 7,
     "fastest_lap_awards": 4,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-10T10:07:53",
-    "last_seen": "2026-05-10T10:07:53",
-    "average_pace_ms": 108743,
-    "average_pace": "1:48.743",
-    "win_rate": 20.83,
-    "podium_rate": 33.33,
+    "last_race_at": "2026-05-10T18:19:29",
+    "last_seen": "2026-05-10T18:19:29",
+    "average_pace_ms": 108758,
+    "average_pace": "1:48.758",
+    "win_rate": 20.0,
+    "podium_rate": 32.0,
     "average_positions_delta": 0.57,
     "positions_delta_races": 14,
     "championship_rank": 173,
     "bestlap_rank": 340,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-10T17:43:03"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.25,
+        "after": 11.72,
+        "delta": 0.47,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108743,
+        "after": 108758,
+        "delta": 15,
+        "trend": "down"
+      },
+      "races": {
+        "before": 24,
+        "after": 25,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-10T18:19:29"
   },
   "recent_form": [
     23,
+    23,
     30,
     16,
-    55,
-    1
+    55
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 24,
+      "races": 25,
       "wins": 5,
       "podiums": 8,
       "points": 129,
-      "finish_sum": 270,
-      "average_finish": 11.25,
+      "finish_sum": 293,
+      "average_finish": 11.72,
       "best_lap_ms": 107325,
       "best_lap": "1:47.325"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260510_181929_R.json",
+      "finished_at": "2026-05-10T18:19:29",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 23,
+      "participants_count": 45,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Kava Plotski",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.917",
+      "best_lap_ms": 108917,
+      "total_time": "13:53.533",
+      "total_time_ms": 833533,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.25,
+          "after": 11.72,
+          "delta": 0.47,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108743,
+          "after": 108758,
+          "delta": 15,
+          "trend": "down"
+        },
+        "races": {
+          "before": 24,
+          "after": 25,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260510_100753_R.json",
       "finished_at": "2026-05-10T10:07:53",
