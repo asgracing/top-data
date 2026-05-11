@@ -3,11 +3,11 @@
   "driver": "Arthur Lima",
   "summary": {
     "points": 28,
-    "average_points_per_race": 4.67,
-    "races": 6,
+    "average_points_per_race": 4.0,
+    "races": 7,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 16.83,
+    "average_finish": 17.71,
     "best_lap": "1:47.762",
     "best_lap_ms": 107762,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
+    "penalty_count": 3,
     "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-11T05:51:18",
-    "last_seen": "2026-05-11T05:51:18",
+    "last_race_at": "2026-05-12T00:49:17",
+    "last_seen": "2026-05-12T00:49:17",
     "average_pace_ms": 109268,
     "average_pace": "1:49.268",
-    "win_rate": 16.67,
-    "podium_rate": 16.67,
-    "average_positions_delta": 12.67,
-    "positions_delta_races": 6,
+    "win_rate": 14.29,
+    "podium_rate": 14.29,
+    "average_positions_delta": 11.14,
+    "positions_delta_races": 7,
     "championship_rank": 873,
     "bestlap_rank": 861,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-12T00:11:13"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.83,
+        "after": 17.71,
+        "delta": 0.88,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 12.67,
+        "after": 11.14,
+        "delta": -1.53,
+        "trend": "down"
+      },
+      "races": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-12T00:49:17"
   },
   "recent_form": [
+    23,
     19,
     23,
     35,
-    4,
-    13
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 6,
+      "races": 7,
       "wins": 1,
       "podiums": 1,
       "points": 28,
-      "finish_sum": 101,
-      "average_finish": 16.83,
+      "finish_sum": 124,
+      "average_finish": 17.71,
       "best_lap_ms": 107762,
       "best_lap": "1:47.762"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260512_004917_R.json",
+      "finished_at": "2026-05-12T00:49:17",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 23,
+      "participants_count": 38,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Peter Diem",
+      "points": 0,
+      "qualifying_position": 25,
+      "start_position": 25,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 2,
+      "positions_gained": 2,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "3:53.671",
+      "total_time_ms": 233671,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.83,
+          "after": 17.71,
+          "delta": 0.88,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 12.67,
+          "after": 11.14,
+          "delta": -1.53,
+          "trend": "down"
+        },
+        "races": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260511_055118_R.json",
       "finished_at": "2026-05-11T05:51:18",
@@ -812,15 +886,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
+    "penalty_count": 3,
     "penalty_points": 3,
     "reasons": {
-      "Cutting": 1,
+      "Cutting": 2,
       "PitSpeeding": 1
     },
     "types": {
       "StopAndGo_10": 1,
-      "Disqualified": 1
+      "Disqualified": 2
     }
   }
 }
