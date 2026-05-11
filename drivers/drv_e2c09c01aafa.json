@@ -3,11 +3,11 @@
   "driver": "Alexey Makarov",
   "summary": {
     "points": 30,
-    "average_points_per_race": 15.0,
-    "races": 2,
+    "average_points_per_race": 10.0,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 18.5,
+    "average_finish": 17.67,
     "best_lap": "1:48.220",
     "best_lap_ms": 108220,
     "best_lap_track": "monza",
@@ -19,47 +19,143 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-11T21:01:46",
-    "last_seen": "2026-05-11T21:14:04",
-    "average_pace_ms": 109838,
-    "average_pace": "1:49.838",
+    "last_race_at": "2026-05-11T21:38:32",
+    "last_seen": "2026-05-11T21:38:32",
+    "average_pace_ms": 109762,
+    "average_pace": "1:49.762",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -11.0,
-    "positions_delta_races": 2,
-    "championship_rank": 844,
-    "bestlap_rank": 2035,
+    "average_positions_delta": -9.67,
+    "positions_delta_races": 3,
+    "championship_rank": 847,
+    "bestlap_rank": 1687,
     "latest_changes": {
+      "average_finish": {
+        "before": 18.5,
+        "after": 17.67,
+        "delta": -0.83,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109838,
+        "after": 109762,
+        "delta": -76,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -11.0,
+        "after": -9.67,
+        "delta": 1.33,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 843,
-        "after": 844,
-        "delta": 1,
+        "before": 844,
+        "after": 847,
+        "delta": 3,
         "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-11T21:01:46"
+    "latest_change_at": "2026-05-11T21:38:32"
   },
   "recent_form": [
+    16,
     55,
     42,
     26,
-    11,
-    34
+    11
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 30,
-      "finish_sum": 37,
-      "average_finish": 18.5,
-      "best_lap_ms": 108397,
-      "best_lap": "1:48.397"
+      "finish_sum": 53,
+      "average_finish": 17.67,
+      "best_lap_ms": 108255,
+      "best_lap": "1:48.255"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260511_213832_R.json",
+      "finished_at": "2026-05-11T21:38:32",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 16,
+      "participants_count": 51,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Randy Andy",
+      "points": 0,
+      "qualifying_position": 9,
+      "start_position": 9,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -7,
+      "positions_gained": 0,
+      "positions_lost": 7,
+      "best_lap": "1:48.255",
+      "best_lap_ms": 108255,
+      "total_time": "12:59.797",
+      "total_time_ms": 779797,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 18.5,
+          "after": 17.67,
+          "delta": -0.83,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109838,
+          "after": 109762,
+          "delta": -76,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -11.0,
+          "after": -9.67,
+          "delta": 1.33,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 844,
+          "after": 847,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 844,
+        "after": 847,
+        "delta": 3,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260511_210146_R.json",
       "finished_at": "2026-05-11T21:01:46",
