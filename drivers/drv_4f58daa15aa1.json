@@ -3,11 +3,11 @@
   "driver": "Bognike Lightning",
   "summary": {
     "points": 10,
-    "average_points_per_race": 3.33,
-    "races": 3,
+    "average_points_per_race": 2.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.67,
+    "average_finish": 13.0,
     "best_lap": "1:48.425",
     "best_lap_ms": 108425,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-07T15:36:37",
-    "last_seen": "2026-05-07T15:36:37",
-    "average_pace_ms": 110878,
-    "average_pace": "1:50.878",
+    "last_race_at": "2026-05-12T17:20:45",
+    "last_seen": "2026-05-12T17:20:45",
+    "average_pace_ms": 111199,
+    "average_pace": "1:51.199",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -5.5,
     "positions_delta_races": 2,
-    "championship_rank": 2113,
-    "bestlap_rank": 2114,
+    "championship_rank": 2130,
+    "bestlap_rank": 2116,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2110,
-        "after": 2113,
-        "delta": 3,
+      "average_finish": {
+        "before": 11.67,
+        "after": 13.0,
+        "delta": 1.33,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110878,
+        "after": 111199,
+        "delta": 321,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2113,
+        "after": 2130,
+        "delta": 17,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-12T16:42:59"
+    "latest_change_at": "2026-05-12T17:20:45"
   },
   "recent_form": [
+    17,
     5,
     24,
     17,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 10,
-      "finish_sum": 35,
-      "average_finish": 11.67,
+      "finish_sum": 52,
+      "average_finish": 13.0,
       "best_lap_ms": 108425,
       "best_lap": "1:48.425"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260512_172045_R.json",
+      "finished_at": "2026-05-12T17:20:45",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 17,
+      "participants_count": 55,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Guilherme Bernardo",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.120",
+      "best_lap_ms": 111120,
+      "total_time": "22:47.078",
+      "total_time_ms": 1367078,
+      "gap": "1:09.622",
+      "gap_ms": 69622,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.67,
+          "after": 13.0,
+          "delta": 1.33,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110878,
+          "after": 111199,
+          "delta": 321,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2113,
+          "after": 2130,
+          "delta": 17,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2113,
+        "after": 2130,
+        "delta": 17,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260507_153637_R.json",
       "finished_at": "2026-05-07T15:36:37",

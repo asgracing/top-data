@@ -3,11 +3,11 @@
   "driver": "Andrew Alpashko",
   "summary": {
     "points": 4,
-    "average_points_per_race": 2.0,
-    "races": 2,
+    "average_points_per_race": 1.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.5,
+    "average_finish": 18.0,
     "best_lap": "1:47.652",
     "best_lap_ms": 107652,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-10T20:51:14",
-    "last_seen": "2026-05-10T20:51:14",
-    "average_pace_ms": 108984,
-    "average_pace": "1:48.984",
+    "last_race_at": "2026-05-12T17:20:45",
+    "last_seen": "2026-05-12T17:20:45",
+    "average_pace_ms": 108876,
+    "average_pace": "1:48.876",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -4.0,
     "positions_delta_races": 1,
-    "championship_rank": 3275,
-    "bestlap_rank": 705,
+    "championship_rank": 3286,
+    "bestlap_rank": 707,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3274,
-        "after": 3275,
-        "delta": 1,
+      "average_finish": {
+        "before": 16.5,
+        "after": 18.0,
+        "delta": 1.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108984,
+        "after": 108876,
+        "delta": -108,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3275,
+        "after": 3286,
+        "delta": 11,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-12T16:42:59"
+    "latest_change_at": "2026-05-12T17:20:45"
   },
   "recent_form": [
+    21,
     8,
     25,
     33,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 33,
-      "average_finish": 16.5,
+      "finish_sum": 54,
+      "average_finish": 18.0,
       "best_lap_ms": 107652,
       "best_lap": "1:47.652"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260512_172045_R.json",
+      "finished_at": "2026-05-12T17:20:45",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 21,
+      "participants_count": 55,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Guilherme Bernardo",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.855",
+      "best_lap_ms": 107855,
+      "total_time": "16:35.630",
+      "total_time_ms": 995630,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.5,
+          "after": 18.0,
+          "delta": 1.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108984,
+          "after": 108876,
+          "delta": -108,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3275,
+          "after": 3286,
+          "delta": 11,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3275,
+        "after": 3286,
+        "delta": 11,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260510_205114_R.json",
       "finished_at": "2026-05-10T20:51:14",
