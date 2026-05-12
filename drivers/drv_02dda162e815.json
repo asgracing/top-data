@@ -2,12 +2,12 @@
   "public_id": "drv_02dda162e815",
   "driver": "Alex Prok",
   "summary": {
-    "points": 1521,
-    "average_points_per_race": 4.53,
-    "races": 336,
+    "points": 1546,
+    "average_points_per_race": 4.59,
+    "races": 337,
     "wins": 1,
     "podiums": 16,
-    "average_finish": 13.14,
+    "average_finish": 13.17,
     "best_lap": "1:48.000",
     "best_lap_ms": 108000,
     "best_lap_track": "monza",
@@ -15,44 +15,142 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "R",
-    "penalty_count": 50,
-    "penalty_points": 95,
+    "penalty_count": 52,
+    "penalty_points": 98,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-12T21:03:42",
-    "last_seen": "2026-05-12T21:03:42",
-    "average_pace_ms": 110616,
-    "average_pace": "1:50.616",
+    "last_race_at": "2026-05-12T22:32:47",
+    "last_seen": "2026-05-12T22:32:47",
+    "average_pace_ms": 110620,
+    "average_pace": "1:50.620",
     "win_rate": 0.3,
-    "podium_rate": 4.76,
-    "average_positions_delta": 0.37,
-    "positions_delta_races": 294,
+    "podium_rate": 4.75,
+    "average_positions_delta": 0.33,
+    "positions_delta_races": 295,
     "championship_rank": 6,
     "bestlap_rank": 1279,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-12T22:18:49"
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.14,
+        "after": 13.17,
+        "delta": 0.03,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110616,
+        "after": 110620,
+        "delta": 4,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 0.37,
+        "after": 0.33,
+        "delta": -0.04,
+        "trend": "down"
+      },
+      "points": {
+        "before": 1521,
+        "after": 1546,
+        "delta": 25,
+        "trend": "up"
+      },
+      "races": {
+        "before": 336,
+        "after": 337,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-12T22:32:47"
   },
   "recent_form": [
+    21,
     7,
     7,
     55,
-    15,
-    11
+    15
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 336,
+      "races": 337,
       "wins": 1,
       "podiums": 16,
-      "points": 1491,
-      "finish_sum": 4416,
-      "average_finish": 13.14,
+      "points": 1516,
+      "finish_sum": 4437,
+      "average_finish": 13.17,
       "best_lap_ms": 108000,
       "best_lap": "1:48.000"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/hourly/hourly_260512_223247_R.json",
+      "finished_at": "2026-05-12T22:32:47",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 21,
+      "participants_count": 32,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
+      "points_multiplier": 5,
+      "winner": "Илья Космач",
+      "points": 25,
+      "qualifying_position": 9,
+      "start_position": 9,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -12,
+      "positions_gained": 0,
+      "positions_lost": 12,
+      "best_lap": "1:49.360",
+      "best_lap_ms": 109360,
+      "total_time": "1:00:45.569",
+      "total_time_ms": 3645569,
+      "gap": "0:10.432",
+      "gap_ms": 10432,
+      "lap_count": 30,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.14,
+          "after": 13.17,
+          "delta": 0.03,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110616,
+          "after": 110620,
+          "delta": 4,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 0.37,
+          "after": 0.33,
+          "delta": -0.04,
+          "trend": "down"
+        },
+        "points": {
+          "before": 1521,
+          "after": 1546,
+          "delta": 25,
+          "trend": "up"
+        },
+        "races": {
+          "before": 336,
+          "after": 337,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260512_210342_R.json",
       "finished_at": "2026-05-12T21:03:42",
@@ -24147,16 +24245,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 50,
-    "penalty_points": 95,
+    "penalty_count": 52,
+    "penalty_points": 98,
     "reasons": {
-      "PitSpeeding": 15,
-      "Cutting": 21,
+      "PitSpeeding": 16,
+      "Cutting": 22,
       "Trolling": 14
     },
     "types": {
-      "DriveThrough": 22,
-      "None": 14,
+      "DriveThrough": 23,
+      "None": 15,
       "Disqualified": 6,
       "StopAndGo_30": 6,
       "StopAndGo_20": 2
