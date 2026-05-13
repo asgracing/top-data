@@ -3,13 +3,13 @@
   "driver": "Felipe Lima",
   "summary": {
     "points": 2,
-    "average_points_per_race": 0.67,
-    "races": 3,
+    "average_points_per_race": 0.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.33,
-    "best_lap": "1:50.152",
-    "best_lap_ms": 110152,
+    "average_finish": 12.5,
+    "best_lap": "1:50.080",
+    "best_lap_ms": 110080,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 34,
     "best_lap_car_name_raw": "Porsche 992 GT3 R",
@@ -19,27 +19,52 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-11T10:41:57",
-    "last_seen": "2026-05-11T10:41:57",
-    "average_pace_ms": 111982,
-    "average_pace": "1:51.982",
+    "last_race_at": "2026-05-13T20:33:23",
+    "last_seen": "2026-05-13T20:33:23",
+    "average_pace_ms": 111986,
+    "average_pace": "1:51.986",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 10.0,
-    "positions_delta_races": 3,
-    "championship_rank": 3816,
-    "bestlap_rank": 5134,
+    "average_positions_delta": 7.75,
+    "positions_delta_races": 4,
+    "championship_rank": 3832,
+    "bestlap_rank": 5026,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3814,
-        "after": 3816,
-        "delta": 2,
+      "average_finish": {
+        "before": 11.33,
+        "after": 12.5,
+        "delta": 1.17,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111982,
+        "after": 111986,
+        "delta": 4,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 10.0,
+        "after": 7.75,
+        "delta": -2.25,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 3816,
+        "after": 3832,
+        "delta": 16,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-13T19:55:14"
+    "latest_change_at": "2026-05-13T20:33:23"
   },
   "recent_form": [
+    16,
     18,
     4,
     13,
@@ -48,17 +73,89 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 34,
-      "average_finish": 11.33,
-      "best_lap_ms": 110152,
-      "best_lap": "1:50.152"
+      "finish_sum": 50,
+      "average_finish": 12.5,
+      "best_lap_ms": 110080,
+      "best_lap": "1:50.080"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260513_203323_R.json",
+      "finished_at": "2026-05-13T20:33:23",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 16,
+      "participants_count": 47,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Man in Tights",
+      "points": 0,
+      "qualifying_position": 17,
+      "start_position": 17,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 1,
+      "positions_gained": 1,
+      "positions_lost": 0,
+      "best_lap": "1:50.080",
+      "best_lap_ms": 110080,
+      "total_time": "23:08.779",
+      "total_time_ms": 1388779,
+      "gap": "1:23.147",
+      "gap_ms": 83147,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.33,
+          "after": 12.5,
+          "delta": 1.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111982,
+          "after": 111986,
+          "delta": 4,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 10.0,
+          "after": 7.75,
+          "delta": -2.25,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 3816,
+          "after": 3832,
+          "delta": 16,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3816,
+        "after": 3832,
+        "delta": 16,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260511_104157_R.json",
       "finished_at": "2026-05-11T10:41:57",
