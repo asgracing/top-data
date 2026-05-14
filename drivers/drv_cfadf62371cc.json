@@ -3,11 +3,11 @@
   "driver": "wolfgang STRAUB (GER)",
   "summary": {
     "points": 189,
-    "average_points_per_race": 5.56,
-    "races": 34,
+    "average_points_per_race": 5.4,
+    "races": 35,
     "wins": 20,
     "podiums": 22,
-    "average_finish": 3.79,
+    "average_finish": 4.06,
     "best_lap": "1:46.757",
     "best_lap_ms": 106757,
     "best_lap_track": "monza",
@@ -19,22 +19,41 @@
     "penalty_points": 0,
     "fastest_lap_awards": 30,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T13:02:14",
-    "last_seen": "2026-05-14T13:02:14",
-    "average_pace_ms": 108603,
-    "average_pace": "1:48.603",
-    "win_rate": 58.82,
-    "podium_rate": 64.71,
+    "last_race_at": "2026-05-14T16:19:57",
+    "last_seen": "2026-05-14T16:19:57",
+    "average_pace_ms": 108581,
+    "average_pace": "1:48.581",
+    "win_rate": 57.14,
+    "podium_rate": 62.86,
     "average_positions_delta": 0.41,
     "positions_delta_races": 22,
     "championship_rank": 125,
     "bestlap_rank": 72,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-14T15:37:44"
+    "latest_changes": {
+      "average_finish": {
+        "before": 3.79,
+        "after": 4.06,
+        "delta": 0.27,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108603,
+        "after": 108581,
+        "delta": -22,
+        "trend": "up"
+      },
+      "races": {
+        "before": 34,
+        "after": 35,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-14T16:19:57"
   },
   "recent_form": [
+    13,
     8,
-    1,
     1,
     1,
     1
@@ -42,17 +61,72 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 34,
+      "races": 35,
       "wins": 20,
       "podiums": 22,
       "points": 189,
-      "finish_sum": 129,
-      "average_finish": 3.79,
+      "finish_sum": 142,
+      "average_finish": 4.06,
       "best_lap_ms": 106757,
       "best_lap": "1:46.757"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260514_161957_R.json",
+      "finished_at": "2026-05-14T16:19:57",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 13,
+      "participants_count": 52,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Jere Kärki (VR)",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.127",
+      "best_lap_ms": 107127,
+      "total_time": "22:55.857",
+      "total_time_ms": 1375857,
+      "gap": "1:10.574",
+      "gap_ms": 70574,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 3.79,
+          "after": 4.06,
+          "delta": 0.27,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108603,
+          "after": 108581,
+          "delta": -22,
+          "trend": "up"
+        },
+        "races": {
+          "before": 34,
+          "after": 35,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260514_130214_R.json",
       "finished_at": "2026-05-14T13:02:14",
