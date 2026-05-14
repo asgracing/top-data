@@ -3,11 +3,11 @@
   "driver": "Frederick Soh",
   "summary": {
     "points": 63,
-    "average_points_per_race": 3.5,
-    "races": 18,
+    "average_points_per_race": 3.32,
+    "races": 19,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 14.39,
+    "average_finish": 14.95,
     "best_lap": "1:47.380",
     "best_lap_ms": 107380,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "Q",
-    "penalty_count": 9,
-    "penalty_points": 12,
+    "penalty_count": 11,
+    "penalty_points": 13,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-09T10:49:07",
-    "last_seen": "2026-05-09T10:49:07",
-    "average_pace_ms": 109082,
-    "average_pace": "1:49.082",
+    "last_race_at": "2026-05-14T16:57:59",
+    "last_seen": "2026-05-14T16:57:59",
+    "average_pace_ms": 109100,
+    "average_pace": "1:49.100",
     "win_rate": 0.0,
-    "podium_rate": 11.11,
+    "podium_rate": 10.53,
     "average_positions_delta": -2.07,
     "positions_delta_races": 15,
     "championship_rank": 415,
     "bestlap_rank": 409,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-14T16:19:57"
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.39,
+        "after": 14.95,
+        "delta": 0.56,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109082,
+        "after": 109100,
+        "delta": 18,
+        "trend": "down"
+      },
+      "races": {
+        "before": 18,
+        "after": 19,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-14T16:57:59"
   },
   "recent_form": [
+    25,
     12,
     10,
     6,
-    40,
-    23
+    40
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 18,
+      "races": 19,
       "wins": 0,
       "podiums": 2,
       "points": 63,
-      "finish_sum": 259,
-      "average_finish": 14.39,
+      "finish_sum": 284,
+      "average_finish": 14.95,
       "best_lap_ms": 107512,
       "best_lap": "1:47.512"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260514_165759_R.json",
+      "finished_at": "2026-05-14T16:57:59",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 25,
+      "participants_count": 40,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Daniil Andreev",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.805",
+      "best_lap_ms": 108805,
+      "total_time": "22:42.966",
+      "total_time_ms": 1362966,
+      "gap": "0:58.710",
+      "gap_ms": 58710,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 1,
+      "changes": {
+        "average_finish": {
+          "before": 14.39,
+          "after": 14.95,
+          "delta": 0.56,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109082,
+          "after": 109100,
+          "delta": 18,
+          "trend": "down"
+        },
+        "races": {
+          "before": 18,
+          "after": 19,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260509_104907_R.json",
       "finished_at": "2026-05-09T10:49:07",
@@ -1799,17 +1873,17 @@
     }
   ],
   "penalties": {
-    "penalty_count": 9,
-    "penalty_points": 12,
+    "penalty_count": 11,
+    "penalty_points": 13,
     "reasons": {
-      "Cutting": 8,
+      "Cutting": 10,
       "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 5,
+      "DriveThrough": 6,
       "StopAndGo_30": 1,
       "Disqualified": 2,
-      "None": 1
+      "None": 2
     }
   }
 }
