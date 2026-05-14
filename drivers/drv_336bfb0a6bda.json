@@ -3,11 +3,11 @@
   "driver": "Dmitry Kolesaev",
   "summary": {
     "points": 134,
-    "average_points_per_race": 3.94,
-    "races": 34,
+    "average_points_per_race": 3.83,
+    "races": 35,
     "wins": 0,
     "podiums": 5,
-    "average_finish": 12.29,
+    "average_finish": 12.4,
     "best_lap": "1:48.342",
     "best_lap_ms": 108342,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 4,
-    "penalty_points": 9,
+    "penalty_count": 6,
+    "penalty_points": 12,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T18:49:18",
-    "last_seen": "2026-05-14T18:49:18",
-    "average_pace_ms": 110509,
-    "average_pace": "1:50.509",
+    "last_race_at": "2026-05-14T23:52:42",
+    "last_seen": "2026-05-14T23:52:42",
+    "average_pace_ms": 110482,
+    "average_pace": "1:50.482",
     "win_rate": 0.0,
-    "podium_rate": 14.71,
+    "podium_rate": 14.29,
     "average_positions_delta": 2.82,
     "positions_delta_races": 22,
     "championship_rank": 192,
-    "bestlap_rank": 1975,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-14T23:14:41"
+    "bestlap_rank": 1976,
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.29,
+        "after": 12.4,
+        "delta": 0.11,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110509,
+        "after": 110482,
+        "delta": -27,
+        "trend": "up"
+      },
+      "races": {
+        "before": 34,
+        "after": 35,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-14T23:52:42"
   },
   "recent_form": [
+    16,
     30,
     14,
     25,
-    2,
-    31
+    2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 34,
+      "races": 35,
       "wins": 0,
       "podiums": 5,
       "points": 134,
-      "finish_sum": 418,
-      "average_finish": 12.29,
+      "finish_sum": 434,
+      "average_finish": 12.4,
       "best_lap_ms": 108342,
       "best_lap": "1:48.342"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260514_235242_R.json",
+      "finished_at": "2026-05-14T23:52:42",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 16,
+      "participants_count": 35,
+      "scoring_participants_count": 20,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Arsen Kaibov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.560",
+      "best_lap_ms": 108560,
+      "total_time": "22:29.227",
+      "total_time_ms": 1349227,
+      "gap": "0:44.013",
+      "gap_ms": 44013,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 12.29,
+          "after": 12.4,
+          "delta": 0.11,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110509,
+          "after": 110482,
+          "delta": -27,
+          "trend": "up"
+        },
+        "races": {
+          "before": 34,
+          "after": 35,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260514_184918_R.json",
       "finished_at": "2026-05-14T18:49:18",
@@ -3332,14 +3406,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 4,
-    "penalty_points": 9,
+    "penalty_count": 6,
+    "penalty_points": 12,
     "reasons": {
-      "Cutting": 4
+      "Cutting": 5,
+      "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 2,
-      "None": 1,
+      "DriveThrough": 3,
+      "None": 2,
       "StopAndGo_20": 1
     }
   }
