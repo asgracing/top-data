@@ -3,11 +3,11 @@
   "driver": "N Avenor",
   "summary": {
     "points": 133,
-    "average_points_per_race": 8.31,
-    "races": 16,
+    "average_points_per_race": 7.82,
+    "races": 17,
     "wins": 2,
     "podiums": 3,
-    "average_finish": 13.19,
+    "average_finish": 13.29,
     "best_lap": "1:47.175",
     "best_lap_ms": 107175,
     "best_lap_track": "monza",
@@ -19,40 +19,114 @@
     "penalty_points": 0,
     "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-13T22:32:03",
-    "last_seen": "2026-05-13T22:32:03",
-    "average_pace_ms": 109214,
-    "average_pace": "1:49.214",
-    "win_rate": 12.5,
-    "podium_rate": 18.75,
+    "last_race_at": "2026-05-14T18:11:08",
+    "last_seen": "2026-05-14T18:11:08",
+    "average_pace_ms": 109211,
+    "average_pace": "1:49.211",
+    "win_rate": 11.76,
+    "podium_rate": 17.65,
     "average_positions_delta": 1.92,
     "positions_delta_races": 13,
     "championship_rank": 193,
     "bestlap_rank": 246,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-14T17:34:20"
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.19,
+        "after": 13.29,
+        "delta": 0.1,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109214,
+        "after": 109211,
+        "delta": -3,
+        "trend": "up"
+      },
+      "races": {
+        "before": 16,
+        "after": 17,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-14T18:11:08"
   },
   "recent_form": [
+    15,
     14,
     30,
     2,
-    5,
-    35
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 16,
+      "races": 17,
       "wins": 2,
       "podiums": 3,
       "points": 133,
-      "finish_sum": 211,
-      "average_finish": 13.19,
+      "finish_sum": 226,
+      "average_finish": 13.29,
       "best_lap_ms": 107175,
       "best_lap": "1:47.175"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260514_181108_R.json",
+      "finished_at": "2026-05-14T18:11:08",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 15,
+      "participants_count": 50,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Verle olai",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.107",
+      "best_lap_ms": 108107,
+      "total_time": "20:34.190",
+      "total_time_ms": 1234190,
+      "gap": "0:13.774",
+      "gap_ms": 13774,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 13.19,
+          "after": 13.29,
+          "delta": 0.1,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109214,
+          "after": 109211,
+          "delta": -3,
+          "trend": "up"
+        },
+        "races": {
+          "before": 16,
+          "after": 17,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260513_223203_R.json",
       "finished_at": "2026-05-13T22:32:03",
