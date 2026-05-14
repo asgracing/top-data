@@ -3,11 +3,11 @@
   "driver": "nico eggert",
   "summary": {
     "points": 66,
-    "average_points_per_race": 7.33,
-    "races": 9,
+    "average_points_per_race": 6.6,
+    "races": 10,
     "wins": 1,
     "podiums": 4,
-    "average_finish": 8.67,
+    "average_finish": 9.7,
     "best_lap": "1:47.322",
     "best_lap_ms": 107322,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 3,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-08T12:08:53",
-    "last_seen": "2026-05-08T12:08:53",
-    "average_pace_ms": 109884,
-    "average_pace": "1:49.884",
-    "win_rate": 11.11,
-    "podium_rate": 44.44,
-    "average_positions_delta": -4.22,
-    "positions_delta_races": 9,
+    "last_race_at": "2026-05-14T15:37:44",
+    "last_seen": "2026-05-14T15:37:44",
+    "average_pace_ms": 109882,
+    "average_pace": "1:49.882",
+    "win_rate": 10.0,
+    "podium_rate": 40.0,
+    "average_positions_delta": -5.6,
+    "positions_delta_races": 10,
     "championship_rank": 387,
     "bestlap_rank": 358,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-14T14:59:18"
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.67,
+        "after": 9.7,
+        "delta": 1.03,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109884,
+        "after": 109882,
+        "delta": -2,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -4.22,
+        "after": -5.6,
+        "delta": -1.38,
+        "trend": "down"
+      },
+      "races": {
+        "before": 9,
+        "after": 10,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-14T15:37:44"
   },
   "recent_form": [
+    19,
     16,
     4,
     3,
-    4,
-    25
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 9,
+      "races": 10,
       "wins": 1,
       "podiums": 4,
       "points": 66,
-      "finish_sum": 78,
-      "average_finish": 8.67,
+      "finish_sum": 97,
+      "average_finish": 9.7,
       "best_lap_ms": 107427,
       "best_lap": "1:47.427"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260514_153744_R.json",
+      "finished_at": "2026-05-14T15:37:44",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 19,
+      "participants_count": 46,
+      "scoring_participants_count": 23,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Kamil Martyna",
+      "points": 0,
+      "qualifying_position": 1,
+      "start_position": 1,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -18,
+      "positions_gained": 0,
+      "positions_lost": 18,
+      "best_lap": "1:49.757",
+      "best_lap_ms": 109757,
+      "total_time": "5:00.517",
+      "total_time_ms": 300517,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.67,
+          "after": 9.7,
+          "delta": 1.03,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109884,
+          "after": 109882,
+          "delta": -2,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -4.22,
+          "after": -5.6,
+          "delta": -1.38,
+          "trend": "down"
+        },
+        "races": {
+          "before": 9,
+          "after": 10,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260508_120853_R.json",
       "finished_at": "2026-05-08T12:08:53",
