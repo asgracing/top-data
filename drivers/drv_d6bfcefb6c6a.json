@@ -2,12 +2,12 @@
   "public_id": "drv_d6bfcefb6c6a",
   "driver": "A sterber",
   "summary": {
-    "points": 363,
-    "average_points_per_race": 9.31,
-    "races": 39,
+    "points": 364,
+    "average_points_per_race": 9.1,
+    "races": 40,
     "wins": 6,
     "podiums": 11,
-    "average_finish": 11.44,
+    "average_finish": 11.57,
     "best_lap": "1:46.882",
     "best_lap_ms": 106882,
     "best_lap_track": "monza",
@@ -17,42 +17,128 @@
     "best_lap_session_type": "R",
     "penalty_count": 3,
     "penalty_points": 5,
-    "fastest_lap_awards": 6,
+    "fastest_lap_awards": 7,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T22:33:39",
-    "last_seen": "2026-05-14T22:33:39",
-    "average_pace_ms": 109889,
-    "average_pace": "1:49.889",
-    "win_rate": 15.38,
-    "podium_rate": 28.21,
+    "last_race_at": "2026-05-15T21:01:45",
+    "last_seen": "2026-05-15T21:01:45",
+    "average_pace_ms": 109826,
+    "average_pace": "1:49.826",
+    "win_rate": 15.0,
+    "podium_rate": 27.5,
     "average_positions_delta": 0.41,
     "positions_delta_races": 29,
     "championship_rank": 61,
     "bestlap_rank": 106,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-15T20:25:20"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.44,
+        "after": 11.57,
+        "delta": 0.13,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109889,
+        "after": 109826,
+        "delta": -63,
+        "trend": "up"
+      },
+      "points": {
+        "before": 363,
+        "after": 364,
+        "delta": 1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 39,
+        "after": 40,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-15T21:01:45"
   },
   "recent_form": [
+    17,
     3,
     13,
     35,
-    47,
-    7
+    47
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 39,
+      "races": 40,
       "wins": 6,
       "podiums": 11,
-      "points": 363,
-      "finish_sum": 446,
-      "average_finish": 11.44,
+      "points": 364,
+      "finish_sum": 463,
+      "average_finish": 11.57,
       "best_lap_ms": 106882,
       "best_lap": "1:46.882"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260515_210145_R.json",
+      "finished_at": "2026-05-15T21:01:45",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 17,
+      "participants_count": 48,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "FER 47.1",
+      "points": 1,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.002",
+      "best_lap_ms": 107002,
+      "total_time": "20:27.767",
+      "total_time_ms": 1227767,
+      "gap": "0:24.981",
+      "gap_ms": 24981,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.44,
+          "after": 11.57,
+          "delta": 0.13,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109889,
+          "after": 109826,
+          "delta": -63,
+          "trend": "up"
+        },
+        "points": {
+          "before": 363,
+          "after": 364,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 39,
+          "after": 40,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260514_223339_R.json",
       "finished_at": "2026-05-14T22:33:39",
