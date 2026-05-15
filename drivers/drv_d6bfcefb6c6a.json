@@ -3,11 +3,11 @@
   "driver": "A sterber",
   "summary": {
     "points": 364,
-    "average_points_per_race": 9.1,
-    "races": 40,
+    "average_points_per_race": 8.88,
+    "races": 41,
     "wins": 6,
     "podiums": 11,
-    "average_finish": 11.57,
+    "average_finish": 11.73,
     "best_lap": "1:46.882",
     "best_lap_ms": 106882,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 3,
-    "penalty_points": 5,
+    "penalty_count": 4,
+    "penalty_points": 7,
     "fastest_lap_awards": 7,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-15T21:01:45",
-    "last_seen": "2026-05-15T21:01:45",
-    "average_pace_ms": 109826,
-    "average_pace": "1:49.826",
-    "win_rate": 15.0,
-    "podium_rate": 27.5,
+    "last_race_at": "2026-05-15T22:16:14",
+    "last_seen": "2026-05-15T22:16:14",
+    "average_pace_ms": 109811,
+    "average_pace": "1:49.811",
+    "win_rate": 14.63,
+    "podium_rate": 26.83,
     "average_positions_delta": 0.41,
     "positions_delta_races": 29,
     "championship_rank": 61,
     "bestlap_rank": 106,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-15T21:40:01"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.57,
+        "after": 11.73,
+        "delta": 0.16,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109826,
+        "after": 109811,
+        "delta": -15,
+        "trend": "up"
+      },
+      "races": {
+        "before": 40,
+        "after": 41,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-15T22:16:14"
   },
   "recent_form": [
+    18,
     17,
     3,
     13,
-    35,
-    47
+    35
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 40,
+      "races": 41,
       "wins": 6,
       "podiums": 11,
       "points": 364,
-      "finish_sum": 463,
-      "average_finish": 11.57,
+      "finish_sum": 481,
+      "average_finish": 11.73,
       "best_lap_ms": 106882,
       "best_lap": "1:46.882"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260515_221614_R.json",
+      "finished_at": "2026-05-15T22:16:14",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 18,
+      "participants_count": 50,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "N1n3R KZC",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.597",
+      "best_lap_ms": 107597,
+      "total_time": "21:59.766",
+      "total_time_ms": 1319766,
+      "gap": "1:59.405",
+      "gap_ms": 119405,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 11.57,
+          "after": 11.73,
+          "delta": 0.16,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109826,
+          "after": 109811,
+          "delta": -15,
+          "trend": "up"
+        },
+        "races": {
+          "before": 40,
+          "after": 41,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260515_210145_R.json",
       "finished_at": "2026-05-15T21:01:45",
@@ -3483,15 +3557,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 3,
-    "penalty_points": 5,
+    "penalty_count": 4,
+    "penalty_points": 7,
     "reasons": {
       "PitSpeeding": 1,
-      "Trolling": 2
+      "Trolling": 2,
+      "Cutting": 1
     },
     "types": {
       "StopAndGo_30": 1,
-      "DriveThrough": 1,
+      "DriveThrough": 2,
       "Disqualified": 1
     }
   }
