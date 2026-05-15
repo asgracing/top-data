@@ -3,11 +3,11 @@
   "driver": "Георгий Сурков",
   "summary": {
     "points": 78,
-    "average_points_per_race": 3.0,
-    "races": 26,
+    "average_points_per_race": 2.89,
+    "races": 27,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 16.0,
+    "average_finish": 15.93,
     "best_lap": "1:47.907",
     "best_lap_ms": 107907,
     "best_lap_track": "monza",
@@ -15,44 +15,130 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 2,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-04T18:54:56",
-    "last_seen": "2026-05-04T18:54:56",
-    "average_pace_ms": 110853,
-    "average_pace": "1:50.853",
+    "last_race_at": "2026-05-15T17:56:47",
+    "last_seen": "2026-05-15T17:56:47",
+    "average_pace_ms": 110833,
+    "average_pace": "1:50.833",
     "win_rate": 0.0,
-    "podium_rate": 7.69,
-    "average_positions_delta": -2.81,
-    "positions_delta_races": 21,
+    "podium_rate": 7.41,
+    "average_positions_delta": -1.91,
+    "positions_delta_races": 22,
     "championship_rank": 336,
     "bestlap_rank": 1159,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-15T17:20:03"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.0,
+        "after": 15.93,
+        "delta": -0.07,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 110853,
+        "after": 110833,
+        "delta": -20,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -2.81,
+        "after": -1.91,
+        "delta": 0.9,
+        "trend": "up"
+      },
+      "races": {
+        "before": 26,
+        "after": 27,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-15T17:56:47"
   },
   "recent_form": [
+    14,
     5,
     2,
     17,
-    16,
-    10
+    16
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 26,
+      "races": 27,
       "wins": 0,
       "podiums": 2,
       "points": 78,
-      "finish_sum": 416,
-      "average_finish": 16.0,
+      "finish_sum": 430,
+      "average_finish": 15.93,
       "best_lap_ms": 108052,
       "best_lap": "1:48.052"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260515_175647_R.json",
+      "finished_at": "2026-05-15T17:56:47",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 14,
+      "participants_count": 43,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Sergei Vlasov",
+      "points": 0,
+      "qualifying_position": 31,
+      "start_position": 31,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 17,
+      "positions_gained": 17,
+      "positions_lost": 0,
+      "best_lap": "1:49.500",
+      "best_lap_ms": 109500,
+      "total_time": "21:17.939",
+      "total_time_ms": 1277939,
+      "gap": "1:13.283",
+      "gap_ms": 73283,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 2,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 16.0,
+          "after": 15.93,
+          "delta": -0.07,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 110853,
+          "after": 110833,
+          "delta": -20,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -2.81,
+          "after": -1.91,
+          "delta": 0.9,
+          "trend": "up"
+        },
+        "races": {
+          "before": 26,
+          "after": 27,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260504_185456_R.json",
       "finished_at": "2026-05-04T18:54:56",
@@ -2320,9 +2406,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 2,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 2
+    },
+    "types": {
+      "DriveThrough": 1,
+      "None": 1
+    }
   }
 }

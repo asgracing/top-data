@@ -3,11 +3,11 @@
   "driver": "Alexander Zimmer",
   "summary": {
     "points": 52,
-    "average_points_per_race": 1.37,
-    "races": 38,
+    "average_points_per_race": 1.33,
+    "races": 39,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 11.87,
+    "average_finish": 12.03,
     "best_lap": "1:48.760",
     "best_lap_ms": 108760,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Porsche 992 GT3 R",
     "best_lap_car_name": "Porsche 992 GT3 R",
     "best_lap_session_type": "R",
-    "penalty_count": 5,
-    "penalty_points": 6,
+    "penalty_count": 6,
+    "penalty_points": 8,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T20:40:43",
-    "last_seen": "2026-05-14T20:40:43",
-    "average_pace_ms": 111846,
-    "average_pace": "1:51.846",
+    "last_race_at": "2026-05-15T17:56:47",
+    "last_seen": "2026-05-15T17:56:47",
+    "average_pace_ms": 111820,
+    "average_pace": "1:51.820",
     "win_rate": 0.0,
-    "podium_rate": 2.63,
+    "podium_rate": 2.56,
     "average_positions_delta": 3.66,
     "positions_delta_races": 35,
     "championship_rank": 520,
     "bestlap_rank": 2837,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-15T17:20:03"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.87,
+        "after": 12.03,
+        "delta": 0.16,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111846,
+        "after": 111820,
+        "delta": -26,
+        "trend": "up"
+      },
+      "races": {
+        "before": 38,
+        "after": 39,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-15T17:56:47"
   },
   "recent_form": [
+    18,
     44,
     13,
     4,
-    7,
-    21
+    7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 38,
+      "races": 39,
       "wins": 0,
       "podiums": 1,
       "points": 52,
-      "finish_sum": 451,
-      "average_finish": 11.87,
+      "finish_sum": 469,
+      "average_finish": 12.03,
       "best_lap_ms": 108760,
       "best_lap": "1:48.760"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260515_175647_R.json",
+      "finished_at": "2026-05-15T17:56:47",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 18,
+      "participants_count": 43,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Sergei Vlasov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.967",
+      "best_lap_ms": 109967,
+      "total_time": "15:37.680",
+      "total_time_ms": 937680,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 11.87,
+          "after": 12.03,
+          "delta": 0.16,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111846,
+          "after": 111820,
+          "delta": -26,
+          "trend": "up"
+        },
+        "races": {
+          "before": 38,
+          "after": 39,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260514_204043_R.json",
       "finished_at": "2026-05-14T20:40:43",
@@ -3881,14 +3955,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 5,
-    "penalty_points": 6,
+    "penalty_count": 6,
+    "penalty_points": 8,
     "reasons": {
       "None": 1,
-      "Cutting": 4
+      "Cutting": 5
     },
     "types": {
-      "DriveThrough": 3,
+      "DriveThrough": 4,
       "None": 2
     }
   }
