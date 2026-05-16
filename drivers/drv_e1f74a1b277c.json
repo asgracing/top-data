@@ -3,11 +3,11 @@
   "driver": "Xavi DeLa [CAT]",
   "summary": {
     "points": 620,
-    "average_points_per_race": 10.0,
-    "races": 62,
+    "average_points_per_race": 9.84,
+    "races": 63,
     "wins": 14,
     "podiums": 25,
-    "average_finish": 11.15,
+    "average_finish": 11.29,
     "best_lap": "1:47.025",
     "best_lap_ms": 107025,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Lexus RC F GT3",
     "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 2,
+    "penalty_count": 3,
     "penalty_points": 4,
     "fastest_lap_awards": 9,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T21:18:40",
-    "last_seen": "2026-05-14T21:18:40",
-    "average_pace_ms": 108571,
-    "average_pace": "1:48.571",
-    "win_rate": 22.58,
-    "podium_rate": 40.32,
+    "last_race_at": "2026-05-16T23:43:58",
+    "last_seen": "2026-05-16T23:43:58",
+    "average_pace_ms": 108570,
+    "average_pace": "1:48.570",
+    "win_rate": 22.22,
+    "podium_rate": 39.68,
     "average_positions_delta": -0.42,
     "positions_delta_races": 43,
     "championship_rank": 33,
     "bestlap_rank": 171,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-16T23:07:30"
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.15,
+        "after": 11.29,
+        "delta": 0.14,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108571,
+        "after": 108570,
+        "delta": -1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 62,
+        "after": 63,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-16T23:43:58"
   },
   "recent_form": [
+    20,
     8,
     19,
     1,
-    18,
-    7
+    18
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 62,
+      "races": 63,
       "wins": 14,
       "podiums": 25,
       "points": 620,
-      "finish_sum": 691,
-      "average_finish": 11.15,
+      "finish_sum": 711,
+      "average_finish": 11.29,
       "best_lap_ms": 107082,
       "best_lap": "1:47.082"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260516_234358_R.json",
+      "finished_at": "2026-05-16T23:43:58",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 20,
+      "participants_count": 47,
+      "scoring_participants_count": 32,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Gianluca Robey",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.102",
+      "best_lap_ms": 108102,
+      "total_time": "20:25.776",
+      "total_time_ms": 1225776,
+      "gap": "0:22.117",
+      "gap_ms": 22117,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.15,
+          "after": 11.29,
+          "delta": 0.14,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108571,
+          "after": 108570,
+          "delta": -1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 62,
+          "after": 63,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260514_211840_R.json",
       "finished_at": "2026-05-14T21:18:40",
@@ -5309,13 +5383,15 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
+    "penalty_count": 3,
     "penalty_points": 4,
     "reasons": {
-      "Cutting": 2
+      "Cutting": 2,
+      "WrongWay": 1
     },
     "types": {
-      "DriveThrough": 2
+      "DriveThrough": 2,
+      "Disqualified": 1
     }
   }
 }
