@@ -3,11 +3,11 @@
   "driver": "Tommy Bill",
   "summary": {
     "points": 6,
-    "average_points_per_race": 1.5,
-    "races": 4,
+    "average_points_per_race": 1.2,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 11.5,
+    "average_finish": 11.8,
     "best_lap": "1:50.122",
     "best_lap_ms": 110122,
     "best_lap_track": "monza",
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-07T20:13:03",
-    "last_seen": "2026-05-07T20:13:03",
-    "average_pace_ms": 112622,
-    "average_pace": "1:52.622",
+    "last_race_at": "2026-05-17T02:15:18",
+    "last_seen": "2026-05-17T02:15:18",
+    "average_pace_ms": 112520,
+    "average_pace": "1:52.520",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 10.25,
     "positions_delta_races": 4,
-    "championship_rank": 2849,
-    "bestlap_rank": 5275,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-17T01:39:23"
+    "championship_rank": 2853,
+    "bestlap_rank": 5278,
+    "latest_changes": {
+      "average_finish": {
+        "before": 11.5,
+        "after": 11.8,
+        "delta": 0.3,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112622,
+        "after": 112520,
+        "delta": -102,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2849,
+        "after": 2853,
+        "delta": 4,
+        "trend": "down"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-17T02:15:18"
   },
   "recent_form": [
+    13,
     32,
     41,
     17,
-    8,
-    28
+    8
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 6,
-      "finish_sum": 46,
-      "average_finish": 11.5,
+      "finish_sum": 59,
+      "average_finish": 11.8,
       "best_lap_ms": 110122,
       "best_lap": "1:50.122"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260517_021518_R.json",
+      "finished_at": "2026-05-17T02:15:18",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 13,
+      "participants_count": 35,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Artur Malets",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:51.322",
+      "best_lap_ms": 111322,
+      "total_time": "18:43.394",
+      "total_time_ms": 1123394,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 9,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.5,
+          "after": 11.8,
+          "delta": 0.3,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112622,
+          "after": 112520,
+          "delta": -102,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2849,
+          "after": 2853,
+          "delta": 4,
+          "trend": "down"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2849,
+        "after": 2853,
+        "delta": 4,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260507_201303_R.json",
       "finished_at": "2026-05-07T20:13:03",
