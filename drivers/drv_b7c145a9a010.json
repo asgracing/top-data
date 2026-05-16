@@ -3,11 +3,11 @@
   "driver": "Artem Lazarev",
   "summary": {
     "points": 15,
-    "average_points_per_race": 5.0,
-    "races": 3,
+    "average_points_per_race": 3.75,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 16.33,
+    "average_finish": 21.0,
     "best_lap": "1:48.727",
     "best_lap_ms": 108727,
     "best_lap_track": "monza",
@@ -15,44 +15,123 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 1,
-    "penalty_points": 2,
+    "penalty_count": 2,
+    "penalty_points": 5,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T18:49:18",
-    "last_seen": "2026-05-14T18:49:18",
+    "last_race_at": "2026-05-16T19:54:28",
+    "last_seen": "2026-05-16T19:54:28",
     "average_pace_ms": 110415,
     "average_pace": "1:50.415",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
+    "podium_rate": 25.0,
     "average_positions_delta": -9.0,
     "positions_delta_races": 2,
-    "championship_rank": 1647,
-    "bestlap_rank": 2813,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-16T19:16:27"
+    "championship_rank": 1654,
+    "bestlap_rank": 2816,
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.33,
+        "after": 21.0,
+        "delta": 4.67,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1647,
+        "after": 1654,
+        "delta": 7,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-16T19:54:28"
   },
   "recent_form": [
+    35,
     33,
     3,
     42,
-    24,
-    22
+    24
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
       "points": 15,
-      "finish_sum": 49,
-      "average_finish": 16.33,
+      "finish_sum": 84,
+      "average_finish": 21.0,
       "best_lap_ms": 109007,
       "best_lap": "1:49.007"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260516_195428_R.json",
+      "finished_at": "2026-05-16T19:54:28",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 35,
+      "participants_count": 44,
+      "scoring_participants_count": 35,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nicolas LEGRAND",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "22:48.077",
+      "total_time_ms": 1368077,
+      "gap": "1:06.329",
+      "gap_ms": 66329,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 16.33,
+          "after": 21.0,
+          "delta": 4.67,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1647,
+          "after": 1654,
+          "delta": 7,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1647,
+        "after": 1654,
+        "delta": 7,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260514_184918_R.json",
       "finished_at": "2026-05-14T18:49:18",
@@ -361,13 +440,14 @@
     }
   ],
   "penalties": {
-    "penalty_count": 1,
-    "penalty_points": 2,
+    "penalty_count": 2,
+    "penalty_points": 5,
     "reasons": {
-      "None": 1
+      "None": 1,
+      "PitSpeeding": 1
     },
     "types": {
-      "DriveThrough": 1
+      "DriveThrough": 2
     }
   }
 }
