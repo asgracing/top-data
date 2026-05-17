@@ -3,11 +3,11 @@
   "driver": "tof blandeau",
   "summary": {
     "points": 17,
-    "average_points_per_race": 3.4,
-    "races": 5,
+    "average_points_per_race": 2.83,
+    "races": 6,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 12.2,
+    "average_finish": 12.83,
     "best_lap": "1:48.225",
     "best_lap_ms": 108225,
     "best_lap_track": "monza",
@@ -15,44 +15,106 @@
     "best_lap_car_name_raw": "Lexus RC F GT3",
     "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 0,
-    "penalty_points": 0,
+    "penalty_count": 1,
+    "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-16T23:07:30",
-    "last_seen": "2026-05-16T23:07:30",
+    "last_race_at": "2026-05-17T03:28:06",
+    "last_seen": "2026-05-17T03:28:06",
     "average_pace_ms": 110358,
     "average_pace": "1:50.358",
     "win_rate": 0.0,
-    "podium_rate": 20.0,
+    "podium_rate": 16.67,
     "average_positions_delta": 6.5,
     "positions_delta_races": 4,
     "championship_rank": 1503,
     "bestlap_rank": 1784,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-17T02:53:27"
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.2,
+        "after": 12.83,
+        "delta": 0.63,
+        "trend": "down"
+      },
+      "races": {
+        "before": 5,
+        "after": 6,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-17T03:28:06"
   },
   "recent_form": [
+    16,
     45,
     21,
     37,
-    3,
-    9
+    3
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 5,
+      "races": 6,
       "wins": 0,
       "podiums": 1,
       "points": 17,
-      "finish_sum": 61,
-      "average_finish": 12.2,
+      "finish_sum": 77,
+      "average_finish": 12.83,
       "best_lap_ms": 108282,
       "best_lap": "1:48.282"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260517_032806_R.json",
+      "finished_at": "2026-05-17T03:28:06",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 16,
+      "participants_count": 32,
+      "scoring_participants_count": 16,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Artur Malets",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "20:50.710",
+      "total_time_ms": 1250710,
+      "gap": "0:50.842",
+      "gap_ms": 50842,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 12.2,
+          "after": 12.83,
+          "delta": 0.63,
+          "trend": "down"
+        },
+        "races": {
+          "before": 5,
+          "after": 6,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260516_230730_R.json",
       "finished_at": "2026-05-16T23:07:30",
@@ -553,9 +615,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
-    "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "penalty_count": 1,
+    "penalty_points": 3,
+    "reasons": {
+      "Cutting": 1
+    },
+    "types": {
+      "StopAndGo_10": 1
+    }
   }
 }
