@@ -3,11 +3,11 @@
   "driver": "Valery Arkhipov",
   "summary": {
     "points": 42,
-    "average_points_per_race": 0.89,
-    "races": 47,
+    "average_points_per_race": 0.88,
+    "races": 48,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.17,
+    "average_finish": 15.25,
     "best_lap": "1:48.447",
     "best_lap_ms": 108447,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 14,
-    "penalty_points": 18,
+    "penalty_count": 15,
+    "penalty_points": 20,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-16T19:54:28",
-    "last_seen": "2026-05-16T19:54:28",
-    "average_pace_ms": 111659,
-    "average_pace": "1:51.659",
+    "last_race_at": "2026-05-17T10:00:49",
+    "last_seen": "2026-05-17T10:00:49",
+    "average_pace_ms": 111662,
+    "average_pace": "1:51.662",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 1.34,
     "positions_delta_races": 35,
     "championship_rank": 673,
-    "bestlap_rank": 2254,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-17T09:22:42"
+    "bestlap_rank": 2258,
+    "latest_changes": {
+      "average_finish": {
+        "before": 15.17,
+        "after": 15.25,
+        "delta": 0.08,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111659,
+        "after": 111662,
+        "delta": 3,
+        "trend": "down"
+      },
+      "races": {
+        "before": 47,
+        "after": 48,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-17T10:00:49"
   },
   "recent_form": [
     19,
+    19,
     15,
     33,
-    4,
-    14
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 47,
+      "races": 48,
       "wins": 0,
       "podiums": 0,
       "points": 42,
-      "finish_sum": 713,
-      "average_finish": 15.17,
+      "finish_sum": 732,
+      "average_finish": 15.25,
       "best_lap_ms": 108447,
       "best_lap": "1:48.447"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260517_100049_R.json",
+      "finished_at": "2026-05-17T10:00:49",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 19,
+      "participants_count": 29,
+      "scoring_participants_count": 22,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "ИГОРЬ G",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:52.072",
+      "best_lap_ms": 112072,
+      "total_time": "21:26.068",
+      "total_time_ms": 1286068,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 15.17,
+          "after": 15.25,
+          "delta": 0.08,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111659,
+          "after": 111662,
+          "delta": 3,
+          "trend": "down"
+        },
+        "races": {
+          "before": 47,
+          "after": 48,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260516_195428_R.json",
       "finished_at": "2026-05-16T19:54:28",
@@ -4036,16 +4110,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 14,
-    "penalty_points": 18,
+    "penalty_count": 15,
+    "penalty_points": 20,
     "reasons": {
       "PitSpeeding": 5,
-      "Cutting": 9
+      "Cutting": 10
     },
     "types": {
       "StopAndGo_30": 2,
       "None": 5,
-      "DriveThrough": 5,
+      "DriveThrough": 6,
       "StopAndGo_10": 1,
       "Disqualified": 1
     }
