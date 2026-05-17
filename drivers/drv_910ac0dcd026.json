@@ -2,14 +2,14 @@
   "public_id": "drv_910ac0dcd026",
   "driver": "Davide Pipitone",
   "summary": {
-    "points": 18,
-    "average_points_per_race": 18.0,
-    "races": 1,
+    "points": 22,
+    "average_points_per_race": 11.0,
+    "races": 2,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 2.0,
-    "best_lap": "1:48.362",
-    "best_lap_ms": 108362,
+    "average_finish": 5.0,
+    "best_lap": "1:48.012",
+    "best_lap_ms": 108012,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 25,
     "best_lap_car_name_raw": "Mercedes-AMG GT3 2020",
@@ -19,36 +19,115 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-02T21:09:05",
-    "last_seen": "2026-05-02T21:09:05",
-    "average_pace_ms": 110072,
-    "average_pace": "1:50.072",
+    "last_race_at": "2026-05-17T18:03:34",
+    "last_seen": "2026-05-17T18:03:34",
+    "average_pace_ms": 109808,
+    "average_pace": "1:49.808",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
-    "average_positions_delta": 8.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1390,
-    "bestlap_rank": 2080,
+    "podium_rate": 50.0,
+    "average_positions_delta": 2.5,
+    "positions_delta_races": 2,
+    "championship_rank": 1217,
+    "bestlap_rank": 1374,
     "latest_changes": {},
-    "latest_change_at": "2026-05-17T13:43:49"
+    "latest_change_at": "2026-04-11T14:16:03"
   },
   "recent_form": [
+    8,
     2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 1,
-      "points": 18,
-      "finish_sum": 2,
-      "average_finish": 2.0,
-      "best_lap_ms": 108362,
-      "best_lap": "1:48.362"
+      "points": 22,
+      "finish_sum": 10,
+      "average_finish": 5.0,
+      "best_lap_ms": 108012,
+      "best_lap": "1:48.012"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260517_180334_R.json",
+      "finished_at": "2026-05-17T18:03:34",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 8,
+      "participants_count": 50,
+      "scoring_participants_count": 32,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Tolga Kahtay",
+      "points": 4,
+      "qualifying_position": 5,
+      "start_position": 5,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -3,
+      "positions_gained": 0,
+      "positions_lost": 3,
+      "best_lap": "1:48.012",
+      "best_lap_ms": 108012,
+      "total_time": "22:06.229",
+      "total_time_ms": 1326229,
+      "gap": "0:33.399",
+      "gap_ms": 33399,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.0,
+          "after": 5.0,
+          "delta": 3.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110072,
+          "after": 109808,
+          "delta": -264,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 8.0,
+          "after": 2.5,
+          "delta": -5.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1315,
+          "after": 1127,
+          "delta": -188,
+          "trend": "up"
+        },
+        "points": {
+          "before": 18,
+          "after": 22,
+          "delta": 4,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1315,
+        "after": 1127,
+        "delta": -188,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260502_210905_R.json",
       "finished_at": "2026-05-02T21:09:05",
@@ -101,9 +180,9 @@
           "trend": "up"
         },
         "championship_rank": {
-          "before": 6517,
-          "after": 1107,
-          "delta": -5410,
+          "before": 6317,
+          "after": 1048,
+          "delta": -5269,
           "trend": "up"
         },
         "podiums": {
@@ -126,9 +205,9 @@
         }
       },
       "rank_change": {
-        "before": 6517,
-        "after": 1107,
-        "delta": -5410,
+        "before": 6317,
+        "after": 1048,
+        "delta": -5269,
         "trend": "up"
       },
       "bestlap_rank_change": null
