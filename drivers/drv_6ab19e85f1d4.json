@@ -3,13 +3,13 @@
   "driver": "R. H-Q-P",
   "summary": {
     "points": 19,
-    "average_points_per_race": 4.75,
-    "races": 4,
+    "average_points_per_race": 3.8,
+    "races": 5,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 5.75,
-    "best_lap": "1:48.500",
-    "best_lap_ms": 108500,
+    "average_finish": 8.0,
+    "best_lap": "1:48.365",
+    "best_lap_ms": 108365,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 15,
     "best_lap_car_name_raw": "Lexus RC F GT3",
@@ -19,40 +19,126 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-17T11:51:12",
-    "last_seen": "2026-05-17T11:51:12",
-    "average_pace_ms": 117674,
-    "average_pace": "1:57.674",
-    "win_rate": 25.0,
-    "podium_rate": 25.0,
-    "average_positions_delta": 3.0,
-    "positions_delta_races": 4,
+    "last_race_at": "2026-05-17T13:43:49",
+    "last_seen": "2026-05-17T13:43:49",
+    "average_pace_ms": 116318,
+    "average_pace": "1:56.318",
+    "win_rate": 20.0,
+    "podium_rate": 20.0,
+    "average_positions_delta": 4.6,
+    "positions_delta_races": 5,
     "championship_rank": 1327,
-    "bestlap_rank": 2380,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-17T13:05:38"
+    "bestlap_rank": 2087,
+    "latest_changes": {
+      "average_finish": {
+        "before": 5.75,
+        "after": 8.0,
+        "delta": 2.25,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 117674,
+        "after": 116318,
+        "delta": -1356,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 3.0,
+        "after": 4.6,
+        "delta": 1.6,
+        "trend": "up"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-17T13:43:49"
   },
   "recent_form": [
+    17,
     24,
     14,
     4,
-    4,
-    1
+    4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 1,
       "podiums": 1,
       "points": 19,
-      "finish_sum": 23,
-      "average_finish": 5.75,
-      "best_lap_ms": 108500,
-      "best_lap": "1:48.500"
+      "finish_sum": 40,
+      "average_finish": 8.0,
+      "best_lap_ms": 108365,
+      "best_lap": "1:48.365"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260517_134349_R.json",
+      "finished_at": "2026-05-17T13:43:49",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 17,
+      "participants_count": 47,
+      "scoring_participants_count": 32,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "man_g_ lei_",
+      "points": 0,
+      "qualifying_position": 28,
+      "start_position": 28,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 11,
+      "positions_gained": 11,
+      "positions_lost": 0,
+      "best_lap": "1:48.365",
+      "best_lap_ms": 108365,
+      "total_time": "16:02.272",
+      "total_time_ms": 962272,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 5.75,
+          "after": 8.0,
+          "delta": 2.25,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 117674,
+          "after": 116318,
+          "delta": -1356,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 3.0,
+          "after": 4.6,
+          "delta": 1.6,
+          "trend": "up"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260517_115112_R.json",
       "finished_at": "2026-05-17T11:51:12",
