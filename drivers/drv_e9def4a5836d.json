@@ -2,12 +2,12 @@
   "public_id": "drv_e9def4a5836d",
   "driver": "Sergey Nikandrov",
   "summary": {
-    "points": 8,
-    "average_points_per_race": 2.67,
-    "races": 3,
+    "points": 73,
+    "average_points_per_race": 18.25,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.67,
+    "average_finish": 12.75,
     "best_lap": "1:47.717",
     "best_lap_ms": 107717,
     "best_lap_track": "monza",
@@ -19,40 +19,155 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-01T23:45:13",
-    "last_seen": "2026-04-01T23:45:13",
-    "average_pace_ms": 109779,
-    "average_pace": "1:49.779",
+    "last_race_at": "2026-05-18T22:34:33",
+    "last_seen": "2026-05-18T22:34:33",
+    "average_pace_ms": 110298,
+    "average_pace": "1:50.298",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 2.67,
-    "positions_delta_races": 3,
-    "championship_rank": 2536,
+    "average_positions_delta": 4.0,
+    "positions_delta_races": 4,
+    "championship_rank": 380,
     "bestlap_rank": 857,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-18T22:33:29"
+    "latest_changes": {
+      "average_finish": {
+        "before": 12.67,
+        "after": 12.75,
+        "delta": 0.08,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109779,
+        "after": 110298,
+        "delta": 519,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 2.67,
+        "after": 4.0,
+        "delta": 1.33,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2536,
+        "after": 380,
+        "delta": -2156,
+        "trend": "up"
+      },
+      "points": {
+        "before": 8,
+        "after": 73,
+        "delta": 65,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-18T22:34:33"
   },
   "recent_form": [
+    13,
     7,
     9,
     29,
-    30,
-    35
+    30
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
-      "points": 8,
-      "finish_sum": 38,
-      "average_finish": 12.67,
+      "points": 73,
+      "finish_sum": 51,
+      "average_finish": 12.75,
       "best_lap_ms": 107717,
       "best_lap": "1:47.717"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/hourly/hourly_260518_223433_R.json",
+      "finished_at": "2026-05-18T22:34:33",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 13,
+      "participants_count": 36,
+      "scoring_participants_count": 33,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
+      "points_multiplier": 5,
+      "winner": "Ilya Kosmach",
+      "points": 65,
+      "qualifying_position": 21,
+      "start_position": 21,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 8,
+      "positions_gained": 8,
+      "positions_lost": 0,
+      "best_lap": "1:48.577",
+      "best_lap_ms": 108577,
+      "total_time": "1:00:51.968",
+      "total_time_ms": 3651968,
+      "gap": "0:19.868",
+      "gap_ms": 19868,
+      "lap_count": 32,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.67,
+          "after": 12.75,
+          "delta": 0.08,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109779,
+          "after": 110298,
+          "delta": 519,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 2.67,
+          "after": 4.0,
+          "delta": 1.33,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2536,
+          "after": 380,
+          "delta": -2156,
+          "trend": "up"
+        },
+        "points": {
+          "before": 8,
+          "after": 73,
+          "delta": 65,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2536,
+        "after": 380,
+        "delta": -2156,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260401_234513_R.json",
       "finished_at": "2026-04-01T23:45:13",
