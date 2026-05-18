@@ -1,25 +1,37 @@
 {
   "status": "online",
   "server_online": true,
-  "players_online": 2,
+  "players_online": 0,
   "tcp_listening": true,
   "udp_listening": true,
   "broadcast_listening": true,
-  "updated_at": "2026-05-18T12:46:50",
+  "updated_at": "2026-05-18T21:09:07",
   "server_process_name": "accServer.exe",
-  "server_process_count": 1,
+  "server_process_count": 2,
   "servers": {
     "main": {
       "name": "main",
       "status": "online",
       "server_online": true,
-      "players_online": 2,
+      "players_online": 0,
       "tcp_port": 10040,
       "udp_port": 10039,
       "broadcast_port": 8999,
       "tcp_listening": true,
       "udp_listening": true,
       "broadcast_listening": true
+    },
+    "hourly": {
+      "name": "hourly",
+      "status": "offline",
+      "server_online": false,
+      "players_online": 0,
+      "tcp_port": 10035,
+      "udp_port": 10034,
+      "broadcast_port": null,
+      "tcp_listening": false,
+      "udp_listening": false,
+      "broadcast_listening": false
     },
     "sunset": {
       "name": "sunset",
@@ -38,13 +50,25 @@
     "name": "main",
     "status": "online",
     "server_online": true,
-    "players_online": 2,
+    "players_online": 0,
     "tcp_port": 10040,
     "udp_port": 10039,
     "broadcast_port": 8999,
     "tcp_listening": true,
     "udp_listening": true,
     "broadcast_listening": true
+  },
+  "hourly": {
+    "name": "hourly",
+    "status": "offline",
+    "server_online": false,
+    "players_online": 0,
+    "tcp_port": 10035,
+    "udp_port": 10034,
+    "broadcast_port": null,
+    "tcp_listening": false,
+    "udp_listening": false,
+    "broadcast_listening": false
   },
   "sunset": {
     "name": "sunset",
