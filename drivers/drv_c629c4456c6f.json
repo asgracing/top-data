@@ -3,11 +3,11 @@
   "driver": "ARİF ATEŞ",
   "summary": {
     "points": 2,
-    "average_points_per_race": 0.67,
-    "races": 3,
+    "average_points_per_race": 0.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 17.67,
+    "average_finish": 17.75,
     "best_lap": "1:48.342",
     "best_lap_ms": 108342,
     "best_lap_track": "monza",
@@ -19,39 +19,52 @@
     "penalty_points": 4,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-19T19:22:39",
-    "last_seen": "2026-05-19T19:34:32",
-    "average_pace_ms": 110711,
-    "average_pace": "1:50.711",
+    "last_race_at": "2026-05-19T20:00:31",
+    "last_seen": "2026-05-19T20:00:31",
+    "average_pace_ms": 110619,
+    "average_pace": "1:50.619",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 8.0,
-    "positions_delta_races": 2,
-    "championship_rank": 4162,
-    "bestlap_rank": 3283,
+    "average_positions_delta": 1.33,
+    "positions_delta_races": 3,
+    "championship_rank": 4164,
+    "bestlap_rank": 2062,
     "latest_changes": {
       "average_finish": {
-        "before": 12.0,
-        "after": 17.67,
-        "delta": 5.67,
+        "before": 17.67,
+        "after": 17.75,
+        "delta": 0.08,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110711,
+        "after": 110619,
+        "delta": -92,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 8.0,
+        "after": 1.33,
+        "delta": -6.67,
         "trend": "down"
       },
       "championship_rank": {
-        "before": 4029,
-        "after": 4162,
-        "delta": 133,
+        "before": 4162,
+        "after": 4164,
+        "delta": 2,
         "trend": "down"
       },
       "races": {
-        "before": 2,
-        "after": 3,
+        "before": 3,
+        "after": 4,
         "delta": 1,
         "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-19T19:22:39"
+    "latest_change_at": "2026-05-19T20:00:31"
   },
   "recent_form": [
+    18,
     29,
     28,
     15,
@@ -60,17 +73,89 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 53,
-      "average_finish": 17.67,
-      "best_lap_ms": 109002,
-      "best_lap": "1:49.002"
+      "finish_sum": 71,
+      "average_finish": 17.75,
+      "best_lap_ms": 108800,
+      "best_lap": "1:48.800"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260519_200031_R.json",
+      "finished_at": "2026-05-19T20:00:31",
+      "track": "monza",
+      "car_model_id": 6,
+      "car_name_raw": "Nissan GT-R Nismo GT3 2018",
+      "car_name": "Nissan GT-R Nismo GT3",
+      "position": 18,
+      "participants_count": 46,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "A William",
+      "points": 0,
+      "qualifying_position": 6,
+      "start_position": 6,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -12,
+      "positions_gained": 0,
+      "positions_lost": 12,
+      "best_lap": "1:48.800",
+      "best_lap_ms": 108800,
+      "total_time": "20:56.129",
+      "total_time_ms": 1256129,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 17.67,
+          "after": 17.75,
+          "delta": 0.08,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110711,
+          "after": 110619,
+          "delta": -92,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 8.0,
+          "after": 1.33,
+          "delta": -6.67,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 4162,
+          "after": 4164,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 4162,
+        "after": 4164,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260519_192239_R.json",
       "finished_at": "2026-05-19T19:22:39",
