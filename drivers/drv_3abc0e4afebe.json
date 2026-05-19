@@ -3,11 +3,11 @@
   "driver": "LUCA ZENOBI",
   "summary": {
     "points": 22,
-    "average_points_per_race": 1.57,
-    "races": 14,
+    "average_points_per_race": 1.47,
+    "races": 15,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 18.57,
+    "average_finish": 19.13,
     "best_lap": "1:48.127",
     "best_lap_ms": 108127,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 2,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-10T17:06:25",
-    "last_seen": "2026-04-05T20:24:14",
-    "average_pace_ms": 109831,
-    "average_pace": "1:49.831",
+    "last_race_at": "2026-05-19T23:11:07",
+    "last_seen": "2026-05-19T23:11:07",
+    "average_pace_ms": 109810,
+    "average_pace": "1:49.810",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -7.64,
-    "positions_delta_races": 11,
+    "average_positions_delta": -8.42,
+    "positions_delta_races": 12,
     "championship_rank": 1253,
     "bestlap_rank": 1649,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-19T22:32:46"
+    "latest_changes": {
+      "average_finish": {
+        "before": 18.57,
+        "after": 19.13,
+        "delta": 0.56,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109831,
+        "after": 109810,
+        "delta": -21,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -7.64,
+        "after": -8.42,
+        "delta": -0.78,
+        "trend": "down"
+      },
+      "races": {
+        "before": 14,
+        "after": 15,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-19T23:11:07"
   },
   "recent_form": [
+    27,
     40,
     27,
     11,
-    49,
-    33
+    49
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 14,
+      "races": 15,
       "wins": 0,
       "podiums": 0,
       "points": 22,
-      "finish_sum": 260,
-      "average_finish": 18.57,
+      "finish_sum": 287,
+      "average_finish": 19.13,
       "best_lap_ms": 108295,
       "best_lap": "1:48.295"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260519_231107_R.json",
+      "finished_at": "2026-05-19T23:11:07",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 27,
+      "participants_count": 45,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Dmitriy Sukharev",
+      "points": 0,
+      "qualifying_position": 10,
+      "start_position": 10,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -17,
+      "positions_gained": 0,
+      "positions_lost": 17,
+      "best_lap": "1:48.645",
+      "best_lap_ms": 108645,
+      "total_time": "5:52.529",
+      "total_time_ms": 352529,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 18.57,
+          "after": 19.13,
+          "delta": 0.56,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109831,
+          "after": 109810,
+          "delta": -21,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -7.64,
+          "after": -8.42,
+          "delta": -0.78,
+          "trend": "down"
+        },
+        "races": {
+          "before": 14,
+          "after": 15,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260510_170625_R.json",
       "finished_at": "2026-05-10T17:06:25",
