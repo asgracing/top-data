@@ -2,9 +2,9 @@
   "public_id": "drv_621dfc2c2b98",
   "driver": "Alexey Shustov [ASG]",
   "summary": {
-    "points": 2539,
-    "average_points_per_race": 5.95,
-    "races": 427,
+    "points": 2624,
+    "average_points_per_race": 6.13,
+    "races": 428,
     "wins": 17,
     "podiums": 57,
     "average_finish": 10.25,
@@ -15,44 +15,130 @@
     "best_lap_car_name_raw": "Lexus RC F GT3",
     "best_lap_car_name": "Lexus RC F GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 50,
+    "penalty_count": 51,
     "penalty_points": 73,
     "fastest_lap_awards": 15,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-19T22:29:28",
-    "last_seen": "2026-05-19T22:29:28",
-    "average_pace_ms": 110906,
-    "average_pace": "1:50.906",
-    "win_rate": 3.98,
-    "podium_rate": 13.35,
-    "average_positions_delta": 8.18,
-    "positions_delta_races": 408,
+    "last_race_at": "2026-05-20T22:30:15",
+    "last_seen": "2026-05-20T22:30:15",
+    "average_pace_ms": 110898,
+    "average_pace": "1:50.898",
+    "win_rate": 3.97,
+    "podium_rate": 13.32,
+    "average_positions_delta": 8.19,
+    "positions_delta_races": 409,
     "championship_rank": 2,
     "bestlap_rank": 527,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-20T22:01:59"
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 110906,
+        "after": 110898,
+        "delta": -8,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 8.18,
+        "after": 8.19,
+        "delta": 0.01,
+        "trend": "up"
+      },
+      "points": {
+        "before": 2539,
+        "after": 2624,
+        "delta": 85,
+        "trend": "up"
+      },
+      "races": {
+        "before": 427,
+        "after": 428,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-20T22:30:15"
   },
   "recent_form": [
+    9,
     27,
     44,
     3,
-    5,
-    8
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 427,
+      "races": 428,
       "wins": 17,
       "podiums": 57,
-      "points": 2519,
-      "finish_sum": 4378,
+      "points": 2604,
+      "finish_sum": 4387,
       "average_finish": 10.25,
       "best_lap_ms": 107475,
       "best_lap": "1:47.475"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/hourly/hourly_260520_223015_R.json",
+      "finished_at": "2026-05-20T22:30:15",
+      "track": "monza",
+      "car_model_id": 15,
+      "car_name_raw": "Lexus RC F GT3",
+      "car_name": "Lexus RC F GT3",
+      "position": 9,
+      "participants_count": 27,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
+      "points_multiplier": 5,
+      "winner": "Mücahit Yardım",
+      "points": 85,
+      "qualifying_position": 20,
+      "start_position": 20,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 11,
+      "positions_gained": 11,
+      "positions_lost": 0,
+      "best_lap": "1:48.532",
+      "best_lap_ms": 108532,
+      "total_time": "1:02:16.184",
+      "total_time_ms": 3736184,
+      "gap": "1:05.832",
+      "gap_ms": 65832,
+      "lap_count": 33,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 110906,
+          "after": 110898,
+          "delta": -8,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 8.18,
+          "after": 8.19,
+          "delta": 0.01,
+          "trend": "up"
+        },
+        "points": {
+          "before": 2539,
+          "after": 2624,
+          "delta": 85,
+          "trend": "up"
+        },
+        "races": {
+          "before": 427,
+          "after": 428,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260519_222928_R.json",
       "finished_at": "2026-05-19T22:29:28",
@@ -34012,10 +34098,10 @@
     }
   ],
   "penalties": {
-    "penalty_count": 50,
+    "penalty_count": 51,
     "penalty_points": 73,
     "reasons": {
-      "Cutting": 29,
+      "Cutting": 30,
       "PitSpeeding": 8,
       "None": 7,
       "Trolling": 6
@@ -34024,7 +34110,7 @@
       "StopAndGo_20": 1,
       "Disqualified": 7,
       "DriveThrough": 22,
-      "None": 14,
+      "None": 15,
       "StopAndGo_30": 6
     }
   }

@@ -2,12 +2,12 @@
   "public_id": "drv_6ca153ce9bf7",
   "driver": "Nick Fisher [ASG]",
   "summary": {
-    "points": 2141,
-    "average_points_per_race": 8.14,
-    "races": 263,
+    "points": 2181,
+    "average_points_per_race": 8.26,
+    "races": 264,
     "wins": 8,
     "podiums": 45,
-    "average_finish": 8.87,
+    "average_finish": 8.91,
     "best_lap": "1:46.920",
     "best_lap_ms": 106920,
     "best_lap_track": "monza",
@@ -15,44 +15,130 @@
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
     "best_lap_car_name": "AMR V8 Vantage",
     "best_lap_session_type": "R",
-    "penalty_count": 12,
+    "penalty_count": 13,
     "penalty_points": 21,
     "fastest_lap_awards": 5,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-19T01:06:36",
-    "last_seen": "2026-05-19T01:06:36",
-    "average_pace_ms": 109923,
-    "average_pace": "1:49.923",
-    "win_rate": 3.04,
-    "podium_rate": 17.11,
+    "last_race_at": "2026-05-20T22:30:15",
+    "last_seen": "2026-05-20T22:30:15",
+    "average_pace_ms": 109913,
+    "average_pace": "1:49.913",
+    "win_rate": 3.03,
+    "podium_rate": 17.05,
     "average_positions_delta": 9.1,
     "positions_delta_races": 247,
     "championship_rank": 4,
-    "bestlap_rank": 129,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-20T22:01:59"
+    "bestlap_rank": 130,
+    "latest_changes": {
+      "average_finish": {
+        "before": 8.87,
+        "after": 8.91,
+        "delta": 0.04,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109923,
+        "after": 109913,
+        "delta": -10,
+        "trend": "up"
+      },
+      "points": {
+        "before": 2141,
+        "after": 2181,
+        "delta": 40,
+        "trend": "up"
+      },
+      "races": {
+        "before": 263,
+        "after": 264,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-20T22:30:15"
   },
   "recent_form": [
+    18,
     21,
     3,
     7,
-    7,
-    6
+    7
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 263,
+      "races": 264,
       "wins": 8,
       "podiums": 45,
-      "points": 2101,
-      "finish_sum": 2334,
-      "average_finish": 8.87,
+      "points": 2141,
+      "finish_sum": 2352,
+      "average_finish": 8.91,
       "best_lap_ms": 106920,
       "best_lap": "1:46.920"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/hourly/hourly_260520_223015_R.json",
+      "finished_at": "2026-05-20T22:30:15",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 18,
+      "participants_count": 27,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
+      "points_multiplier": 5,
+      "winner": "Mücahit Yardım",
+      "points": 40,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.065",
+      "best_lap_ms": 108065,
+      "total_time": "59:15.893",
+      "total_time_ms": 3555893,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 28,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 8.87,
+          "after": 8.91,
+          "delta": 0.04,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109923,
+          "after": 109913,
+          "delta": -10,
+          "trend": "up"
+        },
+        "points": {
+          "before": 2141,
+          "after": 2181,
+          "delta": 40,
+          "trend": "up"
+        },
+        "races": {
+          "before": 263,
+          "after": 264,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260519_010636_R.json",
       "finished_at": "2026-05-19T01:06:36",
@@ -21449,17 +21535,18 @@
     }
   ],
   "penalties": {
-    "penalty_count": 12,
+    "penalty_count": 13,
     "penalty_points": 21,
     "reasons": {
       "Trolling": 3,
-      "Cutting": 8,
+      "Cutting": 9,
       "None": 1
     },
     "types": {
       "DriveThrough": 7,
       "None": 4,
-      "StopAndGo_10": 1
+      "StopAndGo_10": 1,
+      "Disqualified": 1
     }
   }
 }
