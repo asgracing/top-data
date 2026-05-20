@@ -3,11 +3,11 @@
   "driver": "Khachatur Karapetyan",
   "summary": {
     "points": 493,
-    "average_points_per_race": 4.98,
-    "races": 99,
+    "average_points_per_race": 4.93,
+    "races": 100,
     "wins": 1,
     "podiums": 8,
-    "average_finish": 14.32,
+    "average_finish": 14.29,
     "best_lap": "1:47.505",
     "best_lap_ms": 107505,
     "best_lap_track": "monza",
@@ -19,40 +19,126 @@
     "penalty_points": 36,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-17T23:04:15",
-    "last_seen": "2026-04-04T22:54:41",
-    "average_pace_ms": 109911,
-    "average_pace": "1:49.911",
-    "win_rate": 1.01,
-    "podium_rate": 8.08,
-    "average_positions_delta": -0.74,
-    "positions_delta_races": 80,
+    "last_race_at": "2026-05-21T01:10:17",
+    "last_seen": "2026-05-21T01:10:17",
+    "average_pace_ms": 109920,
+    "average_pace": "1:49.920",
+    "win_rate": 1.0,
+    "podium_rate": 8.0,
+    "average_positions_delta": -0.63,
+    "positions_delta_races": 81,
     "championship_rank": 52,
     "bestlap_rank": 565,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-21T00:34:42"
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.32,
+        "after": 14.29,
+        "delta": -0.03,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109911,
+        "after": 109920,
+        "delta": 9,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -0.74,
+        "after": -0.63,
+        "delta": 0.11,
+        "trend": "up"
+      },
+      "races": {
+        "before": 99,
+        "after": 100,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-21T01:10:17"
   },
   "recent_form": [
+    11,
     4,
     23,
     11,
-    5,
-    33
+    5
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 99,
+      "races": 100,
       "wins": 1,
       "podiums": 8,
       "points": 478,
-      "finish_sum": 1418,
-      "average_finish": 14.32,
+      "finish_sum": 1429,
+      "average_finish": 14.29,
       "best_lap_ms": 107505,
       "best_lap": "1:47.505"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260521_011017_R.json",
+      "finished_at": "2026-05-21T01:10:17",
+      "track": "monza",
+      "car_model_id": 25,
+      "car_name_raw": "Mercedes-AMG GT3 2020",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 11,
+      "participants_count": 36,
+      "scoring_participants_count": 23,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Artur Malets",
+      "points": 0,
+      "qualifying_position": 19,
+      "start_position": 19,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 8,
+      "positions_gained": 8,
+      "positions_lost": 0,
+      "best_lap": "1:48.685",
+      "best_lap_ms": 108685,
+      "total_time": "20:34.549",
+      "total_time_ms": 1234549,
+      "gap": "0:33.624",
+      "gap_ms": 33624,
+      "lap_count": 11,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 14.32,
+          "after": 14.29,
+          "delta": -0.03,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109911,
+          "after": 109920,
+          "delta": 9,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -0.74,
+          "after": -0.63,
+          "delta": 0.11,
+          "trend": "up"
+        },
+        "races": {
+          "before": 99,
+          "after": 100,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260517_230415_R.json",
       "finished_at": "2026-05-17T23:04:15",
