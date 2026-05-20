@@ -3,11 +3,11 @@
   "driver": "алексей кабанков",
   "summary": {
     "points": 71,
-    "average_points_per_race": 17.75,
-    "races": 4,
+    "average_points_per_race": 14.2,
+    "races": 5,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.25,
+    "average_finish": 16.0,
     "best_lap": "1:50.687",
     "best_lap_ms": 110687,
     "best_lap_track": "monza",
@@ -19,20 +19,40 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-19T22:29:28",
-    "last_seen": "2026-05-19T22:29:28",
-    "average_pace_ms": 112858,
-    "average_pace": "1:52.858",
+    "last_race_at": "2026-05-20T14:01:53",
+    "last_seen": "2026-05-20T14:01:53",
+    "average_pace_ms": 112855,
+    "average_pace": "1:52.855",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 1.75,
     "positions_delta_races": 4,
     "championship_rank": 397,
-    "bestlap_rank": 6064,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-20T13:25:48"
+    "bestlap_rank": 6065,
+    "latest_changes": {
+      "average_finish": {
+        "before": 15.25,
+        "after": 16.0,
+        "delta": 0.75,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112858,
+        "after": 112855,
+        "delta": -3,
+        "trend": "up"
+      },
+      "races": {
+        "before": 4,
+        "after": 5,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-20T14:01:53"
   },
   "recent_form": [
+    19,
     22,
     11,
     7,
@@ -41,17 +61,72 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 4,
+      "races": 5,
       "wins": 0,
       "podiums": 0,
       "points": 71,
-      "finish_sum": 61,
-      "average_finish": 15.25,
+      "finish_sum": 80,
+      "average_finish": 16.0,
       "best_lap_ms": 110687,
       "best_lap": "1:50.687"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260520_140153_R.json",
+      "finished_at": "2026-05-20T14:01:53",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 19,
+      "participants_count": 36,
+      "scoring_participants_count": 20,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "William Joseph Blazkowicz",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:52.707",
+      "best_lap_ms": 112707,
+      "total_time": "20:39.343",
+      "total_time_ms": 1239343,
+      "gap": "0:37.419",
+      "gap_ms": 37419,
+      "lap_count": 2,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.25,
+          "after": 16.0,
+          "delta": 0.75,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112858,
+          "after": 112855,
+          "delta": -3,
+          "trend": "up"
+        },
+        "races": {
+          "before": 4,
+          "after": 5,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "_merged/hourly/hourly_260519_222928_R.json",
       "finished_at": "2026-05-19T22:29:28",
