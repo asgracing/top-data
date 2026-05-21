@@ -3,11 +3,11 @@
   "driver": "Alex Prok",
   "summary": {
     "points": 2181,
-    "average_points_per_race": 5.47,
-    "races": 399,
+    "average_points_per_race": 5.45,
+    "races": 400,
     "wins": 1,
     "podiums": 20,
-    "average_finish": 13.17,
+    "average_finish": 13.21,
     "best_lap": "1:47.850",
     "best_lap_ms": 107850,
     "best_lap_track": "monza",
@@ -15,44 +15,130 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "Q",
-    "penalty_count": 58,
-    "penalty_points": 109,
+    "penalty_count": 59,
+    "penalty_points": 112,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-21T21:01:57",
-    "last_seen": "2026-05-21T21:01:57",
-    "average_pace_ms": 110630,
-    "average_pace": "1:50.630",
+    "last_race_at": "2026-05-21T22:29:49",
+    "last_seen": "2026-05-21T22:29:49",
+    "average_pace_ms": 110632,
+    "average_pace": "1:50.632",
     "win_rate": 0.25,
-    "podium_rate": 5.01,
-    "average_positions_delta": 0.46,
-    "positions_delta_races": 349,
+    "podium_rate": 5.0,
+    "average_positions_delta": 0.45,
+    "positions_delta_races": 350,
     "championship_rank": 5,
-    "bestlap_rank": 1106,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-21T22:14:23"
+    "bestlap_rank": 1107,
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.17,
+        "after": 13.21,
+        "delta": 0.04,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 110630,
+        "after": 110632,
+        "delta": 2,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 0.46,
+        "after": 0.45,
+        "delta": -0.01,
+        "trend": "down"
+      },
+      "races": {
+        "before": 399,
+        "after": 400,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-21T22:29:49"
   },
   "recent_form": [
+    28,
     17,
     18,
     13,
-    19,
-    16
+    19
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 399,
+      "races": 400,
       "wins": 1,
       "podiums": 20,
       "points": 2151,
-      "finish_sum": 5254,
-      "average_finish": 13.17,
+      "finish_sum": 5282,
+      "average_finish": 13.21,
       "best_lap_ms": 108000,
       "best_lap": "1:48.000"
     }
   ],
   "race_history": [
+    {
+      "race_id": "_merged/hourly/hourly_260521_222949_R.json",
+      "finished_at": "2026-05-21T22:29:49",
+      "track": "monza",
+      "car_model_id": 16,
+      "car_name_raw": "Lamborghini Huracan Evo (2019)",
+      "car_name": "Lamborghini Huracan Evo",
+      "position": 28,
+      "participants_count": 35,
+      "scoring_participants_count": 34,
+      "points_rule": "scaled_25_to_1_by_classified_x5_all_participants",
+      "points_multiplier": 5,
+      "winner": "Adam Sibbs | SLR",
+      "points": 0,
+      "qualifying_position": 22,
+      "start_position": 22,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -6,
+      "positions_gained": 0,
+      "positions_lost": 6,
+      "best_lap": "1:50.610",
+      "best_lap_ms": 110610,
+      "total_time": "44:29.252",
+      "total_time_ms": 2669252,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 14,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.17,
+          "after": 13.21,
+          "delta": 0.04,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 110630,
+          "after": 110632,
+          "delta": 2,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 0.46,
+          "after": 0.45,
+          "delta": -0.01,
+          "trend": "down"
+        },
+        "races": {
+          "before": 399,
+          "after": 400,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260521_210157_R.json",
       "finished_at": "2026-05-21T21:01:57",
@@ -28540,16 +28626,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 58,
-    "penalty_points": 109,
+    "penalty_count": 59,
+    "penalty_points": 112,
     "reasons": {
       "PitSpeeding": 17,
-      "Cutting": 26,
+      "Cutting": 27,
       "Trolling": 14,
       "None": 1
     },
     "types": {
-      "DriveThrough": 27,
+      "DriveThrough": 28,
       "None": 17,
       "Disqualified": 6,
       "StopAndGo_30": 6,
