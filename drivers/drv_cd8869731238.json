@@ -4,10 +4,10 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 16.0,
+    "average_finish": 15.0,
     "best_lap": "1:48.645",
     "best_lap_ms": 108645,
     "best_lap_track": "monza",
@@ -15,48 +15,145 @@
     "best_lap_car_name_raw": "Ferrari 296 GT3",
     "best_lap_car_name": "Ferrari 296 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 2,
-    "penalty_points": 1,
+    "penalty_count": 3,
+    "penalty_points": 4,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-20T22:40:03",
-    "last_seen": "2026-05-20T22:40:03",
-    "average_pace_ms": 109482,
-    "average_pace": "1:49.482",
+    "last_race_at": "2026-05-22T13:59:05",
+    "last_seen": "2026-05-22T13:59:05",
+    "average_pace_ms": 109968,
+    "average_pace": "1:49.968",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 5.0,
-    "positions_delta_races": 1,
-    "championship_rank": 5444,
-    "bestlap_rank": 2781,
+    "average_positions_delta": 8.0,
+    "positions_delta_races": 2,
+    "championship_rank": 5285,
+    "bestlap_rank": 2783,
     "latest_changes": {
-      "championship_rank": {
-        "before": 5441,
-        "after": 5444,
-        "delta": 3,
+      "average_finish": {
+        "before": 16.0,
+        "after": 15.0,
+        "delta": -1.0,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109482,
+        "after": 109968,
+        "delta": 486,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 5.0,
+        "after": 8.0,
+        "delta": 3.0,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 5444,
+        "after": 5285,
+        "delta": -159,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-22T13:21:06"
+    "latest_change_at": "2026-05-22T13:59:05"
   },
   "recent_form": [
+    14,
     16,
     49
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 16,
-      "average_finish": 16.0,
+      "finish_sum": 30,
+      "average_finish": 15.0,
       "best_lap_ms": 108645,
       "best_lap": "1:48.645"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_135905_R.json",
+      "finished_at": "2026-05-22T13:59:05",
+      "track": "monza",
+      "car_model_id": 1,
+      "car_name_raw": "Mercedes-AMG GT3",
+      "car_name": "Mercedes-AMG GT3",
+      "position": 14,
+      "participants_count": 32,
+      "scoring_participants_count": 21,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "A sterber",
+      "points": 0,
+      "qualifying_position": 25,
+      "start_position": 25,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 11,
+      "positions_gained": 11,
+      "positions_lost": 0,
+      "best_lap": "1:49.945",
+      "best_lap_ms": 109945,
+      "total_time": "12:43.746",
+      "total_time_ms": 763746,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.0,
+          "after": 15.0,
+          "delta": -1.0,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109482,
+          "after": 109968,
+          "delta": 486,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 5.0,
+          "after": 8.0,
+          "delta": 3.0,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 5444,
+          "after": 5285,
+          "delta": -159,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 5444,
+        "after": 5285,
+        "delta": -159,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260520_224003_R.json",
       "finished_at": "2026-05-20T22:40:03",
@@ -179,15 +276,16 @@
     }
   ],
   "penalties": {
-    "penalty_count": 2,
-    "penalty_points": 1,
+    "penalty_count": 3,
+    "penalty_points": 4,
     "reasons": {
       "PitSpeeding": 1,
-      "Cutting": 1
+      "Cutting": 2
     },
     "types": {
       "StopAndGo_30": 1,
-      "None": 1
+      "None": 1,
+      "DriveThrough": 1
     }
   }
 }
