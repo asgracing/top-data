@@ -2,14 +2,14 @@
   "public_id": "drv_76381fa4a224",
   "driver": "Nicolaas Van Den Berg",
   "summary": {
-    "points": 0,
-    "average_points_per_race": 0.0,
-    "races": 2,
+    "points": 1,
+    "average_points_per_race": 0.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
     "average_finish": 21.0,
-    "best_lap": "1:47.527",
-    "best_lap_ms": 107527,
+    "best_lap": "1:47.125",
+    "best_lap_ms": 107125,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 20,
     "best_lap_car_name_raw": "AMR V8 Vantage (2019)",
@@ -17,29 +17,48 @@
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
-    "fastest_lap_awards": 0,
+    "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-21T17:55:51",
-    "last_seen": "2026-05-21T17:55:51",
-    "average_pace_ms": 107947,
-    "average_pace": "1:47.947",
+    "last_race_at": "2026-05-22T14:35:18",
+    "last_seen": "2026-05-22T14:35:18",
+    "average_pace_ms": 107810,
+    "average_pace": "1:47.810",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -6.5,
     "positions_delta_races": 2,
-    "championship_rank": 6526,
-    "bestlap_rank": 596,
+    "championship_rank": 4690,
+    "bestlap_rank": 234,
     "latest_changes": {
+      "average_pace_ms": {
+        "before": 107947,
+        "after": 107810,
+        "delta": -137,
+        "trend": "up"
+      },
       "championship_rank": {
-        "before": 6522,
-        "after": 6526,
-        "delta": 4,
-        "trend": "down"
+        "before": 6526,
+        "after": 4690,
+        "delta": -1836,
+        "trend": "up"
+      },
+      "points": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-22T13:59:05"
+    "latest_change_at": "2026-05-22T14:35:18"
   },
   "recent_form": [
+    21,
     14,
     28,
     28
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
-      "points": 0,
-      "finish_sum": 42,
+      "points": 1,
+      "finish_sum": 63,
       "average_finish": 21.0,
-      "best_lap_ms": 107527,
-      "best_lap": "1:47.527"
+      "best_lap_ms": 107125,
+      "best_lap": "1:47.125"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_143518_R.json",
+      "finished_at": "2026-05-22T14:35:18",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 21,
+      "participants_count": 41,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "KV KAPPAVI",
+      "points": 1,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.125",
+      "best_lap_ms": 107125,
+      "total_time": "20:26.367",
+      "total_time_ms": 1226367,
+      "gap": "0:19.317",
+      "gap_ms": 19317,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 107947,
+          "after": 107810,
+          "delta": -137,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 6526,
+          "after": 4690,
+          "delta": -1836,
+          "trend": "up"
+        },
+        "points": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 6526,
+        "after": 4690,
+        "delta": -1836,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260521_175551_R.json",
       "finished_at": "2026-05-21T17:55:51",
