@@ -3,13 +3,13 @@
   "driver": "Yan Lada",
   "summary": {
     "points": 32,
-    "average_points_per_race": 16.0,
-    "races": 2,
+    "average_points_per_race": 10.67,
+    "races": 3,
     "wins": 1,
     "podiums": 2,
-    "average_finish": 2.0,
-    "best_lap": "1:47.375",
-    "best_lap_ms": 107375,
+    "average_finish": 5.67,
+    "best_lap": "1:47.170",
+    "best_lap_ms": 107170,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 33,
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
@@ -19,20 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-08T10:55:08",
-    "last_seen": "2026-05-08T10:55:08",
-    "average_pace_ms": 107795,
-    "average_pace": "1:47.795",
-    "win_rate": 50.0,
-    "podium_rate": 100.0,
+    "last_race_at": "2026-05-22T12:42:47",
+    "last_seen": "2026-05-22T12:42:47",
+    "average_pace_ms": 107780,
+    "average_pace": "1:47.780",
+    "win_rate": 33.33,
+    "podium_rate": 66.67,
     "average_positions_delta": -1.0,
     "positions_delta_races": 2,
-    "championship_rank": 896,
-    "bestlap_rank": 429,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-22T12:00:04"
+    "championship_rank": 897,
+    "bestlap_rank": 263,
+    "latest_changes": {
+      "average_finish": {
+        "before": 2.0,
+        "after": 5.67,
+        "delta": 3.67,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 107795,
+        "after": 107780,
+        "delta": -15,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 896,
+        "after": 897,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-22T12:42:47"
   },
   "recent_form": [
+    13,
     14,
     3,
     1,
@@ -41,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 1,
       "podiums": 2,
       "points": 32,
-      "finish_sum": 4,
-      "average_finish": 2.0,
-      "best_lap_ms": 107375,
-      "best_lap": "1:47.375"
+      "finish_sum": 17,
+      "average_finish": 5.67,
+      "best_lap_ms": 107170,
+      "best_lap": "1:47.170"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_124247_R.json",
+      "finished_at": "2026-05-22T12:42:47",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 13,
+      "participants_count": 38,
+      "scoring_participants_count": 25,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Raw rubber",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.170",
+      "best_lap_ms": 107170,
+      "total_time": "20:48.010",
+      "total_time_ms": 1248010,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 10,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.0,
+          "after": 5.67,
+          "delta": 3.67,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 107795,
+          "after": 107780,
+          "delta": -15,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 896,
+          "after": 897,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 896,
+        "after": 897,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260508_105508_R.json",
       "finished_at": "2026-05-08T10:55:08",
