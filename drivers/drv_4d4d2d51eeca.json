@@ -3,11 +3,11 @@
   "driver": "Chittayasodhara KASIDIT | MDN",
   "summary": {
     "points": 112,
-    "average_points_per_race": 6.59,
-    "races": 17,
+    "average_points_per_race": 6.22,
+    "races": 18,
     "wins": 2,
     "podiums": 5,
-    "average_finish": 14.12,
+    "average_finish": 14.67,
     "best_lap": "1:46.925",
     "best_lap_ms": 106925,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "Q",
-    "penalty_count": 5,
-    "penalty_points": 6,
+    "penalty_count": 6,
+    "penalty_points": 8,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-20T20:49:01",
-    "last_seen": "2026-05-20T20:49:01",
-    "average_pace_ms": 108853,
-    "average_pace": "1:48.853",
-    "win_rate": 11.76,
-    "podium_rate": 29.41,
+    "last_race_at": "2026-05-22T20:49:15",
+    "last_seen": "2026-05-22T20:49:15",
+    "average_pace_ms": 109597,
+    "average_pace": "1:49.597",
+    "win_rate": 11.11,
+    "podium_rate": 27.78,
     "average_positions_delta": 1.0,
     "positions_delta_races": 14,
     "championship_rank": 260,
     "bestlap_rank": 138,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-22T20:12:26"
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.12,
+        "after": 14.67,
+        "delta": 0.55,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108853,
+        "after": 109597,
+        "delta": 744,
+        "trend": "down"
+      },
+      "races": {
+        "before": 17,
+        "after": 18,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-22T20:49:15"
   },
   "recent_form": [
+    24,
     40,
     26,
     2,
-    6,
-    23
+    6
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 17,
+      "races": 18,
       "wins": 2,
       "podiums": 5,
       "points": 112,
-      "finish_sum": 240,
-      "average_finish": 14.12,
+      "finish_sum": 264,
+      "average_finish": 14.67,
       "best_lap_ms": 107190,
       "best_lap": "1:47.190"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_204915_R.json",
+      "finished_at": "2026-05-22T20:49:15",
+      "track": "monza",
+      "car_model_id": 31,
+      "car_name_raw": "Audi R8 LMS GT3 evo II",
+      "car_name": "Audi R8 LMS GT3 evo II",
+      "position": 24,
+      "participants_count": 48,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "PALM TATTAPONG | MDN",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.032",
+      "best_lap_ms": 108032,
+      "total_time": "23:10.089",
+      "total_time_ms": 1390089,
+      "gap": "1:32.961",
+      "gap_ms": 92961,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 2,
+      "changes": {
+        "average_finish": {
+          "before": 14.12,
+          "after": 14.67,
+          "delta": 0.55,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108853,
+          "after": 109597,
+          "delta": 744,
+          "trend": "down"
+        },
+        "races": {
+          "before": 17,
+          "after": 18,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260520_204901_R.json",
       "finished_at": "2026-05-20T20:49:01",
@@ -1789,17 +1863,18 @@
     }
   ],
   "penalties": {
-    "penalty_count": 5,
-    "penalty_points": 6,
+    "penalty_count": 6,
+    "penalty_points": 8,
     "reasons": {
-      "Cutting": 2,
+      "Cutting": 3,
       "None": 2,
       "Trolling": 1
     },
     "types": {
       "DriveThrough": 3,
       "Disqualified": 1,
-      "None": 1
+      "None": 1,
+      "StopAndGo_10": 1
     }
   }
 }
