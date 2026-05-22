@@ -3,11 +3,11 @@
   "driver": "Boyan Todorov",
   "summary": {
     "points": 1,
-    "average_points_per_race": 0.33,
-    "races": 3,
+    "average_points_per_race": 0.25,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 12.33,
+    "average_finish": 15.25,
     "best_lap": "1:51.032",
     "best_lap_ms": 111032,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-19T23:49:13",
-    "last_seen": "2026-05-19T23:49:13",
+    "last_race_at": "2026-05-22T23:21:45",
+    "last_seen": "2026-05-22T23:21:45",
     "average_pace_ms": 114038,
     "average_pace": "1:54.038",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 12.0,
-    "positions_delta_races": 3,
-    "championship_rank": 4538,
-    "bestlap_rank": 6506,
+    "average_positions_delta": 10.0,
+    "positions_delta_races": 4,
+    "championship_rank": 4612,
+    "bestlap_rank": 6507,
     "latest_changes": {
-      "championship_rank": {
-        "before": 4535,
-        "after": 4538,
-        "delta": 3,
+      "average_finish": {
+        "before": 12.33,
+        "after": 15.25,
+        "delta": 2.92,
         "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 12.0,
+        "after": 10.0,
+        "delta": -2.0,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 4538,
+        "after": 4612,
+        "delta": 74,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-22T22:43:35"
+    "latest_change_at": "2026-05-22T23:21:45"
   },
   "recent_form": [
+    24,
     11,
     11,
     9,
@@ -48,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 1,
-      "finish_sum": 37,
-      "average_finish": 12.33,
+      "finish_sum": 61,
+      "average_finish": 15.25,
       "best_lap_ms": 111032,
       "best_lap": "1:51.032"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_232145_R.json",
+      "finished_at": "2026-05-22T23:21:45",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 24,
+      "participants_count": 46,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrei Soldatenkov [ASG]",
+      "points": 0,
+      "qualifying_position": 28,
+      "start_position": 28,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 4,
+      "positions_gained": 4,
+      "positions_lost": 0,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "7:29.158",
+      "total_time_ms": 449158,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 12.33,
+          "after": 15.25,
+          "delta": 2.92,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 12.0,
+          "after": 10.0,
+          "delta": -2.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 4538,
+          "after": 4612,
+          "delta": 74,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 4538,
+        "after": 4612,
+        "delta": 74,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260519_234913_R.json",
       "finished_at": "2026-05-19T23:49:13",

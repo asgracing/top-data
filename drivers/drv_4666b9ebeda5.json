@@ -3,13 +3,13 @@
   "driver": "Jaroslaw G.",
   "summary": {
     "points": 27,
-    "average_points_per_race": 2.7,
-    "races": 10,
+    "average_points_per_race": 2.45,
+    "races": 11,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 16.5,
-    "best_lap": "1:48.452",
-    "best_lap_ms": 108452,
+    "average_finish": 16.36,
+    "best_lap": "1:48.390",
+    "best_lap_ms": 108390,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 35,
     "best_lap_car_name_raw": "McLaren 720S GT3 Evo 2023",
@@ -19,40 +19,143 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-12T22:18:49",
-    "last_seen": "2026-04-03T23:17:15",
-    "average_pace_ms": 111051,
-    "average_pace": "1:51.051",
+    "last_race_at": "2026-05-22T23:21:45",
+    "last_seen": "2026-05-22T23:21:45",
+    "average_pace_ms": 110950,
+    "average_pace": "1:50.950",
     "win_rate": 0.0,
-    "podium_rate": 20.0,
-    "average_positions_delta": -3.0,
-    "positions_delta_races": 6,
-    "championship_rank": 1049,
-    "bestlap_rank": 2390,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-22T22:43:35"
+    "podium_rate": 18.18,
+    "average_positions_delta": -3.14,
+    "positions_delta_races": 7,
+    "championship_rank": 1050,
+    "bestlap_rank": 2248,
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.5,
+        "after": 16.36,
+        "delta": -0.14,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 111051,
+        "after": 110950,
+        "delta": -101,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": -3.0,
+        "after": -3.14,
+        "delta": -0.14,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1049,
+        "after": 1050,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 10,
+        "after": 11,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-22T23:21:45"
   },
   "recent_form": [
+    15,
     35,
     22,
     3,
-    28,
-    18
+    28
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 10,
+      "races": 11,
       "wins": 0,
       "podiums": 2,
       "points": 27,
-      "finish_sum": 165,
-      "average_finish": 16.5,
-      "best_lap_ms": 108452,
-      "best_lap": "1:48.452"
+      "finish_sum": 180,
+      "average_finish": 16.36,
+      "best_lap_ms": 108390,
+      "best_lap": "1:48.390"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_232145_R.json",
+      "finished_at": "2026-05-22T23:21:45",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 15,
+      "participants_count": 46,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrei Soldatenkov [ASG]",
+      "points": 0,
+      "qualifying_position": 11,
+      "start_position": 11,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -4,
+      "positions_gained": 0,
+      "positions_lost": 4,
+      "best_lap": "1:48.390",
+      "best_lap_ms": 108390,
+      "total_time": "13:34.553",
+      "total_time_ms": 814553,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 7,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 16.5,
+          "after": 16.36,
+          "delta": -0.14,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 111051,
+          "after": 110950,
+          "delta": -101,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": -3.0,
+          "after": -3.14,
+          "delta": -0.14,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1049,
+          "after": 1050,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 10,
+          "after": 11,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1049,
+        "after": 1050,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260512_221849_R.json",
       "finished_at": "2026-05-12T22:18:49",
