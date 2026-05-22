@@ -3,11 +3,11 @@
   "driver": "M. Radzhabov",
   "summary": {
     "points": 492,
-    "average_points_per_race": 2.76,
-    "races": 178,
+    "average_points_per_race": 2.75,
+    "races": 179,
     "wins": 10,
     "podiums": 19,
-    "average_finish": 15.71,
+    "average_finish": 15.74,
     "best_lap": "1:47.875",
     "best_lap_ms": 107875,
     "best_lap_track": "monza",
@@ -15,44 +15,106 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 23,
-    "penalty_points": 42,
+    "penalty_count": 24,
+    "penalty_points": 45,
     "fastest_lap_awards": 7,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-20T22:40:03",
-    "last_seen": "2026-05-20T22:40:03",
+    "last_race_at": "2026-05-22T18:59:19",
+    "last_seen": "2026-05-22T18:59:19",
     "average_pace_ms": 110869,
     "average_pace": "1:50.869",
-    "win_rate": 5.62,
-    "podium_rate": 10.67,
+    "win_rate": 5.59,
+    "podium_rate": 10.61,
     "average_positions_delta": -0.19,
     "positions_delta_races": 141,
     "championship_rank": 54,
-    "bestlap_rank": 1166,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-22T18:21:20"
+    "bestlap_rank": 1167,
+    "latest_changes": {
+      "average_finish": {
+        "before": 15.71,
+        "after": 15.74,
+        "delta": 0.03,
+        "trend": "down"
+      },
+      "races": {
+        "before": 178,
+        "after": 179,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-22T18:59:19"
   },
   "recent_form": [
+    21,
     4,
     25,
     25,
-    32,
-    44
+    32
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 178,
+      "races": 179,
       "wins": 10,
       "podiums": 19,
       "points": 492,
-      "finish_sum": 2796,
-      "average_finish": 15.71,
+      "finish_sum": 2817,
+      "average_finish": 15.74,
       "best_lap_ms": 107875,
       "best_lap": "1:47.875"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_185919_R.json",
+      "finished_at": "2026-05-22T18:59:19",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 21,
+      "participants_count": 52,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Nicolas LEGRAND",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "18:56.060",
+      "total_time_ms": 1136060,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 15.71,
+          "after": 15.74,
+          "delta": 0.03,
+          "trend": "down"
+        },
+        "races": {
+          "before": 178,
+          "after": 179,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260520_224003_R.json",
       "finished_at": "2026-05-20T22:40:03",
@@ -14635,12 +14697,12 @@
     }
   ],
   "penalties": {
-    "penalty_count": 23,
-    "penalty_points": 42,
+    "penalty_count": 24,
+    "penalty_points": 45,
     "reasons": {
       "None": 4,
       "Cutting": 13,
-      "PitSpeeding": 3,
+      "PitSpeeding": 4,
       "Trolling": 3
     },
     "types": {
@@ -14649,7 +14711,7 @@
       "Disqualified": 5,
       "None": 4,
       "StopAndGo_20": 1,
-      "StopAndGo_30": 2
+      "StopAndGo_30": 3
     }
   }
 }
