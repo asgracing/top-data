@@ -3,13 +3,13 @@
   "driver": "BORYS  CIEPIELSKI",
   "summary": {
     "points": 8,
-    "average_points_per_race": 8.0,
-    "races": 1,
+    "average_points_per_race": 4.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 6.0,
-    "best_lap": "1:50.752",
-    "best_lap_ms": 110752,
+    "average_finish": 16.5,
+    "best_lap": "1:49.185",
+    "best_lap_ms": 109185,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 32,
     "best_lap_car_name_raw": "Ferrari 296 GT3",
@@ -19,37 +19,129 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-25T21:19:09",
-    "last_seen": "2026-04-25T21:19:09",
-    "average_pace_ms": 111703,
-    "average_pace": "1:51.703",
+    "last_race_at": "2026-05-22T21:27:31",
+    "last_seen": "2026-05-22T21:27:31",
+    "average_pace_ms": 111276,
+    "average_pace": "1:51.276",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 24.0,
     "positions_delta_races": 1,
-    "championship_rank": 2547,
-    "bestlap_rank": 6273,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-22T20:49:15"
+    "championship_rank": 2694,
+    "bestlap_rank": 3962,
+    "latest_changes": {
+      "average_finish": {
+        "before": 6.0,
+        "after": 16.5,
+        "delta": 10.5,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 111703,
+        "after": 111276,
+        "delta": -427,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2547,
+        "after": 2694,
+        "delta": 147,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-22T21:27:31"
   },
   "recent_form": [
+    27,
     6,
     36
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 8,
-      "finish_sum": 6,
-      "average_finish": 6.0,
-      "best_lap_ms": 110752,
-      "best_lap": "1:50.752"
+      "finish_sum": 33,
+      "average_finish": 16.5,
+      "best_lap_ms": 109185,
+      "best_lap": "1:49.185"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260522_212731_R.json",
+      "finished_at": "2026-05-22T21:27:31",
+      "track": "monza",
+      "car_model_id": 32,
+      "car_name_raw": "Ferrari 296 GT3",
+      "car_name": "Ferrari 296 GT3",
+      "position": 27,
+      "participants_count": 55,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Szabolcs Ali",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.185",
+      "best_lap_ms": 109185,
+      "total_time": "21:58.264",
+      "total_time_ms": 1318264,
+      "gap": "0:23.540",
+      "gap_ms": 23540,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 6.0,
+          "after": 16.5,
+          "delta": 10.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 111703,
+          "after": 111276,
+          "delta": -427,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2547,
+          "after": 2694,
+          "delta": 147,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2547,
+        "after": 2694,
+        "delta": 147,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260425_211909_R.json",
       "finished_at": "2026-04-25T21:19:09",
