@@ -3,11 +3,11 @@
   "driver": "Alex Prok",
   "summary": {
     "points": 2248,
-    "average_points_per_race": 5.52,
-    "races": 407,
+    "average_points_per_race": 5.51,
+    "races": 408,
     "wins": 1,
     "podiums": 20,
-    "average_finish": 13.22,
+    "average_finish": 13.26,
     "best_lap": "1:47.850",
     "best_lap_ms": 107850,
     "best_lap_track": "monza",
@@ -15,44 +15,106 @@
     "best_lap_car_name_raw": "Lamborghini Huracan Evo2",
     "best_lap_car_name": "Lamborghini Huracan Evo2",
     "best_lap_session_type": "Q",
-    "penalty_count": 62,
-    "penalty_points": 118,
+    "penalty_count": 63,
+    "penalty_points": 121,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-23T15:48:47",
-    "last_seen": "2026-05-23T15:48:47",
+    "last_race_at": "2026-05-23T20:07:10",
+    "last_seen": "2026-05-23T20:07:10",
     "average_pace_ms": 110632,
     "average_pace": "1:50.632",
     "win_rate": 0.25,
-    "podium_rate": 4.91,
+    "podium_rate": 4.9,
     "average_positions_delta": 0.42,
     "positions_delta_races": 356,
     "championship_rank": 5,
     "bestlap_rank": 1136,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-23T19:31:10"
+    "latest_changes": {
+      "average_finish": {
+        "before": 13.22,
+        "after": 13.26,
+        "delta": 0.04,
+        "trend": "down"
+      },
+      "races": {
+        "before": 407,
+        "after": 408,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-23T20:07:10"
   },
   "recent_form": [
     31,
+    31,
     16,
     40,
-    16,
-    7
+    16
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 407,
+      "races": 408,
       "wins": 1,
       "podiums": 20,
       "points": 2218,
-      "finish_sum": 5379,
-      "average_finish": 13.22,
+      "finish_sum": 5410,
+      "average_finish": 13.26,
       "best_lap_ms": 108000,
       "best_lap": "1:48.000"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260523_200710_R.json",
+      "finished_at": "2026-05-23T20:07:10",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 31,
+      "participants_count": 50,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Azamat Meretukov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": null,
+      "best_lap_ms": null,
+      "total_time": "17:58.205",
+      "total_time_ms": 1078205,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 13.22,
+          "after": 13.26,
+          "delta": 0.04,
+          "trend": "down"
+        },
+        "races": {
+          "before": 407,
+          "after": 408,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260523_154847_R.json",
       "finished_at": "2026-05-23T15:48:47",
@@ -29100,10 +29162,10 @@
     }
   ],
   "penalties": {
-    "penalty_count": 62,
-    "penalty_points": 118,
+    "penalty_count": 63,
+    "penalty_points": 121,
     "reasons": {
-      "PitSpeeding": 19,
+      "PitSpeeding": 20,
       "Cutting": 28,
       "Trolling": 14,
       "None": 1
@@ -29112,7 +29174,7 @@
       "DriveThrough": 29,
       "None": 18,
       "Disqualified": 6,
-      "StopAndGo_30": 7,
+      "StopAndGo_30": 8,
       "StopAndGo_20": 2
     }
   }
