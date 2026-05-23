@@ -2,12 +2,12 @@
   "public_id": "drv_c4259d1c409c",
   "driver": "Etienne Hiekisch-Hildebrandt",
   "summary": {
-    "points": 16,
-    "average_points_per_race": 8.0,
-    "races": 2,
-    "wins": 0,
-    "podiums": 1,
-    "average_finish": 7.5,
+    "points": 42,
+    "average_points_per_race": 14.0,
+    "races": 3,
+    "wins": 1,
+    "podiums": 2,
+    "average_finish": 5.33,
     "best_lap": "1:47.110",
     "best_lap_ms": 107110,
     "best_lap_track": "monza",
@@ -17,53 +17,72 @@
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
-    "fastest_lap_awards": 1,
+    "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-23T14:29:53",
-    "last_seen": "2026-05-23T14:29:53",
-    "average_pace_ms": 107842,
-    "average_pace": "1:47.842",
-    "win_rate": 0.0,
-    "podium_rate": 50.0,
-    "average_positions_delta": 2.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1643,
+    "last_race_at": "2026-05-23T15:07:34",
+    "last_seen": "2026-05-23T15:07:34",
+    "average_pace_ms": 107714,
+    "average_pace": "1:47.714",
+    "win_rate": 33.33,
+    "podium_rate": 66.67,
+    "average_positions_delta": 1.5,
+    "positions_delta_races": 2,
+    "championship_rank": 710,
     "bestlap_rank": 230,
     "latest_changes": {
       "average_finish": {
-        "before": 3.0,
-        "after": 7.5,
-        "delta": 4.5,
-        "trend": "down"
+        "before": 7.5,
+        "after": 5.33,
+        "delta": -2.17,
+        "trend": "up"
       },
       "average_pace_ms": {
-        "before": 107845,
-        "after": 107842,
-        "delta": -3,
+        "before": 107842,
+        "after": 107714,
+        "delta": -128,
         "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 2.0,
+        "after": 1.5,
+        "delta": -0.5,
+        "trend": "down"
       },
       "championship_rank": {
-        "before": 1710,
-        "after": 1643,
-        "delta": -67,
+        "before": 1643,
+        "after": 710,
+        "delta": -933,
         "trend": "up"
       },
-      "points": {
-        "before": 15,
-        "after": 16,
-        "delta": 1,
-        "trend": "up"
-      },
-      "races": {
+      "podiums": {
         "before": 1,
         "after": 2,
         "delta": 1,
         "trend": "up"
+      },
+      "points": {
+        "before": 16,
+        "after": 42,
+        "delta": 26,
+        "trend": "up"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      },
+      "wins": {
+        "before": 0,
+        "after": 1,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-23T14:29:53"
+    "latest_change_at": "2026-05-23T15:07:34"
   },
   "recent_form": [
+    1,
     12,
     3,
     49
@@ -71,17 +90,107 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
-      "wins": 0,
-      "podiums": 1,
-      "points": 16,
-      "finish_sum": 15,
-      "average_finish": 7.5,
+      "races": 3,
+      "wins": 1,
+      "podiums": 2,
+      "points": 42,
+      "finish_sum": 16,
+      "average_finish": 5.33,
       "best_lap_ms": 107110,
       "best_lap": "1:47.110"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260523_150734_R.json",
+      "finished_at": "2026-05-23T15:07:34",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 1,
+      "participants_count": 42,
+      "scoring_participants_count": 27,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Etienne Hiekisch-Hildebrandt",
+      "points": 26,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 1,
+      "positions_gained": 1,
+      "positions_lost": 0,
+      "best_lap": "1:47.132",
+      "best_lap_ms": 107132,
+      "total_time": "21:34.567",
+      "total_time_ms": 1294567,
+      "gap": null,
+      "gap_ms": null,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.5,
+          "after": 5.33,
+          "delta": -2.17,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 107842,
+          "after": 107714,
+          "delta": -128,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 2.0,
+          "after": 1.5,
+          "delta": -0.5,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1643,
+          "after": 710,
+          "delta": -933,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 16,
+          "after": 42,
+          "delta": 26,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        },
+        "wins": {
+          "before": 0,
+          "after": 1,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1643,
+        "after": 710,
+        "delta": -933,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260523_142953_R.json",
       "finished_at": "2026-05-23T14:29:53",
