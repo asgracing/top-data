@@ -2,12 +2,12 @@
   "public_id": "drv_1b8056b11edc",
   "driver": "bela horvath",
   "summary": {
-    "points": 3,
-    "average_points_per_race": 3.0,
-    "races": 1,
+    "points": 4,
+    "average_points_per_race": 2.0,
+    "races": 2,
     "wins": 1,
     "podiums": 1,
-    "average_finish": 1.0,
+    "average_finish": 5.0,
     "best_lap": "1:48.795",
     "best_lap_ms": 108795,
     "best_lap_track": "monza",
@@ -19,36 +19,152 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-22T10:04:38",
-    "last_seen": "2026-05-22T10:04:38",
-    "average_pace_ms": 109778,
-    "average_pace": "1:49.778",
-    "win_rate": 100.0,
-    "podium_rate": 100.0,
-    "average_positions_delta": 1.0,
-    "positions_delta_races": 1,
-    "championship_rank": 3645,
+    "last_race_at": "2026-05-23T09:36:10",
+    "last_seen": "2026-05-23T09:36:10",
+    "average_pace_ms": 109917,
+    "average_pace": "1:49.917",
+    "win_rate": 50.0,
+    "podium_rate": 50.0,
+    "average_positions_delta": -3.0,
+    "positions_delta_races": 2,
+    "championship_rank": 3335,
     "bestlap_rank": 3151,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-23T09:01:03"
+    "latest_changes": {
+      "average_finish": {
+        "before": 1.0,
+        "after": 5.0,
+        "delta": 4.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109778,
+        "after": 109917,
+        "delta": 139,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": 1.0,
+        "after": -3.0,
+        "delta": -4.0,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 3645,
+        "after": 3335,
+        "delta": -310,
+        "trend": "up"
+      },
+      "points": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-23T09:36:10"
   },
   "recent_form": [
+    9,
     1
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 1,
       "podiums": 1,
-      "points": 3,
-      "finish_sum": 1,
-      "average_finish": 1.0,
+      "points": 4,
+      "finish_sum": 10,
+      "average_finish": 5.0,
       "best_lap_ms": 108795,
       "best_lap": "1:48.795"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260523_093610_R.json",
+      "finished_at": "2026-05-23T09:36:10",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 9,
+      "participants_count": 21,
+      "scoring_participants_count": 10,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "karana karanovich",
+      "points": 1,
+      "qualifying_position": 2,
+      "start_position": 2,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -7,
+      "positions_gained": 0,
+      "positions_lost": 7,
+      "best_lap": "1:49.945",
+      "best_lap_ms": 109945,
+      "total_time": "10:09.964",
+      "total_time_ms": 609964,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 1.0,
+          "after": 5.0,
+          "delta": 4.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109778,
+          "after": 109917,
+          "delta": 139,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": 1.0,
+          "after": -3.0,
+          "delta": -4.0,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 3645,
+          "after": 3335,
+          "delta": -310,
+          "trend": "up"
+        },
+        "points": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3645,
+        "after": 3335,
+        "delta": -310,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260522_100438_R.json",
       "finished_at": "2026-05-22T10:04:38",
