@@ -3,11 +3,11 @@
   "driver": "Chalamm Shrimp",
   "summary": {
     "points": 12,
-    "average_points_per_race": 12.0,
-    "races": 1,
+    "average_points_per_race": 6.0,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 4.0,
+    "average_finish": 10.0,
     "best_lap": "1:47.955",
     "best_lap_ms": 107955,
     "best_lap_track": "monza",
@@ -19,37 +19,129 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-23T14:29:53",
-    "last_seen": "2026-05-23T14:29:53",
-    "average_pace_ms": 109256,
-    "average_pace": "1:49.256",
+    "last_race_at": "2026-05-24T02:28:09",
+    "last_seen": "2026-05-24T02:28:09",
+    "average_pace_ms": 109295,
+    "average_pace": "1:49.295",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": 1.0,
     "positions_delta_races": 1,
-    "championship_rank": 2021,
+    "championship_rank": 2090,
     "bestlap_rank": 1358,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-24T01:51:48"
+    "latest_changes": {
+      "average_finish": {
+        "before": 4.0,
+        "after": 10.0,
+        "delta": 6.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109256,
+        "after": 109295,
+        "delta": 39,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 2021,
+        "after": 2090,
+        "delta": 69,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-24T02:28:09"
   },
   "recent_form": [
+    16,
     37,
     4
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 12,
-      "finish_sum": 4,
-      "average_finish": 4.0,
+      "finish_sum": 20,
+      "average_finish": 10.0,
       "best_lap_ms": 107955,
       "best_lap": "1:47.955"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_022809_R.json",
+      "finished_at": "2026-05-24T02:28:09",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 16,
+      "participants_count": 39,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Timothy Landick",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.430",
+      "best_lap_ms": 109430,
+      "total_time": "20:54.885",
+      "total_time_ms": 1254885,
+      "gap": "0:44.623",
+      "gap_ms": 44623,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 4.0,
+          "after": 10.0,
+          "delta": 6.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109256,
+          "after": 109295,
+          "delta": 39,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 2021,
+          "after": 2090,
+          "delta": 69,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2021,
+        "after": 2090,
+        "delta": 69,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260523_142953_R.json",
       "finished_at": "2026-05-23T14:29:53",

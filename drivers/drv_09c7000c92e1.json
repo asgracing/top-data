@@ -3,11 +3,11 @@
   "driver": "Schu Mitch",
   "summary": {
     "points": 132,
-    "average_points_per_race": 2.4,
-    "races": 55,
+    "average_points_per_race": 2.36,
+    "races": 56,
     "wins": 2,
     "podiums": 3,
-    "average_finish": 16.22,
+    "average_finish": 16.16,
     "best_lap": "1:47.460",
     "best_lap_ms": 107460,
     "best_lap_track": "monza",
@@ -15,44 +15,118 @@
     "best_lap_car_name_raw": "BMW M4 GT3",
     "best_lap_car_name": "BMW M4 GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 12,
-    "penalty_points": 19,
+    "penalty_count": 15,
+    "penalty_points": 22,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-22T22:05:40",
-    "last_seen": "2026-05-22T22:05:40",
-    "average_pace_ms": 109788,
-    "average_pace": "1:49.788",
-    "win_rate": 3.64,
-    "podium_rate": 5.45,
+    "last_race_at": "2026-05-24T02:28:09",
+    "last_seen": "2026-05-24T02:28:09",
+    "average_pace_ms": 109783,
+    "average_pace": "1:49.783",
+    "win_rate": 3.57,
+    "podium_rate": 5.36,
     "average_positions_delta": -2.67,
     "positions_delta_races": 39,
     "championship_rank": 232,
     "bestlap_rank": 535,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-24T01:51:48"
+    "latest_changes": {
+      "average_finish": {
+        "before": 16.22,
+        "after": 16.16,
+        "delta": -0.06,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109788,
+        "after": 109783,
+        "delta": -5,
+        "trend": "up"
+      },
+      "races": {
+        "before": 55,
+        "after": 56,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-24T02:28:09"
   },
   "recent_form": [
+    13,
     21,
     5,
     23,
-    42,
-    47
+    42
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 55,
+      "races": 56,
       "wins": 2,
       "podiums": 3,
       "points": 132,
-      "finish_sum": 892,
-      "average_finish": 16.22,
+      "finish_sum": 905,
+      "average_finish": 16.16,
       "best_lap_ms": 107460,
       "best_lap": "1:47.460"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_022809_R.json",
+      "finished_at": "2026-05-24T02:28:09",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 13,
+      "participants_count": 39,
+      "scoring_participants_count": 26,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Timothy Landick",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.925",
+      "best_lap_ms": 108925,
+      "total_time": "8:02.358",
+      "total_time_ms": 482358,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 4,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 3,
+      "penalty_points": 3,
+      "changes": {
+        "average_finish": {
+          "before": 16.22,
+          "after": 16.16,
+          "delta": -0.06,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109788,
+          "after": 109783,
+          "delta": -5,
+          "trend": "up"
+        },
+        "races": {
+          "before": 55,
+          "after": 56,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": null,
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260522_220540_R.json",
       "finished_at": "2026-05-22T22:05:40",
@@ -4219,19 +4293,19 @@
     }
   ],
   "penalties": {
-    "penalty_count": 12,
-    "penalty_points": 19,
+    "penalty_count": 15,
+    "penalty_points": 22,
     "reasons": {
-      "Cutting": 7,
+      "Cutting": 10,
       "Trolling": 2,
       "PitSpeeding": 2,
       "None": 1
     },
     "types": {
-      "DriveThrough": 5,
-      "Disqualified": 4,
+      "DriveThrough": 6,
+      "Disqualified": 5,
       "StopAndGo_10": 2,
-      "StopAndGo_30": 1
+      "StopAndGo_30": 2
     }
   }
 }
