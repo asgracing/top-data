@@ -3,8 +3,8 @@
   "driver": "Zhiqi Yu",
   "summary": {
     "points": 2,
-    "average_points_per_race": 0.67,
-    "races": 3,
+    "average_points_per_race": 0.5,
+    "races": 4,
     "wins": 0,
     "podiums": 0,
     "average_finish": 12.0,
@@ -19,40 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-22T18:59:19",
-    "last_seen": "2026-05-22T18:59:19",
-    "average_pace_ms": 113333,
-    "average_pace": "1:53.333",
+    "last_race_at": "2026-05-23T18:18:59",
+    "last_seen": "2026-05-23T18:18:59",
+    "average_pace_ms": 113140,
+    "average_pace": "1:53.140",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": 9.67,
-    "positions_delta_races": 3,
-    "championship_rank": 4225,
+    "average_positions_delta": 7.75,
+    "positions_delta_races": 4,
+    "championship_rank": 4226,
     "bestlap_rank": 5973,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-23T17:41:20"
+    "latest_changes": {
+      "average_pace_ms": {
+        "before": 113333,
+        "after": 113140,
+        "delta": -193,
+        "trend": "up"
+      },
+      "average_positions_delta": {
+        "before": 9.67,
+        "after": 7.75,
+        "delta": -1.92,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 4225,
+        "after": 4226,
+        "delta": 1,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-23T18:18:59"
   },
   "recent_form": [
+    12,
     9,
     15,
     41,
-    45,
-    12
+    45
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 0,
       "points": 2,
-      "finish_sum": 36,
+      "finish_sum": 48,
       "average_finish": 12.0,
       "best_lap_ms": 110390,
       "best_lap": "1:50.390"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260523_181859_R.json",
+      "finished_at": "2026-05-23T18:18:59",
+      "track": "monza",
+      "car_model_id": 33,
+      "car_name_raw": "Lamborghini Huracan Evo2",
+      "car_name": "Lamborghini Huracan Evo2",
+      "position": 12,
+      "participants_count": 47,
+      "scoring_participants_count": 29,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "He Who-noms-on-tires",
+      "points": 0,
+      "qualifying_position": 14,
+      "start_position": 14,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 2,
+      "positions_gained": 2,
+      "positions_lost": 0,
+      "best_lap": "1:50.755",
+      "best_lap_ms": 110755,
+      "total_time": "22:50.331",
+      "total_time_ms": 1370331,
+      "gap": "1:20.763",
+      "gap_ms": 80763,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_pace_ms": {
+          "before": 113333,
+          "after": 113140,
+          "delta": -193,
+          "trend": "up"
+        },
+        "average_positions_delta": {
+          "before": 9.67,
+          "after": 7.75,
+          "delta": -1.92,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 4225,
+          "after": 4226,
+          "delta": 1,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 4225,
+        "after": 4226,
+        "delta": 1,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260522_185919_R.json",
       "finished_at": "2026-05-22T18:59:19",
