@@ -3,11 +3,11 @@
   "driver": "Alan Araiza",
   "summary": {
     "points": 4,
-    "average_points_per_race": 2.0,
-    "races": 2,
+    "average_points_per_race": 1.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 7.5,
+    "average_finish": 11.33,
     "best_lap": "1:48.515",
     "best_lap_ms": 108515,
     "best_lap_track": "monza",
@@ -19,27 +19,46 @@
     "penalty_points": 3,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-02T07:48:32",
-    "last_seen": "2026-04-02T07:48:32",
-    "average_pace_ms": 109684,
-    "average_pace": "1:49.684",
+    "last_race_at": "2026-05-23T23:20:47",
+    "last_seen": "2026-05-23T23:20:47",
+    "average_pace_ms": 109572,
+    "average_pace": "1:49.572",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -3.0,
     "positions_delta_races": 2,
-    "championship_rank": 3455,
-    "bestlap_rank": 2565,
+    "championship_rank": 3559,
+    "bestlap_rank": 2566,
     "latest_changes": {
-      "championship_rank": {
-        "before": 3453,
-        "after": 3455,
-        "delta": 2,
+      "average_finish": {
+        "before": 7.5,
+        "after": 11.33,
+        "delta": 3.83,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109684,
+        "after": 109572,
+        "delta": -112,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3455,
+        "after": 3559,
+        "delta": 104,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-23T22:45:12"
+    "latest_change_at": "2026-05-23T23:20:47"
   },
   "recent_form": [
+    19,
     13,
     9,
     6
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
       "points": 4,
-      "finish_sum": 15,
-      "average_finish": 7.5,
+      "finish_sum": 34,
+      "average_finish": 11.33,
       "best_lap_ms": 108515,
       "best_lap": "1:48.515"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260523_232047_R.json",
+      "finished_at": "2026-05-23T23:20:47",
+      "track": "monza",
+      "car_model_id": 34,
+      "car_name_raw": "Porsche 992 GT3 R",
+      "car_name": "Porsche 992 GT3 R",
+      "position": 19,
+      "participants_count": 48,
+      "scoring_participants_count": 31,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Ivan Borisov",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.615",
+      "best_lap_ms": 108615,
+      "total_time": "16:56.048",
+      "total_time_ms": 1016048,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 7.5,
+          "after": 11.33,
+          "delta": 3.83,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109684,
+          "after": 109572,
+          "delta": -112,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3455,
+          "after": 3559,
+          "delta": 104,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3455,
+        "after": 3559,
+        "delta": 104,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260402_074832_R.json",
       "finished_at": "2026-04-02T07:48:32",
