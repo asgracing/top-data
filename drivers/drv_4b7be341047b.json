@@ -3,11 +3,11 @@
   "driver": "Emilio Castellano",
   "summary": {
     "points": 14,
-    "average_points_per_race": 14.0,
-    "races": 1,
+    "average_points_per_race": 7.0,
+    "races": 2,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 2.0,
+    "average_finish": 14.5,
     "best_lap": "1:47.875",
     "best_lap_ms": 107875,
     "best_lap_track": "monza",
@@ -19,43 +19,128 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-04-25T20:03:25",
-    "last_seen": "2026-04-25T20:03:25",
-    "average_pace_ms": 109745,
-    "average_pace": "1:49.745",
+    "last_race_at": "2026-05-24T19:28:49",
+    "last_seen": "2026-05-24T19:28:49",
+    "average_pace_ms": 111166,
+    "average_pace": "1:51.166",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
+    "podium_rate": 50.0,
     "average_positions_delta": 9.0,
-    "positions_delta_races": 1,
-    "championship_rank": 1853,
+    "positions_delta_races": 2,
+    "championship_rank": 1879,
     "bestlap_rank": 1207,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1852,
-        "after": 1853,
-        "delta": 1,
+      "average_finish": {
+        "before": 2.0,
+        "after": 14.5,
+        "delta": 12.5,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109745,
+        "after": 111166,
+        "delta": 1421,
+        "trend": "down"
+      },
+      "championship_rank": {
+        "before": 1853,
+        "after": 1879,
+        "delta": 26,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-24T18:51:20"
+    "latest_change_at": "2026-05-24T19:28:49"
   },
   "recent_form": [
+    27,
     2
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 1,
       "points": 14,
-      "finish_sum": 2,
-      "average_finish": 2.0,
+      "finish_sum": 29,
+      "average_finish": 14.5,
       "best_lap_ms": 107875,
       "best_lap": "1:47.875"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_192849_R.json",
+      "finished_at": "2026-05-24T19:28:49",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 27,
+      "participants_count": 56,
+      "scoring_participants_count": 30,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "R SV",
+      "points": 0,
+      "qualifying_position": 36,
+      "start_position": 36,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": 9,
+      "positions_gained": 9,
+      "positions_lost": 0,
+      "best_lap": "2:02.535",
+      "best_lap_ms": 122535,
+      "total_time": "2:09.871",
+      "total_time_ms": 129871,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 1,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.0,
+          "after": 14.5,
+          "delta": 12.5,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109745,
+          "after": 111166,
+          "delta": 1421,
+          "trend": "down"
+        },
+        "championship_rank": {
+          "before": 1853,
+          "after": 1879,
+          "delta": 26,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1853,
+        "after": 1879,
+        "delta": 26,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260425_200325_R.json",
       "finished_at": "2026-04-25T20:03:25",
