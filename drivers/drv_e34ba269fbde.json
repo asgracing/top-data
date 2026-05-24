@@ -3,11 +3,11 @@
   "driver": "Alfred Di Natale | MG ITJ",
   "summary": {
     "points": 26,
-    "average_points_per_race": 13.0,
-    "races": 2,
+    "average_points_per_race": 8.67,
+    "races": 3,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 4.0,
+    "average_finish": 10.0,
     "best_lap": "1:46.715",
     "best_lap_ms": 106715,
     "best_lap_track": "monza",
@@ -19,20 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-22T17:04:44",
-    "last_seen": "2026-05-22T17:04:44",
-    "average_pace_ms": 107820,
-    "average_pace": "1:47.820",
+    "last_race_at": "2026-05-24T16:58:35",
+    "last_seen": "2026-05-24T16:58:35",
+    "average_pace_ms": 107789,
+    "average_pace": "1:47.789",
     "win_rate": 0.0,
-    "podium_rate": 50.0,
+    "podium_rate": 33.33,
     "average_positions_delta": 16.0,
     "positions_delta_races": 2,
-    "championship_rank": 1113,
+    "championship_rank": 1119,
     "bestlap_rank": 69,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-24T16:21:45"
+    "latest_changes": {
+      "average_finish": {
+        "before": 4.0,
+        "after": 10.0,
+        "delta": 6.0,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 107820,
+        "after": 107789,
+        "delta": -31,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1113,
+        "after": 1119,
+        "delta": 6,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-24T16:58:35"
   },
   "recent_form": [
+    22,
     6,
     36,
     2,
@@ -41,17 +67,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 1,
       "points": 26,
-      "finish_sum": 8,
-      "average_finish": 4.0,
+      "finish_sum": 30,
+      "average_finish": 10.0,
       "best_lap_ms": 106715,
       "best_lap": "1:46.715"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_165835_R.json",
+      "finished_at": "2026-05-24T16:58:35",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 22,
+      "participants_count": 47,
+      "scoring_participants_count": 32,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Megga Zone",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.427",
+      "best_lap_ms": 107427,
+      "total_time": "18:14.372",
+      "total_time_ms": 1094372,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 3,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 4.0,
+          "after": 10.0,
+          "delta": 6.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 107820,
+          "after": 107789,
+          "delta": -31,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1113,
+          "after": 1119,
+          "delta": 6,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1113,
+        "after": 1119,
+        "delta": 6,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260522_170444_R.json",
       "finished_at": "2026-05-22T17:04:44",
