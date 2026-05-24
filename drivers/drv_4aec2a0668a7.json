@@ -4,42 +4,61 @@
   "summary": {
     "points": 0,
     "average_points_per_race": 0.0,
-    "races": 1,
+    "races": 2,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 15.0,
-    "best_lap": "1:51.455",
-    "best_lap_ms": 111455,
+    "average_finish": 19.0,
+    "best_lap": "1:50.802",
+    "best_lap_ms": 110802,
     "best_lap_track": "monza",
-    "best_lap_car_model_id": 22,
-    "best_lap_car_name_raw": "McLaren 720S GT3 (2019)",
-    "best_lap_car_name": "McLaren 720S GT3",
-    "best_lap_session_type": "Q",
+    "best_lap_car_model_id": 6,
+    "best_lap_car_name_raw": "Nissan GT-R Nismo GT3 2018",
+    "best_lap_car_name": "Nissan GT-R Nismo GT3",
+    "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-20T02:46:54",
-    "last_seen": "2026-05-20T02:46:54",
-    "average_pace_ms": 116900,
-    "average_pace": "1:56.900",
+    "last_race_at": "2026-05-25T01:06:26",
+    "last_seen": "2026-05-25T01:06:26",
+    "average_pace_ms": 112755,
+    "average_pace": "1:52.755",
     "win_rate": 0.0,
     "podium_rate": 0.0,
     "average_positions_delta": -8.0,
-    "positions_delta_races": 1,
-    "championship_rank": 5468,
-    "bestlap_rank": 6972,
+    "positions_delta_races": 2,
+    "championship_rank": 6233,
+    "bestlap_rank": 6490,
     "latest_changes": {
-      "championship_rank": {
-        "before": 5467,
-        "after": 5468,
-        "delta": 1,
+      "average_finish": {
+        "before": 15.0,
+        "after": 19.0,
+        "delta": 4.0,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 116900,
+        "after": 112755,
+        "delta": -4145,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 5468,
+        "after": 6233,
+        "delta": 765,
+        "trend": "down"
+      },
+      "races": {
+        "before": 1,
+        "after": 2,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-25T00:28:30"
+    "latest_change_at": "2026-05-25T01:06:26"
   },
   "recent_form": [
+    23,
     12,
     6,
     15
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 1,
+      "races": 2,
       "wins": 0,
       "podiums": 0,
       "points": 0,
-      "finish_sum": 15,
-      "average_finish": 15.0,
-      "best_lap_ms": 116900,
-      "best_lap": "1:56.900"
+      "finish_sum": 38,
+      "average_finish": 19.0,
+      "best_lap_ms": 110802,
+      "best_lap": "1:50.802"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260525_010626_R.json",
+      "finished_at": "2026-05-25T01:06:26",
+      "track": "monza",
+      "car_model_id": 6,
+      "car_name_raw": "Nissan GT-R Nismo GT3 2018",
+      "car_name": "Nissan GT-R Nismo GT3",
+      "position": 23,
+      "participants_count": 41,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Aleksander Kovalev",
+      "points": 0,
+      "qualifying_position": 15,
+      "start_position": 15,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -8,
+      "positions_gained": 0,
+      "positions_lost": 8,
+      "best_lap": "1:50.802",
+      "best_lap_ms": 110802,
+      "total_time": "10:09.138",
+      "total_time_ms": 609138,
+      "gap": "0:00.000",
+      "gap_ms": 0,
+      "lap_count": 5,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 15.0,
+          "after": 19.0,
+          "delta": 4.0,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 116900,
+          "after": 112755,
+          "delta": -4145,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 5468,
+          "after": 6233,
+          "delta": 765,
+          "trend": "down"
+        },
+        "races": {
+          "before": 1,
+          "after": 2,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 5468,
+        "after": 6233,
+        "delta": 765,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260520_024654_R.json",
       "finished_at": "2026-05-20T02:46:54",
