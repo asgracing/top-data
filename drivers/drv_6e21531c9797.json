@@ -2,12 +2,12 @@
   "public_id": "drv_6e21531c9797",
   "driver": "Mikhail Li",
   "summary": {
-    "points": 33,
-    "average_points_per_race": 11.0,
-    "races": 3,
+    "points": 36,
+    "average_points_per_race": 9.0,
+    "races": 4,
     "wins": 0,
-    "podiums": 2,
-    "average_finish": 2.67,
+    "podiums": 3,
+    "average_finish": 2.75,
     "best_lap": "1:47.332",
     "best_lap_ms": 107332,
     "best_lap_track": "monza",
@@ -17,22 +17,60 @@
     "best_lap_session_type": "R",
     "penalty_count": 0,
     "penalty_points": 0,
-    "fastest_lap_awards": 1,
+    "fastest_lap_awards": 2,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-14T18:11:08",
-    "last_seen": "2026-05-14T18:11:08",
-    "average_pace_ms": 109062,
-    "average_pace": "1:49.062",
+    "last_race_at": "2026-05-24T09:25:46",
+    "last_seen": "2026-05-24T09:25:46",
+    "average_pace_ms": 108933,
+    "average_pace": "1:48.933",
     "win_rate": 0.0,
-    "podium_rate": 66.67,
+    "podium_rate": 75.0,
     "average_positions_delta": 1.0,
     "positions_delta_races": 3,
-    "championship_rank": 897,
+    "championship_rank": 829,
     "bestlap_rank": 400,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-24T04:52:02"
+    "latest_changes": {
+      "average_finish": {
+        "before": 2.67,
+        "after": 2.75,
+        "delta": 0.08,
+        "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 109062,
+        "after": 108933,
+        "delta": -129,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 897,
+        "after": 829,
+        "delta": -68,
+        "trend": "up"
+      },
+      "podiums": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      },
+      "points": {
+        "before": 33,
+        "after": 36,
+        "delta": 3,
+        "trend": "up"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-24T09:25:46"
   },
   "recent_form": [
+    3,
     32,
     2,
     2,
@@ -41,17 +79,95 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
-      "podiums": 2,
-      "points": 33,
-      "finish_sum": 8,
-      "average_finish": 2.67,
+      "podiums": 3,
+      "points": 36,
+      "finish_sum": 11,
+      "average_finish": 2.75,
       "best_lap_ms": 107332,
       "best_lap": "1:47.332"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_092546_R.json",
+      "finished_at": "2026-05-24T09:25:46",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 3,
+      "participants_count": 8,
+      "scoring_participants_count": 3,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "L TAUR",
+      "points": 3,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:48.182",
+      "best_lap_ms": 108182,
+      "total_time": "21:34.730",
+      "total_time_ms": 1294730,
+      "gap": "1:11.504",
+      "gap_ms": 71504,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": true,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.67,
+          "after": 2.75,
+          "delta": 0.08,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 109062,
+          "after": 108933,
+          "delta": -129,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 897,
+          "after": 829,
+          "delta": -68,
+          "trend": "up"
+        },
+        "podiums": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        },
+        "points": {
+          "before": 33,
+          "after": 36,
+          "delta": 3,
+          "trend": "up"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 897,
+        "after": 829,
+        "delta": -68,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260514_181108_R.json",
       "finished_at": "2026-05-14T18:11:08",
