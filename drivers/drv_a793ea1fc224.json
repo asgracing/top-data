@@ -3,11 +3,11 @@
   "driver": "Go Round",
   "summary": {
     "points": 16,
-    "average_points_per_race": 5.33,
-    "races": 3,
+    "average_points_per_race": 4.0,
+    "races": 4,
     "wins": 0,
     "podiums": 1,
-    "average_finish": 11.0,
+    "average_finish": 12.75,
     "best_lap": "1:47.287",
     "best_lap_ms": 107287,
     "best_lap_track": "monza",
@@ -19,47 +19,131 @@
     "penalty_points": 0,
     "fastest_lap_awards": 1,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-24T11:16:17",
-    "last_seen": "2026-05-24T11:16:17",
-    "average_pace_ms": 108282,
-    "average_pace": "1:48.282",
+    "last_race_at": "2026-05-24T16:21:45",
+    "last_seen": "2026-05-24T16:21:45",
+    "average_pace_ms": 108146,
+    "average_pace": "1:48.146",
     "win_rate": 0.0,
-    "podium_rate": 33.33,
+    "podium_rate": 25.0,
     "average_positions_delta": 14.5,
     "positions_delta_races": 2,
-    "championship_rank": 1677,
+    "championship_rank": 1682,
     "bestlap_rank": 363,
     "latest_changes": {
-      "championship_rank": {
-        "before": 1675,
-        "after": 1677,
-        "delta": 2,
+      "average_finish": {
+        "before": 11.0,
+        "after": 12.75,
+        "delta": 1.75,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 108282,
+        "after": 108146,
+        "delta": -136,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 1677,
+        "after": 1682,
+        "delta": 5,
+        "trend": "down"
+      },
+      "races": {
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-24T15:43:48"
+    "latest_change_at": "2026-05-24T16:21:45"
   },
   "recent_form": [
+    18,
     27,
     23,
     11,
-    19,
-    3
+    19
   ],
   "track_stats": [
     {
       "track": "monza",
-      "races": 3,
+      "races": 4,
       "wins": 0,
       "podiums": 1,
       "points": 16,
-      "finish_sum": 33,
-      "average_finish": 11.0,
+      "finish_sum": 51,
+      "average_finish": 12.75,
       "best_lap_ms": 107287,
       "best_lap": "1:47.287"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_162145_R.json",
+      "finished_at": "2026-05-24T16:21:45",
+      "track": "monza",
+      "car_model_id": 20,
+      "car_name_raw": "AMR V8 Vantage (2019)",
+      "car_name": "AMR V8 Vantage",
+      "position": 18,
+      "participants_count": 51,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Thorsten Schmidt | 47R",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:47.472",
+      "best_lap_ms": 107472,
+      "total_time": "23:19.656",
+      "total_time_ms": 1399656,
+      "gap": "1:38.042",
+      "gap_ms": 98042,
+      "lap_count": 8,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 11.0,
+          "after": 12.75,
+          "delta": 1.75,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 108282,
+          "after": 108146,
+          "delta": -136,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 1677,
+          "after": 1682,
+          "delta": 5,
+          "trend": "down"
+        },
+        "races": {
+          "before": 3,
+          "after": 4,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 1677,
+        "after": 1682,
+        "delta": 5,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260524_111617_R.json",
       "finished_at": "2026-05-24T11:16:17",
