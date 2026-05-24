@@ -3,13 +3,13 @@
   "driver": "Alexander Agapov",
   "summary": {
     "points": 8,
-    "average_points_per_race": 4.0,
-    "races": 2,
+    "average_points_per_race": 2.67,
+    "races": 3,
     "wins": 0,
     "podiums": 2,
-    "average_finish": 2.5,
-    "best_lap": "1:49.945",
-    "best_lap_ms": 109945,
+    "average_finish": 8.67,
+    "best_lap": "1:49.610",
+    "best_lap_ms": 109610,
     "best_lap_track": "monza",
     "best_lap_car_model_id": 30,
     "best_lap_car_name_raw": "BMW M4 GT3",
@@ -19,27 +19,46 @@
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-24T10:38:15",
-    "last_seen": "2026-05-24T10:38:15",
-    "average_pace_ms": 112155,
-    "average_pace": "1:52.155",
+    "last_race_at": "2026-05-24T11:16:17",
+    "last_seen": "2026-05-24T11:16:17",
+    "average_pace_ms": 111914,
+    "average_pace": "1:51.914",
     "win_rate": 0.0,
-    "podium_rate": 100.0,
+    "podium_rate": 66.67,
     "average_positions_delta": 0.0,
     "positions_delta_races": 2,
-    "championship_rank": 2541,
-    "bestlap_rank": 5407,
+    "championship_rank": 2543,
+    "bestlap_rank": 4890,
     "latest_changes": {
-      "championship_rank": {
-        "before": 2538,
-        "after": 2541,
-        "delta": 3,
+      "average_finish": {
+        "before": 2.5,
+        "after": 8.67,
+        "delta": 6.17,
         "trend": "down"
+      },
+      "average_pace_ms": {
+        "before": 112155,
+        "after": 111914,
+        "delta": -241,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 2541,
+        "after": 2543,
+        "delta": 2,
+        "trend": "down"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
       }
     },
-    "latest_change_at": "2026-05-24T10:38:15"
+    "latest_change_at": "2026-05-24T11:16:17"
   },
   "recent_form": [
+    21,
     23,
     3,
     2
@@ -47,17 +66,83 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 2,
       "points": 8,
-      "finish_sum": 5,
-      "average_finish": 2.5,
-      "best_lap_ms": 109945,
-      "best_lap": "1:49.945"
+      "finish_sum": 26,
+      "average_finish": 8.67,
+      "best_lap_ms": 109610,
+      "best_lap": "1:49.610"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260524_111617_R.json",
+      "finished_at": "2026-05-24T11:16:17",
+      "track": "monza",
+      "car_model_id": 30,
+      "car_name_raw": "BMW M4 GT3",
+      "car_name": "BMW M4 GT3",
+      "position": 21,
+      "participants_count": 41,
+      "scoring_participants_count": 24,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Jelle De Brandt",
+      "points": 0,
+      "qualifying_position": null,
+      "start_position": null,
+      "start_position_source": "unknown",
+      "positions_delta": null,
+      "positions_gained": null,
+      "positions_lost": null,
+      "best_lap": "1:49.610",
+      "best_lap_ms": 109610,
+      "total_time": "23:01.234",
+      "total_time_ms": 1381234,
+      "gap": "1:21.101",
+      "gap_ms": 81101,
+      "lap_count": 6,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 0,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 2.5,
+          "after": 8.67,
+          "delta": 6.17,
+          "trend": "down"
+        },
+        "average_pace_ms": {
+          "before": 112155,
+          "after": 111914,
+          "delta": -241,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 2541,
+          "after": 2543,
+          "delta": 2,
+          "trend": "down"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 2541,
+        "after": 2543,
+        "delta": 2,
+        "trend": "down"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260524_103815_R.json",
       "finished_at": "2026-05-24T10:38:15",
