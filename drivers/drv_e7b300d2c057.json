@@ -2,12 +2,12 @@
   "public_id": "drv_e7b300d2c057",
   "driver": "Yuri Nicholas",
   "summary": {
-    "points": 6,
-    "average_points_per_race": 3.0,
-    "races": 2,
+    "points": 7,
+    "average_points_per_race": 2.33,
+    "races": 3,
     "wins": 0,
     "podiums": 0,
-    "average_finish": 14.5,
+    "average_finish": 13.0,
     "best_lap": "1:48.217",
     "best_lap_ms": 108217,
     "best_lap_track": "monza",
@@ -15,24 +15,62 @@
     "best_lap_car_name_raw": "Ford Mustang GT3",
     "best_lap_car_name": "Ford Mustang GT3",
     "best_lap_session_type": "R",
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
     "fastest_lap_awards": 0,
     "most_raced_track": "monza",
-    "last_race_at": "2026-05-19T01:06:36",
-    "last_seen": "2026-05-19T01:06:36",
-    "average_pace_ms": 109393,
-    "average_pace": "1:49.393",
+    "last_race_at": "2026-05-26T00:48:53",
+    "last_seen": "2026-05-26T00:48:53",
+    "average_pace_ms": 109460,
+    "average_pace": "1:49.460",
     "win_rate": 0.0,
     "podium_rate": 0.0,
-    "average_positions_delta": -8.0,
-    "positions_delta_races": 2,
-    "championship_rank": 3170,
-    "bestlap_rank": 1965,
-    "latest_changes": {},
-    "latest_change_at": "2026-05-26T00:05:55"
+    "average_positions_delta": -7.33,
+    "positions_delta_races": 3,
+    "championship_rank": 2903,
+    "bestlap_rank": 1968,
+    "latest_changes": {
+      "average_finish": {
+        "before": 14.5,
+        "after": 13.0,
+        "delta": -1.5,
+        "trend": "up"
+      },
+      "average_pace_ms": {
+        "before": 109393,
+        "after": 109460,
+        "delta": 67,
+        "trend": "down"
+      },
+      "average_positions_delta": {
+        "before": -8.0,
+        "after": -7.33,
+        "delta": 0.67,
+        "trend": "up"
+      },
+      "championship_rank": {
+        "before": 3170,
+        "after": 2903,
+        "delta": -267,
+        "trend": "up"
+      },
+      "points": {
+        "before": 6,
+        "after": 7,
+        "delta": 1,
+        "trend": "up"
+      },
+      "races": {
+        "before": 2,
+        "after": 3,
+        "delta": 1,
+        "trend": "up"
+      }
+    },
+    "latest_change_at": "2026-05-26T00:48:53"
   },
   "recent_form": [
+    10,
     5,
     30,
     24,
@@ -41,17 +79,95 @@
   "track_stats": [
     {
       "track": "monza",
-      "races": 2,
+      "races": 3,
       "wins": 0,
       "podiums": 0,
-      "points": 6,
-      "finish_sum": 29,
-      "average_finish": 14.5,
+      "points": 7,
+      "finish_sum": 39,
+      "average_finish": 13.0,
       "best_lap_ms": 108217,
       "best_lap": "1:48.217"
     }
   ],
   "race_history": [
+    {
+      "race_id": "260526_004853_R.json",
+      "finished_at": "2026-05-26T00:48:53",
+      "track": "monza",
+      "car_model_id": 35,
+      "car_name_raw": "McLaren 720S GT3 Evo 2023",
+      "car_name": "McLaren 720S GT3 Evo",
+      "position": 10,
+      "participants_count": 50,
+      "scoring_participants_count": 28,
+      "points_rule": "scaled_top10_by_classified",
+      "points_multiplier": 1,
+      "winner": "Andrei Soldatenkov [ASG]",
+      "points": 1,
+      "qualifying_position": 4,
+      "start_position": 4,
+      "start_position_source": "qualifying_car_id",
+      "positions_delta": -6,
+      "positions_gained": 0,
+      "positions_lost": 6,
+      "best_lap": "1:48.895",
+      "best_lap_ms": 108895,
+      "total_time": "22:27.769",
+      "total_time_ms": 1347769,
+      "gap": "0:41.516",
+      "gap_ms": 41516,
+      "lap_count": 12,
+      "counted_for_stats": true,
+      "counted_for_points": true,
+      "had_best_lap": false,
+      "penalty_count": 1,
+      "penalty_points": 0,
+      "changes": {
+        "average_finish": {
+          "before": 14.5,
+          "after": 13.0,
+          "delta": -1.5,
+          "trend": "up"
+        },
+        "average_pace_ms": {
+          "before": 109393,
+          "after": 109460,
+          "delta": 67,
+          "trend": "down"
+        },
+        "average_positions_delta": {
+          "before": -8.0,
+          "after": -7.33,
+          "delta": 0.67,
+          "trend": "up"
+        },
+        "championship_rank": {
+          "before": 3170,
+          "after": 2903,
+          "delta": -267,
+          "trend": "up"
+        },
+        "points": {
+          "before": 6,
+          "after": 7,
+          "delta": 1,
+          "trend": "up"
+        },
+        "races": {
+          "before": 2,
+          "after": 3,
+          "delta": 1,
+          "trend": "up"
+        }
+      },
+      "rank_change": {
+        "before": 3170,
+        "after": 2903,
+        "delta": -267,
+        "trend": "up"
+      },
+      "bestlap_rank_change": null
+    },
     {
       "race_id": "260519_010636_R.json",
       "finished_at": "2026-05-19T01:06:36",
@@ -276,9 +392,13 @@
     }
   ],
   "penalties": {
-    "penalty_count": 0,
+    "penalty_count": 1,
     "penalty_points": 0,
-    "reasons": {},
-    "types": {}
+    "reasons": {
+      "WrongWay": 1
+    },
+    "types": {
+      "Disqualified": 1
+    }
   }
 }
